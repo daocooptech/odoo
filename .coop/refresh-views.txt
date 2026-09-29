@@ -1,0 +1,11 @@
+# Views changed by this build: engine_cleanup.py resets them from file (reset_arch hard)
+# once per engine commit. noupdate data and -u of web/mail are not needed for that.
+mail.mail_notification_layout
+mail.mail_notification_light
+web.brand_promotion_message
+web.login_layout
+portal.portal_record_sidebar
+website.brand_promotion
+website.website_info
+website_slides.mail_notification_channel_invite
+auth_signup.reset_password_email

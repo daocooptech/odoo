@@ -18,12 +18,17 @@ Changes
 2026-09-29  Removed network calls to Odoo S.A. services: publisher warranty,
             website configurator and AI text, media library, ChatGPT
             translation, odoo.com account OAuth.
-2026-09-29  Removed modules depending on Odoo S.A. services, and base_vat
-            (generated list: .coop/removed-modules.txt, script .coop/strip.py;
-            gate: .coop/check.py).
+2026-09-29  Removed modules depending on Odoo S.A. services (generated list:
+            .coop/removed-modules.txt, script .coop/strip.py; gate:
+            .coop/check.py). base_vat is kept without the VIES check through
+            Odoo S.A. servers: account imports it.
 2026-09-29  Removed links to odoo.com (support, account, upgrade, app and theme
             stores, documentation) and the digest mobile banner from the user
             interface. Copyright notices are preserved.
+2026-09-29  Removed "Powered by Odoo" and Odoo promotion from e-mail layouts,
+            sign-up and invitation e-mails, the login page, the portal and the
+            website footer (installed modules; list: .coop/refresh-views.txt,
+            .coop/refresh-templates.txt).
 
 NO WARRANTY: see sections 15-16 of the GNU GPL v3 (included in LICENSE).
 
