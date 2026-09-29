@@ -1,0 +1,32 @@
+DAO COOPTECH build of Odoo 19.0 Community Edition
+==================================================
+
+This is a MODIFIED version of Odoo (https://github.com/odoo/odoo, branch 19.0),
+Copyright (c) 2004-2015 Odoo S.A. and contributors (see COPYRIGHT),
+licensed under the GNU Lesser General Public License v3 (see LICENSE).
+All modifications are licensed under the same LGPL-3.
+
+This is NOT an official Odoo release. It is not affiliated with, sponsored
+or endorsed by Odoo S.A. "Odoo" is a trademark of Odoo S.A.
+
+Modified by: Danil Dashkevich and DAO COOPTECH contributors, https://daocoop.tech
+Upstream base: odoo/odoo 19.0 @ df0149e3 (2026-09-07)
+Full list of changes: git log df0149e3..19.0-coop
+
+Changes
+-------
+2026-09-29  Removed network calls to Odoo S.A. services: publisher warranty,
+            website configurator and AI text, media library, ChatGPT
+            translation, odoo.com account OAuth.
+2026-09-29  Removed modules depending on Odoo S.A. services, and base_vat
+            (generated list: .coop/removed-modules.txt, script .coop/strip.py;
+            gate: .coop/check.py).
+2026-09-29  Removed links to odoo.com (support, account, upgrade, app and theme
+            stores, documentation) and the digest mobile banner from the user
+            interface. Copyright notices are preserved.
+
+NO WARRANTY: see sections 15-16 of the GNU GPL v3 (included in LICENSE).
+
+Exact source of the version running on https://daocoop.tech: tag
+19.0-coop-YYYYMMDD, recorded in deploy/engine.ref of
+https://github.com/daocooptech/dao-cooptech-odoo
