@@ -1,12 +1,10 @@
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 
-import json
 import logging
 from contextlib import ExitStack
 from http import HTTPStatus
 
 from werkzeug.exceptions import Forbidden
-from werkzeug.urls import url_encode
 
 import odoo
 import odoo.modules.registry
@@ -68,17 +66,6 @@ class Session(Controller):
     @route('/web/session/check', type='jsonrpc', auth='user', readonly=True)
     def check(self):
         return  # ir.http@_authenticate does the job
-
-    @route('/web/session/account', type='jsonrpc', auth='user', readonly=True)
-    def account(self):
-        ICP = request.env['ir.config_parameter'].sudo()
-        params = {
-            'response_type': 'token',
-            'client_id': ICP.get_str('database.uuid'),
-            'state': json.dumps({'d': request.db, 'u': ICP.get_str('web.base.url')}),
-            'scope': 'userinfo',
-        }
-        return 'https://accounts.odoo.com/oauth2/auth?' + url_encode(params)
 
     @route('/web/session/destroy', type='jsonrpc', auth='user', readonly=True)
     def destroy(self):

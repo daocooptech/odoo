@@ -169,9 +169,8 @@ export function compareUrls(_url1, _url2) {
     );
 }
 
+// ДАО КООПТЕХ: документация вела на сайт Odoo S.A. Своей справки по путям
+// документации Odoo у платформы нет — адрес пустой, ссылка не показывается.
 export function documentationUrl(path) {
-    const serverVersion = session.server_version_info.includes("final")
-        ? `${session.server_version_info[0]}.${session.server_version_info[1]}`.replace("~", "-")
-        : "master";
-    return "https://www.odoo.com/documentation/" + serverVersion + path;
+    return "";
 }

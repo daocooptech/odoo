@@ -4,6 +4,7 @@ import { registry } from "@web/core/registry";
 import { documentationUrl } from "@web/core/utils/urls";
 
 const LINK_REGEX = new RegExp("^https?://");
+const ODOO_COM_REGEX = /^https?:\/\/([a-z0-9-]+\.)*odoo\.com(\/|$)/i;
 
 export class DocumentationLink extends Component {
     static template = "web.DocumentationLink";
@@ -16,8 +17,10 @@ export class DocumentationLink extends Component {
         icon: t.string().optional(),
     });
 
+    // ДАО КООПТЕХ: ссылки на документацию вели на сайт Odoo S.A. Показываем
+    // только свои абсолютные адреса; относительные пути и odoo.com — без ссылки.
     get url() {
-        if (LINK_REGEX.test(this.props.path)) {
+        if (LINK_REGEX.test(this.props.path) && !ODOO_COM_REGEX.test(this.props.path)) {
             return this.props.path;
         } else {
             return documentationUrl(this.props.path);

@@ -11,20 +11,6 @@ import { redirect } from "@web/core/utils/urls";
 import { useService } from "@web/core/utils/hooks";
 import { ORM } from "@web/core/orm_plugin";
 
-function supportItem() {
-    const url = session.support_url;
-    return {
-        type: "item",
-        id: "support",
-        description: _t("Help"),
-        href: url,
-        callback: () => {
-            browser.open(url, "_blank");
-        },
-        sequence: 20,
-    };
-}
-
 class ShortcutsFooterComponent extends Component {
     static template = "web.UserMenu.ShortcutsFooterComponent";
     props = useProps({
@@ -145,9 +131,10 @@ export function shareUrlMenuItem() {
     };
 }
 
+// ДАО КООПТЕХ: пункты «Помощь» (odoo.com/buy) и «Моя учётная запись Odoo.com»
+// убраны — они вели на серверы Odoo S.A.
 registry
     .category("user_menuitems")
-    .add("support", supportItem)
     .add("shortcuts", shortCutsItem)
     .add("separator", separator)
     .add("preferences", preferencesItem)
