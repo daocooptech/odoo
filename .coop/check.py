@@ -39,6 +39,25 @@ def main(argv):
             print('SERVICE %s:%d %s' % (os.path.relpath(fpath, cs.ROOT), lineno, text))
             bad += 1
 
+    # Imports of removed modules from kept ones: account imported base_vat
+    # without declaring it, and the registry failed to load (29.09 on a copy
+    # of production). Declared dependencies are not enough to catch this.
+    listed = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'removed-modules.txt')
+    if os.path.exists(listed):
+        with open(listed, encoding='utf-8') as fh:
+            removed = {l.split()[0] for l in fh if l.strip() and not l.startswith('#')}
+        removed -= set(mods)
+        if removed:
+            names = '|'.join(sorted(map(re.escape, removed)))
+            imp = re.compile(r'(?:odoo\.addons\.(%s)|["']@(%s)/)' % (names, names))
+            for name, (path, _deps) in sorted(mods.items()):
+                for fpath in cs.module_files(path):
+                    with open(fpath, encoding='utf-8', errors='ignore') as fh:
+                        for lineno, line in enumerate(fh, 1):
+                            if imp.search(line) and not line.lstrip().startswith(('#', '//')):
+                                print('IMPORT %s:%d %s' % (os.path.relpath(fpath, cs.ROOT), lineno, line.strip()[:140]))
+                                bad += 1
+
     # Whole tree minus the directories of removed modules: a notice may only
     # disappear together with the module that carried it.
     gone = tuple(line.rstrip('/') + '/' for line in

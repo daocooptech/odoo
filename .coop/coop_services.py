@@ -21,10 +21,11 @@ SERVICE_IMPORT = re.compile(
     r'web_unsplash|google_gmail|microsoft_outlook|base_import_module)\b')
 
 # Modules kept and patched by hand: their calls are removed in the code.
-PATCHED = {'base', 'web', 'mail', 'website', 'html_editor', 'digest'}
+PATCHED = {'base', 'web', 'mail', 'website', 'html_editor', 'digest', 'base_vat'}
 
-# Removed by owner decision, not only for calls (decision 441: base_vat).
-EXTRA_SEEDS = {'base_vat'}
+# Removed by owner decision, not only for calls. base_vat stays: account
+# imports _ref_vat from it; its VIES calls are removed by hand.
+EXTRA_SEEDS = set()
 
 SCAN_EXT = ('.py', '.js', '.xml', '.sql', '.csv')
 SKIP_PARTS = (os.sep + 'tests' + os.sep, os.sep + 'i18n' + os.sep,
