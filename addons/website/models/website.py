@@ -19,11 +19,10 @@ from markupsafe import Markup
 from urllib.parse import urlparse, urlsplit
 from werkzeug import urls
 
-from odoo import api, fields, models, tools, release
+from odoo import api, fields, models, tools
 from odoo.addons.website.models.ir_http import sitemap_qs2dom
 from odoo.addons.website.tools import similarity_score, text_from_html, get_base_domain
 from odoo.addons.portal.controllers.portal import pager
-from odoo.addons.iap.tools import iap_tools
 from odoo.exceptions import AccessError, MissingError, UserError, ValidationError
 from odoo.fields import Domain
 from odoo.http import request
@@ -46,8 +45,6 @@ DEFAULT_CDN_FILTERS = [
     "^/website/image/",
 ]
 
-DEFAULT_WEBSITE_ENDPOINT = 'https://website.api.odoo.com'
-DEFAULT_OLG_ENDPOINT = 'https://olg.api.odoo.com'
 
 DEFAULT_BLOCKED_THIRD_PARTY_DOMAINS = '\n'.join([  # noqa: FLY002
     'youtu.be', 'youtube.com', 'youtube-nocookie.com',
@@ -483,19 +480,18 @@ class Website(models.Model):
     # Configurator
     # ----------------------------------------------------------
 
-    def _api_rpc(self, route, params, endpoint_param_name, default_endpoint, **kwargs):
-        params['version'] = release.version
-        IrConfigParameter = self.env['ir.config_parameter'].sudo()
-        api_endpoint = IrConfigParameter.get_param(endpoint_param_name, default_endpoint)
-        return iap_tools.iap_jsonrpc(api_endpoint + route, params=params, **kwargs)
+    # ДАО КООПТЕХ: мастер сайта и генерация текста ходили в облачные службы
+    # Odoo S.A. Теперь вызов сразу отказывает; места вызова ловят AccessError
+    # и работают дальше без подсказок. Имена методов не менять: их
+    # переопределяет website_sale.
+    def _api_rpc(self, route, params, endpoint_param_name=None, default_endpoint=None, **kwargs):
+        raise AccessError(_("Облачные службы на платформе отключены."))
 
     def _website_api_rpc(self, route, params):
-        # For industries, theme suggestions, ...
-        return self._api_rpc(route, params, 'website.website_api_endpoint', DEFAULT_WEBSITE_ENDPOINT)
+        return self._api_rpc(route, params)
 
     def _OLG_api_rpc(self, route, params):
-        # For text content generation
-        return self._api_rpc(route, params, 'website.olg_api_endpoint', DEFAULT_OLG_ENDPOINT, timeout=45)
+        return self._api_rpc(route, params)
 
     def get_cta_data(self, website_purpose, website_type):
         return {'cta_btn_text': False, 'cta_btn_href': '/contactus'}

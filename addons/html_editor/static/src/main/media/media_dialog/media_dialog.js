@@ -29,7 +29,7 @@ const sequence = (tab) => tab.sequence ?? DEFAULT_SEQUENCE;
 export class MediaDialog extends Component {
     static template = "html_editor.MediaDialog";
     static defaultProps = {
-        useMediaLibrary: true,
+        useMediaLibrary: false, // ДАО КООПТЕХ: облачная медиабиблиотека отключена
         extraTabs: [],
     };
     static components = {
