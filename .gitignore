@@ -51,3 +51,6 @@ package.json
 /man/
 /share/
 /src/
+
+# DAO COOPTECH: build scripts and notice
+!.coop/

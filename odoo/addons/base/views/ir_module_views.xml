@@ -211,16 +211,7 @@
             </field>
         </record>
 
-        <!--link to stores-->
-        <record model='ir.actions.act_url' id='action_third_party'>
-            <field name='name'>Third-Party Apps</field>
-            <field name='url'>https://apps.odoo.com/apps/modules</field>
-        </record>
-
-        <record model='ir.actions.act_url' id='action_theme_store'>
-            <field name='name'>Theme Store</field>
-            <field name='url'>https://apps.odoo.com/apps/themes</field>
-        </record>
+        <!-- DAO COOPTECH: links to the Odoo S.A. app and theme stores removed. -->
 
     </data>
 </odoo>

@@ -10,9 +10,7 @@
     >
         <menuitem id="menu_apps" name="Apps" sequence="5">
             <menuitem id="menu_module_tree" name="Main Apps" action="open_module_tree" sequence="5"/>
-            <menuitem id="menu_theme_store" action="action_theme_store" sequence="10"/>
             <menuitem id="theme_store" name="Theme Store" sequence="15"/>
-            <menuitem id="menu_third_party" action="action_third_party" sequence="20"/>
         </menuitem>
 
         <menuitem
