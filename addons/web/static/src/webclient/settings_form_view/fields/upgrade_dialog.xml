@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <templates xml:space="preserve">
+    <!-- ДАО КООПТЕХ: без ссылки на odoo.com, ролика YouTube и кнопки перехода
+         на сайт Odoo S.A. -->
     <t t-name="web.UpgradeDialog">
         <Dialog title.translate="Odoo Enterprise">
             <div role="status"
@@ -12,17 +14,10 @@
                         <li><i class="fa fa-check"></i> Mobile support</li>
                         <li><i class="fa fa-check"></i> Upgrade to future versions</li>
                         <li><i class="fa fa-check"></i> Bugfixes guarantee</li>
-                        <li><a href="http://www.odoo.com/editions?utm_source=db&amp;utm_medium=enterprise" target="_blank"><i class="fa fa-plus"></i> And more</a></li>
                     </ul>
-                </div>
-                <div class="o_video_embed w-100 w-md-50 ratio ratio-16x9">
-                    <iframe class="embed-responsive-item"
-                        t-attf-src="https://www.youtube.com/embed/nbso3NVz3p8?autoplay=1"
-                        frameborder="0" allowfullscreen="true" />
                 </div>
             </div>
             <t t-set-slot="footer">
-                <button class="btn btn-primary" t-on-click="_confirmUpgrade">Upgrade now</button>
                 <button class="btn btn-secondary" t-on-click="this.props.close">Cancel</button>
             </t>
         </Dialog>

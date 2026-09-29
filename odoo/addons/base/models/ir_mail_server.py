@@ -279,7 +279,9 @@ class IrMail_Server(models.Model):
         return email_from
 
     def _get_test_email_to(self):
-        return "noreply@odoo.com"
+        # ДАО КООПТЕХ: проверка соединения называла получателем адрес Odoo
+        # S.A. Берём адрес отправителя с самого сервера.
+        return self._get_test_email_from()
 
     def test_smtp_connection(self, autodetect_max_email_size=False):
         """Test the connection and if autodetect_max_email_size, set auto-detected max email size.

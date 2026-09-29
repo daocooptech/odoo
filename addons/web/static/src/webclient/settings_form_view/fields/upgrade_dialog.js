@@ -12,14 +12,8 @@ export class UpgradeDialog extends Component {
     setup() {
         this.orm = useService("orm");
     }
+    // ДАО КООПТЕХ: переход на страницу покупки Odoo Enterprise убран.
     async _confirmUpgrade() {
-        const usersCount = await this.orm.call("res.users", "search_count", [
-            [["share", "=", false]],
-        ]);
-        window.open(
-            "https://www.odoo.com/odoo-enterprise/upgrade?num_users=" + usersCount,
-            "_blank"
-        );
         this.props.close();
     }
 }
