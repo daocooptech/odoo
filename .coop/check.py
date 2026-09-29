@@ -49,7 +49,7 @@ def main(argv):
         removed -= set(mods)
         if removed:
             names = '|'.join(sorted(map(re.escape, removed)))
-            imp = re.compile(r'(?:odoo\.addons\.(%s)|["']@(%s)/)' % (names, names))
+            imp = re.compile(r'''(?:odoo[.]addons[.](%s)(?![a-z0-9_])|["']@(%s)/)''' % (names, names))
             for name, (path, _deps) in sorted(mods.items()):
                 for fpath in cs.module_files(path):
                     with open(fpath, encoding='utf-8', errors='ignore') as fh:
