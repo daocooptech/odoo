@@ -420,7 +420,7 @@ export const htmlField = {
     extractProps({ attrs, options, viewType }) {
         const editorConfig = {
             mediaModalParams: {
-                useMediaLibrary: true,
+                useMediaLibrary: false, // ДАО КООПТЕХ: облачная медиабиблиотека отключена
             },
         };
         if (attrs.placeholder) {

@@ -24,7 +24,7 @@ export const mediaDialogProps = {
     resId: t.any().optional(),
     resModel: t.any().optional(),
     save: t.function(),
-    useMediaLibrary: t.boolean().optional(true),
+    useMediaLibrary: t.boolean().optional(false), // ДАО КООПТЕХ: облачная медиабиблиотека отключена
     visibleTabs: t.array(t.string()).optional(),
 };
 

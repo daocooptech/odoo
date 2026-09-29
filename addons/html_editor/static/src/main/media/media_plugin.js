@@ -273,10 +273,7 @@ export class MediaPlugin extends Plugin {
             resId,
             field,
             document: this.document,
-            useMediaLibrary: !!(
-                field &&
-                ((resModel === "ir.ui.view" && field === "arch") || type === "html")
-            ), // @todo @phoenix: should be removed and moved to config.mediaModalParams
+            useMediaLibrary: false, // ДАО КООПТЕХ: облачная медиабиблиотека отключена
             media: params.node,
             onAttachmentChange: this.config.onAttachmentChange || (() => {}),
             noImages: !this.config.allowImage,

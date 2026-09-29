@@ -53,8 +53,6 @@ DEFAULT_CDN_FILTERS = [
     "^/website/image/",
 ]
 
-DEFAULT_WEBSITE_ENDPOINT = 'https://website.api.odoo.com'
-DEFAULT_OLG_ENDPOINT = 'https://olg.api.odoo.com'
 # Same website types than in configurator.js
 WEBSITE_TYPE_MODULES = {
     'ecommerce': 'website_sale',
@@ -582,19 +580,18 @@ class Website(models.CachedModel):
     # Configurator
     # ----------------------------------------------------------
 
-    def _api_rpc(self, route, params, endpoint_param_name, default_endpoint, **kwargs):
-        params['version'] = release.version
-        IrConfigParameter = self.env['ir.config_parameter'].sudo()
-        api_endpoint = IrConfigParameter.get_str(endpoint_param_name) or default_endpoint
-        return iap_tools.iap_jsonrpc(api_endpoint + route, params=params, **kwargs)
+    # ДАО КООПТЕХ: мастер сайта и генерация текста ходили в облачные службы
+    # Odoo S.A. Теперь вызов сразу отказывает; места вызова ловят AccessError
+    # и работают дальше без подсказок. Имена методов не менять: их
+    # переопределяет website_sale.
+    def _api_rpc(self, route, params, endpoint_param_name=None, default_endpoint=None, **kwargs):
+        raise AccessError(_("Облачные службы на платформе отключены."))
 
     def _website_api_rpc(self, route, params):
-        # For industries, theme suggestions, ...
-        return self._api_rpc(route, params, 'website.website_api_endpoint', DEFAULT_WEBSITE_ENDPOINT)
+        return self._api_rpc(route, params)
 
     def _OLG_api_rpc(self, route, params, **kwargs):
-        # For text content generation
-        return self._api_rpc(route, params, 'website.olg_api_endpoint', DEFAULT_OLG_ENDPOINT, **kwargs)
+        return self._api_rpc(route, params)
 
     @api.private
     def get_cta_data(self, website_purpose, website_type):

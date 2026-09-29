@@ -21,14 +21,9 @@ from odoo.tools.mimetypes import guess_mimetype
 from ..models.ir_attachment import SUPPORTED_IMAGE_MIMETYPES
 from ..tools import search_icons
 from .svg_utils import get_shape_svg, make_shaped_image, update_svg_colors
-from odoo.addons.iap.tools import iap_tools
 from odoo.addons.mail.tools import link_preview
 from odoo.addons.web.icons import ICONS
 
-DEFAULT_LIBRARY_ENDPOINT = 'https://media-api.odoo.com'
-DEFAULT_OLG_ENDPOINT = 'https://olg.api.odoo.com'
-DEFAULT_OTS_ENDPOINT = 'https://ots.api.odoo.com'
-API_WEBSITE_IMAGES_URL = 'https://website-image.api.odoo.com/images/'
 
 # Regex definitions to apply speed modification in SVG files
 # Note : These regex patterns are duplicated on the server side for
@@ -519,54 +514,8 @@ class HTML_Editor(Controller):
 
     @route(['/web_editor/save_library_media', '/html_editor/save_library_media'], type='jsonrpc', auth='user', methods=['POST'])
     def save_library_media(self, media):
-        """
-        Saves images from the media library as new attachments, making them
-        dynamic SVGs if needed.
-            media = {
-                <media_id>: {
-                    'query': 'space separated search terms',
-                    'is_dynamic_svg': True/False,
-                    'dynamic_colors': maps color names to their color,
-                }, ...
-            }
-        """
-        attachments = []
-        ICP = request.env['ir.config_parameter'].sudo()
-        library_endpoint = ICP.get_str('html_editor.media_library_endpoint') or DEFAULT_LIBRARY_ENDPOINT
-
-        media_ids = ','.join(media.keys())
-        params = {
-            'dbuuid': ICP.get_str('database.uuid'),
-            'media_ids': media_ids,
-        }
-        response = requests.post('%s/media-library/1/download_urls' % library_endpoint, data=params)
-        if response.status_code != requests.codes.ok:
-            raise Exception(_("ERROR: couldn't get download urls from media library."))
-
-        slug = request.env['ir.http']._slug
-        for id, url in response.json().items():
-            req = requests.get(url)
-            name = '_'.join([media[id]['query'], url.split('/')[-1]])
-            # Need to bypass security check to search/write image with mimetype image/svg+xml
-            # ok because svgs come from whitelisted origin
-            IrAttachment = request.env['ir.attachment'].with_user(SUPERUSER_ID)
-            attachment_data = {
-                'name': name,
-                'mimetype': req.headers['content-type'],
-                'public': True,
-                'raw': req.content,
-                'res_model': 'ir.ui.view',
-                'res_id': 0,
-            }
-            attachment = get_existing_attachment(IrAttachment, attachment_data)
-            if not attachment:
-                attachment = IrAttachment.create(attachment_data)
-            if media[id]['is_dynamic_svg']:
-                colorParams = werkzeug.urls.url_encode(media[id]['dynamic_colors'])
-                attachment['url'] = '/html_editor/shape/illustration/%s?%s' % (slug(attachment), colorParams)
-            attachments.append(attachment._get_media_info())
-
-        return attachments
+        # ДАО КООПТЕХ: медиабиблиотека — облачная служба, на платформе отключена.
+        raise UserError(_("Медиабиблиотека на платформе отключена."))
 
     @route(['/web_editor/shape/<module>/<path:filename>', '/html_editor/shape/<module>/<path:filename>'], type='http', auth="public", website=True)
     def shape(self, module, filename, **kwargs):
@@ -645,77 +594,20 @@ class HTML_Editor(Controller):
 
     @route('/html_editor/image_shape_url/<module>/<path:filename>', type='http', auth="user", website=True)
     def image_shape_url(self, module, filename, image_url=None, **kwargs):
-        """Return a shape SVG filled with the image found at ``image_url``.
-
-        :param str module: module containing the shape SVG
-        :param str filename: shape SVG path inside the module image shapes
-        :param str image_url: URL of an image hosted on the website images API
-        :return: HTTP response containing the generated SVG
-        :rtype: :class:`werkzeug.wrappers.Response`
-        """
-        if not image_url or not image_url.startswith(API_WEBSITE_IMAGES_URL):
-            raise werkzeug.exceptions.BadRequest()
-
-        svg = get_shape_svg(module, 'image_shapes', filename)
-
-        try:
-            response = requests.get(image_url, timeout=10)
-            response.raise_for_status()
-        except requests.RequestException as exc:
-            raise werkzeug.exceptions.NotFound() from exc
-        mimetype = response.headers.get('Content-Type', '')
-        image = response.content
-        if mimetype not in SUPPORTED_IMAGE_MIMETYPES:
-            raise werkzeug.exceptions.BadRequest()
-        svg = make_shaped_image(request.env, svg, image, mimetype, kwargs)
-        return request.make_response(svg, [
-            ('Content-type', 'image/svg+xml'),
-            ('Cache-control', 'max-age=%s' % STATIC_CACHE_LONG),
-        ])
+        # ДАО КООПТЕХ: картинки берутся только из облачной службы Odoo S.A.
+        # (website-image.api.odoo.com) — на платформе отключено.
+        raise werkzeug.exceptions.NotFound()
 
     @route(["/web_editor/generate_text", "/html_editor/generate_text"], type="jsonrpc", auth="user")
     def generate_text(self, prompt, conversation_history):
-        try:
-            IrConfigParameter = request.env['ir.config_parameter'].sudo()
-            olg_api_endpoint = IrConfigParameter.get_str('html_editor.olg_api_endpoint') or DEFAULT_OLG_ENDPOINT
-            database_id = IrConfigParameter.get_str('database.uuid')
-            response = iap_tools.iap_jsonrpc(olg_api_endpoint + "/api/olg/1/chat", params={
-                'prompt': prompt,
-                'conversation_history': conversation_history or [],
-                'database_id': database_id,
-            }, timeout=30)
-            if response['status'] == 'success':
-                return response['content']
-            elif response['status'] == 'error_prompt_too_long':
-                raise UserError(_("Sorry, your prompt is too long. Try to say it in fewer words."))
-            elif response['status'] == 'limit_call_reached':
-                raise UserError(_("You have reached the maximum number of requests for this service. Try again later."))
-            else:
-                raise UserError(_("Sorry, we could not generate a response. Please try again later."))
-        except requests.RequestException:
-            raise UserError(_("Oops, it looks like our AI is unreachable!"))
+        # ДАО КООПТЕХ: генерация текста — облачная служба, на платформе отключена.
+        raise AccessError(_("Генерация текста на платформе отключена."))
 
     @route(["/web_editor/google_translate", "/html_editor/google_translate"], type="jsonrpc", auth="user")
     def google_translate(self, originalText, targetLang):
-        try:
-            IrConfigParameter = request.env['ir.config_parameter'].sudo()
-            gtl_api_endpoint = DEFAULT_OTS_ENDPOINT
-            db_uuid = IrConfigParameter.get_str('database.uuid')
-            response = iap_tools.iap_jsonrpc(gtl_api_endpoint + "/api/html_editor_translate/1/google_translate", params={
-                'original_text': originalText,
-                'target_lang': targetLang,
-                'db_uuid': db_uuid,
-            }, timeout=30)
-
-            if response['status'] == 'success':
-                return {'translated_text': response['translated_text'], 'isError': False}
-            if response['status'] == 'limit_call_reached':
-                raise UserError(_("You have reached the maximum number of requests for this service. Try again later."))
-            if response['status'] == 'text_too_long':
-                raise UserError(_("The text you are trying to translate is too long. Please select less text and try it again."))
-            raise UserError(_("Sorry, we could not translate the text. Please try again later."))
-        except requests.RequestException:
-            raise UserError(_("Oops, it looks like google translation service is unreachable!"))
+        # ДАО КООПТЕХ: перевод шёл через облачную службу Odoo S.A. (ots.api.odoo.com),
+        # на платформе отключён.
+        raise AccessError(_("Перевод текста на платформе отключён."))
 
     @route(["/web_editor/get_ice_servers", "/html_editor/get_ice_servers"], type='jsonrpc', auth="user")
     def get_ice_servers(self):
@@ -805,14 +697,8 @@ class HTML_Editor(Controller):
 
     @route(['/html_editor/media_library_search'], type='jsonrpc', auth="user", website=True)
     def media_library_search(self, **params):
-        ICP = request.env['ir.config_parameter'].sudo()
-        endpoint = ICP.get_str('html_editor.media_library_endpoint') or DEFAULT_LIBRARY_ENDPOINT
-        params['dbuuid'] = ICP.get_str('database.uuid')
-        response = requests.post('%s/media-library/1/search' % endpoint, data=params, timeout=5)
-        if response.status_code == requests.codes.ok and response.headers['content-type'] == 'application/json':
-            return response.json()
-        else:
-            return {'error': response.status_code}
+        # ДАО КООПТЕХ: медиабиблиотека — облачная служба, на платформе отключена.
+        return {'media': [], 'results': 0}
 
     @route('/html_editor/icons_search', type='jsonrpc', auth='user', readonly=True)
     def icons_search(self, needle=''):
