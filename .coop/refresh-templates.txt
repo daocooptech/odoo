@@ -1,0 +1,3 @@
+# Mail templates changed by this build: engine_cleanup.py reloads them from file
+# with translations (mail.template.reset_template) once per engine commit.
+auth_signup.set_password_email

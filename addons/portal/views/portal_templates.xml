@@ -321,9 +321,7 @@
                     <span t-if="subtitle" class="text-muted small" t-out="subtitle"/>
                 </div>
                 <t t-if="entries" t-out="entries"/>
-                <div class="d-none d-lg-block mt-4 small text-center text-muted">
-                    Powered by <a target="_blank" href="http://www.odoo.com?utm_source=db&amp;utm_medium=portal" title="odoo"><img src="/web/static/img/logo.png" alt="Odoo Logo" height="15"/></a>
-                </div>
+                <!-- DAO COOPTECH: no "Powered by Odoo" link and logo. See NOTICE.coop. -->
             </div>
         </div>
     </template>

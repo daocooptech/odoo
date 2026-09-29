@@ -18,8 +18,7 @@
 <t t-set="website_url" t-value="object.get_base_url()"/>
 Hi <t t-out="object.name or ''">Marc Demo</t>,<br/><br/>
 <em>This link is valid for <t t-out="(object.env['ir.config_parameter'].sudo().get_int('auth_signup.signup.validity.hours') or 144)//24">link_validity_days</t> days </em><br/>
-<b><t t-out="company_name"/></b> uses <a href="https://odoo.com" t-attf-style="color: {{object.company_id.email_secondary_color or '#875A7B'}};">Odoo</a>
-to run its business. You have been invited by <b><t t-out="object.create_uid.name or ''">OdooBot</t></b> to connect.
+You have been invited by <b><t t-out="object.create_uid.name or ''">OdooBot</t></b> to connect to <b><t t-out="company_name"/></b>.
 <br/><br/>
 Once accepted, you can reconnect through: <br/>
 <ul>
@@ -34,7 +33,6 @@ Once accepted, you can reconnect through: <br/>
     </a>
 </div>
 <br/>
-Enjoy Odoo!<br/><br/>
 --<br/>The <t t-out="company_name"/> Team</t>
             </field>
             <field name="lang">{{ object.lang }}</field>

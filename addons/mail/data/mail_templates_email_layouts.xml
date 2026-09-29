@@ -80,11 +80,10 @@
         <a t-if="company.website" t-att-href="'%s' % company.website" style="text-decoration:none; color: #999999;" t-out="company.website"/>
     </p>
 </div>
-<div t-if="show_footer" style="color: #555555; font-size:11px;">
-    Powered by <a target="_blank" href="https://www.odoo.com?utm_source=db&amp;utm_medium=email"
-              t-attf-style="color: {{company.email_secondary_color or '#875A7B'}};">Odoo</a>
+<!-- DAO COOPTECH: no "Powered by Odoo". See NOTICE.coop. -->
+<div t-if="show_footer and show_unfollow" style="color: #555555; font-size:11px;">
     <span t-if="show_unfollow" id="mail_unfollow">
-        | <a href="/mail/unfollow" style="text-decoration:none; color:#555555;">Unfollow</a>
+        <a href="/mail/unfollow" style="text-decoration:none; color:#555555;">Unfollow</a>
     </span>
 </div>
 </div>
@@ -153,12 +152,10 @@
 </tbody>
 </table>
 </td></tr>
-<!-- POWERED BY -->
-<tr><td align="center" style="min-width: 590px;">
-    Powered by <a target="_blank" href="https://www.odoo.com?utm_source=db&amp;utm_medium=email"
-              t-attf-style="color: {{company.email_secondary_color or '#875A7B'}};">Odoo</a>
+<!-- DAO COOPTECH: no "Powered by Odoo". See NOTICE.coop. -->
+<tr t-if="show_unfollow"><td align="center" style="min-width: 590px;">
     <span t-if="show_unfollow" id="mail_unfollow">
-        | <a href="/mail/unfollow" style="text-decoration:none; color:#555555;">Unfollow</a>
+        <a href="/mail/unfollow" style="text-decoration:none; color:#555555;">Unfollow</a>
     </span>
 </td></tr>
 </table>
