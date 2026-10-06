@@ -7,3 +7,4 @@ web.login_layout
 portal.portal_record_sidebar
 website.brand_promotion
 website.website_info
+digest.digest_mail_main

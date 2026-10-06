@@ -28,7 +28,10 @@ export class TranslatePlugin extends Plugin {
                 id: "translate",
                 groupId: "translate",
                 description: _t("Translate with Google Translate"),
-                isAvailable: (selection) => !selection.isCollapsed && user.userId,
+                // ДАО КООПТЕХ: перевод шёл через облачную службу Odoo S.A.
+                // (/html_editor/google_translate, /html_editor/generate_text) —
+                // кнопка не показывается.
+                isAvailable: () => false,
                 isDisabled: this.isNotReplaceableByAI.bind(this),
                 Component: LanguageSelector,
                 props: {

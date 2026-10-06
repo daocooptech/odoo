@@ -56,6 +56,9 @@ SITEMAP_CACHE_TIME = datetime.timedelta(hours=12)
 MAX_FONT_FILE_SIZE = 10 * 1024 * 1024
 SUPPORTED_FONT_EXTENSIONS = ['ttf', 'woff', 'woff2', 'otf']
 FORCE_SHOW_FIELDS = ['name', 'search_item_metadata', 'tags']
+# ДАО КООПТЕХ: картинки для мастера сайта шли из облачной службы Odoo S.A.
+# Мастер отключён (website._api_rpc), адрес больше не пропускается проверкой
+# и не входит в политику img-src; константа оставлена для совместимости.
 API_WEBSITE_IMAGES_URL = 'https://website-image.api.odoo.com/images/'
 CONFIGURATOR_PREVIEW_UNSAFE_URL_CHARS = set('"\'<>()\\ \t\r\n')
 CONFIGURATOR_PREVIEW_CSP = (
@@ -63,7 +66,7 @@ CONFIGURATOR_PREVIEW_CSP = (
     " base-uri 'self';"
     " form-action 'none';"
     " sandbox allow-same-origin;"
-    f" img-src 'self' data: {API_WEBSITE_IMAGES_URL};"
+    " img-src 'self' data:;"
     " style-src 'unsafe-inline';"
     " font-src 'self' data: https://fonts.gstatic.com;"
     " frame-ancestors 'self'"
@@ -625,8 +628,6 @@ class Website(Home):
             return False
         if set(image_url) & CONFIGURATOR_PREVIEW_UNSAFE_URL_CHARS:
             return False
-        if image_url.startswith(API_WEBSITE_IMAGES_URL):
-            return True
         if not image_url.startswith('/'):
             return False
         module, _, path = image_url[1:].partition('/')
