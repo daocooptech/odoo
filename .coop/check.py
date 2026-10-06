@@ -49,7 +49,11 @@ def main(argv):
         removed -= set(mods)
         if removed:
             names = '|'.join(sorted(map(re.escape, removed)))
-            imp = re.compile(r'''(?:odoo[.]addons[.](%s)(?![a-z0-9_])|["']@(%s)/)''' % (names, names))
+            # Data of kept modules pointing at removed ones: payment's provider
+            # records load icons with file="payment_stripe/..." and link
+            # base.module_payment_stripe, so installing account failed on 20.0
+            # (06.10, FileNotFoundError). Same check for both kinds of reference.
+            imp = re.compile(r'''(?:odoo[.]addons[.](%s)(?![a-z0-9_])|["']@(%s)/|base[.]module_(%s)(?![a-z0-9_])|file=["'](%s)/)''' % (names, names, names, names))
             for name, (path, _deps) in sorted(mods.items()):
                 for fpath in cs.module_files(path):
                     with open(fpath, encoding='utf-8', errors='ignore') as fh:

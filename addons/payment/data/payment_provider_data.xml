@@ -68,13 +68,6 @@
         <field name="module_id" ref="base.module_payment_iyzico"/>
     </record>
 
-    <record id="payment_provider_mercado_pago" model="payment.provider">
-        <field name="name">Mercado Pago</field>
-        <field name="image_128"
-               type="bytes"
-               file="payment_mercado_pago/static/description/icon.png"/>
-        <field name="module_id" ref="base.module_payment_mercado_pago"/>
-    </record>
 
     <record id="payment_provider_mollie" model="payment.provider">
         <field name="name">Mollie</field>
@@ -109,17 +102,7 @@
         <field name="module_id" ref="base.module_payment_paypal"/>
     </record>
 
-    <record id="payment_provider_payu" model="payment.provider">
-        <field name="name">PayU</field>
-        <field name="image_128" type="bytes" file="payment_payu/static/description/icon.png"/>
-        <field name="module_id" ref="base.module_payment_payu"/>
-    </record>
 
-    <record id="payment_provider_razorpay" model="payment.provider">
-        <field name="name">Razorpay</field>
-        <field name="image_128" type="bytes" file="payment_razorpay/static/description/icon.png"/>
-        <field name="module_id" ref="base.module_payment_razorpay"/>
-    </record>
 
     <record id="payment_provider_redsys" model="payment.provider">
         <field name="name">Redsys</field>
@@ -135,11 +118,6 @@
         <field name="module_id" ref="base.module_payment_sepa_direct_debit"/>
     </record>
 
-    <record id="payment_provider_stripe" model="payment.provider">
-        <field name="name">Stripe</field>
-        <field name="image_128" type="bytes" file="payment_stripe/static/description/icon.png"/>
-        <field name="module_id" ref="base.module_payment_stripe"/>
-    </record>
 
     <record id="payment_provider_toss_payments" model="payment.provider">
         <field name="name">Toss Payments</field>
