@@ -2,13 +2,10 @@
 
 from odoo import api, fields, models
 
-# Import the payment provider modules with aliases to avoid circular import errors.
-try:
-    import odoo.addons.payment_mercado_pago as mercado_pago
-    import odoo.addons.payment_stripe as stripe
-except ModuleNotFoundError:
-    mercado_pago = None
-    stripe = None
+# DAO COOPTECH: the Stripe and Mercado Pago providers worked through Odoo S.A.
+# proxies and are removed from this build (see NOTICE.coop).
+mercado_pago = None
+stripe = None
 
 
 class ResCountry(models.Model):
