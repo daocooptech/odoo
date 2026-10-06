@@ -57,9 +57,8 @@ MAX_FONT_FILE_SIZE = 10 * 1024 * 1024
 SUPPORTED_FONT_EXTENSIONS = ['ttf', 'woff', 'woff2', 'otf']
 FORCE_SHOW_FIELDS = ['name', 'search_item_metadata', 'tags']
 # ДАО КООПТЕХ: картинки для мастера сайта шли из облачной службы Odoo S.A.
-# Мастер отключён (website._api_rpc), адрес больше не пропускается проверкой
-# и не входит в политику img-src; константа оставлена для совместимости.
-API_WEBSITE_IMAGES_URL = 'https://website-image.api.odoo.com/images/'
+# (website-image.api.odoo.com). Мастер отключён (website._api_rpc); адрес убран
+# из проверки картинок и из политики img-src.
 CONFIGURATOR_PREVIEW_UNSAFE_URL_CHARS = set('"\'<>()\\ \t\r\n')
 CONFIGURATOR_PREVIEW_CSP = (
     "default-src 'none';"
@@ -652,32 +651,28 @@ class Website(Home):
             module, _, shape_filename = shape_file_path.partition('/')
             if not shape_filename:
                 continue
-            if not mapped_image_url.startswith(API_WEBSITE_IMAGES_URL):
-                local_image_path = urllib.parse.unquote(mapped_image_url)
-                if not self._is_safe_configurator_preview_image_url(local_image_path):
-                    continue
-                try:
-                    with file_open(
-                        local_image_path.lstrip('/'),
-                        'rb',
-                        filter_ext=tuple(SUPPORTED_IMAGE_MIMETYPES.values()),
-                    ) as file:
-                        image = file.read()
-                except (FileNotFoundError, ValueError):
-                    continue
-                mimetype = guess_mimetype(image)
-                if mimetype not in SUPPORTED_IMAGE_MIMETYPES:
-                    continue
-                shape_svg = get_shape_svg(module, 'image_shapes', shape_filename)
-                shape_options = dict(urllib.parse.parse_qsl(shape_query.replace('&amp;', '&'), keep_blank_values=True))
-                shape_svg = make_shaped_image(request.env, shape_svg, image, mimetype, shape_options)
-                shape_data_uri = 'data:image/svg+xml;base64,%s' % base64.b64encode(shape_svg.encode()).decode()
-                final_html = final_html.replace(shape_src, shape_data_uri)
+            # ДАО КООПТЕХ: только локальные картинки темы; удалённые картинки шли
+            # из облачной службы Odoo S.A. (website-image.api.odoo.com).
+            local_image_path = urllib.parse.unquote(mapped_image_url)
+            if not self._is_safe_configurator_preview_image_url(local_image_path):
                 continue
-            shaped_url = f'/html_editor/image_shape_url/{module}/{shape_filename}'
-            image_query = werkzeug.urls.url_encode({'image_url': mapped_image_url})
-            shaped_url = f'{shaped_url}?{shape_query}&{image_query}' if shape_query else f'{shaped_url}?{image_query}'
-            final_html = final_html.replace(shape_src, shaped_url)
+            try:
+                with file_open(
+                    local_image_path.lstrip('/'),
+                    'rb',
+                    filter_ext=tuple(SUPPORTED_IMAGE_MIMETYPES.values()),
+                ) as file:
+                    image = file.read()
+            except (FileNotFoundError, ValueError):
+                continue
+            mimetype = guess_mimetype(image)
+            if mimetype not in SUPPORTED_IMAGE_MIMETYPES:
+                continue
+            shape_svg = get_shape_svg(module, 'image_shapes', shape_filename)
+            shape_options = dict(urllib.parse.parse_qsl(shape_query.replace('&amp;', '&'), keep_blank_values=True))
+            shape_svg = make_shaped_image(request.env, shape_svg, image, mimetype, shape_options)
+            shape_data_uri = 'data:image/svg+xml;base64,%s' % base64.b64encode(shape_svg.encode()).decode()
+            final_html = final_html.replace(shape_src, shape_data_uri)
 
         # The preview generator keeps theme images local (in src or in a
         # style url()) and stores their attachment key in the
