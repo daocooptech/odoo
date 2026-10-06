@@ -29,7 +29,6 @@ from odoo.addons.website.tools import (
     text_from_html,
 )
 from odoo.addons.portal.controllers.portal import pager
-from odoo.addons.iap.tools import iap_tools
 from odoo.exceptions import AccessError, MissingError, UserError, ValidationError
 from odoo.fields import Domain
 from odoo.http import request
@@ -867,7 +866,7 @@ class Website(models.CachedModel):
                         theme for theme in suggestions
                         if isinstance(theme, str) and theme in theme_catalog
                     ][:count]
-        except (AccessError, iap_tools.InsufficientCreditError, json.JSONDecodeError, RequestException):
+        except (AccessError, json.JSONDecodeError, RequestException):  # ДАО КООПТЕХ: без iap
             pass
         return []
 
