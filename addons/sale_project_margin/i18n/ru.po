@@ -53,7 +53,7 @@ msgstr ""
 #: model:ir.embedded.actions,name:sale_project_margin.project_embedded_action_project_projected_margin
 #: model:ir.ui.menu,name:sale_project_margin.analytic_projected_margins_menu_project
 msgid "Forecast Margins"
-msgstr ""
+msgstr "Прогноз маржи"
 
 #. module: sale_project_margin
 #: model:ir.model.fields,field_description:sale_project_margin.field_project_project__id

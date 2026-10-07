@@ -134,7 +134,7 @@ msgstr ""
 #: model:ir.actions.act_window,name:printer.manage_printers_action
 #: model:ir.model.fields,field_description:printer.field_ir_actions_report__printer_ids
 msgid "Printers"
-msgstr ""
+msgstr "Принтеры"
 
 #. module: printer
 #: model:ir.model,name:printer.model_ir_actions_report
@@ -151,7 +151,7 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/printer/static/src/client_actions/reset_cached_printers.xml:0
 msgid "Reset Linked Printers"
-msgstr ""
+msgstr "Сбросить привязку принтеров"
 
 #. module: printer
 #. odoo-python
@@ -193,4 +193,4 @@ msgstr ""
 #. module: printer
 #: model:ir.actions.client,name:printer.action_reset_linked_printers
 msgid "reset.linked.printers"
-msgstr ""
+msgstr "Сбросить привязку принтеров"

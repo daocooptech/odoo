@@ -2495,7 +2495,7 @@ msgstr "Календарь: Напоминание"
 #: model:ir.ui.menu,name:calendar.menu_calendar_calendars
 #: model_terms:ir.ui.view,arch_db:calendar.calendar_calendar_view_list
 msgid "Calendars"
-msgstr ""
+msgstr "Календари"
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event_archive_or_unlink_wizard__can_edit_body
@@ -4630,7 +4630,7 @@ msgstr ""
 #. module: calendar
 #: model_terms:ir.ui.view,arch_db:calendar.calendar_calendar_view_list
 msgid "Visibility"
-msgstr ""
+msgstr "Видимость"
 
 #. module: calendar
 #. odoo-javascript

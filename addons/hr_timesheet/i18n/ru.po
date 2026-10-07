@@ -175,7 +175,7 @@ msgid ""
 "<span invisible=\"has_timesheet\">\n"
 "                        Are you sure you want to delete these employees?\n"
 "                    </span>"
-msgstr ""
+msgstr "<span invisible=\"has_timesheet\">\n                        Вы уверены, что хотите удалить этих сотрудников?\n                    </span>"
 
 #. module: hr_timesheet
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.timesheet_table
@@ -298,7 +298,7 @@ msgstr "Напоминание об утверждении"
 #. module: hr_timesheet
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.hr_employee_delete_wizard_form
 msgid "Archive Employees"
-msgstr ""
+msgstr "Сотрудники архива"
 
 #. module: hr_timesheet
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.timesheet_table
@@ -385,7 +385,7 @@ msgstr "Конфигурация"
 #. odoo-python
 #: code:addons/hr_timesheet/models/hr_employee.py:0
 msgid "Confirmation"
-msgstr ""
+msgstr "Подтверждение"
 
 #. module: hr_timesheet
 #: model:ir.model,website_form_label:hr_timesheet.model_project_task
@@ -451,12 +451,12 @@ msgstr ""
 #. module: hr_timesheet
 #: model:ir.actions.server,name:hr_timesheet.unlink_employee_action
 msgid "Delete"
-msgstr ""
+msgstr "Удалить"
 
 #. module: hr_timesheet
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.hr_employee_delete_wizard_form
 msgid "Delete Employee"
-msgstr ""
+msgstr "Удалить сотрудника"
 
 #. module: hr_timesheet
 #: model:ir.model.fields,help:hr_timesheet.field_account_analytic_line__milestone_id
@@ -542,7 +542,7 @@ msgstr "Сотрудник"
 #. module: hr_timesheet
 #: model:ir.model,name:hr_timesheet.model_hr_employee_delete_wizard
 msgid "Employee Delete Wizard"
-msgstr ""
+msgstr "Мастер удаления сотрудников"
 
 #. module: hr_timesheet
 #: model:ir.model.fields,field_description:hr_timesheet.field_res_config_settings__reminder_user_allow
@@ -553,7 +553,7 @@ msgstr "Напоминание сотрудникам"
 #. odoo-python
 #: code:addons/hr_timesheet/wizard/hr_employee_delete_wizard.py:0
 msgid "Employees' Timesheets"
-msgstr ""
+msgstr "Табели учета рабочего времени сотрудников"
 
 #. module: hr_timesheet
 #: model:ir.model.fields,field_description:hr_timesheet.field_res_config_settings__timesheet_encode_method
@@ -774,7 +774,7 @@ msgstr "Количество выделенных часов минус коли
 #. module: hr_timesheet
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.hr_employee_delete_wizard_form
 msgid "Ok"
-msgstr ""
+msgstr "Ок"
 
 #. module: hr_timesheet
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.view_task_form2_inherited
@@ -809,7 +809,7 @@ msgstr "Персональные фильтры по сотрудникам дл
 #. module: hr_timesheet
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.hr_employee_delete_wizard_form
 msgid "Please first delete all of their timesheets."
-msgstr ""
+msgstr "Пожалуйста, сначала удалите все их табели."
 
 #. module: hr_timesheet
 #: model:ir.model,name:hr_timesheet.model_uom_uom
@@ -936,7 +936,7 @@ msgstr "Поиск в задании"
 #. module: hr_timesheet
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.hr_employee_delete_wizard_form
 msgid "See Timesheets"
-msgstr ""
+msgstr "Посмотреть табели учета рабочего времени"
 
 #. module: hr_timesheet
 #. odoo-python
@@ -1404,7 +1404,7 @@ msgstr ""
 #. odoo-python
 #: code:addons/hr_timesheet/wizard/hr_employee_delete_wizard.py:0
 msgid "Timesheets of %(name)s"
-msgstr ""
+msgstr "Временные таблицы %(name)s"
 
 #. module: hr_timesheet
 #. odoo-python
@@ -1500,7 +1500,7 @@ msgid ""
 "                            So here are your two options: either delete "
 "those timesheets or consider archiving the employee instead.\n"
 "                        </span>"
-msgstr ""
+msgstr "Ой! У сотрудника, которого вы пытаетесь удалить, все еще есть незавершенные табели учета рабочего времени, и его нельзя удалить.\n                        <span invisible=\"not has_active_employee\">\n                            Поэтому у вас есть два варианта: либо удалить эти табели, либо рассмотреть возможность архивирования сотрудника.\n                        </span>"
 
 #. module: hr_timesheet
 #: model:ir.model.fields,help:hr_timesheet.field_project_task__display_name
@@ -1573,7 +1573,7 @@ msgstr "Вы не можете получить доступ к чужим та�
 #. odoo-python
 #: code:addons/hr_timesheet/models/hr_employee.py:0
 msgid "You cannot delete employees who have timesheets."
-msgstr ""
+msgstr "Вы не можете удалить сотрудников, у которых есть табели учета рабочего времени."
 
 #. module: hr_timesheet
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.project_invoice_form

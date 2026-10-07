@@ -65,7 +65,7 @@ msgstr ""
 #. module: contacts
 #: model:ir.ui.menu,name:contacts.menu_res_city
 msgid "Cities"
-msgstr ""
+msgstr "Города"
 
 #. module: contacts
 #: model:ir.ui.menu,name:contacts.res_partner_menu_config

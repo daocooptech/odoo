@@ -139,19 +139,19 @@ msgstr "(%(mbLoaded)s/%(mbTotal)sМБ)"
 #. odoo-javascript
 #: code:addons/web/static/src/webclient/settings_form_view/widgets/res_config_edition.xml:0
 msgid "(Community Edition)"
-msgstr ""
+msgstr "(Community Edition)"
 
 #. module: web
 #. odoo-javascript
 #: code:addons/web/static/src/core/debug/debug_menu_items.xml:0
 msgid "(change)"
-msgstr ""
+msgstr "(изменить)"
 
 #. module: web
 #. odoo-javascript
 #: code:addons/web/static/src/core/debug/debug_menu_items.xml:0
 msgid "(create)"
-msgstr ""
+msgstr "(создать)"
 
 #. module: web
 #: model_terms:ir.ui.view,arch_db:web.external_layout_footer_content
@@ -169,7 +169,7 @@ msgstr "(нет результата)"
 #. odoo-javascript
 #: code:addons/web/static/src/views/view_button/view_button.xml:0
 msgid "(no string)"
-msgstr ""
+msgstr "(нет строки)"
 
 #. module: web
 #. odoo-javascript
@@ -179,7 +179,7 @@ msgid ""
 "                        font-weight: normal;\n"
 "                        font-style: normal;\n"
 "                    }"
-msgstr ""
+msgstr ") format(\"woff\");\n                        font-weight: normal;\n                        font-style: normal;\n                    }"
 
 #. module: web
 #. odoo-javascript
@@ -191,7 +191,7 @@ msgstr "+ Добавить %s"
 #. odoo-javascript
 #: code:addons/web/static/src/webclient/user_menu/user_menu_items.xml:0
 msgid "+ KEY"
-msgstr ""
+msgstr "+ КЛЮЧ"
 
 #. module: web
 #. odoo-python
@@ -808,7 +808,7 @@ msgid ""
 "@font-face {\n"
 "                        font-family: \"font\";\n"
 "                        src: url(data:font/ttf;base64,"
-msgstr ""
+msgstr "@font-face {\n                        font-family: \"font\";\n                        src: url(data:font/ttf;base64,"
 
 #. module: web
 #. odoo-python
@@ -921,7 +921,7 @@ msgstr "Права доступа"
 #. odoo-javascript
 #: code:addons/web/static/src/webclient/settings_form_view/fields/upgrade_dialog.xml:0
 msgid "Access to all Enterprise Apps"
-msgstr ""
+msgstr "Доступ ко всем приложениям Enterprise"
 
 #. module: web
 #. odoo-javascript
@@ -1048,7 +1048,7 @@ msgstr "Добавить"
 #. odoo-javascript
 #: code:addons/web/static/src/views/fields/properties/property_definition_selection.xml:0
 msgid "Add a Value"
-msgstr ""
+msgstr "Добавить значение"
 
 #. module: web
 #. odoo-javascript
@@ -1073,7 +1073,7 @@ msgstr "Добавить столбец"
 #. odoo-javascript
 #: code:addons/web/static/src/views/fields/domain/domain_field.xml:0
 msgid "Add condition"
-msgstr ""
+msgstr "Добавить условие"
 
 #. module: web
 #. odoo-javascript
@@ -1174,7 +1174,7 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/web/static/src/core/debug/debug_menu_items.xml:0
 msgid "All users"
-msgstr ""
+msgstr "Все пользователи"
 
 #. module: web
 #. odoo-javascript
@@ -1238,7 +1238,7 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/web/static/src/webclient/settings_form_view/fields/upgrade_dialog.xml:0
 msgid "And more"
-msgstr ""
+msgstr "И многое другое"
 
 #. module: web
 #. odoo-python
@@ -1527,7 +1527,7 @@ msgstr "Австралия"
 #. odoo-javascript
 #: code:addons/web/static/src/core/signature/name_and_signature.xml:0
 msgid "Auto"
-msgstr ""
+msgstr "Авто"
 
 #. module: web
 #. odoo-javascript
@@ -1707,13 +1707,13 @@ msgstr "Буддистский"
 #. odoo-javascript
 #: code:addons/web/static/src/webclient/settings_form_view/fields/upgrade_dialog.xml:0
 msgid "Bugfixes guarantee"
-msgstr ""
+msgstr "Гарантия исправления ошибок"
 
 #. module: web
 #. odoo-javascript
 #: code:addons/web/static/src/views/view_button/view_button.xml:0
 msgid "Button"
-msgstr ""
+msgstr "Кнопка"
 
 #. module: web
 #. odoo-javascript
@@ -1835,7 +1835,7 @@ msgstr ""
 #: code:addons/web/static/src/views/calendar/quick_create/calendar_quick_create.xml:0
 #: code:addons/web/static/src/webclient/share_target/share_target_dialog.xml:0
 msgid "Cancel"
-msgstr ""
+msgstr "Отмена"
 
 #. module: web
 #. odoo-javascript
@@ -2217,7 +2217,7 @@ msgstr "Вычисленная архитектура"
 #. odoo-javascript
 #: code:addons/web/static/src/core/debug/debug_menu_items.xml:0
 msgid "Condition:"
-msgstr ""
+msgstr "Условие:"
 
 #. module: web
 #: model:ir.model,name:web.model_res_config_settings
@@ -2359,7 +2359,7 @@ msgstr "Авторское право &amp;copy;"
 #. odoo-javascript
 #: code:addons/web/static/src/webclient/settings_form_view/widgets/res_config_edition.xml:0
 msgid "Copyright © 2004"
-msgstr ""
+msgstr "Авторское право © 2004"
 
 #. module: web
 #. odoo-javascript
@@ -3034,7 +3034,7 @@ msgstr "Отображать горизонтально"
 #. odoo-javascript
 #: code:addons/web/static/src/views/fields/properties/property_definition.xml:0
 msgid "Display in Cards"
-msgstr ""
+msgstr "Отображать в карточках"
 
 #. module: web
 #: model_terms:ir.ui.view,arch_db:web.config_speedscope_index
@@ -3191,13 +3191,13 @@ msgstr "Дракула"
 #. odoo-javascript
 #: code:addons/web/static/src/core/dropzone/dropzone.xml:0
 msgid "Drag Files Here"
-msgstr ""
+msgstr "Перетащите файлы сюда"
 
 #. module: web
 #. odoo-javascript
 #: code:addons/web/static/src/core/signature/name_and_signature.xml:0
 msgid "Draw"
-msgstr ""
+msgstr "Рисовать"
 
 #. module: web
 #. odoo-javascript
@@ -3599,7 +3599,7 @@ msgstr "Выбор поля"
 #. odoo-javascript
 #: code:addons/web/static/src/views/fields/properties/property_definition.xml:0
 msgid "Field Type"
-msgstr ""
+msgstr "Тип поля"
 
 #. module: web
 #. odoo-javascript
@@ -3888,7 +3888,7 @@ msgstr "Близнецы"
 #. odoo-javascript
 #: code:addons/web/static/src/webclient/settings_form_view/fields/upgrade_dialog.xml:0
 msgid "Get this feature and much more with Odoo Enterprise!"
-msgstr ""
+msgstr "Получите эту и многие другие возможности с Odoo Enterprise!"
 
 #. module: web
 #. odoo-javascript
@@ -4250,7 +4250,7 @@ msgstr "Недоступный/отсутствующий ID записи: %s"
 #. odoo-javascript
 #: code:addons/web/static/src/core/domain_selector/domain_selector.xml:0
 msgid "Include archived"
-msgstr ""
+msgstr "Включая архивные"
 
 #. module: web
 #. odoo-javascript
@@ -4262,7 +4262,7 @@ msgstr "Несовместимость"
 #. odoo-javascript
 #: code:addons/web/static/src/views/fields/dynamic_placeholder_popover.xml:0
 msgid "Insert"
-msgstr ""
+msgstr "Вставить"
 
 #. module: web
 #. odoo-javascript
@@ -4341,7 +4341,7 @@ msgstr "Недопустимое имя фильтра поиска по умо�
 #. odoo-javascript
 #: code:addons/web/static/src/views/fields/domain/domain_field.xml:0
 msgid "Invalid domain"
-msgstr ""
+msgstr "Недействительный домен"
 
 #. module: web
 #. odoo-javascript
@@ -4455,7 +4455,7 @@ msgid ""
 "part of the time to make\n"
 "            the profile as well as some part not logged in the function "
 "generated by the qweb."
-msgstr ""
+msgstr "Возможно, что время \"t-call\" не соответствует общему времени выполнения\n            шаблона. Потому что общее время (в выпадающем списке) не учитывает\n            продолжительность, которая не связана с рендерингом (поиск шаблона, чтение, наследование,\n            компиляция...). Во время рендеринга общее время также включает часть времени на создание\n            профиля, а также часть времени, не зарегистрированного в функции, сгенерированной qweb."
 
 #. module: web
 #. odoo-javascript
@@ -4714,7 +4714,7 @@ msgstr "Не хватает вдохновения?"
 #. odoo-javascript
 #: code:addons/web/static/src/views/view_dialogs/export_data_dialog.xml:0
 msgid "Languages"
-msgstr ""
+msgstr "Языки"
 
 #. module: web
 #. odoo-javascript
@@ -4841,7 +4841,7 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/web/static/src/core/signature/name_and_signature.xml:0
 msgid "Load"
-msgstr ""
+msgstr "Загрузить"
 
 #. module: web
 #. odoo-javascript
@@ -5229,7 +5229,7 @@ msgstr "Отсутствуют обязательные поля"
 #. odoo-javascript
 #: code:addons/web/static/src/webclient/settings_form_view/fields/upgrade_dialog.xml:0
 msgid "Mobile support"
-msgstr ""
+msgstr "Поддержка мобильных устройств"
 
 #. module: web
 #. odoo-javascript
@@ -5456,7 +5456,7 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/web/static/src/views/calendar/quick_create/calendar_quick_create.xml:0
 msgid "Name:"
-msgstr ""
+msgstr "Имя:"
 
 #. module: web
 #. odoo-python
@@ -5486,7 +5486,7 @@ msgstr "Новое событие"
 #. odoo-javascript
 #: code:addons/web/static/src/views/fields/properties/properties_field.xml:0
 msgid "New Property"
-msgstr ""
+msgstr "Новое свойство"
 
 #. module: web
 #. odoo-javascript
@@ -5498,7 +5498,7 @@ msgstr "Новое правило"
 #. odoo-javascript
 #: code:addons/web/static/src/webclient/settings_form_view/fields/upgrade_dialog.xml:0
 msgid "New design"
-msgstr ""
+msgstr "Новый дизайн"
 
 #. module: web
 #. odoo-javascript
@@ -5571,7 +5571,7 @@ msgstr "Нет доступа"
 #. odoo-javascript
 #: code:addons/web/static/src/search/properties_group_by_item/properties_group_by_item.xml:0
 msgid "No Properties"
-msgstr ""
+msgstr "Нет свойств"
 
 #. module: web
 #. odoo-javascript
@@ -5939,7 +5939,7 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/web/static/src/views/form/form_error_dialog/form_error_dialog.xml:0
 msgid "Oh snap!"
-msgstr ""
+msgstr "Ох!"
 
 #. module: web
 #. odoo-javascript
@@ -6003,7 +6003,7 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/web/static/src/core/debug/debug_menu_items.xml:0
 msgid "Only you"
-msgstr ""
+msgstr "Только вы"
 
 #. module: web
 #. odoo-javascript
@@ -6048,7 +6048,7 @@ msgstr "Открыть"
 #. odoo-javascript
 #: code:addons/web/static/src/core/pwa/install_prompt.xml:0
 msgid "Open \"File\" menu from your browser"
-msgstr ""
+msgstr "Откройте меню \"Файл\" в браузере"
 
 #. module: web
 #. odoo-javascript
@@ -7184,19 +7184,19 @@ msgstr "Посмотреть технические детали"
 #. odoo-javascript
 #: code:addons/web/static/src/views/view_dialogs/select_create_dialog.xml:0
 msgid "Select"
-msgstr ""
+msgstr "Выбрать"
 
 #. module: web
 #. odoo-javascript
 #: code:addons/web/static/src/core/pwa/install_prompt.xml:0
 msgid "Select \"Add to dock\""
-msgstr ""
+msgstr "Выберите \"Добавить в док\""
 
 #. module: web
 #. odoo-javascript
 #: code:addons/web/static/src/core/pwa/install_prompt.xml:0
 msgid "Select \"Add to home screen\""
-msgstr ""
+msgstr "Выберите \"Добавить на главный экран\""
 
 #. module: web
 #: model_terms:ir.ui.view,arch_db:web.login
@@ -7248,7 +7248,7 @@ msgstr "Выберите вид"
 #: code:addons/web/static/src/views/view_components/selection_box.xml:0
 #: code:addons/web/static/src/webclient/switch_company_menu/switch_company_menu.js:0
 msgid "Select all"
-msgstr ""
+msgstr "Выбрать все"
 
 #. module: web
 #. odoo-javascript
@@ -7507,7 +7507,7 @@ msgstr "Показать время"
 #. odoo-javascript
 #: code:addons/web/static/src/views/view_components/view_scale_selector.xml:0
 msgid "Show weekends"
-msgstr ""
+msgstr "Показать выходные"
 
 #. module: web
 #. odoo-javascript
@@ -7561,7 +7561,7 @@ msgstr "Произошло что-то ужасное"
 msgid ""
 "Something went wrong... If you really are stuck, share the report with your "
 "friendly support service"
-msgstr ""
+msgstr "Что-то пошло не так... Если вы не можете решить проблему самостоятельно, поделитесь отчетом с нашей службой поддержки"
 
 #. module: web
 #. odoo-javascript
@@ -7659,7 +7659,7 @@ msgstr "Строка состояния"
 #. odoo-javascript
 #: code:addons/web/static/src/webclient/settings_form_view/settings_confirmation_dialog.xml:0
 msgid "Stay Here"
-msgstr ""
+msgstr "Остаться здесь"
 
 #. module: web
 #. odoo-javascript
@@ -7834,7 +7834,7 @@ msgstr "Даосский"
 #. odoo-javascript
 #: code:addons/web/static/src/core/pwa/install_prompt.xml:0
 msgid "Tap on the share icon"
-msgstr ""
+msgstr "Нажмите на значок поделиться"
 
 #. module: web
 #. odoo-javascript
@@ -8095,7 +8095,7 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/web/static/src/core/domain_selector/domain_selector.xml:0
 msgid "This domain is not supported."
-msgstr ""
+msgstr "Этот домен не поддерживается."
 
 #. module: web
 #. odoo-javascript
@@ -8107,13 +8107,13 @@ msgstr "Это встроенное действие глобально и бу�
 #. odoo-javascript
 #: code:addons/web/static/src/core/expression_editor/expression_editor.xml:0
 msgid "This expression is not supported."
-msgstr ""
+msgstr "Это выражение не поддерживается."
 
 #. module: web
 #. odoo-javascript
 #: code:addons/web/static/src/core/signature/name_and_signature.xml:0
 msgid "This file is invalid. Please select an image."
-msgstr ""
+msgstr "Этот файл недействителен. Выберите изображение."
 
 #. module: web
 #: model_terms:ir.ui.view,arch_db:web.preview_externalreport
@@ -8572,7 +8572,7 @@ msgstr ""
 #: code:addons/web/static/src/views/fields/properties/property_definition.js:0
 #: code:addons/web/static/src/views/list/list_confirmation_dialog.xml:0
 msgid "Update"
-msgstr ""
+msgstr "Обновить"
 
 #. module: web
 #. odoo-javascript
@@ -8596,7 +8596,7 @@ msgstr "Обновить сейчас"
 #. odoo-javascript
 #: code:addons/web/static/src/webclient/settings_form_view/fields/upgrade_dialog.xml:0
 msgid "Upgrade to future versions"
-msgstr ""
+msgstr "Обновить до будущих версий"
 
 #. module: web
 #. odoo-javascript
@@ -8609,7 +8609,7 @@ msgstr ""
 #: code:addons/web/static/src/views/fields/binary/binary_field.xml:0
 #: code:addons/web/static/src/views/fields/pdf_viewer/pdf_viewer_field.xml:0
 msgid "Upload your file"
-msgstr ""
+msgstr "Загрузить файл"
 
 #. module: web
 #. odoo-javascript
@@ -24886,7 +24886,7 @@ msgstr "церемония любования луной"
 #. odoo-javascript
 #: code:addons/web/static/src/webclient/settings_form_view/widgets/res_config_invite_users.xml:0
 msgid "more"
-msgstr ""
+msgstr "ещё"
 
 #. module: web
 #. odoo-javascript
@@ -25746,7 +25746,7 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/web/static/src/webclient/user_menu/user_menu_items.xml:0
 msgid "on any screen to show shortcut overlays and"
-msgstr ""
+msgstr "на любом экране для отображения ярлыков и"
 
 #. module: web
 #. odoo-javascript
@@ -27922,7 +27922,7 @@ msgstr "кнопка записи"
 #: code:addons/web/static/src/views/fields/domain/domain_field.xml:0
 #: code:addons/web/static/src/views/fields/properties/property_definition.xml:0
 msgid "record(s)"
-msgstr ""
+msgstr "запись(и)"
 
 #. module: web
 #. odoo-javascript
@@ -28066,7 +28066,7 @@ msgstr "перезагрузить"
 #. odoo-javascript
 #: code:addons/web/static/src/views/kanban/kanban_renderer.xml:0
 msgid "remaining)"
-msgstr ""
+msgstr "осталось)"
 
 #. module: web
 #. odoo-javascript
@@ -28879,7 +28879,7 @@ msgstr "саженец"
 #: code:addons/web/static/src/views/view_components/multi_selection_buttons.xml:0
 #: code:addons/web/static/src/views/view_components/selection_box.xml:0
 msgid "selected"
-msgstr ""
+msgstr "выбрано"
 
 #. module: web
 #. odoo-javascript
@@ -31237,7 +31237,7 @@ msgstr "усталое лицо"
 #. odoo-javascript
 #: code:addons/web/static/src/webclient/user_menu/user_menu_items.xml:0
 msgid "to trigger a shortcut."
-msgstr ""
+msgstr "чтобы вызвать сочетание клавиш."
 
 #. module: web
 #. odoo-javascript
@@ -33529,13 +33529,13 @@ msgstr "зомби"
 #. odoo-javascript
 #: code:addons/web/static/src/webclient/user_menu/user_menu_items.xml:0
 msgid "— press"
-msgstr ""
+msgstr "— нажмите"
 
 #. module: web
 #. odoo-javascript
 #: code:addons/web/static/src/core/commands/command_items.xml:0
 msgid "— search for"
-msgstr ""
+msgstr "— поиск"
 
 #. module: web
 #. odoo-javascript

@@ -74,7 +74,7 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/board/static/src/board_controller.xml:0
 msgid "Change Layout"
-msgstr ""
+msgstr "Изменение Макета"
 
 #. module: board
 #. odoo-javascript
@@ -86,7 +86,7 @@ msgstr "Не удалось добавить фильтр в приборную 
 #. odoo-javascript
 #: code:addons/board/static/src/add_to_board/add_to_board.xml:0
 msgid "Dashboard"
-msgstr ""
+msgstr "Панель управления"
 
 #. module: board
 #: model:ir.module.module,shortdesc:base.module_board
@@ -134,7 +134,7 @@ msgstr "Пожалуйста, обновите браузер, чтобы изм
 msgid ""
 "To add your first report into this dashboard, go to any\n"
 "                  menu, switch to list or graph view, and click"
-msgstr ""
+msgstr "Чтобы добавить свой первый отчет в эту приборную панель, перейдите в любое\n                  меню, переключитесь в режим просмотра списка или графика и нажмите кнопку"
 
 #. module: board
 #. odoo-javascript
@@ -142,19 +142,19 @@ msgstr ""
 msgid ""
 "You can filter and group data before inserting into the\n"
 "                  dashboard using the search options."
-msgstr ""
+msgstr "Вы можете фильтровать и группировать данные перед вставкой в\n                  приборной панели с помощью параметров поиска."
 
 #. module: board
 #. odoo-javascript
 #: code:addons/board/static/src/board_controller.xml:0
 msgid "Your personal dashboard is empty"
-msgstr ""
+msgstr "Ваша личная приборная панель пуста"
 
 #. module: board
 #. odoo-javascript
 #: code:addons/board/static/src/board_controller.xml:0
 msgid "in the extended search options."
-msgstr ""
+msgstr "в параметрах расширенного поиска."
 
 #. module: board
 #. odoo-javascript

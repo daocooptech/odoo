@@ -632,7 +632,7 @@ msgstr ""
 #. module: sale_management
 #: model:ir.actions.server,name:sale_management.model_sale_order_action_create_quotation_template
 msgid "Save as template"
-msgstr ""
+msgstr "Сохранить как шаблон"
 
 #. module: sale_management
 #: model_terms:ir.ui.view,arch_db:sale_management.sale_order_template_view_search
@@ -752,7 +752,7 @@ msgstr ""
 #: model:ir.ui.menu,name:sale_management.sale_order_template_menu
 #: model_terms:ir.ui.view,arch_db:sale_management.sale_order_template_view_form
 msgid "Templates"
-msgstr ""
+msgstr "Шаблоны"
 
 #. module: sale_management
 #: model_terms:ir.ui.view,arch_db:sale_management.sale_order_template_view_form

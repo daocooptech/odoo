@@ -65,7 +65,7 @@ msgstr "Контакты"
 #. module: bus
 #: model:ir.model.fields,field_description:bus.field_bus_bus__create_date
 msgid "Create Date"
-msgstr ""
+msgstr "Дата создания"
 
 #. module: bus
 #: model:ir.model,website_form_label:bus.model_res_partner

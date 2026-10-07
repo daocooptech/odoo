@@ -220,13 +220,13 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_account/data/files/invoicing_dashboard.json:0
 msgid "Top Categories"
-msgstr ""
+msgstr "Лучшие категории"
 
 #. module: spreadsheet_dashboard_account
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_account/data/files/invoicing_dashboard.json:0
 msgid "Top Countries"
-msgstr ""
+msgstr "Ведущие страны"
 
 #. module: spreadsheet_dashboard_account
 #. odoo-javascript

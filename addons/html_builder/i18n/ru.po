@@ -125,7 +125,7 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/html_builder/static/src/core/building_blocks/builder_fontfamilypicker.xml:0
 msgid "Add a Custom Font"
-msgstr ""
+msgstr "Добавить шрифт"
 
 #. module: html_builder
 #. odoo-javascript
@@ -246,13 +246,13 @@ msgstr "Выровнять по низу"
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/image/image_tool_option.xml:0
 msgid "Align Center"
-msgstr ""
+msgstr "Выровнять по центру"
 
 #. module: html_builder
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/image/image_tool_option.xml:0
 msgid "Align Left"
-msgstr ""
+msgstr "Выровнить по левому краю"
 
 #. module: html_builder
 #. odoo-javascript
@@ -265,7 +265,7 @@ msgstr "Выровнять по центру"
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/image/image_tool_option.xml:0
 msgid "Align Right"
-msgstr ""
+msgstr "Выровнить по правому краю"
 
 #. module: html_builder
 #. odoo-javascript
@@ -625,7 +625,7 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/html_builder/static/src/builder.xml:0
 msgid "Blocks"
-msgstr ""
+msgstr "Блоки"
 
 #. module: html_builder
 #. odoo-javascript
@@ -1201,7 +1201,7 @@ msgstr "Обложка"
 #. odoo-javascript
 #: code:addons/html_builder/static/src/core/building_blocks/select_many2x.xml:0
 msgid "Create \""
-msgstr ""
+msgstr "Создать \""
 
 #. module: html_builder
 #. odoo-javascript
@@ -1285,7 +1285,7 @@ msgstr "Пунктирная"
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/date_time_field_option.xml:0
 msgid "Date"
-msgstr ""
+msgstr "Дата"
 
 #. module: html_builder
 #. odoo-javascript
@@ -1971,7 +1971,7 @@ msgstr "Вставка"
 #. odoo-javascript
 #: code:addons/html_builder/static/src/sidebar/snippet.xml:0
 msgid "Install"
-msgstr ""
+msgstr "Установить"
 
 #. module: html_builder
 #. odoo-javascript
@@ -1984,7 +1984,7 @@ msgstr "Установить %s"
 #. odoo-javascript
 #: code:addons/html_builder/static/src/sidebar/invisible_elements_panel.xml:0
 msgid "Invisible Elements"
-msgstr ""
+msgstr "Невидимые элементы"
 
 #. module: html_builder
 #. odoo-javascript
@@ -2953,7 +2953,7 @@ msgstr "Вторичный"
 #. odoo-javascript
 #: code:addons/html_builder/static/src/sidebar/customize_tab.xml:0
 msgid "Select a block on your page to style it."
-msgstr ""
+msgstr "Выберите блок на странице, чтобы придать ему стиль."
 
 #. module: html_builder
 #. odoo-javascript
@@ -3553,7 +3553,7 @@ msgstr "Тип"
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/image/image_tool_option.xml:0
 msgid "Unalign"
-msgstr ""
+msgstr "Выравнивание"
 
 #. module: html_builder
 #. odoo-javascript
@@ -3742,7 +3742,7 @@ msgstr "WebGL не включен в вашем браузере."
 #. odoo-javascript
 #: code:addons/html_builder/static/src/plugins/image/image_format_option.xml:0
 msgid "WebP compression not supported on this browser"
-msgstr ""
+msgstr "Сжатие WebP не поддерживается этим браузером"
 
 #. module: html_builder
 #. odoo-javascript

@@ -102,7 +102,7 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/google_recaptcha/static/src/xml/recaptcha.xml:0
 msgid "Protected by reCAPTCHA,"
-msgstr ""
+msgstr "Защищено с помощью reCAPTCHA,"
 
 #. module: google_recaptcha
 #: model:ir.model.fields,field_description:google_recaptcha.field_res_config_settings__recaptcha_private_key
@@ -161,7 +161,7 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/google_recaptcha/static/src/xml/recaptcha.xml:0
 msgid "apply."
-msgstr ""
+msgstr "применять."
 
 #. module: google_recaptcha
 #. odoo-javascript

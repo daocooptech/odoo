@@ -518,7 +518,7 @@ msgstr "Материал"
 #. module: resource
 #: model:ir.actions.act_window,name:resource.action_resource_material_from_calendar
 msgid "Material Resources"
-msgstr ""
+msgstr "Материальные ресурсы"
 
 #. module: resource
 #. odoo-javascript
@@ -687,7 +687,7 @@ msgstr "Календарь ресурса"
 #. module: resource
 #: model:ir.actions.server,name:resource.ir_cron_calendar_clean_up_ir_actions_server
 msgid "Resource: Clean up calendar attendances"
-msgstr ""
+msgstr "Ресурсы: очистить посещаемость календаря"
 
 #. module: resource
 #: model:ir.actions.act_window,name:resource.action_resource_resource_tree

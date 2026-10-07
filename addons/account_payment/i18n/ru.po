@@ -426,7 +426,7 @@ msgstr ""
 #. module: account_payment
 #: model:ir.ui.menu,name:account_payment.payment_provider_menu
 msgid "Online Payments"
-msgstr ""
+msgstr "Онлайн-платежи"
 
 #. module: account_payment
 #. odoo-python

@@ -1259,7 +1259,7 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/hr/static/src/views/form/multi_version_update_confirmation_dialog.xml:0
 msgid "Cancel"
-msgstr ""
+msgstr "Отменить"
 
 #. module: hr
 #. odoo-javascript
@@ -2446,7 +2446,7 @@ msgstr "Тип сотрудника"
 #: model:ir.ui.menu,name:hr.menu_view_hr_contract_type
 #: model_terms:ir.ui.view,arch_db:hr.hr_contract_type_view_tree
 msgid "Employee Types"
-msgstr ""
+msgstr "Типы сотрудников"
 
 #. module: hr
 #: model:ir.model.fields,help:hr.field_hr_employee__bank_account_ids
@@ -2591,7 +2591,7 @@ msgstr "Дата окончания испытательного срока (е�
 #: model:ir.actions.server,name:hr.action_hr_employee_departure
 #: model_terms:ir.ui.view,arch_db:hr.view_employee_form
 msgid "End of Collaboration"
-msgstr ""
+msgstr "Окончание сотрудничества"
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__trial_date_end
@@ -2987,7 +2987,7 @@ msgstr ""
 #. module: hr
 #: model:ir.actions.server,name:hr.ir_cron_apply_departure_ir_actions_server
 msgid "HR: Apply employee departures"
-msgstr ""
+msgstr "Кадры: оформить уходы сотрудников"
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_manager_department_report__has_department_manager_access
@@ -3913,7 +3913,7 @@ msgstr "Новая запись сотрудника"
 #: model:ir.actions.act_window,name:hr.action_open_hr_employee_create_version_wizard
 #: model:ir.actions.server,name:hr.action_hr_employee_create_versions
 msgid "New Employee Records"
-msgstr ""
+msgstr "Новые карточки сотрудников"
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.hr_employee_view_graph
@@ -4307,7 +4307,7 @@ msgstr "Операция не поддерживается."
 #: model:ir.actions.act_window,name:hr.action_hr_employee_org_chart
 #: model:ir.actions.act_window,name:hr.action_hr_employee_public_org_chart
 msgid "Org Chart"
-msgstr ""
+msgstr "Оргструктура"
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.view_employee_form
@@ -4670,7 +4670,7 @@ msgstr "Ваш Email"
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.res_users_view_form_preferences
 msgid "Private Information"
-msgstr ""
+msgstr "Личная информация"
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__private_phone
@@ -5094,7 +5094,7 @@ msgstr ""
 #. module: hr
 #: model:ir.actions.act_window,name:hr.action_partner_mass_mail
 msgid "Send Email"
-msgstr ""
+msgstr "Отправить письмо"
 
 #. module: hr
 #: model:ir.model.fields.selection,name:hr.selection__hr_employee__birthday_month__9
@@ -5735,7 +5735,7 @@ msgstr ""
 #. module: hr
 #: model:ir.ui.menu,name:hr.menu_config_working_times
 msgid "Time Management"
-msgstr ""
+msgstr "Учёт времени"
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__tz
@@ -6067,7 +6067,7 @@ msgstr "Действительное разрешение на работу в �
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_resource_calendar__version_ids
 msgid "Version"
-msgstr ""
+msgstr "Версия"
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__version_revision

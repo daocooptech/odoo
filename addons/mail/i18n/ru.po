@@ -4104,7 +4104,7 @@ msgstr "Создать канал"
 #. odoo-javascript
 #: code:addons/mail/static/src/discuss/core/common/channel_invitation.js:0
 msgid "Create Chat"
-msgstr ""
+msgstr "Создать чат"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_link_preview__create_date
@@ -8114,7 +8114,7 @@ msgstr "Связанное сообщение"
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.mail_activity_view_calendar
 msgid "Linked to"
-msgstr ""
+msgstr "Связано с"
 
 #. module: mail
 #. odoo-javascript
@@ -12272,7 +12272,7 @@ msgstr "Поиск серверов входящей почты"
 #. odoo-javascript
 #: code:addons/mail/static/src/discuss/gif_picker/common/gif_picker.xml:0
 msgid "Search Klipy"
-msgstr ""
+msgstr "Поиск в Klipy"
 
 #. module: mail
 #. odoo-javascript
@@ -13403,7 +13403,7 @@ msgstr "Возврат к серверу по умолчанию."
 #: model:ir.actions.act_window,name:mail.ir_ui_view_action_usage_mail_post
 #: model:ir.ui.menu,name:mail.ir_ui_view_menu_usage_mail_post
 msgid "System Notifications"
-msgstr ""
+msgstr "Системные уведомления"
 
 #. module: mail
 #: model_terms:ir.actions.act_window,help:mail.ir_ui_view_action_usage_mail_post

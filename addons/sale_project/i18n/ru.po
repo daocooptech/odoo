@@ -409,13 +409,13 @@ msgstr ""
 #: model:ir.embedded.actions,name:sale_project.project_embedded_action_project_actual_margin
 #: model:ir.ui.menu,name:sale_project.analytic_margins_menu_project
 msgid "Margins"
-msgstr ""
+msgstr "Маржа"
 
 #. module: sale_project
 #. odoo-python
 #: code:addons/sale_project/models/account_analytic_line.py:0
 msgid "Materials"
-msgstr ""
+msgstr "Материалы"
 
 #. module: sale_project
 #: model:ir.model.fields,field_description:sale_project.field_sale_order_line__qty_delivered_method

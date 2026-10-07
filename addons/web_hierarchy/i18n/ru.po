@@ -105,7 +105,7 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/web_hierarchy/static/src/hierarchy_controller.xml:0
 msgid "New"
-msgstr ""
+msgstr "Новый"
 
 #. module: web_hierarchy
 #. odoo-javascript

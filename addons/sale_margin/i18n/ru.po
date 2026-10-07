@@ -59,7 +59,7 @@ msgstr ""
 #. module: sale_margin
 #: model:ir.actions.act_window,name:sale_margin.action_order_report_projected_margins
 msgid "Forecast Margins"
-msgstr ""
+msgstr "Прогноз маржи"
 
 #. module: sale_margin
 #: model:ir.model.fields,field_description:sale_margin.field_sale_order__id

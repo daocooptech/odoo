@@ -465,13 +465,13 @@ msgstr "Значок типа активности"
 #: code:addons/product/static/src/product_catalog/order_line/order_line.xml:0
 #: model_terms:ir.ui.view,arch_db:product.product_pricelist_item_form_view
 msgid "Add"
-msgstr ""
+msgstr "Добавить"
 
 #. module: product
 #. odoo-javascript
 #: code:addons/product/static/src/js/pricelist_report/product_pricelist_report.xml:0
 msgid "Add Products"
-msgstr ""
+msgstr "Добавить продукты"
 
 #. module: product
 #. odoo-javascript
@@ -496,7 +496,7 @@ msgstr "Добавить количество"
 msgid ""
 "Add products using the \"Add Products\" button at the top right to\n"
 "                                include them in the report."
-msgstr ""
+msgstr "Добавьте товары в отчет, используя кнопку «Добавить товары» в правом верхнем углу, чтобы\n                                включить их в отчет."
 
 #. module: product
 #. odoo-python
@@ -846,7 +846,7 @@ msgstr ""
 #. module: product
 #: model:ir.actions.act_window,name:product.base_unit_action
 msgid "Base Units"
-msgstr ""
+msgstr "Базовые единицы"
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_pricelist_item__base
@@ -2742,13 +2742,13 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/product/static/src/product_catalog/kanban_renderer.xml:0
 msgid "No products could be found."
-msgstr ""
+msgstr "Продукты не могут быть найдены."
 
 #. module: product
 #. odoo-javascript
 #: code:addons/product/static/src/js/pricelist_report/product_pricelist_report.xml:0
 msgid "No products found in the report"
-msgstr ""
+msgstr "В отчете не найдено ни одного товара"
 
 #. module: product
 #: model_terms:ir.actions.act_window,help:product.product_supplierinfo_type_action
@@ -3338,17 +3338,17 @@ msgstr "Документ товара"
 #. module: product
 #: model:ir.actions.report,name:product.report_product_template_label_zpl
 msgid "Product Label (ZPL)"
-msgstr ""
+msgstr "Этикетка товара (ZPL)"
 
 #. module: product
 #: model:ir.actions.report,name:product.action_report_product_label_dymo
 msgid "Product Labels (Dymo)"
-msgstr ""
+msgstr "Этикетки товаров (Dymo)"
 
 #. module: product
 #: model:ir.actions.report,name:product.action_report_product_label_pdf
 msgid "Product Labels (PDF)"
-msgstr ""
+msgstr "Этикетки товаров (PDF)"
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_template_tree_view
@@ -3548,7 +3548,7 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/product/static/src/js/pricelist_report/product_pricelist_report.xml:0
 msgid "Quantities"
-msgstr ""
+msgstr "Количество"
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.report_pricelist_page
@@ -4495,7 +4495,7 @@ msgstr ""
 #. module: product
 #: model:ir.actions.act_window,name:product.product_variant_edit_qty_action
 msgid "Update Variant Quantities"
-msgstr ""
+msgstr "Обновить количество вариантов"
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_attribute_view_form
@@ -4522,7 +4522,7 @@ msgstr "Обновить дополнительную цену для сущес
 #. odoo-javascript
 #: code:addons/product/static/src/js/product_document_kanban/upload_button/upload_button.xml:0
 msgid "Upload"
-msgstr ""
+msgstr "Загрузить"
 
 #. module: product
 #. odoo-python
@@ -4956,7 +4956,7 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/product/static/src/product_catalog/order_line/order_line.xml:0
 msgid "You can't edit this product in the catalog."
-msgstr ""
+msgstr "Вы не можете редактировать этот продукт в каталоге."
 
 #. module: product
 #. odoo-python
@@ -5103,7 +5103,7 @@ msgid ""
 "You must define a product for everything you sell or purchase,\n"
 "                            whether it's a storable product, a consumable or "
 "a service."
-msgstr ""
+msgstr "Вы должны определить продукт для всего, что вы продаете или покупаете,\n                            будь то хранимый продукт, расходный материал или услуга."
 
 #. module: product
 #: model_terms:ir.actions.act_window,help:product.product_template_action

@@ -137,7 +137,7 @@ msgstr "Поле суммы"
 #. odoo-javascript
 #: code:addons/analytic/static/src/components/analytic_distribution/analytic_distribution.xml:0
 msgid "Analytic"
-msgstr ""
+msgstr "Аналитический"
 
 #. module: analytic
 #: model:ir.model,name:analytic.model_account_analytic_account

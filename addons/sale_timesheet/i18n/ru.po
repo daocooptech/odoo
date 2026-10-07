@@ -1434,7 +1434,7 @@ msgstr "Расписания"
 #. odoo-python
 #: code:addons/sale_timesheet/models/account_analytic_line.py:0
 msgid "Timesheets (Fixed Price)"
-msgstr ""
+msgstr "Временные таблицы (фиксированная цена)"
 
 #. module: sale_timesheet
 #. odoo-python
@@ -1452,7 +1452,7 @@ msgstr ""
 #. odoo-python
 #: code:addons/sale_timesheet/models/account_analytic_line.py:0
 msgid "Timesheets (Non-Billable)"
-msgstr ""
+msgstr "Табели (Неоплачиваемые)"
 
 #. module: sale_timesheet
 #. odoo-python

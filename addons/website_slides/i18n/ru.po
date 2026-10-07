@@ -2655,7 +2655,7 @@ msgstr ""
 #. module: website_slides
 #: model:ir.actions.act_window,name:website_slides.website_slides_visitor_slide_channel_action
 msgid "Course Views History"
-msgstr ""
+msgstr "История просмотров курсов"
 
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_channel__karma_gen_channel_finish

@@ -715,7 +715,7 @@ msgstr "Зарезервировано"
 #. module: sale_stock
 #: model:ir.actions.report,name:sale_stock.action_report_return_label
 msgid "Return Label"
-msgstr ""
+msgstr "Этикетка возврата"
 
 #. module: sale_stock
 #: model:ir.model,name:sale_stock.model_return_reason
@@ -726,7 +726,7 @@ msgstr ""
 #. module: sale_stock
 #: model:ir.actions.act_window,name:sale_stock.action_open_return_reasons
 msgid "Return Reasons"
-msgstr ""
+msgstr "Причины возврата"
 
 #. module: sale_stock
 #: model:ir.model.fields,field_description:sale_stock.field_res_company__return_validity_days

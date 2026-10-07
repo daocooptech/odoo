@@ -79,4 +79,4 @@ msgstr ""
 #. module: account_payment_custom
 #: model:ir.actions.server,name:account_payment_custom.cron_auto_confirm_paid_wire_transfer_txs_ir_actions_server
 msgid "Wire Transfer: Confirm paid transactions"
-msgstr ""
+msgstr "Банковский перевод: подтвердить оплаченные"

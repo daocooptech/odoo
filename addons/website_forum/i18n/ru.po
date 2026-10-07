@@ -1253,7 +1253,7 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/website_forum/static/src/xml/public_templates.xml:0
 msgid "By sharing you answer, you will get additional"
-msgstr ""
+msgstr "Поделившись своим ответом, вы получите дополнительные"
 
 #. module: website_forum
 #: model:ir.model.fields,field_description:website_forum.field_forum_post__can_accept
@@ -1363,25 +1363,25 @@ msgstr "Главный комментатор"
 #. odoo-javascript
 #: code:addons/website_forum/static/src/js/tours/website_forum.js:0
 msgid "Click here to accept this answer."
-msgstr ""
+msgstr "Нажмите здесь, чтобы принять этот ответ."
 
 #. module: website_forum
 #. odoo-javascript
 #: code:addons/website_forum/static/src/js/tours/website_forum.js:0
 msgid "Click to post your answer."
-msgstr ""
+msgstr "Нажмите, чтобы опубликовать ответ."
 
 #. module: website_forum
 #. odoo-javascript
 #: code:addons/website_forum/static/src/js/tours/website_forum.js:0
 msgid "Click to post your question."
-msgstr ""
+msgstr "Нажмите, чтобы опубликовать ваш вопрос."
 
 #. module: website_forum
 #. odoo-javascript
 #: code:addons/website_forum/static/src/js/tours/website_forum.js:0
 msgid "Click to reply."
-msgstr ""
+msgstr "Нажмите, чтобы ответить."
 
 #. module: website_forum
 #: model_terms:ir.ui.view,arch_db:website_forum.post_dropdown
@@ -1572,7 +1572,7 @@ msgstr "Создайте новое сообщение на форуме"
 #. odoo-javascript
 #: code:addons/website_forum/static/src/js/tours/website_forum.js:0
 msgid "Create a new post in this forum by clicking on the button."
-msgstr ""
+msgstr "Создайте новое сообщение в этом форуме, нажав на кнопку."
 
 #. module: website_forum
 #: model_terms:ir.actions.act_window,help:website_forum.forum_tag_action
@@ -1597,7 +1597,7 @@ msgstr "Создавать новые теги"
 #. odoo-javascript
 #: code:addons/website_forum/static/src/xml/website_forum_tags_wrapper.xml:0
 msgid "Create option \""
-msgstr ""
+msgstr "Создать опцию «"
 
 #. module: website_forum
 #: model_terms:gamification.badge,description:website_forum.badge_32
@@ -2152,7 +2152,7 @@ msgstr "Получайте уведомления об использовани�
 #. odoo-javascript
 #: code:addons/website_forum/static/src/js/tours/website_forum.js:0
 msgid "Give your post title."
-msgstr ""
+msgstr "Дайте название своему посту."
 
 #. module: website_forum
 #: model_terms:ir.ui.view,arch_db:website_forum.no_results_message
@@ -2387,7 +2387,7 @@ msgstr "Неуместные и неприемлемые высказывани�
 #. odoo-javascript
 #: code:addons/website_forum/static/src/js/tours/website_forum.js:0
 msgid "Insert tags related to your question."
-msgstr ""
+msgstr "Вставьте теги, связанные с вашим вопросом."
 
 #. module: website_forum
 #: model:forum.post.reason,name:website_forum.reason_11
@@ -2567,7 +2567,7 @@ msgstr "Отметить как спам"
 #. module: website_forum
 #: model_terms:ir.ui.view,arch_db:website_forum.forum_all_oe_structure_forum_all_top
 msgid "Meet our community members"
-msgstr ""
+msgstr "Познакомьтесь с членами нашего сообщества"
 
 #. module: website_forum
 #: model:ir.model.fields,field_description:website_forum.field_forum_forum__message_has_error
@@ -2818,7 +2818,7 @@ msgstr "Наступательные посты"
 #. odoo-javascript
 #: code:addons/website_forum/static/src/xml/public_templates.xml:0
 msgid "On average,"
-msgstr ""
+msgstr "В среднем,"
 
 #. module: website_forum
 #: model_terms:ir.ui.view,arch_db:website_forum.no_results_message
@@ -3012,13 +3012,13 @@ msgstr "Пандит"
 #. odoo-javascript
 #: code:addons/website_forum/static/src/js/tours/website_forum.js:0
 msgid "Put your answer here."
-msgstr ""
+msgstr "Поместите свой ответ сюда."
 
 #. module: website_forum
 #. odoo-javascript
 #: code:addons/website_forum/static/src/js/tours/website_forum.js:0
 msgid "Put your question here."
-msgstr ""
+msgstr "Поместите свой вопрос здесь."
 
 #. module: website_forum
 #: model:ir.model.fields,field_description:website_forum.field_forum_post__parent_id
@@ -4297,7 +4297,7 @@ msgstr "как установить Odoo на конкретную инфрас�
 msgid ""
 "if your\n"
 "        answer is selected as the right one. See what you can do with karma"
-msgstr ""
+msgstr "если ваш\n       ответ будет выбран в качестве правильное. Посмотрите, что вы можете сделать с кармой"
 
 #. module: website_forum
 #: model_terms:ir.ui.view,arch_db:website_forum.no_results_message
@@ -4368,7 +4368,7 @@ msgstr "вкл"
 msgid ""
 "on social networks get an answer within\n"
 "        5 hours. Questions shared on two social networks have"
-msgstr ""
+msgstr "в социальных сетях получают ответ в течение\n       5 часов. Вопросы, делились на две социальные сети"
 
 #. module: website_forum
 #: model_terms:ir.ui.view,arch_db:website_forum.forum_all_all_entries

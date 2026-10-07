@@ -95,7 +95,7 @@ msgstr "Любой"
 #. odoo-javascript
 #: code:addons/barcodes/static/src/components/barcode_input.xml:0
 msgid "Apply"
-msgstr ""
+msgstr "Применить"
 
 #. module: barcodes
 #. odoo-javascript
@@ -308,7 +308,7 @@ msgstr "Таблицы"
 #. odoo-javascript
 #: code:addons/barcodes/static/src/components/barcode_scanner.xml:0
 msgid "Tap to scan"
-msgstr ""
+msgstr "Нажмите для сканирования"
 
 #. module: barcodes
 #: model:ir.model.fields,help:barcodes.field_barcode_rule__pattern

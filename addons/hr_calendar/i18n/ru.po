@@ -217,7 +217,7 @@ msgstr ""
 #: model:ir.actions.act_window,name:hr_calendar.set_location_wizard_action
 #: model_terms:ir.ui.view,arch_db:hr_calendar.homework_location_wizard_view_form
 msgid "Set Location"
-msgstr ""
+msgstr "Указать место"
 
 #. module: hr_calendar
 #. odoo-javascript
@@ -233,4 +233,4 @@ msgstr ""
 #. module: hr_calendar
 #: model:ir.ui.menu,name:hr_calendar.menu_hr_homeworking_location_menu
 msgid "Work Locations"
-msgstr ""
+msgstr "Места работы"

@@ -3491,7 +3491,7 @@ msgstr "Конфигурация"
 #. odoo-javascript
 #: code:addons/event/static/src/client_action/event_registration_summary_dialog.xml:0
 msgid "Confirm attendance?"
-msgstr ""
+msgstr "Подтвердить участие?"
 
 #. module: event
 #. odoo-javascript
@@ -6467,7 +6467,7 @@ msgstr "Разберитесь в различных модулях;"
 #. odoo-javascript
 #: code:addons/event/static/src/client_action/event_registration_summary_dialog.xml:0
 msgid "Undo"
-msgstr ""
+msgstr "Отменить"
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_mail__interval_unit

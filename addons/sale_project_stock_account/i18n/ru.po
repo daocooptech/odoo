@@ -18,12 +18,12 @@ msgstr ""
 #. module: sale_project_stock_account
 #: model:ir.model.fields,field_description:sale_project_stock_account.field_stock_move__display_name
 msgid "Display Name"
-msgstr ""
+msgstr "Display Name"
 
 #. module: sale_project_stock_account
 #: model:ir.model.fields,field_description:sale_project_stock_account.field_stock_move__id
 msgid "ID"
-msgstr ""
+msgstr "ID"
 
 #. module: sale_project_stock_account
 #: model:ir.module.module,shortdesc:base.module_sale_project_stock_account
@@ -33,7 +33,7 @@ msgstr ""
 #. module: sale_project_stock_account
 #: model:ir.model,name:sale_project_stock_account.model_stock_move
 msgid "Stock Move"
-msgstr ""
+msgstr "Движение запасов"
 
 #. module: sale_project_stock_account
 #: model:ir.module.module,summary:base.module_sale_project_stock_account
