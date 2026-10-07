@@ -678,7 +678,7 @@ msgstr ""
 #. module: utm
 #: model:ir.ui.menu,name:utm.marketing_utm
 msgid "UTMs"
-msgstr "UTMs"
+msgstr "UTM-метки"
 
 #. module: utm
 #. odoo-javascript

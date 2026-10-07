@@ -3323,7 +3323,7 @@ msgstr "Применить запланированное обновление"
 #: model:ir.actions.act_window,name:base.action_view_base_module_upgrade
 #: model:ir.ui.menu,name:base.menu_view_base_module_upgrade
 msgid "Apply Schedule Upgrades"
-msgstr ""
+msgstr "Применить запланированные обновления"
 
 #. module: base
 #: model:ir.module.category,name:base.module_category_services_appointment
@@ -16134,7 +16134,7 @@ msgstr "Действие отчета"
 #: model:ir.actions.act_window,name:base.ir_action_report
 #: model:ir.ui.menu,name:base.menu_ir_action_report
 msgid "Report Actions"
-msgstr ""
+msgstr "Действия отчётов"
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_res_company__report_footer
@@ -16906,7 +16906,7 @@ msgstr "Область применения:"
 #: model:ir.actions.act_window,name:base.action_res_groups_privilege
 #: model:ir.ui.menu,name:base.menu_action_res_groups_privilege
 msgid "Scopes"
-msgstr ""
+msgstr "Области доступа"
 
 #. module: base
 #: model:ir.model.fields.selection,name:base.selection__ir_ui_view__type__search
@@ -20501,7 +20501,7 @@ msgstr "Логин пользователя"
 #: model:ir.actions.act_window,name:base.action_user_session
 #: model:ir.ui.menu,name:base.menu_action_user_session
 msgid "User Sessions"
-msgstr ""
+msgstr "Сеансы пользователей"
 
 #. module: base
 #: model:ir.model,name:base.model_res_users_settings

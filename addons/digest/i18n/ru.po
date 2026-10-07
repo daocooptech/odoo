@@ -183,7 +183,7 @@ msgstr "Digest Email"
 #: model:ir.model.fields,field_description:digest.field_res_config_settings__digest_emails
 #: model:ir.ui.menu,name:digest.digest_menu
 msgid "Digest Emails"
-msgstr "Digest Emails"
+msgstr "Дайджест-рассылки"
 
 #. module: digest
 #: model_terms:ir.ui.view,arch_db:digest.portal_digest_unsubscribed
