@@ -4,7 +4,6 @@ auth_oauth *
 base_automation
 base_import_module *
 calendar_sms
-crm *
 crm_iap_enrich *
 crm_iap_mine *
 crm_livechat

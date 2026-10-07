@@ -21,7 +21,7 @@ SERVICE_IMPORT = re.compile(
     r'web_unsplash|google_gmail|microsoft_outlook|base_import_module)\b')
 
 # Modules kept and patched by hand: their calls are removed in the code.
-PATCHED = {'base', 'web', 'mail', 'website', 'html_editor', 'digest'}
+PATCHED = {'base', 'web', 'mail', 'website', 'html_editor', 'digest', 'crm'}
 
 # Removed by owner decision, not only for calls. (In 20.0 there is no base_vat:
 # VAT checks moved into base, VIES into l10n_eu_account_vies, which is a seed.)
