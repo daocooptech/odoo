@@ -283,7 +283,10 @@ class IrAttachment(models.Model):
                         # leftover from a previous GC
                         # move the file back if it exists
                         try:
-                            full_path = self._full_path(fname)
+                            # coop: имя без суффикса — `_full_path` его не
+                            # принимает (assert), и уборка падала на первом
+                            # же остатке прерванного прохода.
+                            full_path = self._full_path(fname.removesuffix(GC_FILE_SUFFIX))
                             os.replace(full_path + GC_FILE_SUFFIX, full_path)
                         except OSError:
                             _logger.info("filestore gc was interrupted, moving back %s", filename, exc_info=True)
