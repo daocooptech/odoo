@@ -8627,7 +8627,7 @@ msgstr "Встреча, %(date)s"
 #. odoo-javascript
 #: code:addons/mail/static/src/discuss/core/public_web/messaging_menu_model_patch.js:0
 msgid "Meetings"
-msgstr ""
+msgstr "Встречи"
 
 #. module: mail
 #. odoo-javascript
@@ -12256,7 +12256,7 @@ msgstr "Поиск псевдонима"
 #. odoo-javascript
 #: code:addons/mail/static/src/core/public_web/discuss_search.xml:0
 msgid "Search Conversation"
-msgstr ""
+msgstr "Поиск разговора"
 
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.view_ice_server_search
