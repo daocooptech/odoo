@@ -82,31 +82,31 @@ msgstr "% от итога по строке"
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "%(col2Header)s vs %(col1Header)s"
-msgstr ""
+msgstr "%(col2Header)s и %(col1Header)s"
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "%(count)s matches in '%(sheetName)s'"
-msgstr ""
+msgstr "Совпадений на листе «%(sheetName)s»: %(count)s"
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "%(count)s matches in all sheets"
-msgstr ""
+msgstr "Совпадений на всех листах: %(count)s"
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "%(count)s matches in range %(range)s of '%(sheetName)s'"
-msgstr ""
+msgstr "Совпадений в диапазоне %(range)s листа «%(sheetName)s»: %(count)s"
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "%(header)s over time"
-msgstr ""
+msgstr "%(header)s по времени"
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -130,13 +130,13 @@ msgstr "%(hour_number)sч"
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/list/plugins/list_ui_plugin.js:0
 msgid "%(list_name)s (List #%(list_id)s)"
-msgstr ""
+msgstr "%(list_name)s (список №%(list_id)s)"
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "%(milliseconds)s ms"
-msgstr ""
+msgstr "%(milliseconds)s мс"
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -154,37 +154,37 @@ msgstr "%(newPivotName)s (Сводная таблица #%(formulaId)s)"
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "%(num1Header)s vs %(num2Header)s by %(catHeader)s"
-msgstr ""
+msgstr "%(num1Header)s и %(num2Header)s по %(catHeader)s"
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "%(numHeader)s by %(cat1Header)s and %(cat2Header)s"
-msgstr ""
+msgstr "%(numHeader)s по %(cat1Header)s и %(cat2Header)s"
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "%(numHeader)s by %(catHeader)s over %(dateHeader)s"
-msgstr ""
+msgstr "%(numHeader)s по %(catHeader)s за период %(dateHeader)s"
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "%(numberHeader)s by %(categoryHeader)s"
-msgstr ""
+msgstr "%(numberHeader)s по %(categoryHeader)s"
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "%(numberHeader)s by %(labelHeader)s"
-msgstr ""
+msgstr "%(numberHeader)s по %(labelHeader)s"
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "%(percentageHeader)s by %(categoryHeader)s"
-msgstr ""
+msgstr "%(percentageHeader)s по %(categoryHeader)s"
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -192,7 +192,7 @@ msgstr ""
 msgid ""
 "%(replaceable_count)s match(es) replaced. %(irreplaceable_count)s match(es) "
 "cannot be replaced as they are part of a formula or inside a locked sheet"
-msgstr ""
+msgstr "Заменено совпадений: %(replaceable_count)s. Не удалось заменить совпадений: %(irreplaceable_count)s, так как они входят в формулу или находятся на заблокированном листе"
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -210,13 +210,13 @@ msgstr "%(second_number)s»"
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "%(seconds)s s"
-msgstr ""
+msgstr "%(seconds)s с"
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "%(seriesHeader)s over time"
-msgstr ""
+msgstr "%(seriesHeader)s по времени"
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -375,7 +375,7 @@ msgstr "+ Группа «Прочие»"
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
 msgid "+ Add a new named range"
-msgstr ""
+msgstr "+ Добавить именованный диапазон"
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -405,13 +405,13 @@ msgstr "- [необязательно]"
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "-45° rotation"
-msgstr ""
+msgstr "Поворот на -45°"
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "-90° rotation"
-msgstr ""
+msgstr "Поворот на -90°"
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -427,7 +427,7 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "0 = replace all matches. A negative number counts from the end."
-msgstr ""
+msgstr "0 — заменить все совпадения. Отрицательное число отсчитывается с конца."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -435,7 +435,7 @@ msgstr ""
 msgid ""
 "1 = paired, 2 = two-sample equal variance, 3 = two-sample unequal variance "
 "(Welch)."
-msgstr ""
+msgstr "1 — парный, 2 — двухвыборочный с равными дисперсиями, 3 — двухвыборочный с неравными дисперсиями (Уэлч)."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -447,25 +447,25 @@ msgstr "1 столбец"
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "1 for one-tailed, 2 for two-tailed."
-msgstr ""
+msgstr "1 для одностороннего, 2 для двустороннего."
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "1 match in '%(sheetName)s'"
-msgstr ""
+msgstr "Одно совпадение на листе «%(sheetName)s»"
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "1 match in all sheets"
-msgstr ""
+msgstr "Одно совпадение на всех листах"
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "1 match in range %(range)s of '%(sheetName)s'"
-msgstr ""
+msgstr "Одно совпадение в диапазоне %(range)s листа «%(sheetName)s»"
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -489,13 +489,13 @@ msgstr "2 строки"
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "45° rotation"
-msgstr ""
+msgstr "Поворот на 45°"
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "90° rotation"
-msgstr ""
+msgstr "Поворот на 90°"
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -581,13 +581,13 @@ msgstr "Необходимо предельное значение минима�
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "A named range name cannot resemble a cell reference."
-msgstr ""
+msgstr "Имя именованного диапазона не может быть похоже на ссылку на ячейку."
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "A named range with this name already exists."
-msgstr ""
+msgstr "Именованный диапазон с таким именем уже существует."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -637,7 +637,7 @@ msgstr "Число с обратным знаком."
 msgid ""
 "A potential value to return. May be a reference to a cell or an individual "
 "value."
-msgstr ""
+msgstr "Возможное возвращаемое значение. Может быть ссылкой на ячейку или отдельным значением."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -724,7 +724,7 @@ msgstr "Строка, указывающая имя листа, на котор�
 msgid ""
 "A string, possible empty, or a reference to a valid string. If empty, the "
 "text will be simply concatenated."
-msgstr ""
+msgstr "Строка (возможно, пустая) или ссылка на допустимую строку. Если пусто, текст будет просто объединён без разделителя."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -754,19 +754,19 @@ msgstr "Стиль A1 (по умолчанию)"
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "A3 (297 x 420 mm)"
-msgstr ""
+msgstr "A3 (297 x 420 мм)"
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "A4 (210 x 297 mm)"
-msgstr ""
+msgstr "A4 (210 x 297 мм)"
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "A5 (148 x 210 mm)"
-msgstr ""
+msgstr "A5 (148 x 210 мм)"
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -784,7 +784,7 @@ msgstr "В СРЕДНЕМ"
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Absolute count per category."
-msgstr ""
+msgstr "Абсолютное количество по категориям."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -852,7 +852,7 @@ msgstr "Активные фильтры"
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Actual size"
-msgstr ""
+msgstr "Реальный размер"
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -904,7 +904,7 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Add a description text"
-msgstr ""
+msgstr "Добавить текст описания"
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -916,7 +916,7 @@ msgstr "Добавить описание ключевого показател�
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
 msgid "Add a redirection link"
-msgstr ""
+msgstr "Добавить ссылку для перенаправления"
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -946,19 +946,19 @@ msgstr "Добавить фильтры"
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Add missing columns"
-msgstr ""
+msgstr "Добавить недостающие столбцы"
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Add missing columns and rows"
-msgstr ""
+msgstr "Добавить недостающие столбцы и строки"
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Add missing rows"
-msgstr ""
+msgstr "Добавить недостающие строки"
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -1014,14 +1014,14 @@ msgstr "Все совпадения"
 msgid ""
 "All ranges in [[FUNCTION_NAME]] must have the same number of columns (got "
 "%s)."
-msgstr ""
+msgstr "Все диапазоны в [[FUNCTION_NAME]] должны содержать одинаковое число столбцов (получено: %s)."
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid ""
 "All ranges in [[FUNCTION_NAME]] must have the same number of rows (got %s)."
-msgstr ""
+msgstr "Все диапазоны в [[FUNCTION_NAME]] должны содержать одинаковое число строк (получено: %s)."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -1055,7 +1055,7 @@ msgstr "Все время"
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Alpha must be between 0 and 1."
-msgstr ""
+msgstr "Альфа должна быть в пределах от 0 до 1."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -1183,7 +1183,7 @@ msgstr "Произошла непредвиденная ошибка. Отпра
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
 msgid "Analyze performance"
-msgstr ""
+msgstr "Анализ производительности"
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -1195,7 +1195,7 @@ msgstr "Угол от оси X к точке (x,y), в радианах."
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
 msgid "Annotation"
-msgstr ""
+msgstr "Примечание"
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -1287,7 +1287,7 @@ msgstr "Добавляет диапазоны по горизонтали и п�
 msgid ""
 "Appends ranges horizontally and in sequence to return a larger array. All "
 "ranges must have the same number of rows."
-msgstr ""
+msgstr "Присоединяет диапазоны по горизонтали, один за другим, и возвращает больший массив. Все диапазоны должны содержать одинаковое число строк."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -1301,7 +1301,7 @@ msgstr "Добавляет диапазоны вертикально и посл
 msgid ""
 "Appends ranges vertically and in sequence to return a larger array. All "
 "ranges must have the same number of columns."
-msgstr ""
+msgstr "Присоединяет диапазоны по вертикали, один за другим, и возвращает больший массив. Все диапазоны должны содержать одинаковое число столбцов."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -1435,7 +1435,7 @@ msgstr "Необходимо указать хотя бы один раздел�
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "At least one measure/dimension and/or filter is not correct."
-msgstr ""
+msgstr "Хотя бы одна мера, измерение или фильтр указаны неверно."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -1465,7 +1465,7 @@ msgstr "Автоматически"
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
 msgid "Automatic evaluation is disabled. Press F9 to recalculate."
-msgstr ""
+msgstr "Автоматическое вычисление отключено. Нажмите F9, чтобы пересчитать."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -1490,7 +1490,7 @@ msgstr "Средняя величина отклонений от среднег
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Average of a dataset after discarding a fraction of data from the ends."
-msgstr ""
+msgstr "Среднее значение набора данных после отбрасывания части данных с обоих концов."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -1526,7 +1526,7 @@ msgstr "Оси"
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
 msgid "Axis range"
-msgstr ""
+msgstr "Диапазон оси"
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -1538,13 +1538,13 @@ msgstr "Название оси"
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "B4 (250 x 353 mm)"
-msgstr ""
+msgstr "B4 (250 x 353 мм)"
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "B5 (176 x 250 mm)"
-msgstr ""
+msgstr "B5 (176 x 250 мм)"
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -1570,7 +1570,7 @@ msgstr "Чередующиеся строки"
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
 msgid "Banded rows:"
-msgstr ""
+msgstr "Чередующиеся строки:"
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -1582,13 +1582,13 @@ msgstr "Бар"
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Bar for the first series, line for the second — good for mixed scales."
-msgstr ""
+msgstr "Столбцы для первого ряда, линия для второго — подходит для разных масштабов."
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Bar for the primary metric, line for the others."
-msgstr ""
+msgstr "Столбцы для основного показателя, линии для остальных."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -1630,13 +1630,13 @@ msgstr "Начало периода"
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Best for visualizing time-series trends."
-msgstr ""
+msgstr "Лучше всего подходит для динамики во времени."
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Better when category labels are long."
-msgstr ""
+msgstr "Удобнее, когда подписи категорий длинные."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -1666,7 +1666,7 @@ msgstr "Черный"
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Blue"
-msgstr ""
+msgstr "Синий"
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -1735,37 +1735,37 @@ msgstr "Снизу справа"
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Bubble"
-msgstr ""
+msgstr "Пузырьковая"
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
 msgid "Bubble chart design"
-msgstr ""
+msgstr "Оформление пузырьковой диаграммы"
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
 msgid "Bubble color"
-msgstr ""
+msgstr "Цвет пузырьков"
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
 msgid "Bubble labels"
-msgstr ""
+msgstr "Подписи пузырьков"
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
 msgid "Bubble sizes"
-msgstr ""
+msgstr "Размеры пузырьков"
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "By %(title)s"
-msgstr ""
+msgstr "По %(title)s"
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -1920,19 +1920,19 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Calculation"
-msgstr ""
+msgstr "Вычисление"
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Calendar"
-msgstr ""
+msgstr "Календарь"
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
 msgid "Calendar chart options"
-msgstr ""
+msgstr "Параметры календарной диаграммы"
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -1987,7 +1987,7 @@ msgstr "Невозможно открыть ссылку, так как связ
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid ""
 "Cannot perform this action on merged cells. Unmerge the cells and try again."
-msgstr ""
+msgstr "Это действие нельзя выполнить с объединёнными ячейками. Разъедините ячейки и повторите попытку."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -2063,7 +2063,7 @@ msgstr "Карусель скопирована в буфер обмена"
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Case to be checked against expression."
-msgstr ""
+msgstr "Значение, с которым сравнивается выражение."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -2118,7 +2118,7 @@ msgstr "Значения ячеек"
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
 msgid "Cells"
-msgstr ""
+msgstr "Ячейки"
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -2136,13 +2136,13 @@ msgstr "Радиус центра"
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Change grid color"
-msgstr ""
+msgstr "Изменить цвет сетки"
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Change tab color"
-msgstr ""
+msgstr "Изменить цвет вкладки"
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -2174,19 +2174,19 @@ msgstr "Диаграмма"
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/index.js:0
 msgid "Chart #%(odooChartId)s"
-msgstr ""
+msgstr "Диаграмма №%(odooChartId)s"
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Chart Info"
-msgstr ""
+msgstr "Сведения о диаграмме"
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/chart/odoo_link/components/chart_menu.js:0
 msgid "Chart Odoo Link"
-msgstr ""
+msgstr "Ссылка на диаграмму Odoo"
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -2216,7 +2216,7 @@ msgstr "Чекбокс"
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Checks whether a string matches the supplied regular expression."
-msgstr ""
+msgstr "Проверяет, соответствует ли строка заданному регулярному выражению."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -2237,7 +2237,7 @@ msgstr "Фишка"
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Choice is undefined."
-msgstr ""
+msgstr "Вариант не определён."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -2255,7 +2255,7 @@ msgstr "Cividis"
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Classic category-vs-value comparison."
-msgstr ""
+msgstr "Классическое сравнение категорий по значению."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -2334,13 +2334,13 @@ msgstr "Код"
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Collapse"
-msgstr ""
+msgstr "Свернуть"
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Collapse all"
-msgstr ""
+msgstr "Свернуть все"
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -2394,7 +2394,7 @@ msgstr "Цвет вверх"
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
 msgid "Color mode"
-msgstr ""
+msgstr "Цветовой режим"
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -2485,7 +2485,7 @@ msgstr "Номер столбца указанной ячейки."
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid ""
 "Column or row containing true or false values corresponding to the range."
-msgstr ""
+msgstr "Столбец или строка со значениями ИСТИНА или ЛОЖЬ, соответствующими диапазону."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -2497,7 +2497,7 @@ msgstr "Столбец справа"
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Column statistics"
-msgstr ""
+msgstr "Статистика по столбцу"
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -2539,19 +2539,19 @@ msgstr "Сравнивает два числовых значения, возв�
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Compares all percentage values side-by-side."
-msgstr ""
+msgstr "Сравнивает все процентные значения рядом."
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Compares individual values side-by-side."
-msgstr ""
+msgstr "Сравнивает отдельные значения рядом."
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Comparison of completion rates across categories."
-msgstr ""
+msgstr "Сравнение доли завершённых по категориям."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -2567,7 +2567,7 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Composition per period over time."
-msgstr ""
+msgstr "Состав по периодам во времени."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -2657,7 +2657,7 @@ msgstr "Конкатенация двух значений."
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Concise format (default)"
-msgstr ""
+msgstr "Краткий формат (по умолчанию)"
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -2690,7 +2690,7 @@ msgstr "Рекомендуется использовать динамическ
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Contribution of inner categories per outer category."
-msgstr ""
+msgstr "Вклад вложенных категорий в каждую внешнюю категорию."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -2816,7 +2816,7 @@ msgstr "Копия %s"
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Correlation between the two numeric metrics across entities."
-msgstr ""
+msgstr "Корреляция двух числовых показателей между объектами."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -2897,7 +2897,7 @@ msgstr "Подсчитывает значения из диапазона в в�
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Create carousel"
-msgstr ""
+msgstr "Создать карусель"
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -2933,13 +2933,13 @@ msgstr "Критерий"
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Criteria to check."
-msgstr ""
+msgstr "Проверяемые условия."
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Criterion to check."
-msgstr ""
+msgstr "Проверяемое условие."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -3049,7 +3049,7 @@ msgstr "Пользовательская валюта"
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Custom date and time"
-msgstr ""
+msgstr "Произвольные дата и время"
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -3067,7 +3067,7 @@ msgstr "Пользовательская формула %s"
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Custom number format"
-msgstr ""
+msgstr "Произвольный числовой формат"
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -3109,7 +3109,7 @@ msgstr "Серия данных"
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/data_sources/data_source_link.js:0
 msgid "Data Sources"
-msgstr ""
+msgstr "Источники данных"
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -3121,7 +3121,7 @@ msgstr "Проверка достоверности данных"
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Data analysis"
-msgstr ""
+msgstr "Анализ данных"
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -3142,7 +3142,7 @@ msgid ""
 "Data failed to load due to a server error or a formula issue (possibly in a "
 "referenced cell). Please verify the formula or retry later. Contact odoo.com/"
 "help if the problem persists."
-msgstr ""
+msgstr "Не удалось загрузить данные из-за ошибки сервера или ошибки в формуле (возможно, в связанной ячейке). Проверьте формулу или повторите попытку позже. Если проблема не исчезнет, обратитесь на odoo.com/help."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -3173,7 +3173,7 @@ msgstr "Ряд данных"
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/data_sources/data_source_link.js:0
 msgid "Data source deleted"
-msgstr ""
+msgstr "Источник данных удалён"
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -3185,7 +3185,7 @@ msgstr "Проверка достоверности данных"
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
 msgid "Data visualization"
-msgstr ""
+msgstr "Визуализация данных"
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -3317,7 +3317,7 @@ msgstr "Дата ставки."
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
 msgid "Date range"
-msgstr ""
+msgstr "Диапазон дат"
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -3419,7 +3419,7 @@ msgstr "Образование"
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Degrees of freedom must be >= 1."
-msgstr ""
+msgstr "Число степеней свободы должно быть >= 1."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -3492,7 +3492,7 @@ msgstr "Удалить элемент"
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
 msgid "Delete named range"
-msgstr ""
+msgstr "Удалить именованный диапазон"
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -3516,7 +3516,7 @@ msgstr "Удалите строки %s - %s"
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
 msgid "Delete selected items"
-msgstr ""
+msgstr "Удалить выбранные элементы"
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -3659,7 +3659,7 @@ msgstr "Ставка дисконтирования ценной бумаги н
 #: model:ir.model.fields,field_description:spreadsheet.field_res_lang__display_name
 #: model:ir.model.fields,field_description:spreadsheet.field_spreadsheet_mixin__display_name
 msgid "Display Name"
-msgstr "Display Name"
+msgstr "Отображаемое имя"
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -3671,7 +3671,7 @@ msgstr "Отображать только отсутствующие ячейк�
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
 msgid "Display options"
-msgstr ""
+msgstr "Параметры отображения"
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -3683,25 +3683,25 @@ msgstr "Стиль отображения"
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Displayed as % difference from \"%s\" : %s"
-msgstr ""
+msgstr "Показано как разница в % относительно «%s»: %s"
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Displayed as % difference from next \"%s\""
-msgstr ""
+msgstr "Показано как разница в % относительно следующего «%s»"
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Displayed as % difference from previous \"%s\""
-msgstr ""
+msgstr "Показано как разница в % относительно предыдущего «%s»"
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Displayed as % of \"%s\" : %s"
-msgstr ""
+msgstr "Показано как % от «%s»: %s"
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -3719,7 +3719,7 @@ msgstr "Отображается как % от общего итога"
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Displayed as % of next \"%s\""
-msgstr ""
+msgstr "Показано как % от следующего «%s»"
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -3737,13 +3737,13 @@ msgstr "Отображается как % от итога по родитель�
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Displayed as % of parent row total"
-msgstr ""
+msgstr "Показано как % от итога родительской строки"
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Displayed as % of previous \"%s\""
-msgstr ""
+msgstr "Показано как % от предыдущего «%s»"
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -3761,19 +3761,19 @@ msgstr "Отображается как % накопительного итог�
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Displayed as difference from \"%s\" : %s"
-msgstr ""
+msgstr "Показано как разница относительно «%s»: %s"
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Displayed as difference from next \"%s\""
-msgstr ""
+msgstr "Показано как разница относительно следующего «%s»"
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Displayed as difference from previous \"%s\""
-msgstr ""
+msgstr "Показано как разница относительно предыдущего «%s»"
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -3803,7 +3803,7 @@ msgstr "Отображается как накопительный итог по
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Displays a key performance indicator."
-msgstr ""
+msgstr "Показывает ключевой показатель эффективности."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -3910,7 +3910,7 @@ msgstr "Расстояние"
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Distribution"
-msgstr ""
+msgstr "Распределение"
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -3928,7 +3928,7 @@ msgstr "Не переключаться на линейный метод амо�
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
 msgid "Domain"
-msgstr ""
+msgstr "Домен"
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -3970,7 +3970,7 @@ msgstr "Дублировать"
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Duplicate chart"
-msgstr ""
+msgstr "Дублировать диаграмму"
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -3988,7 +3988,7 @@ msgstr "Например: 1234567 -> %(value)s"
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Each range must contain at least 2 numeric values."
-msgstr ""
+msgstr "Каждый диапазон должен содержать не менее двух числовых значений."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -4025,7 +4025,7 @@ msgstr "Редактировать ссылку"
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Edit pivot style"
-msgstr ""
+msgstr "Изменить стиль сводной таблицы"
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -4043,19 +4043,19 @@ msgstr "Изменить стиль таблицы"
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
 msgid "Else"
-msgstr "Else"
+msgstr "Иначе"
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Emphasizes total accumulation over the range."
-msgstr ""
+msgstr "Подчёркивает общее накопление по диапазону."
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Emphasizes total volume over time."
-msgstr ""
+msgstr "Подчёркивает общий объём во времени."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -4085,19 +4085,19 @@ msgstr "Инженерия"
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/global_filters/helpers.js:0
 msgid "Enter a value"
-msgstr ""
+msgstr "Введите значение"
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/global_filters/helpers.js:0
 msgid "Enter one or several values"
-msgstr ""
+msgstr "Введите одно или несколько значений"
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Entire workbook"
-msgstr ""
+msgstr "Вся книга"
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -4182,7 +4182,7 @@ msgstr "Точное количество лет между двумя дата�
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Excess kurtosis of a dataset."
-msgstr ""
+msgstr "Эксцесс набора данных."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -4198,7 +4198,7 @@ msgstr ""
 msgid ""
 "Excludes a specified number of rows or columns from the start or end of an "
 "array."
-msgstr ""
+msgstr "Исключает заданное число строк или столбцов в начале или конце массива."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -4216,13 +4216,13 @@ msgstr "Выйти из полноэкранного режима"
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Expand"
-msgstr ""
+msgstr "Развернуть"
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Expand all"
-msgstr ""
+msgstr "Развернуть все"
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -4252,7 +4252,7 @@ msgstr "Развернуть группу строк"
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Expand/Collapse"
-msgstr ""
+msgstr "Развернуть/свернуть"
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -4337,7 +4337,7 @@ msgstr "Поля типа \"%s\" не поддерживаются"
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
 msgid "Fields to group by"
-msgstr ""
+msgstr "Поля для группировки"
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -4429,7 +4429,7 @@ msgstr "Первый код валюты."
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "First day of the month a date falls in."
-msgstr ""
+msgstr "Первый день месяца, в который попадает дата."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -4477,13 +4477,13 @@ msgstr "Первый квартиль (25-й процентиль)"
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Fit to height"
-msgstr ""
+msgstr "По высоте"
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Fit to width"
-msgstr ""
+msgstr "По ширине"
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -4562,13 +4562,13 @@ msgstr "Форматируйте ячейки, если..."
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
 msgid "Format code"
-msgstr ""
+msgstr "Код формата"
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Format must be 0 or 1"
-msgstr ""
+msgstr "Формат должен быть 0 или 1"
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -4580,13 +4580,13 @@ msgstr "Правила формата"
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
 msgid "Format type"
-msgstr ""
+msgstr "Тип формата"
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
 msgid "Formatting"
-msgstr ""
+msgstr "Форматирование"
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -4611,7 +4611,7 @@ msgstr "Формулы"
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Fraction of data to trim from each end (0 to 0.5)."
-msgstr ""
+msgstr "Доля данных, отбрасываемая с каждого конца (от 0 до 0,5)."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -4623,7 +4623,7 @@ msgstr "Приостановить"
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
 msgid "Frequency"
-msgstr ""
+msgstr "Частота"
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -4743,7 +4743,7 @@ msgstr "Значение параметра 2 функции [[FUNCTION_NAME]] �
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
 msgid "Function calls"
-msgstr ""
+msgstr "Вызовы функций"
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -4779,7 +4779,7 @@ msgstr "Будущая стоимость основной суммы долга
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "GEOMEAN requires strictly positive values."
-msgstr ""
+msgstr "GEOMEAN требует строго положительных значений."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -4803,7 +4803,7 @@ msgstr "Общие"
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
 msgid "General statistics"
-msgstr ""
+msgstr "Общая статистика"
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -4827,13 +4827,13 @@ msgstr "Параметры географической диаграммы"
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Geometric mean of a dataset."
-msgstr ""
+msgstr "Среднее геометрическое набора данных."
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/list/list_functions.js:0
 msgid "Get a dynamic Odoo list function."
-msgstr ""
+msgstr "Получить динамическую функцию списка Odoo."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -4887,7 +4887,7 @@ msgstr "Получает информацию о ячейке."
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Gets the spilled range of an array formula."
-msgstr ""
+msgstr "Возвращает диапазон, занятый результатом формулы массива."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -4939,31 +4939,31 @@ msgstr "Перейти к %(label)s"
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/chart/odoo_link/components/figure_component.js:0
 msgid "Go to Baseline record"
-msgstr ""
+msgstr "Перейти к базовой записи"
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/chart/odoo_link/components/figure_component.js:0
 msgid "Go to Baseline records"
-msgstr ""
+msgstr "Перейти к базовым записям"
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/chart/odoo_link/components/figure_component.js:0
 msgid "Go to Key record"
-msgstr ""
+msgstr "Перейти к ключевой записи"
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/chart/odoo_link/components/figure_component.js:0
 msgid "Go to Key records"
-msgstr ""
+msgstr "Перейти к ключевым записям"
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/chart/odoo_link/components/figure_component.js:0
 msgid "Go to link"
-msgstr ""
+msgstr "Перейти по ссылке"
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -4999,7 +4999,7 @@ msgstr "Больше или равно."
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Green"
-msgstr ""
+msgstr "Зелёный"
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -5066,7 +5066,7 @@ msgstr "Группируйте строки %s - %s"
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Grouped bars per entity for direct metric comparison."
-msgstr ""
+msgstr "Сгруппированные столбцы по объектам для прямого сравнения показателей."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -5078,7 +5078,7 @@ msgstr "Группы"
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "HARMEAN requires strictly positive values."
-msgstr ""
+msgstr "HARMEAN требует строго положительных значений."
 
 #. module: spreadsheet
 #: model:ir.model,name:spreadsheet.model_ir_http
@@ -5091,20 +5091,20 @@ msgstr "Маршрутизация HTTP"
 msgid ""
 "Half-width of the confidence interval for a population mean (normal "
 "distribution)."
-msgstr ""
+msgstr "Половина ширины доверительного интервала для среднего генеральной совокупности (нормальное распределение)."
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid ""
 "Half-width of the confidence interval for a population mean (t-distribution)."
-msgstr ""
+msgstr "Половина ширины доверительного интервала для среднего генеральной совокупности (распределение Стьюдента)."
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Harmonic mean of a dataset."
-msgstr ""
+msgstr "Среднее гармоническое набора данных."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -5194,19 +5194,19 @@ msgstr "Иерархия"
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Highlights the most recent value compared to the previous one."
-msgstr ""
+msgstr "Выделяет последнее значение в сравнении с предыдущим."
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Highlights the most recent value for the named entity."
-msgstr ""
+msgstr "Выделяет последнее значение для указанного объекта."
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Highlights the second metric compared to the first one."
-msgstr ""
+msgstr "Выделяет второй показатель в сравнении с первым."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -5231,7 +5231,7 @@ msgstr "Горизонтальная ось"
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
 msgid "Horizontal axis values"
-msgstr ""
+msgstr "Значения горизонтальной оси"
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -5449,7 +5449,7 @@ msgstr "Включать пустые ячейки (по умолчанию)"
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
 msgid "Include hidden results"
-msgstr ""
+msgstr "Включить скрытые результаты"
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -5475,7 +5475,7 @@ msgstr "Индекс"
 msgid ""
 "Index for CHOOSE is invalid. Valid values are between 1 and %(choices)s "
 "inclusive."
-msgstr ""
+msgstr "Индекс для CHOOSE недопустим. Допустимые значения — от 1 до %(choices)s включительно."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -5657,7 +5657,7 @@ msgstr "Процентная ставка по аннуитетным инвес
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/public_spreadsheet/odoo_menu_fill.js:0
 msgid "Internal link"
-msgstr ""
+msgstr "Внутренняя ссылка"
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -5875,7 +5875,7 @@ msgstr "Больше, чем"
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Is in Top/Bottom ranking"
-msgstr ""
+msgstr "Входит в верхние/нижние значения рейтинга"
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -5917,13 +5917,13 @@ msgstr "Действительная дата"
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Is value duplicate"
-msgstr ""
+msgstr "Значение повторяется"
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Is value unique"
-msgstr ""
+msgstr "Значение уникально"
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -5954,13 +5954,13 @@ msgstr "Июнь"
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "KURT requires at least 4 values."
-msgstr ""
+msgstr "KURT требует не менее 4 значений."
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "KURT requires non-constant data."
-msgstr ""
+msgstr "KURT требует непостоянных данных."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -5996,12 +5996,12 @@ msgstr "Ярлыки недействительны"
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Landscape"
-msgstr ""
+msgstr "Альбомная"
 
 #. module: spreadsheet
 #: model:ir.model,name:spreadsheet.model_res_lang
 msgid "Language"
-msgstr ""
+msgstr "Язык"
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -6055,7 +6055,7 @@ msgstr "Последний день месяца до или после даты
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Last day of the month a date falls in."
-msgstr ""
+msgstr "Последний день месяца, в который попадает дата."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -6085,7 +6085,7 @@ msgstr "Левая ось"
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Legal (216 x 356 mm)"
-msgstr ""
+msgstr "Legal (216 x 356 мм)"
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -6115,19 +6115,19 @@ msgstr "Меньше, чем."
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Letter (216 x 279 mm)"
-msgstr ""
+msgstr "Letter (216 x 279 мм)"
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Level 1"
-msgstr ""
+msgstr "Уровень 1"
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Level 2"
-msgstr ""
+msgstr "Уровень 2"
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -6206,7 +6206,7 @@ msgstr "Локализация"
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Lock sheet"
-msgstr ""
+msgstr "Заблокировать лист"
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -6266,7 +6266,7 @@ msgstr "Посмотреть"
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
 msgid "Lower bound value"
-msgstr ""
+msgstr "Нижняя граница"
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -6296,31 +6296,31 @@ msgstr "Магнетизм"
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Major horizontal gridlines"
-msgstr ""
+msgstr "Основные горизонтальные линии сетки"
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Major vertical gridlines"
-msgstr ""
+msgstr "Основные вертикальные линии сетки"
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Manage named ranges"
-msgstr ""
+msgstr "Управление именованными диапазонами"
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Manual"
-msgstr ""
+msgstr "Вручную"
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
 msgid "Manual calculation"
-msgstr ""
+msgstr "Ручной пересчёт"
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -6352,13 +6352,13 @@ msgstr "Сопоставлять с концом строки"
 msgid ""
 "Match(es) cannot be replaced as they are part of a formula or inside a "
 "locked sheet"
-msgstr ""
+msgstr "Совпадения нельзя заменить, так как они входят в формулу или находятся на заблокированном листе"
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
 msgid "Matches in the following hidden sheets:"
-msgstr ""
+msgstr "Совпадения на следующих скрытых листах:"
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -6382,13 +6382,13 @@ msgstr "Макс"
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
 msgid "Max columns:"
-msgstr ""
+msgstr "Макс. столбцов:"
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
 msgid "Max rows:"
-msgstr ""
+msgstr "Макс. строк:"
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -6400,7 +6400,7 @@ msgstr "Максимальное значение или формула"
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
 msgid "MaxPoint"
-msgstr "MaxPoint"
+msgstr "Максимум"
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -6462,7 +6462,7 @@ msgstr "Меры"
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Median"
-msgstr ""
+msgstr "Медиана"
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -6529,7 +6529,7 @@ msgstr "При слиянии этих ячеек будет сохранено 
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
 msgid "MidPoint"
-msgstr "MidPoint"
+msgstr "Середина"
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -6609,13 +6609,13 @@ msgstr "Минимальное значение в числовом наборе
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Minor horizontal gridlines"
-msgstr ""
+msgstr "Вспомогательные горизонтальные линии сетки"
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Minor vertical gridlines"
-msgstr ""
+msgstr "Вспомогательные вертикальные линии сетки"
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -6645,7 +6645,7 @@ msgstr "Разное"
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Missing closing brace"
-msgstr ""
+msgstr "Не хватает закрывающей скобки"
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -6663,12 +6663,12 @@ msgstr "Отсутствует открывающая скобка"
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
 msgid "Missing value color"
-msgstr ""
+msgstr "Цвет для пропущенных значений"
 
 #. module: spreadsheet
 #: model:ir.model,name:spreadsheet.model_ir_model
 msgid "Model"
-msgstr ""
+msgstr "Модель"
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -6765,13 +6765,13 @@ msgstr "Движение вправо"
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Multi-series By %(categoryHeader)s"
-msgstr ""
+msgstr "Несколько рядов по %(categoryHeader)s"
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Multiple colors"
-msgstr ""
+msgstr "Несколько цветов"
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -6796,31 +6796,31 @@ msgstr "Название меры."
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Named Ranges"
-msgstr ""
+msgstr "Именованные диапазоны"
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Named ranges"
-msgstr ""
+msgstr "Именованные диапазоны"
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Named_Range"
-msgstr ""
+msgstr "Именованный_диапазон"
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Natural fit for a 0–100% range."
-msgstr ""
+msgstr "Хорошо подходит для диапазона 0–100%."
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Natural fit for symmetric or opposing values per category."
-msgstr ""
+msgstr "Хорошо подходит для симметричных или противоположных значений по категориям."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -6832,7 +6832,7 @@ msgstr "Отрицательные значения"
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Negative:"
-msgstr ""
+msgstr "Отрицательные:"
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -6862,7 +6862,7 @@ msgstr "Создать сводную таблицу"
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
 msgid "Next"
-msgstr ""
+msgstr "Далее"
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -6907,7 +6907,7 @@ msgid ""
 "No chart suggestions available for the selected data. Note that the order of "
 "selected\n"
 "        columns can impact chart suggestions."
-msgstr ""
+msgstr "Для выбранных данных нет подходящих диаграмм. Обратите внимание, что порядок выбранных\n        столбцов влияет на предлагаемые диаграммы."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -6919,19 +6919,19 @@ msgstr "Нет столбцов"
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "No content to print"
-msgstr ""
+msgstr "Нет содержимого для печати"
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
 msgid "No legend available"
-msgstr ""
+msgstr "Легенда недоступна"
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "No match found in DGET evaluation."
-msgstr ""
+msgstr "При вычислении DGET совпадений не найдено."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -6955,7 +6955,7 @@ msgstr "Совпадения не найдены."
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "No numeric values to display."
-msgstr ""
+msgstr "Нет числовых значений для отображения."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -6979,7 +6979,7 @@ msgstr "Нет результатов для приведенных аргуме
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "No rotation"
-msgstr ""
+msgstr "Без поворота"
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -7015,13 +7015,13 @@ msgstr "Уникальные значения не найдены"
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
 msgid "No unused data source in this category."
-msgstr ""
+msgstr "В этой категории нет неиспользуемых источников данных."
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "No values to display."
-msgstr ""
+msgstr "Нет значений для отображения."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -7126,19 +7126,19 @@ msgstr "Количество строк в указанном массиве и�
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Number or range to add together."
-msgstr ""
+msgstr "Число или диапазон для суммирования."
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Number or range to calculate for the product."
-msgstr ""
+msgstr "Число или диапазон для вычисления произведения."
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Number too large"
-msgstr ""
+msgstr "Слишком большое число"
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -7347,7 +7347,7 @@ msgstr "Одно или несколько указанных значений �
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "One series per inner category, grouped by outer category."
-msgstr ""
+msgstr "По одному ряду на каждую вложенную категорию, сгруппированные по внешней категории."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -7359,7 +7359,7 @@ msgstr "Разделить можно только выделенную обла
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Only single-cell references are allowed to get the spilled range."
-msgstr ""
+msgstr "Для получения диапазона, занятого результатом, допускаются только ссылки на одну ячейку."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -7405,7 +7405,7 @@ msgstr "Сортировать по"
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
 msgid "Orientation"
-msgstr ""
+msgstr "Ориентация"
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -7417,7 +7417,7 @@ msgstr "Прочее"
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Overall shape/profile across all metrics."
-msgstr ""
+msgstr "Общая форма профиля по всем показателям."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -7435,19 +7435,19 @@ msgstr "Формат краски"
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Paired t-test requires at least 2 pairs."
-msgstr ""
+msgstr "Парному t-критерию требуется не менее 2 пар."
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Paired t-test requires equal-length ranges."
-msgstr ""
+msgstr "Парному t-критерию требуются диапазоны одинаковой длины."
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
 msgid "Paper"
-msgstr ""
+msgstr "Бумага"
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -7503,7 +7503,7 @@ msgstr "Процент"
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Percent must be between 0 (inclusive) and 0.5 (exclusive)."
-msgstr ""
+msgstr "Процент должен быть от 0 (включительно) до 0,5 (не включая)."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -7527,25 +7527,25 @@ msgstr "Процент"
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Performance"
-msgstr ""
+msgstr "Производительность"
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Period × category side-by-side comparison."
-msgstr ""
+msgstr "Сравнение периодов и категорий рядом."
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Period-by-period comparison."
-msgstr ""
+msgstr "Сравнение по периодам."
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Period-by-period grouped comparison."
-msgstr ""
+msgstr "Сгруппированное сравнение по периодам."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -7563,19 +7563,19 @@ msgstr "Круговая"
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
 msgid "Pie Slice"
-msgstr ""
+msgstr "Сектор диаграммы"
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Pin the side panel"
-msgstr ""
+msgstr "Закрепить боковую панель"
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Pivot"
-msgstr ""
+msgstr "Сводная таблица"
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -7617,7 +7617,7 @@ msgstr "Сводная таблица"
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
 msgid "Pivot table style"
-msgstr ""
+msgstr "Стиль сводной таблицы"
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -7664,7 +7664,7 @@ msgstr "Пожалуйста, выберите только один диапа�
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/list/list_data_source.js:0
 msgid "Please specify the property field name"
-msgstr ""
+msgstr "Укажите имя поля свойства"
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -7688,13 +7688,13 @@ msgstr "Демографическая пирамида"
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Population skewness of a dataset."
-msgstr ""
+msgstr "Асимметрия генеральной совокупности для набора данных."
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Portrait"
-msgstr ""
+msgstr "Книжная"
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -7724,7 +7724,7 @@ msgstr "Положительные значения"
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Positive:"
-msgstr ""
+msgstr "Положительные:"
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -7784,25 +7784,25 @@ msgstr "Цена ценной бумаги, по которой выплачив
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Print"
-msgstr ""
+msgstr "Печать"
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
 msgid "Print Preview"
-msgstr ""
+msgstr "Предварительный просмотр"
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
 msgid "Print content"
-msgstr ""
+msgstr "Печатаемое содержимое"
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
 msgid "Print preview"
-msgstr ""
+msgstr "Предварительный просмотр"
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -7832,19 +7832,19 @@ msgstr "Цвета индикатора прогресса"
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Progress-bar style per category."
-msgstr ""
+msgstr "Индикаторы выполнения по категориям."
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Proportional area — good for many categories."
-msgstr ""
+msgstr "Пропорциональные площади — подходит для большого числа категорий."
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Proportional nested area weighted by value."
-msgstr ""
+msgstr "Вложенные площади, пропорциональные значению."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -7972,25 +7972,25 @@ msgstr "Диапазон значений"
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Range or reference for which you want the subtotal."
-msgstr ""
+msgstr "Диапазон или ссылка, для которых нужно вычислить промежуточный итог."
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Range over which to evaluate criteria."
-msgstr ""
+msgstr "Диапазон, в котором проверяются условия."
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Range to check."
-msgstr ""
+msgstr "Проверяемый диапазон."
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Range to evaluate criteria."
-msgstr ""
+msgstr "Диапазон для проверки условий."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -8008,13 +8008,13 @@ msgstr "Ранжировать от меньшего к большему"
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
 msgid "Re-analyze"
-msgstr ""
+msgstr "Проанализировать заново"
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
 msgid "Re-enable"
-msgstr ""
+msgstr "Включить снова"
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -8135,7 +8135,7 @@ msgstr "Удалить выбранные фильтры"
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Remove unused data sources"
-msgstr ""
+msgstr "Удалить неиспользуемые источники данных"
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -8171,7 +8171,7 @@ msgstr "Заменить все"
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Replace text in a string based on the supplied regular expression."
-msgstr ""
+msgstr "Заменяет текст в строке по заданному регулярному выражению."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -8201,7 +8201,7 @@ msgstr "Сброс размера"
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Result couldn't be automatically expanded."
-msgstr ""
+msgstr "Не удалось автоматически расширить результат."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -8269,7 +8269,7 @@ msgstr "Возвращает отфильтрованную версию исх�
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Returns a formula as a string."
-msgstr ""
+msgstr "Возвращает формулу в виде строки."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -8309,7 +8309,7 @@ msgstr "Возвращает последовательность чисел."
 msgid ""
 "Returns a specified number of contiguous rows or columns from the start or "
 "end of an array."
-msgstr ""
+msgstr "Возвращает заданное число смежных строк или столбцов из начала или конца массива."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -8347,7 +8347,7 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Returns an element from a list of choices based on index."
-msgstr ""
+msgstr "Возвращает элемент из списка вариантов по индексу."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -8441,7 +8441,7 @@ msgstr "Возвращает мультипликативную обратную
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Returns the p-value of a Student's t-test."
-msgstr ""
+msgstr "Возвращает p-значение t-критерия Стьюдента."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -8449,7 +8449,7 @@ msgstr ""
 msgid ""
 "Returns the p-value of a chi-square test for independence, comparing actual "
 "to expected values."
-msgstr ""
+msgstr "Возвращает p-значение критерия хи-квадрат на независимость, сравнивая фактические значения с ожидаемыми."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -8469,7 +8469,7 @@ msgstr "Возвращает номер строки верхней левой �
 msgid ""
 "Returns the two-tailed p-value of an F-test comparing the variances of two "
 "datasets."
-msgstr ""
+msgstr "Возвращает двустороннее p-значение F-критерия для сравнения дисперсий двух наборов данных."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -8501,7 +8501,7 @@ msgstr "Возвращает значение в зависимости от л�
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Reveals correlation between two numeric variables."
-msgstr ""
+msgstr "Показывает корреляцию двух числовых переменных."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -8525,7 +8525,7 @@ msgstr "Правая ось"
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Rotation"
-msgstr ""
+msgstr "Поворот"
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -8598,7 +8598,7 @@ msgstr "Ряды"
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
 msgid "Rows to ignore"
-msgstr ""
+msgstr "Строки, которые нужно пропустить"
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -8610,25 +8610,25 @@ msgstr "Накопительный итог"
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "SKEW requires at least 3 values."
-msgstr ""
+msgstr "SKEW требует не менее 3 значений."
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "SKEW requires non-constant data."
-msgstr ""
+msgstr "SKEW требует непостоянных данных."
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "SKEW.P requires at least 3 values."
-msgstr ""
+msgstr "SKEW.P требует не менее 3 значений."
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "SKEW.P requires non-constant data."
-msgstr ""
+msgstr "SKEW.P требует непостоянных данных."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -8640,13 +8640,13 @@ msgstr "SUM"
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Same as pie, cleaner proportional look."
-msgstr ""
+msgstr "Как круговая, но с более аккуратным отображением долей."
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Sample:"
-msgstr ""
+msgstr "Выборка:"
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -8676,7 +8676,7 @@ msgstr "Сохранить"
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
 msgid "Scale"
-msgstr ""
+msgstr "Масштаб"
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -8707,7 +8707,7 @@ msgstr "Точечная диаграмма"
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Scientific"
-msgstr ""
+msgstr "Научный"
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -8719,7 +8719,7 @@ msgstr "Оценочный лист"
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
 msgid "Scorecard Design"
-msgstr ""
+msgstr "Оформление карточки показателя"
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -8791,13 +8791,13 @@ msgstr "Второй код валюты."
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
 msgid "See more"
-msgstr ""
+msgstr "Подробнее"
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
 msgid "See more link"
-msgstr ""
+msgstr "Ссылка «Подробнее»"
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -8821,7 +8821,7 @@ msgstr "Смотрите записи"
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
 msgid "Select a single column to view statistics."
-msgstr ""
+msgstr "Выберите один столбец, чтобы увидеть статистику."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -8836,19 +8836,19 @@ msgid ""
 "Select cells containing data to see chart suggestions. Note that the order "
 "of selected\n"
 "        columns can impact chart suggestions."
-msgstr ""
+msgstr "Выберите ячейки с данными, чтобы увидеть предлагаемые диаграммы. Обратите внимание, что порядок выбранных\n        столбцов влияет на предлагаемые диаграммы."
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/global_filters/helpers.js:0
 msgid "Select one or several criteria"
-msgstr ""
+msgstr "Выберите одно или несколько условий"
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Selected cells (%s)"
-msgstr ""
+msgstr "Выбранные ячейки (%s)"
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -8908,25 +8908,25 @@ msgstr "Настройки"
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Shape comparison across metrics (best for ≤ 10 rows)."
-msgstr ""
+msgstr "Сравнение формы по показателям (лучше всего для ≤ 10 строк)."
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Shape-based comparison across labeled items."
-msgstr ""
+msgstr "Сравнение формы по подписанным элементам."
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Shape-based comparison when rows represent named entities."
-msgstr ""
+msgstr "Сравнение формы, если строки обозначают именованные объекты."
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Shape/profile comparison across metrics for each entity."
-msgstr ""
+msgstr "Сравнение формы по показателям для каждого объекта."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -8938,13 +8938,13 @@ msgstr "Поделиться"
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Share of total per category."
-msgstr ""
+msgstr "Доля от общего итога по категориям."
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Share of total percentage across categories."
-msgstr ""
+msgstr "Доля от общего итога в процентах по категориям."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -8968,7 +8968,7 @@ msgstr "Лист1"
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Sheets"
-msgstr ""
+msgstr "Листы"
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -8980,13 +8980,13 @@ msgstr "Сдвиг вниз"
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Shift left"
-msgstr "Shift left"
+msgstr "Сдвинуть влево"
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Shift right"
-msgstr "Shift right"
+msgstr "Сдвинуть вправо"
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -9011,7 +9011,7 @@ msgstr "Показать предупреждение"
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
 msgid "Show column titles:"
-msgstr ""
+msgstr "Показывать заголовки столбцов:"
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -9035,7 +9035,7 @@ msgstr "Показать справку по формулам"
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
 msgid "Show gridlines"
-msgstr ""
+msgstr "Показывать линии сетки"
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -9059,13 +9059,13 @@ msgstr "Отображать показатель как:"
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
 msgid "Show measure titles:"
-msgstr ""
+msgstr "Показывать заголовки мер:"
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
 msgid "Show semi-transparent bubbles"
-msgstr ""
+msgstr "Показывать полупрозрачные пузырьки"
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -9083,13 +9083,13 @@ msgstr "Промежуточные итоги в конце ряда"
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
 msgid "Show totals"
-msgstr ""
+msgstr "Показывать итоги"
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
 msgid "Show totals:"
-msgstr ""
+msgstr "Показывать итоги:"
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -9113,91 +9113,91 @@ msgstr "Показать значения как"
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Shows completion against total."
-msgstr ""
+msgstr "Показывает выполнение относительно общего объёма."
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Shows composition and total per category."
-msgstr ""
+msgstr "Показывает состав и итог по каждой категории."
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Shows intensity variation across days of the year."
-msgstr ""
+msgstr "Показывает изменение интенсивности по дням года."
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Shows occurrences for each time slot."
-msgstr ""
+msgstr "Показывает число событий в каждом временном интервале."
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Shows the evolution of all values over the range."
-msgstr ""
+msgstr "Показывает изменение всех значений по диапазону."
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Shows the last date value."
-msgstr ""
+msgstr "Показывает последнюю дату."
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Shows the last percentage value with its baseline."
-msgstr ""
+msgstr "Показывает последнее процентное значение с базовым уровнем."
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Shows the position of the last value within the data's min-max range."
-msgstr ""
+msgstr "Показывает положение последнего значения в диапазоне от минимума до максимума данных."
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Shows the share of each category."
-msgstr ""
+msgstr "Показывает долю каждой категории."
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Shows total and composition per category."
-msgstr ""
+msgstr "Показывает итог и состав по каждой категории."
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Side-by-side comparison across categories for each series."
-msgstr ""
+msgstr "Сравнение категорий рядом для каждого ряда."
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Side-by-side comparison of all numeric metrics."
-msgstr ""
+msgstr "Сравнение всех числовых показателей рядом."
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Side-by-side comparison of both metrics per category."
-msgstr ""
+msgstr "Сравнение обоих показателей рядом по категориям."
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Side-by-side comparison of two numeric series."
-msgstr ""
+msgstr "Сравнение двух числовых рядов рядом."
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Side-by-side per entity — works well for long labels."
-msgstr ""
+msgstr "Сравнение по объектам рядом — хорошо подходит для длинных подписей."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -9227,19 +9227,19 @@ msgstr "Одиночное значение из диапазона в виде 
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Size must be >= 1."
-msgstr ""
+msgstr "Размер должен быть >= 1."
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Size must be >= 2."
-msgstr ""
+msgstr "Размер должен быть >= 2."
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Skewness of a dataset."
-msgstr ""
+msgstr "Асимметрия набора данных."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -9295,7 +9295,7 @@ msgstr "Диапазон сортировки"
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Sorted by measure"
-msgstr ""
+msgstr "Отсортировано по мере"
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -9414,7 +9414,7 @@ msgstr "При разделении существующий контент бу
 #: model:ir.module.module,shortdesc:base.module_spreadsheet
 #: model:ir.module.module,summary:base.module_spreadsheet
 msgid "Spreadsheet"
-msgstr ""
+msgstr "Электронная таблица"
 
 #. module: spreadsheet
 #: model:ir.model.fields,field_description:spreadsheet.field_spreadsheet_mixin__spreadsheet_data
@@ -9506,7 +9506,7 @@ msgstr "Стандарт"
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Standard deviation must be positive."
-msgstr ""
+msgstr "Стандартное отклонение должно быть положительным."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -9560,7 +9560,7 @@ msgstr "Статистика"
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Strict format"
-msgstr ""
+msgstr "Строгий формат"
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -9579,7 +9579,7 @@ msgstr "Зачеркнутый"
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "String to append in sequence."
-msgstr ""
+msgstr "Строка для присоединения."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -9627,7 +9627,7 @@ msgstr "Промежуточные итоги"
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
 msgid "Suggested charts"
-msgstr ""
+msgstr "Предлагаемые диаграммы"
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -9640,7 +9640,7 @@ msgstr "Сумма"
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/pivot/pivot_helpers.js:0
 msgid "Sum (Currency)"
-msgstr ""
+msgstr "Сумма (в валюте)"
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -9700,13 +9700,13 @@ msgstr "Воскресенье/понедельник – выходные"
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
 msgid "Switch to next column"
-msgstr ""
+msgstr "Перейти к следующему столбцу"
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
 msgid "Switch to previous column"
-msgstr ""
+msgstr "Перейти к предыдущему столбцу"
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -9724,7 +9724,7 @@ msgstr "Символ"
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "T.TEST requires non-constant data."
-msgstr ""
+msgstr "T.TEST требует непостоянных данных."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -9732,7 +9732,7 @@ msgstr ""
 msgid ""
 "TRUE or FALSE indicating whether to sort sort_column in ascending order. "
 "FALSE sorts in descending order."
-msgstr ""
+msgstr "ИСТИНА или ЛОЖЬ: сортировать ли sort_column по возрастанию. ЛОЖЬ — сортировка по убыванию."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -9744,7 +9744,7 @@ msgstr "Таблица"
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Tails must be 1 or 2."
-msgstr ""
+msgstr "Число хвостов должно быть 1 или 2."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -9756,7 +9756,7 @@ msgstr "Тангенс угла в радианах."
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Target must contain at least one zone"
-msgstr ""
+msgstr "Цель должна содержать хотя бы одну область"
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -9878,13 +9878,13 @@ msgstr "Текст является действительной ссылкой"
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Text item to join."
-msgstr ""
+msgstr "Текстовый элемент для объединения."
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Text:"
-msgstr ""
+msgstr "Текст:"
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -10036,13 +10036,13 @@ msgstr "Условия аргументов должны иметь одинак
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "The array from which to drop rows or columns"
-msgstr ""
+msgstr "Массив, из которого нужно исключить строки или столбцы"
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "The array from which to take rows or columns."
-msgstr ""
+msgstr "Массив, из которого нужно взять строки или столбцы."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -10161,7 +10161,7 @@ msgstr "Массив, содержащий возвращаемые строки
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "The array to convert into text"
-msgstr ""
+msgstr "Массив, который нужно преобразовать в текст"
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -10209,7 +10209,7 @@ msgstr "База для преобразования значения."
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "The bubble sizes range is invalid"
-msgstr ""
+msgstr "Диапазон размеров пузырьков недопустим"
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -10239,7 +10239,7 @@ msgstr "Диапазоны cashflow_amounts и cashflow_dates должны им�
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "The cell does not contain a formula."
-msgstr ""
+msgstr "Ячейка не содержит формулы."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -10295,7 +10295,7 @@ msgstr "Определение графика недействительно п�
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "The column index of the column to be returned."
-msgstr ""
+msgstr "Индекс возвращаемого столбца."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -10405,7 +10405,7 @@ msgstr "Диапазон данных недопустим"
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "The data to average."
-msgstr ""
+msgstr "Данные для вычисления среднего."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -10573,7 +10573,7 @@ msgstr "Значение day_count_convention (%s) должно быть от 0 
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "The degrees of freedom."
-msgstr ""
+msgstr "Число степеней свободы."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -10876,7 +10876,7 @@ msgstr "Первое число для сравнения."
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "The first sample."
-msgstr ""
+msgstr "Первая выборка."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -10916,13 +10916,13 @@ msgstr "Первый_период (%s) должен быть строго пол
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "The format entered is not valid."
-msgstr ""
+msgstr "Введённый формат недопустим."
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "The format of the returned data."
-msgstr ""
+msgstr "Формат возвращаемых данных."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -10990,7 +10990,7 @@ msgstr "Функция [[FUNCTION_NAME]] ожидает числовое зна�
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "The function [[FUNCTION_NAME]] expects a reference to a cell or range."
-msgstr ""
+msgstr "Функция [[FUNCTION_NAME]] ожидает ссылку на ячейку или диапазон."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -11031,7 +11031,7 @@ msgstr "Функция, используемая для расчета пром�
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "The future cash flows."
-msgstr ""
+msgstr "Будущие денежные потоки."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -11073,7 +11073,7 @@ msgstr "Высокая граница случайного диапазона."
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "The horizontal axis values range is invalid"
-msgstr ""
+msgstr "Диапазон значений горизонтальной оси недопустим"
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -11210,7 +11210,7 @@ msgstr "Значение last_period (%s) должно быть строго п�
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "The length (%s) must be positive or zero."
-msgstr ""
+msgstr "Длина (%s) должна быть положительной или равной нулю."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -11406,13 +11406,13 @@ msgstr "Компонент месяца в дате."
 msgid ""
 "The named range name is invalid. Valid names can contain letters, digits, "
 "underscores, and periods. The name cannot be only a number, TRUE, or FALSE."
-msgstr ""
+msgstr "Имя именованного диапазона недопустимо. Допустимые имена могут содержать буквы, цифры, подчёркивания и точки. Имя не может состоять только из числа, TRUE или FALSE."
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "The named range to update was not found."
-msgstr ""
+msgstr "Именованный диапазон для обновления не найден."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -11503,7 +11503,7 @@ msgstr "Количество возвращаемых столбцов."
 msgid ""
 "The number of columns to exclude. A negative value drops from the end of the "
 "array."
-msgstr ""
+msgstr "Число исключаемых столбцов. Отрицательное значение исключает столбцы с конца массива."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -11523,7 +11523,7 @@ msgstr "Количество возвращаемых столбцов"
 msgid ""
 "The number of columns to take. A negative value takes from the end of the "
 "array."
-msgstr ""
+msgstr "Число берущихся столбцов. Отрицательное значение берёт столбцы с конца массива."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -11630,7 +11630,7 @@ msgstr "Количество строк (%s) должно быть положи�
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "The number of rows can not be zero."
-msgstr ""
+msgstr "Число строк не может быть равно нулю."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -11665,13 +11665,13 @@ msgstr "Количество строк в диапазоне, начиная с
 msgid ""
 "The number of rows or column to exclude must be smaller than the number of "
 "elements in the array."
-msgstr ""
+msgstr "Число исключаемых строк или столбцов должно быть меньше числа элементов массива."
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/list/list_functions.js:0
 msgid "The number of rows parameter should be a positive number."
-msgstr ""
+msgstr "Параметр «число строк» должен быть положительным числом."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -11684,7 +11684,7 @@ msgstr "Количество возвращаемых строк."
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid ""
 "The number of rows to drop. A negative value drops from the end of the array."
-msgstr ""
+msgstr "Число исключаемых строк. Отрицательное значение исключает строки с конца массива."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -11703,7 +11703,7 @@ msgstr "Количество возвращаемых строк"
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid ""
 "The number of rows to take. A negative value takes from the end of the array."
-msgstr ""
+msgstr "Число берущихся строк. Отрицательное значение берёт строки с конца массива."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -11872,7 +11872,7 @@ msgstr "Число_символов (%s) должно быть положите�
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "The number_of_characters (%s) must be positive or zero."
-msgstr ""
+msgstr "Число символов (%s) должно быть положительным или равным нулю."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -12002,7 +12002,7 @@ msgstr "Невозможно создать сводную таблицу: от�
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "The population standard deviation."
-msgstr ""
+msgstr "Стандартное отклонение генеральной совокупности."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -12084,13 +12084,13 @@ msgstr "Диапазон, содержащий набор данных для р
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "The range containing the expected values."
-msgstr ""
+msgstr "Диапазон с ожидаемыми значениями."
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "The range containing the observed values."
-msgstr ""
+msgstr "Диапазон с наблюдаемыми значениями."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -12224,7 +12224,7 @@ msgstr "Диапазон для усреднения. Если это значе
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "The range to be appended."
-msgstr ""
+msgstr "Присоединяемый диапазон."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -12282,7 +12282,7 @@ msgstr "Диапазон, который необходимо ограничит
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "The range to flatten."
-msgstr ""
+msgstr "Диапазон, который нужно преобразовать в один столбец."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -12314,7 +12314,7 @@ msgstr "Диапазон, количество столбцов которого
 msgid ""
 "The range whose entries will be multiplied with corresponding entries in the "
 "other range."
-msgstr ""
+msgstr "Диапазон, элементы которого будут умножены на соответствующие элементы другого диапазона."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -12330,13 +12330,13 @@ msgid ""
 "\n"
 "If you meant to create a named range, named range cannot have the same name "
 "as a cell reference. Please choose another name."
-msgstr ""
+msgstr "Указанный диапазон находится за пределами листа.\n\nЕсли вы хотели создать именованный диапазон, учтите: его имя не может совпадать со ссылкой на ячейку. Выберите другое имя."
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "The ranges must contain at least 2 values."
-msgstr ""
+msgstr "Диапазоны должны содержать не менее 2 значений."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -12390,13 +12390,13 @@ msgstr "Сумма выкупа за 100 номиналов, или номина
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "The reference is invalid."
-msgstr ""
+msgstr "Ссылка недопустима."
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "The reference to get the spilled range from."
-msgstr ""
+msgstr "Ссылка, по которой нужно получить диапазон результата."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -12434,7 +12434,7 @@ msgstr "Значение return_mode (%s) должно быть 0, 1 или 2."
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "The row index of the row to be returned."
-msgstr ""
+msgstr "Индекс возвращаемой строки."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -12507,13 +12507,13 @@ msgstr "Выборочная ковариация набора данных."
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "The sample size."
-msgstr ""
+msgstr "Размер выборки."
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "The sample standard deviation."
-msgstr ""
+msgstr "Стандартное отклонение выборки."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -12582,7 +12582,7 @@ msgstr "Второе число для сравнения."
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "The second sample."
-msgstr ""
+msgstr "Вторая выборка."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -12650,13 +12650,13 @@ msgstr "Имя листа не может быть пустым."
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "The sheet on which the range is defined is hidden."
-msgstr ""
+msgstr "Лист, на котором задан диапазон, скрыт."
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "The significance level (e.g. 0.05 for 95% CI)."
-msgstr ""
+msgstr "Уровень значимости (например, 0,05 для 95% доверительного интервала)."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -12774,7 +12774,7 @@ msgstr "Строка, из которой будет возвращена пра
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "The string in which you want to replace text."
-msgstr ""
+msgstr "Строка, в которой нужно заменить текст."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -12834,7 +12834,7 @@ msgstr "Строка для поиска в text_to_search."
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "The string to test."
-msgstr ""
+msgstr "Проверяемая строка."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -12900,7 +12900,7 @@ msgstr "Текст для разделения."
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "The text to use as the replacement."
-msgstr ""
+msgstr "Текст, на который нужно заменить."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -12976,7 +12976,7 @@ msgstr "Сроки оплаты: платежи подлежат уплате в
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "The two ranges must have the same dimensions."
-msgstr ""
+msgstr "Два диапазона должны иметь одинаковые размеры."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -13214,7 +13214,7 @@ msgstr "Значение должно быть числом"
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "The value must be a positive number"
-msgstr ""
+msgstr "Значение должно быть положительным числом"
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -13310,13 +13310,13 @@ msgstr "Значение должно быть больше, чем %s"
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "The value must be in bottom %(value)s%(percentSymbol)s"
-msgstr ""
+msgstr "Значение должно входить в нижние %(value)s%(percentSymbol)s"
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "The value must be in top %(value)s%(percentSymbol)s"
-msgstr ""
+msgstr "Значение должно входить в верхние %(value)s%(percentSymbol)s"
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -13346,7 +13346,7 @@ msgstr "Значение должно быть датой %s"
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "The value must be unique"
-msgstr ""
+msgstr "Значение должно быть уникальным"
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -13376,7 +13376,7 @@ msgstr "Значение не должно быть равно %s"
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "The value must not be unique"
-msgstr ""
+msgstr "Значение не должно быть уникальным"
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -13424,7 +13424,7 @@ msgstr "Проверяемое значение."
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "The value to be returned if its corresponding condition is TRUE."
-msgstr ""
+msgstr "Значение, которое возвращается, если соответствующее условие имеет значение ИСТИНА."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -13466,7 +13466,7 @@ msgstr "Значение, которое должно быть проверен�
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "The value to evaluate."
-msgstr ""
+msgstr "Вычисляемое значение."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -13630,7 +13630,7 @@ msgstr "Значения независимой(ых) переменной(ых)
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "The vertical axis values range is invalid"
-msgstr ""
+msgstr "Диапазон значений вертикальной оси недопустим"
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -13661,7 +13661,7 @@ msgstr "Размер окна слишком мал для отображени�
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "The wrap_count (%s) must be strictly positive."
-msgstr ""
+msgstr "Значение wrap_count (%s) должно быть строго положительным."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -13775,7 +13775,7 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
 msgid "This may take a while."
-msgstr ""
+msgstr "Это может занять некоторое время."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -13805,7 +13805,7 @@ msgstr "Этот диапазон недопустим"
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "This sheet is locked and cannot be modified. Please unlock it first."
-msgstr ""
+msgstr "Этот лист заблокирован и не может быть изменён. Сначала разблокируйте его."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -13856,7 +13856,7 @@ msgstr "Тысяча"
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Three metrics in one view: X position, Y position and bubble size."
-msgstr ""
+msgstr "Три показателя в одном виде: положение по X, положение по Y и размер пузырька."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -13934,13 +13934,13 @@ msgstr "Строка с итогами"
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Total rows"
-msgstr ""
+msgstr "Всего строк"
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
 msgid "Total time"
-msgstr ""
+msgstr "Общее время"
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -13988,13 +13988,13 @@ msgstr "Цвета древовидного графика"
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Trend comparison across all metrics."
-msgstr ""
+msgstr "Сравнение трендов по всем показателям."
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Trend comparison across multiple metrics over time."
-msgstr ""
+msgstr "Сравнение трендов по нескольким показателям во времени."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -14018,13 +14018,13 @@ msgstr "Линия тренда для %s"
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Trend of values over time."
-msgstr ""
+msgstr "Тренд значений во времени."
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Trend per series across categories."
-msgstr ""
+msgstr "Тренд по каждому ряду между категориями."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -14072,7 +14072,7 @@ msgstr "Отключить"
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Two-level hierarchy weighted by value."
-msgstr ""
+msgstr "Двухуровневая иерархия, взвешенная по значению."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -14084,7 +14084,7 @@ msgstr "Тип"
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Type must be 1, 2, or 3."
-msgstr ""
+msgstr "Тип должен быть 1, 2 или 3."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -14211,7 +14211,7 @@ msgstr "Уникальные строки в указанном диапазон
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Unique values"
-msgstr ""
+msgstr "Уникальные значения"
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -14235,7 +14235,7 @@ msgstr "Неизвестная функция: \"%s\""
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Unlock sheet"
-msgstr ""
+msgstr "Разблокировать лист"
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -14247,7 +14247,7 @@ msgstr "Поле без названия"
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Unpin the side panel"
-msgstr ""
+msgstr "Открепить боковую панель"
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -14271,13 +14271,13 @@ msgstr "Электронная таблица без названия"
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Unused data sources"
-msgstr ""
+msgstr "Неиспользуемые источники данных"
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Unused pivots"
-msgstr ""
+msgstr "Неиспользуемые сводные таблицы"
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -14301,13 +14301,13 @@ msgstr "Обновить"
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
 msgid "Upper bound value"
-msgstr ""
+msgstr "Верхняя граница"
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Upper tail of the chi-square distribution."
-msgstr ""
+msgstr "Верхний хвост распределения хи-квадрат."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -14337,7 +14337,7 @@ msgstr "Использовать строку %(row_position)s как загол
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
 msgid "Use tabular form:"
-msgstr ""
+msgstr "Использовать табличную форму:"
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -14428,7 +14428,7 @@ msgstr "Значение находится в диапазоне от %s до %
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Value is duplicate"
-msgstr ""
+msgstr "Значение повторяется"
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -14452,13 +14452,13 @@ msgstr "Значение больше, чем %s"
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Value is in bottom %(value)s%(percentSymbol)s"
-msgstr ""
+msgstr "Значение входит в нижние %(value)s%(percentSymbol)s"
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Value is in top %(value)s%(percentSymbol)s"
-msgstr ""
+msgstr "Значение входит в верхние %(value)s%(percentSymbol)s"
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -14488,7 +14488,7 @@ msgstr "Значение не равно %s"
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Value is unique"
-msgstr ""
+msgstr "Значение уникально"
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -14525,73 +14525,73 @@ msgstr "Значение или формула"
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Value or range in which to count the number of blanks."
-msgstr ""
+msgstr "Значение или диапазон, в котором нужно подсчитать число пустых ячеек."
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Value or range to consider for uniqueness."
-msgstr ""
+msgstr "Значение или диапазон для проверки на уникальность."
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Value or range to consider when calculating the average value."
-msgstr ""
+msgstr "Значение или диапазон для вычисления среднего значения."
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Value or range to consider when calculating the maximum value."
-msgstr ""
+msgstr "Значение или диапазон для вычисления максимального значения."
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Value or range to consider when calculating the median value."
-msgstr ""
+msgstr "Значение или диапазон для вычисления медианы."
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Value or range to consider when calculating the minimum value."
-msgstr ""
+msgstr "Значение или диапазон для вычисления минимального значения."
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Value or range to consider when counting."
-msgstr ""
+msgstr "Значение или диапазон для подсчёта."
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Value or range to include in the population."
-msgstr ""
+msgstr "Значение или диапазон, включаемые в генеральную совокупность."
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Value or range to include in the sample."
-msgstr ""
+msgstr "Значение или диапазон, включаемые в выборку."
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Value to average."
-msgstr ""
+msgstr "Значение для вычисления среднего."
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Value to be appended using delimiter."
-msgstr ""
+msgstr "Значение, присоединяемое через разделитель."
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Value to be returned if its corresponding case matches expression."
-msgstr ""
+msgstr "Значение, которое возвращается, если соответствующий вариант совпадает с выражением."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -14622,7 +14622,7 @@ msgstr "Значения"
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Values to include."
-msgstr ""
+msgstr "Включаемые значения."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -14695,13 +14695,13 @@ msgstr "Положение вертикальной оси"
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Vertical comparison across named items."
-msgstr ""
+msgstr "Вертикальное сравнение именованных элементов."
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Vertical comparison of rates per category."
-msgstr ""
+msgstr "Вертикальное сравнение долей по категориям."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -14731,19 +14731,19 @@ msgstr "Объем"
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Volume and composition across categories."
-msgstr ""
+msgstr "Объём и состав по категориям."
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Volume composition over time."
-msgstr ""
+msgstr "Состав объёма во времени."
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Volume contribution over time."
-msgstr ""
+msgstr "Вклад в объём во времени."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -14755,7 +14755,7 @@ msgstr "W%(week)s %(year)s"
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "W%(weekNumber)s"
-msgstr ""
+msgstr "Н%(weekNumber)s"
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -14847,7 +14847,7 @@ msgstr "Вес"
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Weight for each corresponding value."
-msgstr ""
+msgstr "Вес для каждого соответствующего значения."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -14859,7 +14859,7 @@ msgstr "Средневзвешенное значение."
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "When both metrics contribute to a total."
-msgstr ""
+msgstr "Подходит, когда оба показателя входят в общий итог."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -15029,7 +15029,7 @@ msgstr "Следует ли рассматривать конец текста �
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Which choice to return."
-msgstr ""
+msgstr "Какой вариант вернуть."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -15065,7 +15065,7 @@ msgstr "Окно"
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Works well for named entities with long labels."
-msgstr ""
+msgstr "Хорошо подходит для именованных объектов с длинными подписями."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -15207,7 +15207,7 @@ msgstr "У вас нет прав на экспорт данных. Обрати
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Zero:"
-msgstr ""
+msgstr "Ноль:"
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -15354,13 +15354,13 @@ msgstr "например, «поиск»"
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
 msgid "e.g. 10"
-msgstr ""
+msgstr "напр., 10"
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
 msgid "e.g. 5"
-msgstr ""
+msgstr "напр., 5"
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -15450,7 +15450,7 @@ msgstr "количество строк"
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/list/list_functions.js:0
 msgid "number of rows to display"
-msgstr ""
+msgstr "количество отображаемых строк"
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -15516,7 +15516,7 @@ msgstr "порядок 6 (шестой степени)"
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
 msgid "pages"
-msgstr ""
+msgstr "страниц"
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -15551,19 +15551,19 @@ msgstr "search_mode должен быть одним из значений: [-1,
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "showing %s items"
-msgstr ""
+msgstr "показано элементов: %s"
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "showing 1 item"
-msgstr ""
+msgstr "показан 1 элемент"
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "showing all items"
-msgstr ""
+msgstr "показаны все элементы"
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -15589,7 +15589,7 @@ msgstr "символ"
 msgid ""
 "the default maximum number of rows (%s) has been reached. Please explicitely "
 "set the row_count parameter."
-msgstr ""
+msgstr "Достигнуто максимальное число строк по умолчанию (%s). Задайте параметр row_count явно."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -15625,7 +15625,7 @@ msgstr "завтра"
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "x must be non-negative."
-msgstr ""
+msgstr "x должно быть неотрицательным."
 
 #. module: spreadsheet
 #. odoo-javascript
