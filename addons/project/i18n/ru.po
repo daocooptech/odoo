@@ -52,7 +52,7 @@ msgstr "%(count1)s/%(count2)s"
 #. odoo-python
 #: code:addons/project/models/project_project.py:0
 msgid "%(name)s Updates"
-msgstr ""
+msgstr "Обновления: %(name)s"
 
 #. module: project
 #. odoo-python
@@ -82,7 +82,7 @@ msgstr "Анализ задач: %(name)s"
 #. odoo-python
 #: code:addons/project/models/project_project.py:0
 msgid "%(name)s's Time by Stage"
-msgstr ""
+msgstr "Время по этапам: %(name)s"
 
 #. module: project
 #. odoo-python
@@ -94,19 +94,19 @@ msgstr "Задачи: %(partner_name)s"
 #. odoo-python
 #: code:addons/project/models/account_analytic_line.py:0
 msgid "%(sign)s%(hours)sh"
-msgstr ""
+msgstr "%(sign)s%(hours)s ч"
 
 #. module: project
 #. odoo-python
 #: code:addons/project/models/account_analytic_line.py:0
 msgid "%(sign)s%(hours)sh %(minutes)sm"
-msgstr ""
+msgstr "%(sign)s%(hours)s ч %(minutes)s мин"
 
 #. module: project
 #. odoo-python
 #: code:addons/project/models/account_analytic_line.py:0
 msgid "%(sign)s%(minutes)sm"
-msgstr ""
+msgstr "%(sign)s%(minutes)s мин"
 
 #. module: project
 #. odoo-python
@@ -174,59 +174,59 @@ msgstr ""
 #. module: project
 #: model_terms:digest.tip,tip_description:project.digest_tip_project_9
 msgid "<b>Tip: Access your project easily</b>"
-msgstr ""
+msgstr "<b>Совет: быстрый доступ к проекту</b>"
 
 #. module: project
 #: model_terms:digest.tip,tip_description:project.digest_tip_project_1
 msgid "<b>Tip: Create tasks from incoming emails</b>"
-msgstr ""
+msgstr "<b>Совет: создавайте задачи из входящих писем</b>"
 
 #. module: project
 #: model_terms:digest.tip,tip_description:project.digest_tip_project_5
 msgid "<b>Tip: Create your tasks in an instant</b>"
-msgstr ""
+msgstr "<b>Совет: создавайте задачи мгновенно</b>"
 
 #. module: project
 #: model_terms:digest.tip,tip_description:project.digest_tip_project_7
 msgid "<b>Tip: Don't let stalled tasks slip under the radar</b>"
-msgstr ""
+msgstr "<b>Совет: не упускайте из виду застрявшие задачи</b>"
 
 #. module: project
 #: model_terms:digest.tip,tip_description:project.digest_tip_project_6
 msgid "<b>Tip: Filter your tasks with one click</b>"
-msgstr ""
+msgstr "<b>Совет: фильтруйте задачи одним щелчком</b>"
 
 #. module: project
 #: model_terms:digest.tip,tip_description:project.digest_tip_project_4
 msgid "<b>Tip: Identify bottlenecks at a glance</b>"
-msgstr ""
+msgstr "<b>Совет: находите узкие места с одного взгляда</b>"
 
 #. module: project
 #: model_terms:digest.tip,tip_description:project.digest_tip_project_3
 msgid "<b>Tip: Project-Specific Fields</b>"
-msgstr ""
+msgstr "<b>Совет: поля для конкретного проекта</b>"
 
 #. module: project
 #: model_terms:digest.tip,tip_description:project.digest_tip_project_8
 msgid "<b>Tip: Save time with task templates</b>"
-msgstr ""
+msgstr "<b>Совет: экономьте время с шаблонами задач</b>"
 
 #. module: project
 #: model_terms:digest.tip,tip_description:project.digest_tip_project_0
 msgid "<b>Tip: Use task states to track progress</b>"
-msgstr ""
+msgstr "<b>Совет: следите за прогрессом по состояниям задач</b>"
 
 #. module: project
 #: model_terms:digest.tip,tip_description:project.digest_tip_project_2
 msgid "<b>Tip: Your personal kanban</b>"
-msgstr ""
+msgstr "<b>Совет: ваш личный канбан</b>"
 
 #. module: project
 #: model_terms:digest.tip,tip_description:project.digest_tip_project_5
 msgid ""
 "<br>\n"
 "                    and watch the magic happen!"
-msgstr ""
+msgstr "<br>\n                    и наблюдайте, как всё получается само!"
 
 #. module: project
 #: model:mail.template,body_html:project.rating_project_request_email_template
@@ -531,28 +531,28 @@ msgstr ""
 msgid ""
 "<i class=\"d-none d-md-inline oi oi-fw me-2\" data-icon=\"label\" "
 "title=\"Tags\"/>"
-msgstr ""
+msgstr "<i class=\"d-none d-md-inline oi oi-fw me-2\" data-icon=\"label\" title=\"Теги\"/>"
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.edit_project
 msgid ""
 "<i class=\"d-none d-md-inline oi oi-fw oi-filled me-2\" data-icon=\"mail\" "
 "title=\"Email\"/>"
-msgstr ""
+msgstr "<i class=\"d-none d-md-inline oi oi-fw oi-filled me-2\" data-icon=\"mail\" title=\"Эл. почта\"/>"
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.edit_project
 msgid ""
 "<i class=\"d-none d-md-inline oi oi-fw oi-filled me-2\" data-icon=\"person\" "
 "title=\"Customer\" name=\"partner_id\"/>"
-msgstr ""
+msgstr "<i class=\"d-none d-md-inline oi oi-fw oi-filled me-2\" data-icon=\"person\" title=\"Клиент\" name=\"partner_id\"/>"
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.edit_project
 msgid ""
 "<i class=\"d-none d-md-inline oi oi-fw oi-filled me-2\" data-icon=\"phone\" "
 "title=\"Phone\"/>"
-msgstr ""
+msgstr "<i class=\"d-none d-md-inline oi oi-fw oi-filled me-2\" data-icon=\"phone\" title=\"Телефон\"/>"
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.project_sharing_project_task_view_form
@@ -565,7 +565,7 @@ msgstr ""
 msgid ""
 "<i class=\"oi me-2\" data-icon=\"schedule\" title=\"Dates\" data-"
 "tooltip=\"Planned Date\"/>"
-msgstr ""
+msgstr "<i class=\"oi me-2\" data-icon=\"schedule\" title=\"Даты\" data-tooltip=\"Плановая дата\"/>"
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.edit_project
@@ -579,42 +579,42 @@ msgid ""
 "                            <i class=\"oi o_button_icon text-danger\" data-"
 "icon=\"check\" invisible=\"next_milestone_status != 'off_track'\" "
 "title=\"Off Track\"/>"
-msgstr ""
+msgstr "<i class=\"oi o_button_icon\" data-icon=\"check\" invisible=\"next_milestone_status == False or next_milestone_status != 'on_track'\" title=\"По плану\"/>\n                            <i class=\"oi o_button_icon text-success\" data-icon=\"check\" invisible=\"next_milestone_status != 'next_track'\" title=\"По плану\"/>\n                            <i class=\"oi o_button_icon text-danger\" data-icon=\"check\" invisible=\"next_milestone_status != 'off_track'\" title=\"Не по плану\"/>"
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.view_project_card
 msgid ""
 "<i class=\"oi oi-filled me-2\" data-icon=\"person\" aria-label=\"Project "
 "Manager\" title=\"Project Manager\" data-tooltip=\"Project Manager\"/>"
-msgstr ""
+msgstr "<i class=\"oi oi-filled me-2\" data-icon=\"person\" aria-label=\"Менеджер проекта\" title=\"Менеджер проекта\" data-tooltip=\"Менеджер проекта\"/>"
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.project_milestone_view_kanban
 msgid ""
 "<i class=\"oi oi-filled px-1 mt-1\" data-icon=\"calendar_today\" "
 "role=\"img\" aria-label=\"Deadline\"/>"
-msgstr ""
+msgstr "<i class=\"oi oi-filled px-1 mt-1\" data-icon=\"calendar_today\" role=\"img\" aria-label=\"Крайний срок\"/>"
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.view_task_card
 msgid ""
 "<i class=\"oi oi-filled\" data-icon=\"flag\" title=\"Miltstone\" data-"
 "tooltip=\"Milestone\"/>"
-msgstr ""
+msgstr "<i class=\"oi oi-filled\" data-icon=\"flag\" title=\"Веха\" data-tooltip=\"Веха\"/>"
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.view_task_card
 msgid ""
 "<i class=\"oi oi-filled\" data-icon=\"person\" title=\"Customer\" data-"
 "tooltip=\"Customer\"/>"
-msgstr ""
+msgstr "<i class=\"oi oi-filled\" data-icon=\"person\" title=\"Клиент\" data-tooltip=\"Клиент\"/>"
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.view_project_card
 msgid ""
 "<i class=\"oi oi-filled\" data-icon=\"task\" title=\"Tasks\" data-"
 "tooltip=\"Name of Tasks\"/>"
-msgstr ""
+msgstr "<i class=\"oi oi-filled\" data-icon=\"task\" title=\"Задачи\" data-tooltip=\"Название задач\"/>"
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.edit_project
@@ -650,26 +650,26 @@ msgid ""
 "                            <i class=\"oi oi-fw o_button_icon\" data-"
 "icon=\"sentiment_sad\" invisible=\"rating_avg &gt;= 2.33\" title=\"Unhappy\"/"
 ">"
-msgstr ""
+msgstr "<i class=\"oi oi-fw o_button_icon\" data-icon=\"sentiment_satisfied\" invisible=\"rating_avg &lt; 3.66\" title=\"Доволен\"/>\n                            <i class=\"oi oi-fw o_button_icon\" data-icon=\"sentiment_neutral\" invisible=\"rating_avg &lt; 2.33 or rating_avg &gt;= 3.66\" title=\"Нейтрально\"/>\n                            <i class=\"oi oi-fw o_button_icon\" data-icon=\"sentiment_sad\" invisible=\"rating_avg &gt;= 2.33\" title=\"Недоволен\"/>"
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.edit_project
 msgid "<i class=\"oi pe-2\" data-icon=\"lightbulb\" title=\"Info\"/>"
-msgstr ""
+msgstr "<i class=\"oi pe-2\" data-icon=\"lightbulb\" title=\"Информация\"/>"
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.view_task_card
 msgid ""
 "<i class=\"oi\" data-icon=\"assignment_turned_in\" title=\"Project\" data-"
 "tooltip=\"Project\"/>"
-msgstr ""
+msgstr "<i class=\"oi\" data-icon=\"assignment_turned_in\" title=\"Проект\" data-tooltip=\"Проект\"/>"
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.view_task_card
 msgid ""
 "<i class=\"oi\" data-icon=\"calendar_clock\" data-tooltip=\"Deadline\" "
 "title=\"Deadline\"/>"
-msgstr ""
+msgstr "<i class=\"oi\" data-icon=\"calendar_clock\" data-tooltip=\"Крайний срок\" title=\"Крайний срок\"/>"
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.project_task_view_activity
@@ -745,7 +745,7 @@ msgstr "<span class=\"o_stat_text\">Заблокированные задачи<
 msgid ""
 "<span class=\"o_stat_text\">Burndown</span>\n"
 "                                <span class=\"o_stat_text\">Chart</span>"
-msgstr ""
+msgstr "<span class=\"o_stat_text\">Диаграмма</span>\n                                <span class=\"o_stat_text\">сгорания</span>"
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.view_task_form2
@@ -755,7 +755,7 @@ msgstr "<span class=\"o_stat_text\">Последняя оценка</span>"
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.edit_project
 msgid "<span class=\"o_stat_text\">Milestones</span>"
-msgstr ""
+msgstr "<span class=\"o_stat_text\">Вехи</span>"
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.project_sharing_project_task_view_form
@@ -766,12 +766,12 @@ msgstr "<span class=\"o_stat_text\">Родительская задача</span>
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.edit_project
 msgid "<span class=\"o_stat_text\">Rating</span>"
-msgstr ""
+msgstr "<span class=\"o_stat_text\">Оценка</span>"
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.edit_project
 msgid "<span class=\"o_stat_text\">Status</span>"
-msgstr ""
+msgstr "<span class=\"o_stat_text\">Статус</span>"
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.view_task_form2
@@ -790,14 +790,14 @@ msgstr ""
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.project_update_view_kanban
 msgid "<span class=\"oi oi-fw me-1\" data-icon=\"check\" title=\"Tasks\"/>"
-msgstr ""
+msgstr "<span class=\"oi oi-fw me-1\" data-icon=\"check\" title=\"Задачи\"/>"
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.project_update_view_kanban
 msgid ""
 "<span class=\"oi oi-fw oi-filled me-1\" data-icon=\"calendar_today\" "
 "title=\"Date\"/>"
-msgstr ""
+msgstr "<span class=\"oi oi-fw oi-filled me-1\" data-icon=\"calendar_today\" title=\"Дата\"/>"
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.project_project_view_form_simplified
@@ -819,7 +819,7 @@ msgstr "<span>Просмотр</span>"
 #: model_terms:ir.ui.view,arch_db:project.project_project_stage_view_form
 #: model_terms:ir.ui.view,arch_db:project.task_type_edit
 msgid "<span>days</span>"
-msgstr ""
+msgstr "<span>дн.</span>"
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.portal_my_task
@@ -878,7 +878,7 @@ msgstr ""
 #. module: project
 #: model:ir.model.constraint,message:project.constraint_project_task_private_task_has_no_parent
 msgid "A private (non-template) task cannot have a parent."
-msgstr ""
+msgstr "Личная задача (не шаблон) не может иметь родительскую задачу."
 
 #. module: project
 #: model:ir.model.constraint,message:project.constraint_project_tags_name_uniq
@@ -898,12 +898,12 @@ msgstr "Принимать письма от"
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_share_collaborator_wizard__access_mode
 msgid "Access"
-msgstr ""
+msgstr "Доступ"
 
 #. module: project
 #: model:ir.model,name:project.model_res_groups
 msgid "Access Groups"
-msgstr ""
+msgstr "Группы доступа"
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_collaborator__access_mode
@@ -947,7 +947,7 @@ msgstr "Дела"
 #. module: project
 #: model:ir.model,name:project.model_mail_activity
 msgid "Activity"
-msgstr ""
+msgstr "Активность"
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_project__activity_exception_decoration
@@ -1004,7 +1004,7 @@ msgstr "Тип дела"
 #. odoo-javascript
 #: code:addons/project/static/src/components/subtask_kanban_list/subtask_kanban_create/subtask_kanban_create.xml:0
 msgid "Add"
-msgstr ""
+msgstr "Добавить"
 
 #. module: project
 #. odoo-javascript
@@ -1046,7 +1046,7 @@ msgstr "Добавьте дополнительное содержимое дл�
 msgid ""
 "Add internal users as team members and invite portal users as collaborators "
 "to give them access to the project. They can also access tasks they follow."
-msgstr ""
+msgstr "Добавьте внутренних пользователей как участников команды, а пользователей портала пригласите как соисполнителей, чтобы дать им доступ к проекту. Они также видят задачи, на которые подписаны."
 
 #. module: project
 #. odoo-python
@@ -1054,14 +1054,14 @@ msgstr ""
 msgid ""
 "Add internal users as team members to give them access to the project. They "
 "can also access tasks they follow."
-msgstr ""
+msgstr "Добавьте внутренних пользователей как участников команды, чтобы дать им доступ к проекту. Они также видят задачи, на которые подписаны."
 
 #. module: project
 #: model_terms:digest.tip,tip_description:project.digest_tip_project_3
 msgid ""
 "Add project-specific property fields to tasks to better customize your "
 "project management process."
-msgstr ""
+msgstr "Добавьте в задачи поля свойств для конкретного проекта, чтобы точнее настроить управление проектами."
 
 #. module: project
 #. odoo-javascript
@@ -1092,14 +1092,14 @@ msgstr ""
 #: model:ir.model.fields.selection,name:project.selection__project_collaborator__access_mode__advanced_edit
 #: model:ir.model.fields.selection,name:project.selection__project_share_collaborator_wizard__access_mode__advanced_edit
 msgid "Advanced Edit"
-msgstr ""
+msgstr "Расширенное редактирование"
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.project_share_wizard_view_form
 msgid ""
 "Advanced Edit: create and update tasks, change their priority, and move them "
 "between stages."
-msgstr ""
+msgstr "Расширенное редактирование: создание и изменение задач, смена приоритета и перемещение между этапами."
 
 #. module: project
 #. odoo-javascript
@@ -1164,7 +1164,7 @@ msgstr "Все"
 #. odoo-javascript
 #: code:addons/project/static/src/components/project_many2one_field/project_many2one_field.js:0
 msgid "All Projects"
-msgstr ""
+msgstr "Все проекты"
 
 #. module: project
 #: model:ir.actions.act_window,name:project.action_view_all_task
@@ -1188,7 +1188,7 @@ msgstr "Все внутренние пользователи и приглаше
 msgid ""
 "All internal users have access to the project. Invite portal users as "
 "collaborators to give them access. They can also access tasks they follow."
-msgstr ""
+msgstr "Все внутренние пользователи имеют доступ к проекту. Пригласите пользователей портала как соисполнителей, чтобы дать им доступ. Они также видят задачи, на которые подписаны."
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_task__allocated_hours
@@ -1211,7 +1211,7 @@ msgstr "Аналитический счет"
 #. module: project
 #: model:ir.model,name:project.model_account_analytic_line
 msgid "Analytic Line"
-msgstr ""
+msgstr "Аналитическая строка"
 
 #. module: project
 #: model_terms:ir.actions.act_window,help:project.action_project_task_burndown_chart_report
@@ -1336,12 +1336,12 @@ msgstr ""
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.project_sharing_project_task_view_form
 msgid "Assign to Me"
-msgstr ""
+msgstr "Назначить мне"
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_task__project_sharing_portal_user_ids
 msgid "Assignable Portal Users"
-msgstr ""
+msgstr "Пользователи портала, которых можно назначать"
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.rating_rating_view_form_project
@@ -1373,7 +1373,7 @@ msgstr "Дата назначения"
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.project_project_view_form_simplified_template
 msgid "Assignment"
-msgstr ""
+msgstr "Назначение"
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_task_burndown_chart_report__date_assign
@@ -1558,7 +1558,7 @@ msgstr "Отменено"
 msgid ""
 "Cannot convert back to regular task because the task has no project defined "
 "but has a parent or sub-tasks."
-msgstr ""
+msgstr "Нельзя преобразовать обратно в обычную задачу: проект не указан, но есть родительская задача или подзадачи."
 
 #. module: project
 #: model:ir.model.fields.selection,name:project.selection__project_task__state__02_changes_requested
@@ -1575,7 +1575,7 @@ msgstr "Требуются изменения"
 msgid ""
 "Check the stage tracker on tasks to quickly spot bottlenecks in your project "
 "workflow."
-msgstr ""
+msgstr "Следите за индикатором этапа в задачах, чтобы быстро находить узкие места в рабочем процессе проекта."
 
 #. module: project
 #. odoo-javascript
@@ -1599,14 +1599,14 @@ msgstr ""
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.project_share_wizard_view_form
 msgid "Choose the appropriate access level for your collaborators:"
-msgstr ""
+msgstr "Выберите подходящий уровень доступа для соисполнителей:"
 
 #. module: project
 #: model_terms:digest.tip,tip_description:project.digest_tip_project_6
 msgid ""
 "Click the Kanban progress bar to quickly filter tasks by status within the "
 "current stage."
-msgstr ""
+msgstr "Нажмите на индикатор прогресса в канбане, чтобы быстро отфильтровать задачи по статусу в текущем этапе."
 
 #. module: project
 #. odoo-javascript
@@ -1726,7 +1726,7 @@ msgstr "Конфигурация"
 #. odoo-javascript
 #: code:addons/project/static/src/components/project_configure_project_cog_menu/project_configure_project_cog_menu.xml:0
 msgid "Configure Project"
-msgstr ""
+msgstr "Настроить проект"
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.view_project_project_stage_unarchive_wizard
@@ -1774,7 +1774,7 @@ msgstr "Контактный номер"
 #. odoo-javascript
 #: code:addons/project/static/src/components/project_convert_project_to_template_cog_menu/project_convert_project_to_template_cog_menu.xml:0
 msgid "Convert Project to Template"
-msgstr ""
+msgstr "Преобразовать проект в шаблон"
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.project_task_convert_to_subtask_view_form
@@ -1835,7 +1835,7 @@ msgstr "Создать проект"
 #. odoo-python
 #: code:addons/project/wizard/project_template_create_wizard.py:0
 msgid "Create Project (Template: %s)"
-msgstr ""
+msgstr "Создать проект (шаблон: %s)"
 
 #. module: project
 #: model:ir.model,website_form_label:project.model_res_partner
@@ -1873,7 +1873,7 @@ msgstr "Создать новую подзадачу"
 msgid ""
 "Create a personal workflow to organize your assigned tasks and private to-"
 "dos."
-msgstr ""
+msgstr "Создайте личный рабочий процесс, чтобы упорядочить назначенные вам задачи и личные дела."
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.project_project_view_form_simplified_footer
@@ -1904,7 +1904,7 @@ msgstr ""
 msgid ""
 "Create reusable task templates to quickly set up tasks and standardize your "
 "workflows."
-msgstr ""
+msgstr "Создавайте многоразовые шаблоны задач, чтобы быстро заводить задачи и стандартизировать рабочие процессы."
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_task__create_date
@@ -2068,7 +2068,7 @@ msgstr ""
 #: model:ir.model.fields,help:project.field_project_project_stage__rotting_threshold_days
 msgid ""
 "Day count before projects in this stage become stale. Set to 0 to disable."
-msgstr ""
+msgstr "Число дней, после которого проекты на этом этапе считаются застоявшимися. Поставьте 0, чтобы отключить."
 
 #. module: project
 #: model:ir.model.fields,help:project.field_project_task_type__rotting_threshold_days
@@ -2135,7 +2135,7 @@ msgstr "Уважаемый(ая)"
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.task_type_edit
 msgid "Default"
-msgstr ""
+msgstr "По умолчанию"
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_project__alias_defaults
@@ -2202,7 +2202,7 @@ msgstr "Удалить этап"
 #. odoo-javascript
 #: code:addons/project/static/src/components/subtask_one2many_field/subtask_list_renderer.js:0
 msgid "Delete Subtask"
-msgstr ""
+msgstr "Удалить подзадачу"
 
 #. module: project
 #: model:ir.model.fields,help:project.field_project_task__milestone_id
@@ -2260,7 +2260,7 @@ msgstr "Дизайн"
 #. module: project
 #: model:project.role,name:project.project_role_2
 msgid "Design Architect"
-msgstr ""
+msgstr "Архитектор-проектировщик"
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.edit_project
@@ -2376,7 +2376,7 @@ msgstr "Редактировать"
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.project_share_wizard_view_form
 msgid "Edit: can create and update tasks."
-msgstr ""
+msgstr "Редактирование: можно создавать и изменять задачи."
 
 #. module: project
 #. odoo-javascript
@@ -2387,7 +2387,7 @@ msgstr "Редактирование"
 #. module: project
 #: model:project.role,name:project.project_role_5
 msgid "Electrician"
-msgstr ""
+msgstr "Электрик"
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_project__alias_email
@@ -2414,7 +2414,7 @@ msgstr "Домен электронной почты, например, 'example
 #: model_terms:digest.tip,tip_description:project.digest_tip_project_1
 msgid ""
 "Emails sent to your project's email address automatically create tasks in it."
-msgstr ""
+msgstr "Письма, отправленные на адрес электронной почты проекта, автоматически создают в нём задачи."
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_task__repeat_until
@@ -2488,7 +2488,7 @@ msgstr "Финансы"
 #: model_terms:ir.ui.view,arch_db:project.project_project_stage_view_form
 #: model_terms:ir.ui.view,arch_db:project.task_type_edit
 msgid "Fold by Default"
-msgstr ""
+msgstr "Сворачивать по умолчанию"
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_project_stage__fold
@@ -2505,7 +2505,7 @@ msgstr "Подписаться"
 #. module: project
 #: model:portal.entry,description:project.portal_tasks
 msgid "Follow and comments tasks of your projects"
-msgstr ""
+msgstr "Подписывайтесь на задачи своих проектов и комментируйте их"
 
 #. module: project
 #: model:portal.entry,description:project.portal_projects
@@ -2540,7 +2540,7 @@ msgid ""
 "From the task Kanban view, use the top menu to quickly access all project "
 "items like timesheets and invoices. Customize actions with your favorite "
 "filters and views to suit your needs."
-msgstr ""
+msgstr "В канбане задач используйте верхнее меню, чтобы быстро перейти ко всему, что связано с проектом: табелям, счетам и другому. Настройте действия под себя с помощью любимых фильтров и представлений."
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.project_sharing_project_task_view_search
@@ -2559,7 +2559,7 @@ msgstr "Будущие активности"
 #. module: project
 #: model:project.role,name:project.project_role_6
 msgid "Gas Technician"
-msgstr ""
+msgstr "Специалист по газовому оборудованию"
 
 #. module: project
 #: model_terms:ir.actions.act_window,help:project.project_update_all_action
@@ -2612,7 +2612,7 @@ msgstr "Есть сообщение"
 #. module: project
 #: model:ir.model.fields,field_description:project.field_report_project_task_user__has_project_template
 msgid "Has Project Template"
-msgstr ""
+msgstr "Есть шаблон проекта"
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_report_project_task_user__has_template_ancestor
@@ -2633,7 +2633,7 @@ msgstr "Скрыть завершенные задачи"
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.view_task_search_form_base
 msgid "High"
-msgstr ""
+msgstr "Высокий"
 
 #. module: project
 #: model:ir.model.fields.selection,name:project.selection__project_task__priority__2
@@ -2809,7 +2809,7 @@ msgstr ""
 #. module: project
 #: model_terms:digest.tip,tip_description:project.digest_tip_project_5
 msgid "Improve the configuration screen 5h #feature #v20 @"
-msgstr ""
+msgstr "Улучшить экран настроек 5h #feature #v20 @"
 
 #. module: project
 #. odoo-javascript
@@ -2829,7 +2829,7 @@ msgstr "В процессе"
 #. odoo-javascript
 #: code:addons/project/static/src/webclient/share_target/project_share_target_item.xml:0
 msgid "In Project"
-msgstr ""
+msgstr "В проекте"
 
 #. module: project
 #. odoo-javascript
@@ -2875,7 +2875,7 @@ msgstr "Недопустимое отображаемое имя"
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.edit_project
 msgid "Invite Portal Users"
-msgstr ""
+msgstr "Пригласить пользователей портала"
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_milestone__message_is_follower
@@ -2938,7 +2938,7 @@ msgstr ""
 #. module: project
 #: model:project.project,name:project.project_template_2
 msgid "Kitchen Assembly"
-msgstr ""
+msgstr "Сборка кухонь"
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.project_time_by_stage_report_view_search
@@ -3111,7 +3111,7 @@ msgstr "Обнаружение входящих на основе локальн
 #. module: project
 #: model:project.role,name:project.project_role_3
 msgid "Logistics Staff"
-msgstr ""
+msgstr "Сотрудники логистики"
 
 #. module: project
 #. odoo-javascript
@@ -3128,7 +3128,7 @@ msgstr "Ищите"
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.view_task_search_form_base
 msgid "Low"
-msgstr ""
+msgstr "Низкий"
 
 #. module: project
 #: model:ir.model.fields.selection,name:project.selection__project_task__priority__0
@@ -3140,7 +3140,7 @@ msgstr "Низкий приоритет"
 #. module: project
 #: model:ir.module.module,summary:base.module_project
 msgid "Manage tasks and collaborate on projects"
-msgstr ""
+msgstr "Управляйте задачами и работайте над проектами вместе"
 
 #. module: project
 #. odoo-javascript
@@ -3160,7 +3160,7 @@ msgstr "Производство"
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.edit_project
 msgid "Map"
-msgstr ""
+msgstr "Карта"
 
 #. module: project
 #. odoo-javascript
@@ -3186,7 +3186,7 @@ msgstr "Поиск материалов"
 #: model:ir.model.fields,help:project.field_project_task__activity_type_icon
 #: model:ir.model.fields,help:project.field_project_update__activity_type_icon
 msgid "Material Symbols icon e.g. checklist"
-msgstr ""
+msgstr "Значок Material Symbols, например checklist"
 
 #. module: project
 #: model_terms:ir.actions.act_window,help:project.rating_rating_action_project_report
@@ -3200,7 +3200,7 @@ msgstr ""
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.view_task_search_form_base
 msgid "Medium"
-msgstr ""
+msgstr "Средний"
 
 #. module: project
 #: model:ir.model.fields.selection,name:project.selection__project_task__priority__1
@@ -3337,7 +3337,7 @@ msgstr "Название"
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.edit_project
 msgid "Name of Tasks"
-msgstr ""
+msgstr "Название задач"
 
 #. module: project
 #: model:ir.model.fields,help:project.field_project_project__label_tasks
@@ -3440,7 +3440,7 @@ msgstr "Тип следующей активности"
 #. module: project
 #: model:res.groups.privilege,placeholder:project.res_groups_privilege_project
 msgid "No"
-msgstr ""
+msgstr "Нет"
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.portal_tasks_list
@@ -3490,7 +3490,7 @@ msgstr "Пока нет данных!"
 #: model_terms:ir.ui.view,arch_db:project.project_project_stage_view_form
 #: model_terms:ir.ui.view,arch_db:project.task_type_edit
 msgid "No email"
-msgstr ""
+msgstr "Нет эл. почты"
 
 #. module: project
 #: model_terms:ir.actions.act_window,help:project.project_milestone_action
@@ -3505,7 +3505,7 @@ msgstr "Проектные роли не найдены. Давайте созд
 #. module: project
 #: model_terms:ir.actions.act_window,help:project.open_view_project_template
 msgid "No project templates found. Let's create one!"
-msgstr ""
+msgstr "Шаблонов проектов не найдено. Давайте создадим!"
 
 #. module: project
 #: model_terms:ir.actions.act_window,help:project.open_view_project_all
@@ -3710,7 +3710,7 @@ msgstr "Просроченные задачи"
 #. module: project
 #: model:ir.embedded.actions,name:project.project_embedded_action_project_overview
 msgid "Overview"
-msgstr ""
+msgstr "Обзор"
 
 #. module: project
 #. odoo-javascript
@@ -3810,7 +3810,7 @@ msgstr "Планируемая дата"
 #. module: project
 #: model:project.role,name:project.project_role_8
 msgid "Plumber"
-msgstr ""
+msgstr "Сантехник"
 
 #. module: project
 #. odoo-javascript
@@ -3876,12 +3876,12 @@ msgstr "Частный"
 msgid ""
 "Private (non-template) tasks cannot be converted into sub-tasks. Please set "
 "a project on the task to gain access to this feature."
-msgstr ""
+msgstr "Личные задачи (не шаблоны) нельзя преобразовать в подзадачи. Укажите в задаче проект, чтобы получить эту возможность."
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.view_task_card
 msgid "Private Task"
-msgstr ""
+msgstr "Личная задача"
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.view_task_search_form
@@ -3891,7 +3891,7 @@ msgstr "Частные задачи"
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.view_task_card
 msgid "Private task"
-msgstr ""
+msgstr "Личная задача"
 
 #. module: project
 #: model:project.project,name:project.project_template_1
@@ -4021,7 +4021,7 @@ msgid ""
 "on resolving them. Integrate customer interaction on every issue and get\n"
 "accurate reports on your team's performance.\n"
 "\n"
-msgstr ""
+msgstr "Управление проектами\n--------------------\n\n### Бесконечно гибко. Невероятно просто.\n\n\nСовместное управление проектами в реальном времени с <a href=\"https://www.odoo.com/app/project\">открытым исходным кодом</a>\nпомогает команде доводить работу до результата. Следите за всем — от общей картины\nдо мелких деталей, от договора с клиентом до выставления счетов.\n\nПодстраивается под ваш процесс\n------------------------------\n\nСтройте проекты вокруг собственных процессов. Работайте с задачами и проблемами\nв канбане, планируйте задачи на диаграмме Ганта и следите за сроками\nв календаре. У каждого проекта могут быть свои этапы, чтобы команды\nмогли выстроить работу как им удобно.\n\nЛегко пользоваться\n------------------\n\nНаводите порядок со скоростью мысли. Простой интерфейс не нужно долго\nосваивать, а любое действие выполняется мгновенно, поэтому ничто\nне мешает вашему рабочему настрою.\n\nРаботайте вместе\n----------------\n\n### Чаты в реальном времени, обмен документами, интеграция с почтой\n\nОбщайтесь с командой или клиентами в обсуждении, делитесь комментариями\nи документами по задачам и проблемам. Подключите почту, чтобы переписка\nшла ещё быстрее.\n\nОбщайтесь с другими пользователями или клиентами через онлайн-чат на сайте.\n\nСовместное редактирование\n-------------------------\n\n### Возможности etherpad прямо внутри задач\n\nРедактируйте одни и те же спецификации или протоколы встреч прямо\nв приложении. Встроенный etherpad позволяет нескольким людям\nработать над одними и теми же задачами одновременно.\n\nЭто очень удобно для скрам-встреч, протоколов и сложных\nспецификаций. У каждого пользователя свой цвет, а весь процесс\nсоздания текста можно воспроизвести.\n\nДоводите работу до конца\n------------------------\n\nПолучайте уведомления о событиях, на которые подписаны, чтобы быть в курсе\nтого, что вам интересно. Зелёные и красные индикаторы сразу показывают,\nчто уже сделано, а что требует вашего внимания.\n\nТабели, договоры и счета\n------------------------\n\nПроекты автоматически связаны с договорами клиентов, так что вы можете\nвыставлять счета по времени и материалам и легко вести табели.\n\nОтслеживайте проблемы\n---------------------\n\nВыделяйте проблемы, возникающие в проекте, чтобы сосредоточиться\nна их решении. Подключайте клиентов к обсуждению каждой проблемы и получайте\nточные отчёты о работе вашей команды.\n\n"
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_project__user_id
@@ -4047,7 +4047,7 @@ msgstr "Название проекта"
 #. odoo-python
 #: code:addons/project/models/project_project.py:0
 msgid "Project Overview"
-msgstr ""
+msgstr "Обзор проекта"
 
 #. module: project
 #: model:ir.model,name:project.model_project_role
@@ -4113,7 +4113,7 @@ msgstr "Этапы проекта"
 #. module: project
 #: model:ir.model,name:project.model_project_tags
 msgid "Project Tag"
-msgstr ""
+msgstr "Тег проекта"
 
 #. module: project
 #: model:ir.model,name:project.model_project_task_type_delete_wizard
@@ -4181,7 +4181,7 @@ msgid ""
 "access to the project application.\n"
 "• Project admins have access to private projects, even if they are not team "
 "members."
-msgstr ""
+msgstr "Видимость проекта и задач\nОпределите, кто может получить доступ к этому проекту:\n\n• Внутренние пользователи: выберите, доступен ли проект только участникам команды или всем в вашей организации.\n• Пользователи портала: выберите, получают ли приглашённые соисполнители доступ к проекту.\n\nУровни доступа для пользователей портала\n\n• Просмотр: доступ к задачам и отправка сообщений.\n• Редактирование: создание и изменение задач.\n• Расширенное редактирование: создание и изменение задач, смена приоритета и перемещение между этапами.\n\nДругие правила\n\n• Внутренние пользователи могут открыть задачу по прямой ссылке, даже если у них нет доступа к приложению «Проекты».\n• Администраторы проектов имеют доступ к частным проектам, даже если они не участники команды."
 
 #. module: project
 #. odoo-javascript
@@ -4203,7 +4203,7 @@ msgstr "Описание проекта..."
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.edit_project
 msgid "Project name"
-msgstr ""
+msgstr "Название проекта"
 
 #. module: project
 #: model:ir.model,name:project.model_project_template_role_to_users_map
@@ -4226,7 +4226,7 @@ msgstr "Статус проекта - {{ object.name }}"
 #: model_terms:ir.ui.view,arch_db:project.project_project_view_form_simplified
 #: model_terms:ir.ui.view,arch_db:project.project_project_view_form_simplified_template
 msgid "Project's Email"
-msgstr ""
+msgstr "Эл. почта проекта"
 
 #. module: project
 #: model:ir.actions.act_window,name:project.dblc_proj
@@ -4326,7 +4326,7 @@ msgstr "Публикация"
 #. module: project
 #: model:project.role,name:project.project_role_9
 msgid "Quality & Safety Officer"
-msgstr ""
+msgstr "Специалист по качеству и безопасности"
 
 #. module: project
 #: model:ir.model.fields.selection,name:project.selection__project_task_type__rating_status_period__quarterly
@@ -4338,13 +4338,13 @@ msgstr "Ежеквартально"
 msgid ""
 "Quickly identify tasks awaiting approval or change requests, and spot those "
 "on hold due to unresolved dependencies."
-msgstr ""
+msgstr "Быстро находите задачи, ожидающие согласования или изменений, и те, что приостановлены из-за неразрешённых зависимостей."
 
 #. module: project
 #: model_terms:digest.tip,tip_description:project.digest_tip_project_7
 msgid ""
 "Quickly identify tasks that have been stuck in the same stage for too long."
-msgstr ""
+msgstr "Быстро находите задачи, которые слишком долго застряли на одном этапе."
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.project_task_view_tree_base
@@ -4371,7 +4371,7 @@ msgstr "Текст среднего рейтинга"
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.task_type_edit
 msgid "Rating Email"
-msgstr ""
+msgstr "Письмо с оценкой"
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_task_type__rating_template_id
@@ -4506,7 +4506,7 @@ msgstr "Удалить соисполнителя"
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.project_sharing_project_task_view_form
 msgid "Remove Me"
-msgstr ""
+msgstr "Убрать меня"
 
 #. module: project
 #. odoo-javascript
@@ -4598,7 +4598,7 @@ msgstr "Вернуть в статус проекта"
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.project_project_view_form_simplified_template
 msgid "Role"
-msgstr ""
+msgstr "Роль"
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_template_create_wizard__role_to_users_ids
@@ -4618,7 +4618,7 @@ msgstr "Зависшие"
 #: model_terms:ir.ui.view,arch_db:project.project_project_stage_view_form
 #: model_terms:ir.ui.view,arch_db:project.task_type_edit
 msgid "Rotting in"
-msgstr ""
+msgstr "Застой"
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_milestone__message_has_sms_error
@@ -4654,7 +4654,7 @@ msgid ""
 "Save time by using project templates with pre-filled details.<br>\n"
 "                    Standardize workflows and ensure consistency across "
 "projects."
-msgstr ""
+msgstr "Экономьте время с шаблонами проектов с готовыми данными.<br>\n                    Стандартизируйте процессы и сохраняйте единообразие во всех проектах."
 
 #. module: project
 #. odoo-javascript
@@ -4702,7 +4702,7 @@ msgstr "Поиск по вехам"
 #. odoo-python
 #: code:addons/project/controllers/portal.py:0
 msgid "Search in Parent Task"
-msgstr ""
+msgstr "Искать в родительской задаче"
 
 #. module: project
 #. odoo-python
@@ -4743,17 +4743,17 @@ msgstr "Токен безопасности"
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.view_task_card
 msgid "See Parent Task"
-msgstr ""
+msgstr "Показать родительскую задачу"
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.edit_project
 msgid "Select Customer"
-msgstr ""
+msgstr "Выбрать клиента"
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.edit_project
 msgid "Select Tags"
-msgstr ""
+msgstr "Выбрать теги"
 
 #. module: project
 #. odoo-javascript
@@ -4764,7 +4764,7 @@ msgstr "Выберите исполнителя из меню"
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.edit_project
 msgid "Select who can access"
-msgstr ""
+msgstr "Выберите, кому открыть доступ"
 
 #. module: project
 #: model:ir.actions.act_window,name:project.action_send_mail_project_project
@@ -4836,7 +4836,7 @@ msgstr "Настройки"
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_share_wizard__share_link
 msgid "Share Link"
-msgstr ""
+msgstr "Поделиться ссылкой"
 
 #. module: project
 #. odoo-python
@@ -4983,7 +4983,7 @@ msgstr "Этап"
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.project_time_by_stage_report_view_pivot
 msgid "Stage Analysis"
-msgstr ""
+msgstr "Анализ этапов"
 
 #. module: project
 #: model:mail.message.subtype,name:project.mt_task_stage
@@ -4993,13 +4993,13 @@ msgstr "Этап изменен"
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.project_time_by_stage_report_view_graph
 msgid "Stage Chart"
-msgstr ""
+msgstr "Диаграмма этапов"
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_project_stage__name
 #: model:ir.model.fields,field_description:project.field_project_task_type__name
 msgid "Stage Name"
-msgstr ""
+msgstr "Название этапа"
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_task_type__user_id
@@ -5100,7 +5100,7 @@ msgstr "Сводка"
 #. module: project
 #: model:project.role,name:project.project_role_7
 msgid "Surface Installer"
-msgstr ""
+msgstr "Монтажник покрытий"
 
 #. module: project
 #. odoo-javascript
@@ -5302,12 +5302,12 @@ msgstr "Задача выполнена"
 #. odoo-python
 #: code:addons/project/models/project_task.py:0
 msgid "Task templates cannot be shared."
-msgstr ""
+msgstr "Шаблонами задач нельзя делиться."
 
 #. module: project
 #: model:ir.model,name:project.model_project_task_stage_report
 msgid "Task time spent per stage"
-msgstr ""
+msgstr "Время в задачах по этапам"
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.task_track_depending_tasks
@@ -5370,7 +5370,7 @@ msgstr "Этапы задач"
 #. odoo-javascript
 #: code:addons/project/static/src/views/components/project_task_template_dropdown.js:0
 msgid "Tasks Templates"
-msgstr ""
+msgstr "Шаблоны задач"
 
 #. module: project
 #. odoo-python
@@ -5385,17 +5385,17 @@ msgstr "Задачи в повторении"
 #: model_terms:ir.ui.view,arch_db:project.edit_project
 #: model_terms:ir.ui.view,arch_db:project.project_role_view_search
 msgid "Team Members"
-msgstr ""
+msgstr "Участники команды"
 
 #. module: project
 #: model:ir.model.fields.selection,name:project.selection__project_project__privacy_visibility__invited_users
 msgid "Team members and invited portal users"
-msgstr ""
+msgstr "Участники команды и приглашённые пользователи портала"
 
 #. module: project
 #: model:ir.model.fields.selection,name:project.selection__project_project__privacy_visibility__followers
 msgid "Team members only"
-msgstr ""
+msgstr "Только участники команды"
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_template_create_wizard__template_id
@@ -5431,7 +5431,7 @@ msgstr "Шаблон успешно создан на основе %s."
 #. odoo-python
 #: code:addons/project/models/project_task.py:0
 msgid "Template for Tasks"
-msgstr ""
+msgstr "Шаблон для задач"
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.view_project_project_filter
@@ -5554,7 +5554,7 @@ msgstr "На тот момент описание задачи было пуст
 #. odoo-python
 #: code:addons/project/report/project_task_burndown_chart_report.py:0
 msgid "The view must be grouped by date and by Stage - Burndown chart"
-msgstr ""
+msgstr "Представление должно быть сгруппировано по дате и по этапу — диаграмма сгорания"
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.portal_my_projects
@@ -5650,20 +5650,20 @@ msgstr ""
 #. odoo-python
 #: code:addons/project/models/project_task.py:0
 msgid "This new task has been created in the \"%(project_name)s\" project."
-msgstr ""
+msgstr "Эта новая задача создана в проекте «%(project_name)s»."
 
 #. module: project
 #. odoo-python
 #: code:addons/project/models/project_task.py:0
 msgid "This new task is not part of any project."
-msgstr ""
+msgstr "Эта новая задача не входит ни в один проект."
 
 #. module: project
 #. odoo-python
 #: code:addons/project/models/project_project.py:0
 #: code:addons/project/models/project_task.py:0
 msgid "This project can’t be shared with external people."
-msgstr ""
+msgstr "Этим проектом нельзя делиться с внешними людьми."
 
 #. module: project
 #. odoo-python
@@ -5759,7 +5759,7 @@ msgstr "Управление временем"
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_task_stage_report__time_spent
 msgid "Time Spent"
-msgstr ""
+msgstr "Затраченное время"
 
 #. module: project
 #: model:ir.actions.act_window,name:project.action_project_time_by_stage_report
@@ -5772,7 +5772,7 @@ msgstr "Время по этапам"
 #. module: project
 #: model:digest.tip,name:project.digest_tip_project_9
 msgid "Tip: Access your project easily"
-msgstr ""
+msgstr "Совет: быстрый доступ к проекту"
 
 #. module: project
 #: model:digest.tip,name:project.digest_tip_project_1
@@ -5782,22 +5782,22 @@ msgstr "Совет: Создавайте задачи из входящих пи
 #. module: project
 #: model:digest.tip,name:project.digest_tip_project_5
 msgid "Tip: Create your tasks in an instant"
-msgstr ""
+msgstr "Совет: создавайте задачи мгновенно"
 
 #. module: project
 #: model:digest.tip,name:project.digest_tip_project_7
 msgid "Tip: Don't let stalled tasks slip under the radar"
-msgstr ""
+msgstr "Совет: не упускайте из виду застрявшие задачи"
 
 #. module: project
 #: model:digest.tip,name:project.digest_tip_project_6
 msgid "Tip: Filter your tasks with one click"
-msgstr ""
+msgstr "Совет: фильтруйте задачи одним щелчком"
 
 #. module: project
 #: model:digest.tip,name:project.digest_tip_project_4
 msgid "Tip: Identify bottlenecks at a glance"
-msgstr ""
+msgstr "Совет: находите узкие места с одного взгляда"
 
 #. module: project
 #: model:digest.tip,name:project.digest_tip_project_3
@@ -5807,17 +5807,17 @@ msgstr "Совет: Специфичные поля проекта"
 #. module: project
 #: model:digest.tip,name:project.digest_tip_project_8
 msgid "Tip: Save time with task templates"
-msgstr ""
+msgstr "Совет: экономьте время с шаблонами задач"
 
 #. module: project
 #: model:digest.tip,name:project.digest_tip_project_0
 msgid "Tip: Use task states to track progress"
-msgstr ""
+msgstr "Совет: следите за прогрессом по состояниям задач"
 
 #. module: project
 #: model:digest.tip,name:project.digest_tip_project_2
 msgid "Tip: Your personal kanban"
-msgstr ""
+msgstr "Совет: ваш личный канбан"
 
 #. module: project
 #. odoo-python
@@ -5993,7 +5993,7 @@ msgstr "Обновление создано"
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.task_type_edit
 msgid "Update Stage"
-msgstr ""
+msgstr "Обновить этап"
 
 #. module: project
 #: model:ir.actions.act_window,name:project.project_update_all_action
@@ -6052,7 +6052,7 @@ msgstr "Использовать для моего проекта"
 msgid ""
 "Use keywords in the title to set task details automatically. For example, "
 "type:<br>"
-msgstr ""
+msgstr "Используйте ключевые слова в названии, чтобы автоматически заполнять данные задачи. Например, введите:<br>"
 
 #. module: project
 #: model_terms:ir.actions.act_window,help:project.project_tags_action
@@ -6132,7 +6132,7 @@ msgstr "Просмотр"
 #. odoo-javascript
 #: code:addons/project/static/src/views/components/project_task_template_dropdown.xml:0
 msgid "View More"
-msgstr ""
+msgstr "Показать ещё"
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.project_sharing_project_task_view_form
@@ -6150,7 +6150,7 @@ msgstr "Просмотр задач"
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.project_share_wizard_view_form
 msgid "View: can access tasks and send messages."
-msgstr ""
+msgstr "Просмотр: доступ к задачам и отправка сообщений."
 
 #. module: project
 #: model:ir.model.fields,help:project.field_project_share_collaborator_wizard__access_mode
@@ -6159,7 +6159,7 @@ msgid ""
 "Edit: can create and update tasks.\n"
 "Advanced Edit: create and update tasks, change their priority, and move them "
 "between stages."
-msgstr ""
+msgstr "Просмотр: доступ к задачам и отправка сообщений.\nРедактирование: создание и изменение задач.\nРасширенное редактирование: создание и изменение задач, смена приоритета и перемещение между этапами."
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_project__privacy_visibility
@@ -6233,7 +6233,7 @@ msgstr "Работа"
 #. module: project
 #: model:project.role,name:project.project_role_4
 msgid "Worker"
-msgstr ""
+msgstr "Рабочий"
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_task__working_days_open
@@ -6289,7 +6289,7 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/project/static/src/project_sharing/chatter/composer_patch.js:0
 msgid "Write a message…"
-msgstr ""
+msgstr "Напишите сообщение…"
 
 #. module: project
 #. odoo-javascript
@@ -6437,7 +6437,7 @@ msgstr ""
 #: code:addons/project/models/project_task.py:0
 msgid ""
 "You need Advanced Edit access to change the stage or priority of a task."
-msgstr ""
+msgstr "Чтобы менять этап или приоритет задачи, нужен доступ «Расширенное редактирование»."
 
 #. module: project
 #. odoo-javascript
@@ -6515,7 +6515,7 @@ msgstr "например, Запуск продукта"
 #: model_terms:ir.ui.view,arch_db:project.project_project_stage_view_form
 #: model_terms:ir.ui.view,arch_db:project.task_type_edit
 msgid "e.g. Qualification"
-msgstr ""
+msgstr "напр. Квалификация"
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.project_sharing_quick_create_task_form

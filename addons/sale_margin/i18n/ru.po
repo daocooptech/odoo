@@ -31,17 +31,17 @@ msgid ""
 "\n"
 "This gives the profitability by calculating the difference between the Unit\n"
 "Price and Cost Price.\n"
-msgstr ""
+msgstr "\nМодуль добавляет «Маржу» в заказ на продажу.\n=============================================\n\nОна показывает прибыльность как разницу между ценой за единицу\nи себестоимостью.\n"
 
 #. module: sale_margin
 #: model_terms:ir.ui.view,arch_db:sale_margin.sale_report_projected_margins_list
 msgid "Delivered"
-msgstr ""
+msgstr "Поставлено"
 
 #. module: sale_margin
 #: model_terms:ir.ui.view,arch_db:sale_margin.sale_report_projected_margins_list
 msgid "Delivered Qty"
-msgstr ""
+msgstr "Поставлено, кол-во"
 
 #. module: sale_margin
 #: model:ir.model.fields,field_description:sale_margin.field_sale_order__display_name
@@ -54,7 +54,7 @@ msgstr "Отображаемое название"
 #. module: sale_margin
 #: model:ir.model.fields,field_description:sale_margin.field_sale_report__purchase_price
 msgid "Expected Cost"
-msgstr ""
+msgstr "Ожидаемые затраты"
 
 #. module: sale_margin
 #: model:ir.actions.act_window,name:sale_margin.action_order_report_projected_margins
@@ -73,29 +73,29 @@ msgstr "ID"
 #. odoo-python
 #: code:addons/sale_margin/models/sale_order_line.py:0
 msgid "If the cost is not 0, it is not possible to set the margin to 100%"
-msgstr ""
+msgstr "Если себестоимость не равна 0, задать маржу 100% нельзя"
 
 #. module: sale_margin
 #: model_terms:ir.ui.view,arch_db:sale_margin.sale_report_projected_margins_list
 msgid "Invoiced"
-msgstr ""
+msgstr "Выставлено"
 
 #. module: sale_margin
 #: model_terms:ir.ui.view,arch_db:sale_margin.sale_report_projected_margins_list
 msgid "Invoiced Qty"
-msgstr ""
+msgstr "Выставлено, кол-во"
 
 #. module: sale_margin
 #. odoo-javascript
 #: code:addons/sale_margin/static/src/js/labeled_field_short_labels.js:0
 msgid "M%:"
-msgstr ""
+msgstr "М%:"
 
 #. module: sale_margin
 #. odoo-javascript
 #: code:addons/sale_margin/static/src/js/labeled_field_short_labels.js:0
 msgid "M:"
-msgstr ""
+msgstr "М:"
 
 #. module: sale_margin
 #: model:ir.model.fields,field_description:sale_margin.field_sale_order__margin
@@ -108,7 +108,7 @@ msgstr "Отступ"
 #. odoo-python
 #: code:addons/sale_margin/models/sale_order.py:0
 msgid "Margin (%(percent).0f%%)"
-msgstr ""
+msgstr "Маржа (%(percent).0f%%)"
 
 #. module: sale_margin
 #: model:ir.model.fields,field_description:sale_margin.field_sale_order__margin_percent
@@ -120,29 +120,29 @@ msgstr "Маржа (%)"
 #. module: sale_margin
 #: model:ir.module.module,shortdesc:base.module_sale_margin
 msgid "Margins in Sales Orders"
-msgstr ""
+msgstr "Маржа в заказах на продажу"
 
 #. module: sale_margin
 #: model_terms:ir.actions.act_window,help:sale_margin.action_order_report_projected_margins
 msgid "No data to display"
-msgstr ""
+msgstr "Нет данных для отображения"
 
 #. module: sale_margin
 #: model_terms:ir.ui.view,arch_db:sale_margin.sale_report_projected_margins_list
 msgid "Product"
-msgstr ""
+msgstr "Товар"
 
 #. module: sale_margin
 #: model:ir.model,name:sale_margin.model_sale_order_template_line
 msgid "Quotation Template Line"
-msgstr ""
+msgstr "Строка шаблона коммерческого предложения"
 
 #. module: sale_margin
 #: model_terms:ir.ui.view,arch_db:sale_margin.sale_report_projected_margins_list
 #: model_terms:ir.ui.view,arch_db:sale_margin.sale_report_view_projected_margins_graph
 #: model_terms:ir.ui.view,arch_db:sale_margin.sale_report_view_projected_margins_pivot
 msgid "Sales Analysis"
-msgstr ""
+msgstr "Анализ продаж"
 
 #. module: sale_margin
 #: model:ir.model,name:sale_margin.model_sale_report
@@ -162,60 +162,60 @@ msgstr "Позиция заказа на продажу"
 #. module: sale_margin
 #: model_terms:ir.ui.view,arch_db:sale_margin.sale_report_projected_margins_list
 msgid "Sold"
-msgstr ""
+msgstr "Продано"
 
 #. module: sale_margin
 #: model_terms:ir.ui.view,arch_db:sale_margin.sale_report_projected_margins_list
 msgid "Sold Qty"
-msgstr ""
+msgstr "Продано, кол-во"
 
 #. module: sale_margin
 #: model_terms:ir.actions.act_window,help:sale_margin.action_order_report_projected_margins
 msgid "This report performs analysis on forecast margins of sales orders."
-msgstr ""
+msgstr "Этот отчёт анализирует прогнозную маржу заказов на продажу."
 
 #. module: sale_margin
 #: model_terms:ir.ui.view,arch_db:sale_margin.sale_report_projected_margins_list
 msgid "Total Cost"
-msgstr ""
+msgstr "Общая себестоимость"
 
 #. module: sale_margin
 #: model_terms:ir.ui.view,arch_db:sale_margin.sale_report_projected_margins_list
 msgid "Total Delivered"
-msgstr ""
+msgstr "Всего поставлено"
 
 #. module: sale_margin
 #: model_terms:ir.ui.view,arch_db:sale_margin.sale_report_projected_margins_list
 msgid "Total Delivered Qty"
-msgstr ""
+msgstr "Всего поставлено, кол-во"
 
 #. module: sale_margin
 #: model_terms:ir.ui.view,arch_db:sale_margin.sale_report_projected_margins_list
 msgid "Total Invoiced"
-msgstr ""
+msgstr "Всего выставлено"
 
 #. module: sale_margin
 #: model_terms:ir.ui.view,arch_db:sale_margin.sale_report_projected_margins_list
 msgid "Total Invoiced Qty"
-msgstr ""
+msgstr "Всего выставлено, кол-во"
 
 #. module: sale_margin
 #: model_terms:ir.ui.view,arch_db:sale_margin.sale_report_projected_margins_list
 msgid "Total Margin"
-msgstr ""
+msgstr "Общая маржа"
 
 #. module: sale_margin
 #: model_terms:ir.ui.view,arch_db:sale_margin.sale_report_projected_margins_list
 msgid "Total Sold"
-msgstr ""
+msgstr "Всего продано"
 
 #. module: sale_margin
 #: model_terms:ir.ui.view,arch_db:sale_margin.sale_report_projected_margins_list
 msgid "Total Sold Qty"
-msgstr ""
+msgstr "Всего продано, кол-во"
 
 #. module: sale_margin
 #: model:ir.model.fields,field_description:sale_margin.field_sale_order_line__purchase_price
 #: model:ir.model.fields,field_description:sale_margin.field_sale_order_template_line__purchase_price
 msgid "Unit Cost"
-msgstr ""
+msgstr "Себестоимость за единицу"

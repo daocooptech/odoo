@@ -51,7 +51,7 @@ msgstr "# Количество линий"
 #. odoo-python
 #: code:addons/purchase/models/account_invoice.py:0
 msgid "%(added_lines_count)s PO lines added to the bill."
-msgstr ""
+msgstr "Строк заказа на закупку добавлено в счёт: %(added_lines_count)s."
 
 #. module: purchase
 #. odoo-python
@@ -59,7 +59,7 @@ msgstr ""
 msgid ""
 "%(matched_lines_count)s bill lines matched, %(unmatched_lines_count)s "
 "unmatched remaining."
-msgstr ""
+msgstr "Сопоставлено строк счёта: %(matched_lines_count)s, не сопоставлено: %(unmatched_lines_count)s."
 
 #. module: purchase
 #. odoo-python
@@ -67,13 +67,13 @@ msgstr ""
 msgid ""
 "%(order)s - %(order_line)s; %(quantity_billed)s Billed, %"
 "(quantity_received)s Received at %(unit_price)s each"
-msgstr ""
+msgstr "%(order)s - %(order_line)s; в счёте %(quantity_billed)s, получено %(quantity_received)s по %(unit_price)s за единицу"
 
 #. module: purchase
 #. odoo-python
 #: code:addons/purchase/wizard/accrued_orders.py:0
 msgid "%(order)s - %(order_line)s; price difference for %(product)s"
-msgstr ""
+msgstr "%(order)s - %(order_line)s; разница в цене по %(product)s"
 
 #. module: purchase
 #. odoo-python
@@ -117,7 +117,7 @@ msgstr "-&gt;"
 #. odoo-python
 #: code:addons/purchase/models/account_invoice.py:0
 msgid "0 bill lines matched with this PO."
-msgstr ""
+msgstr "Ни одна строка счёта не сопоставлена с этим заказом на закупку."
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.res_config_settings_view_form_purchase
@@ -169,7 +169,7 @@ msgid ""
 "        <br/><br/>\n"
 "    </p>\n"
 "</div>"
-msgstr ""
+msgstr "<div style=\"margin: 0px; padding: 0px;\">\n    <p style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n        Здравствуйте, <t t-out=\"object.partner_id.name or ''\">Brandon Freeman</t>\n        <t t-if=\"object.partner_id.parent_id\">\n            (<t t-out=\"object.partner_id.parent_id.name or ''\">Azure Interior</t>)\n        </t>\n        <br/><br/>\n        Напоминаем, что поставка заказа на закупку <span style=\"font-weight:bold;\" t-out=\"object.name or ''\">P00015</span>\n        <t t-if=\"object.partner_ref\">\n            <span style=\"font-weight:bold;\">(<t t-out=\"object.partner_ref or ''\">REF_XXX</t>)</span>\n        </t>\n        ожидается: \n        <t t-if=\"object.date_planned\">\n            <span style=\"font-weight:bold;\" t-out=\"format_date(object.date_planned) or ''\">05/05/2021</span>.\n        </t>\n         <t t-else=\"\">\n            <span style=\"font-weight:bold;\">дата не определена</span>.\n        </t>\n        Подтвердите, пожалуйста, что заказ будет доставлен в срок.\n        <br/><br/>\n        <a t-att-href=\"object.get_acknowledge_url()\" target=\"_blank\" style=\"padding: 5px 10px; color: #FFFFFF; text-decoration: none; background-color: #875A7B; border: 1px solid #875A7B; border-radius: 3px\">\n            Подтвердить</a>\n        <br/><br/>\n        <t t-if=\"not is_html_empty(object.user_id.signature)\">\n            <br/><br/>\n            <div data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/><t t-out=\"object.user_id.signature or ''\">Mitchell Admin</t></div>\n        </t>\n        <br/><br/>\n    </p>\n</div>"
 
 #. module: purchase
 #: model:mail.template,body_html:purchase.email_template_edi_purchase_done
@@ -212,7 +212,7 @@ msgid ""
 "        <br/><br/>\n"
 "    </p>\n"
 "</div>"
-msgstr ""
+msgstr "<div style=\"margin: 0px; padding: 0px;\">\n    <p style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n        Здравствуйте, <t t-out=\"object.partner_id.name or ''\">Brandon Freeman</t>\n        <t t-if=\"object.partner_id.parent_id\">\n            (<t t-out=\"object.partner_id.parent_id.name or ''\">Azure Interior</t>)\n        </t>\n        <br/><br/>\n        Во вложении заказ на закупку <span style=\"font-weight:bold;\" t-out=\"object.name or ''\">P00015</span>\n        <t t-if=\"object.partner_ref\">\n            с референсом: <t t-out=\"object.partner_ref or ''\">REF_XXX</t>\n        </t>\n        на сумму <span style=\"font-weight:bold;\" t-out=\"format_amount(object.amount_total, object.currency_id) or ''\">$ 10.00</span>\n        от <t t-out=\"object.company_id.name or ''\">YourCompany</t>. \n        <br/><br/>\n        <t t-if=\"object.date_planned\">\n            Поступление ожидается: <span style=\"font-weight:bold;\" t-out=\"format_date(object.date_planned) or ''\">05/05/2021</span>.\n            <br/><br/>\n            Подтвердите, пожалуйста, получение этого заказа.\n            <br/><br/>\n            <a t-att-href=\"object.get_acknowledge_url()\" target=\"_blank\" style=\"padding: 5px 10px; color: #FFFFFF; text-decoration: none; background-color: #875A7B; border: 1px solid #875A7B; border-radius: 3px\">\n                Подтвердить</a>\n        </t>\n        <t t-if=\"not is_html_empty(object.user_id.signature)\">\n            <br/><br/>\n            <div data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/><t t-out=\"object.user_id.signature or ''\">Mitchell Admin</t></div>\n        </t>\n        <br/><br/>\n    </p>\n</div>"
 
 #. module: purchase
 #: model:mail.template,body_html:purchase.email_template_edi_purchase
@@ -243,7 +243,7 @@ msgid ""
 "        </t>\n"
 "    </p>\n"
 "</div>"
-msgstr ""
+msgstr "<div style=\"margin: 0px; padding: 0px;\">\n    <p style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n        Здравствуйте, <t t-out=\"object.partner_id.name or ''\">Brandon Freeman</t>\n        <t t-if=\"object.partner_id.parent_id\">\n            (<t t-out=\"object.partner_id.parent_id.name or ''\">Azure Interior</t>)\n        </t>\n        <br/><br/>\n        Во вложении запрос котировок <span style=\"font-weight:bold;\" t-out=\"object.name or ''\">P00015</span>\n        <t t-if=\"object.partner_ref\">\n            с референсом: <t t-out=\"object.partner_ref or ''\">REF_XXX</t>\n        </t>\n        от <t t-out=\"object.company_id.name or ''\">YourCompany</t>.\n        <br/><br/>\n        Если у вас возникнут вопросы, обращайтесь к нам.\n        <br/><br/>\n        С уважением,\n        <t t-if=\"not is_html_empty(object.user_id.signature)\">\n            <br/><br/>\n            <div data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/><t t-out=\"object.user_id.signature or ''\">Mitchell Admin</t></div>\n        </t>\n    </p>\n</div>"
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_order
@@ -292,7 +292,7 @@ msgstr "<i class=\"oi oi-fw\" data-icon=\"schedule\"/>Ожидание опла�
 msgid ""
 "<i class=\"oi\" data-icon=\"lock\"/>\n"
 "                        Locked"
-msgstr ""
+msgstr "<i class=\"oi\" data-icon=\"lock\"/>\n                        Заблокировано"
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_orders
@@ -331,7 +331,7 @@ msgid ""
 "\">Request for Quotation</span>\n"
 "                        <span class=\"o_form_label\" invisible=\"state in "
 "('draft', 'sent')\">Purchase Order</span>"
-msgstr ""
+msgstr "<span class=\"o_form_label\" invisible=\"state not in ('draft', 'sent')\">Запрос на коммерческое предложение</span>\n                        <span class=\"o_form_label\" invisible=\"state in ('draft', 'sent')\">Заказ на закупку</span>"
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_form
@@ -351,12 +351,12 @@ msgid ""
 "<span class=\"o_stat_value text-muted\">\n"
 "                                    Incoming\n"
 "                                </span>"
-msgstr ""
+msgstr "<span class=\"o_stat_value text-muted\">\n                                    Входящие\n                                </span>"
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_form
 msgid "<span invisible=\"not receipt_reminder_email\">day(s) before</span>"
-msgstr ""
+msgstr "<span invisible=\"not receipt_reminder_email\">дн. до</span>"
 
 #. module: purchase
 #: model_terms:web_tour.tour,rainbow_man_message:purchase.purchase_tour
@@ -391,7 +391,7 @@ msgstr "<strong class=\"d-block mb-1\">Счета</strong>"
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_portal_content
 msgid "<strong class=\"d-block mb-1\">Shipping address:</strong>"
-msgstr ""
+msgstr "<strong class=\"d-block mb-1\">Адрес доставки:</strong>"
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.report_purchaseorder_document
@@ -439,7 +439,7 @@ msgstr "<strong>Ожидаемая дата</strong>"
 #: model_terms:ir.ui.view,arch_db:purchase.report_purchaseorder_document
 #: model_terms:ir.ui.view,arch_db:purchase.report_purchasequotation_document
 msgid "<strong>Incoterm:</strong>"
-msgstr ""
+msgstr "<strong>Инкотермс:</strong>"
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_portal_content
@@ -524,7 +524,7 @@ msgstr ""
 #. module: purchase
 #: model:ir.model,name:purchase.model_res_groups
 msgid "Access Groups"
-msgstr ""
+msgstr "Группы доступа"
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order__access_warning
@@ -555,7 +555,7 @@ msgid ""
 "Account holding the accrued value of the goods billed but not received yet. "
 "With perpetual valuation, it counterbalances the stock valuation account at "
 "closing."
-msgstr ""
+msgstr "Счёт, на котором учитывается начисленная стоимость товаров, по которым выставлен счёт, но которые ещё не получены. При непрерывной оценке запасов он уравновешивает счёт оценки запасов при закрытии периода."
 
 #. module: purchase
 #: model:ir.model.fields,help:purchase.field_product_category__property_account_bills_to_receive_id
@@ -563,19 +563,19 @@ msgid ""
 "Account holding the accrued value of the goods received but not billed yet. "
 "With perpetual valuation, it counterbalances the stock valuation account at "
 "closing."
-msgstr ""
+msgstr "Счёт, на котором учитывается начисленная стоимость товаров, которые получены, но по которым ещё не выставлен счёт. При непрерывной оценке запасов он уравновешивает счёт оценки запасов при закрытии периода."
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_line__accrual_move_ids
 msgid "Accrual Entries"
-msgstr ""
+msgstr "Проводки начисления"
 
 #. module: purchase
 #: model:ir.model.fields,help:purchase.field_purchase_order_line__accrual_move_ids
 msgid ""
 "Accrual entries generated for this line, so it isn't accrued again while one "
 "is still standing (posted, not yet reversed or cancelled)."
-msgstr ""
+msgstr "Проводки начисления, созданные для этой строки, чтобы она не начислялась повторно, пока одна из них действует (проведена, но не сторнирована и не отменена)."
 
 #. module: purchase
 #: model:ir.actions.server,name:purchase.action_accrued_expense_entry_purchase_order_line
@@ -585,13 +585,13 @@ msgstr "Ввод начисленных расходов"
 #. module: purchase
 #: model:ir.model,name:purchase.model_account_accrued_orders_wizard
 msgid "Accrued Orders Wizard"
-msgstr ""
+msgstr "Мастер начисленных заказов"
 
 #. module: purchase
 #. odoo-python
 #: code:addons/purchase/wizard/accrued_orders.py:0
 msgid "Accrued total"
-msgstr ""
+msgstr "Начисленная сумма"
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_form
@@ -626,7 +626,7 @@ msgstr "Оформление задачи-исключения"
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order__activity_plans_ids
 msgid "Activity Plans"
-msgstr ""
+msgstr "Планы активностей"
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order__activity_state
@@ -671,17 +671,17 @@ msgstr "Добавить раздел"
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_form
 msgid "Add note"
-msgstr ""
+msgstr "Добавить примечание"
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_form
 msgid "Add product"
-msgstr ""
+msgstr "Добавить товар"
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_form
 msgid "Add section"
-msgstr ""
+msgstr "Добавить раздел"
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.res_config_settings_view_form_purchase
@@ -763,7 +763,7 @@ msgstr "Все отправленные запросы котировок"
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.product_supplierinfo_tree_view2
 msgid "All variants"
-msgstr ""
+msgstr "Все варианты"
 
 #. module: purchase
 #: model:ir.model.fields,help:purchase.field_res_config_settings__group_send_reminder
@@ -842,7 +842,7 @@ msgstr "Вы уверены, что хотите отменить выбранн
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_form
 msgid "Arrival Confirmation"
-msgstr ""
+msgstr "Подтверждение поступления"
 
 #. module: purchase
 #. odoo-python
@@ -932,7 +932,7 @@ msgstr "Строки счёта"
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order__bill_matched_ratio
 msgid "Bill Matched Ratio"
-msgstr ""
+msgstr "Доля сопоставленных счетов"
 
 #. module: purchase
 #. odoo-python
@@ -944,7 +944,7 @@ msgstr "Сопоставление счетов"
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_bill_line_match_tree
 msgid "Bill Qty"
-msgstr ""
+msgstr "Кол-во в счёте"
 
 #. module: purchase
 #: model:ir.model,name:purchase.model_bill_to_po_wizard
@@ -954,7 +954,7 @@ msgstr "Счет к заказу на закупку"
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_line__bill_to_receive
 msgid "Bill to Receive"
-msgstr ""
+msgstr "Счёт к получению"
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_line__qty_invoiced_at_date
@@ -972,12 +972,12 @@ msgstr "Сумма по счету без налога"
 #: model:ir.model.fields,field_description:purchase.field_product_category__property_account_billed_not_received_id
 #: model:ir.model.fields,field_description:purchase.field_res_company__account_billed_not_received_id
 msgid "Billed Not Received Account"
-msgstr ""
+msgstr "Счёт «В счёте, но не получено»"
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_product_category__property_account_billed_not_received_active
 msgid "Billed Not Received Account Active"
-msgstr ""
+msgstr "Счёт «В счёте, но не получено» активен"
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_line__qty_invoiced
@@ -1014,12 +1014,12 @@ msgstr "Полученные счета"
 #: model:ir.model.fields,field_description:purchase.field_product_category__property_account_bills_to_receive_id
 #: model:ir.model.fields,field_description:purchase.field_res_company__account_bills_to_receive_id
 msgid "Bills to Receive Account"
-msgstr ""
+msgstr "Счёт «Счета к получению»"
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_product_category__property_account_bills_to_receive_active
 msgid "Bills to Receive Account Active"
-msgstr ""
+msgstr "Счёт «Счета к получению» активен"
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order__user_id
@@ -1137,7 +1137,7 @@ msgstr "Подтвердите заказы за покупку в один ша
 #. odoo-javascript
 #: code:addons/purchase/static/src/js/tours/purchase.js:0
 msgid "Confirm the price."
-msgstr ""
+msgstr "Подтвердите цену."
 
 #. module: purchase
 #. odoo-javascript
@@ -1171,7 +1171,7 @@ msgstr "Подключите программное обеспечение"
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_line__consolidation_currency_id
 msgid "Consolidation Currency"
-msgstr ""
+msgstr "Валюта консолидации"
 
 #. module: purchase
 #: model:ir.model,name:purchase.model_res_partner
@@ -1348,7 +1348,7 @@ msgstr "Описание"
 #: model:ir.model.fields,help:purchase.field_purchase_bill_line_match__qty_to_invoice_raw
 msgid ""
 "Difference between demand and quantity but not affected by invoice policy"
-msgstr ""
+msgstr "Разница между потребностью и количеством, не зависящая от политики выставления счетов"
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_history_tree
@@ -1371,12 +1371,12 @@ msgstr "Скидка:"
 #: model:ir.model.fields,field_description:purchase.field_account_bank_statement_line__display_auto_complete_field
 #: model:ir.model.fields,field_description:purchase.field_account_move__display_auto_complete_field
 msgid "Display Auto Complete Field"
-msgstr ""
+msgstr "Показывать поле автозаполнения"
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_bill_line_match__display_matching_tag
 msgid "Display Matching Tag"
-msgstr ""
+msgstr "Показывать метку сопоставления"
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_account_accrued_orders_wizard__display_name
@@ -1417,7 +1417,7 @@ msgstr "Аналитический счет распределения"
 #: model:ir.model.fields,field_description:purchase.field_purchase_order__document_tax_mode
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_line__document_tax_mode
 msgid "Document Tax Mode"
-msgstr ""
+msgstr "Режим налогов в документе"
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_account_analytic_applicability__business_domain
@@ -1473,7 +1473,7 @@ msgstr "Дублированный заказ"
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_form
 msgid "Enter a Description..."
-msgstr ""
+msgstr "Введите описание..."
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order__date_planned
@@ -1485,7 +1485,7 @@ msgstr "Ожидаемое прибытие"
 #: model:ir.model.fields,help:purchase.field_purchase_order__date_planned
 msgid ""
 "Expected delivery date of goods by the vendor based on the latest information"
-msgstr ""
+msgstr "Ожидаемая дата поставки товаров поставщиком по последним данным"
 
 #. module: purchase
 #. odoo-python
@@ -1528,7 +1528,7 @@ msgstr "Запрещенные значения в строке неучитыв
 #: model_terms:ir.ui.view,arch_db:purchase.product_product_purchase_tree_view
 #: model_terms:ir.ui.view,arch_db:purchase.product_template_purchase_tree_view
 msgid "Forecasted"
-msgstr ""
+msgstr "Прогноз"
 
 #. module: purchase
 #. odoo-python
@@ -1550,7 +1550,7 @@ msgstr "Полный счет"
 #. module: purchase
 #: model:ir.model.fields.selection,name:purchase.selection__purchase_order__receipt_status__full
 msgid "Fully Received"
-msgstr ""
+msgstr "Получено полностью"
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_view_search
@@ -1586,7 +1586,7 @@ msgstr ""
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_report__weight
 msgid "Gross Weight"
-msgstr "Gross Weight"
+msgstr "Вес брутто"
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order__has_message
@@ -1694,7 +1694,7 @@ msgstr "Инкотерм"
 #: model:ir.model.fields,field_description:purchase.field_purchase_order__incoterm_location
 #: model_terms:ir.ui.view,arch_db:purchase.view_partner_property_form
 msgid "Incoterm Location"
-msgstr ""
+msgstr "Местоположение по Инкотермс"
 
 #. module: purchase
 #. odoo-javascript
@@ -1773,7 +1773,7 @@ msgstr "Элемент журнала"
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_line__label
 msgid "Label"
-msgstr ""
+msgstr "Метка"
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_bill_to_po_wizard__write_uid
@@ -1861,7 +1861,7 @@ msgstr "Ед. изм. по строке"
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.res_config_settings_view_form_purchase
 msgid "Link RFQs together and compare them."
-msgstr ""
+msgstr "Связывайте запросы котировок между собой и сравнивайте их."
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_form
@@ -1919,30 +1919,30 @@ msgstr "Совпадение"
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_bill_line_match_search
 msgid "Matched"
-msgstr ""
+msgstr "Сопоставлено"
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_line__matched_invoice_count
 msgid "Matched Invoices Count"
-msgstr ""
+msgstr "Число сопоставленных счетов"
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_bill_line_match__matching_id
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_bill_line_match_search
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_bill_line_match_tree
 msgid "Matching"
-msgstr ""
+msgstr "Сопоставление"
 
 #. module: purchase
 #. odoo-python
 #: code:addons/purchase/models/purchase_order_line.py:0
 msgid "Matching Invoices"
-msgstr ""
+msgstr "Сопоставленные счета"
 
 #. module: purchase
 #: model:ir.model.fields,help:purchase.field_purchase_order__activity_type_icon
 msgid "Material Symbols icon e.g. checklist"
-msgstr ""
+msgstr "Значок Material Symbols, например checklist"
 
 #. module: purchase
 #: model:ir.actions.server,name:purchase.action_merger
@@ -2110,7 +2110,7 @@ msgstr "Следующий Тип Мероприятия"
 #. module: purchase
 #: model:res.groups.privilege,placeholder:purchase.res_groups_privilege_purchase
 msgid "No"
-msgstr ""
+msgstr "Нет"
 
 #. module: purchase
 #. odoo-javascript
@@ -2154,7 +2154,7 @@ msgstr ""
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_line__non_deductible_tax
 msgid "Non Deductible Tax"
-msgstr ""
+msgstr "Налог, не принимаемый к вычету"
 
 #. module: purchase
 #: model:ir.model.fields.selection,name:purchase.selection__purchase_order__priority__0
@@ -2171,12 +2171,12 @@ msgstr "Не принято"
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_line__qty_to_invoice_raw
 msgid "Not Invoiced Quantity"
-msgstr ""
+msgstr "Количество без счёта"
 
 #. module: purchase
 #: model:ir.model.fields.selection,name:purchase.selection__purchase_order__receipt_status__pending
 msgid "Not Received"
-msgstr ""
+msgstr "Не получено"
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_order
@@ -2309,7 +2309,7 @@ msgid ""
 "receptions, create invoices manually and import lines from purchase orders,\n"
 "etc.\n"
 "\n"
-msgstr ""
+msgstr "Odoo Supply Chain\n-----------------\n\nАвтоматизируйте путь от заявки до оплаты и контролируйте счета с помощью\n<a href=\"https://www.odoo.com/app/purchase\">Open Source Supply Chain</a> от Odoo.\n\nАвтоматизируйте предложения по закупкам, рассылайте запросы котировок,\nотслеживайте заказы на закупку, ведите сведения о поставщиках, контролируйте\nприёмку товаров и проверяйте счета поставщиков.\n\nАвтоматические предложения по закупкам\n--------------------------------------\n\nСнижайте уровень запасов с помощью правил снабжения. Получайте нужное\nпредложение по закупке в нужный момент. Улучшайте закупки и работу склада с\nпомощью правил, зависящих от остатков, логистических правил, заказов на\nпродажу, прогнозных заказов на производство и т. д.\n\nОтправляйте запросы котировок и заказы на закупку поставщику в один клик.\nПереходите к приёмке товаров и счетам прямо из заказа на закупку.\n\nТендеры на закупку\n------------------\n\nЗапускайте тендеры на закупку, учитывайте ответы поставщиков и сравнивайте\nпредложения. Выберите лучшее и легко отправьте заказ на закупку. Затем\nоцените качество поставщиков по отчётам.\n\n\nИнтеграция с почтой\n-------------------\n\nСобирайте всю переписку с поставщиками в заказах на закупку (или запросах\nкотировок), чтобы вся история переговоров и послепродажных вопросов была под\nрукой. Отслеживайте проблемы с поставщиками с помощью модуля рекламаций.\n\nСтандартная цена, средняя цена, FIFO\n------------------------------------\n\nИспользуйте метод учёта себестоимости, который подходит вашему бизнесу:\nстандартная цена, средняя цена, FIFO или LIFO. Проводки и оценка запасов\nформируются в реальном времени; Odoo делает всё сам и незаметно.\n\nИмпорт прайс-листов поставщиков\n-------------------------------\n\nПринимайте разумные решения о закупках по лучшим ценам. Легко импортируйте\nпрайс-листы поставщиков и учитывайте акции, цены в зависимости от количества\nи особые условия договоров. Цену продажи можно даже привязать к ценам\nпоставщиков.\n\nКонтроль товаров и счетов\n-------------------------\n\nНи один товар и ни один заказ не потеряется: учёт запасов помогает управлять\nостаточными заказами, возвратами, приёмкой товаров и контролем качества.\nВыберите метод контроля, который вам подходит.\n\nКонтролируйте счета поставщиков без усилий. Выберите подходящий метод:\nзаранее создавать черновики счетов по заказам на закупку или по приёмкам\nтоваров, создавать счета вручную и подтягивать строки из заказов на закупку\nи т. д.\n\n"
 
 #. module: purchase
 #: model:ir.model.fields.selection,name:purchase.selection__product_template__purchase_method__purchase
@@ -2368,7 +2368,7 @@ msgstr "Дата заказа"
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_line_search
 msgid "Order DeadLine: Last 365 Days"
-msgstr ""
+msgstr "Срок заказа: последние 365 дней"
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order__date_order
@@ -2381,7 +2381,7 @@ msgstr "Крайний срок"
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.view_purchase_order_search
 msgid "Order Deadline: Last 365 Days"
-msgstr ""
+msgstr "Срок заказа: последние 365 дней"
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order__order_line
@@ -2405,7 +2405,7 @@ msgstr "Заказанное количество:"
 msgid ""
 "Ordered quantity not invoiced. This may or may not include quantities that "
 "won't be invoiced, depending on the product's Control Policy."
-msgstr ""
+msgstr "Заказанное количество, по которому не выставлен счёт. Может включать или не включать количества, по которым счёт выставлен не будет, в зависимости от политики контроля товара."
 
 #. module: purchase
 #: model:ir.ui.menu,name:purchase.menu_procurement_management
@@ -2423,7 +2423,7 @@ msgstr "Срок исполнения заказа – %(date)s"
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_form
 msgid "Other Info"
-msgstr ""
+msgstr "Прочая информация"
 
 #. module: purchase
 #: model:portal.entry,name:purchase.portal_purchase_orders
@@ -2433,12 +2433,12 @@ msgstr "Наши заказы"
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.view_move_form_inherit_purchase
 msgid "PO Matching"
-msgstr ""
+msgstr "Сопоставление с заказом"
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_bill_line_match_tree
 msgid "PO Qty"
-msgstr ""
+msgstr "Кол-во в заказе"
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_line__parent_id
@@ -2448,7 +2448,7 @@ msgstr "Строка родительского раздела"
 #. module: purchase
 #: model:ir.model.fields.selection,name:purchase.selection__purchase_order__receipt_status__partial
 msgid "Partially Received"
-msgstr ""
+msgstr "Получено частично"
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_bill_to_po_wizard__partner_id
@@ -2501,7 +2501,7 @@ msgstr "URL доступа к порталу"
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_line__prepaid_expense
 msgid "Prepaid Expense"
-msgstr ""
+msgstr "Расходы будущих периодов"
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_form
@@ -2572,7 +2572,7 @@ msgstr "Кол-во в ед. изм. товара"
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_bill_line_match__product_uom_qty_to_invoice
 msgid "Product Uom Qty To Invoice"
-msgstr ""
+msgstr "Кол-во к выставлению счёта (ед. изм. товара)"
 
 #. module: purchase
 #: model:ir.model,name:purchase.model_product_product
@@ -2618,7 +2618,7 @@ msgstr "Соглашения о покупке"
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_res_config_settings__module_purchase_alternative
 msgid "Purchase Alternative"
-msgstr ""
+msgstr "Альтернативы закупки"
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_bill_line_match__purchase_amount_untaxed
@@ -2676,7 +2676,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:purchase.field_account_bank_statement_line__purchase_matched_ratio
 #: model:ir.model.fields,field_description:purchase.field_account_move__purchase_matched_ratio
 msgid "Purchase Matched Ratio"
-msgstr ""
+msgstr "Доля сопоставленных закупок"
 
 #. module: purchase
 #. odoo-python
@@ -2687,7 +2687,7 @@ msgstr "Сопоставление закупок"
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_account_move_line__purchase_matching_issue_msg
 msgid "Purchase Matching Issue Msg"
-msgstr ""
+msgstr "Сообщение о проблеме сопоставления закупки"
 
 #. module: purchase
 #. odoo-python
@@ -2804,7 +2804,7 @@ msgstr "Отчет по анализу закупок"
 #: model:ir.model.fields,field_description:purchase.field_account_bank_statement_line__purchase_vendor_bill_id
 #: model:ir.model.fields,field_description:purchase.field_account_move__purchase_vendor_bill_id
 msgid "Purchase Vendor Bill"
-msgstr ""
+msgstr "Счёт поставщика по закупке"
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_account_bank_statement_line__purchase_warning_text
@@ -2832,7 +2832,7 @@ msgstr ""
 #. module: purchase
 #: model:ir.module.module,summary:base.module_purchase
 msgid "Purchase orders, tenders and agreements"
-msgstr ""
+msgstr "Заказы на закупку, тендеры и соглашения"
 
 #. module: purchase
 #: model:ir.actions.server,name:purchase.purchase_send_reminder_mail_ir_actions_server
@@ -2875,7 +2875,7 @@ msgstr "Куплено"
 msgid ""
 "Purchased in the last 365 days. Incoming represents confirmed purchase "
 "orders not received, or partially received"
-msgstr ""
+msgstr "Куплено за последние 365 дней. «Входящие» — подтверждённые заказы на закупку, которые не получены или получены частично"
 
 #. module: purchase
 #. odoo-python
@@ -2923,12 +2923,12 @@ msgstr "Количество получено"
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_bill_line_match__qty_to_invoice_raw
 msgid "Qty not invoiced"
-msgstr ""
+msgstr "Кол-во без счёта"
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_line_list_invoice
 msgid "Qty to Invoice"
-msgstr ""
+msgstr "Кол-во к выставлению счёта"
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_report__qty_to_be_billed
@@ -2954,7 +2954,7 @@ msgstr "Количество"
 msgid ""
 "Quantity on hand minus outgoing quantity from Sales Orders plus incoming "
 "quantity from Purchase Orders"
-msgstr ""
+msgstr "Количество на складе минус исходящее количество по заказам на продажу плюс входящее количество по заказам на закупку"
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_form
@@ -3005,7 +3005,7 @@ msgstr "Запросы предложений и закупки"
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_line__consolidation_rate
 msgid "Rate"
-msgstr ""
+msgstr "Курс"
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order__rating_ids
@@ -3028,13 +3028,13 @@ msgstr "Напоминание о квитанции"
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order__receipt_status
 msgid "Receipt Status"
-msgstr ""
+msgstr "Статус поступления"
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_form
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_view_tree
 msgid "Receive"
-msgstr ""
+msgstr "Получить"
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_line__qty_received_at_date
@@ -3171,7 +3171,7 @@ msgid ""
 "Reset to today's date to recompute expected arrival based on available lead "
 "time                                     and previous information from the "
 "RFQ."
-msgstr ""
+msgstr "Сбросить на сегодняшнюю дату, чтобы пересчитать ожидаемое поступление по доступному сроку выполнения и прежним данным из запроса котировок."
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order__activity_user_id
@@ -3187,7 +3187,7 @@ msgstr "Ошибка доставки SMS"
 #. odoo-javascript
 #: code:addons/purchase/static/src/js/tours/purchase.js:0
 msgid "Save the line."
-msgstr ""
+msgstr "Сохраните строку."
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_portal_content
@@ -3230,7 +3230,7 @@ msgstr "Выберите строки счета поставщика для д�
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_form
 msgid "Select a Product"
-msgstr ""
+msgstr "Выберите товар"
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.view_move_form_inherit_purchase
@@ -3241,7 +3241,7 @@ msgstr "Выберите документ закупки"
 #. odoo-javascript
 #: code:addons/purchase/static/src/js/tours/purchase.js:0
 msgid "Select price"
-msgstr ""
+msgstr "Выберите цену"
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_line__selected_seller_id
@@ -3338,7 +3338,7 @@ msgstr "Показать сравнение"
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order__show_receive_button
 msgid "Show Receive Button"
-msgstr ""
+msgstr "Показывать кнопку получения"
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_view_search
@@ -3465,12 +3465,12 @@ msgstr "Страна налогооблажения"
 #. module: purchase
 #: model:ir.model.fields.selection,name:purchase.selection__purchase_order__document_tax_mode__tax_excluded
 msgid "Tax Excl."
-msgstr ""
+msgstr "Без налога"
 
 #. module: purchase
 #: model:ir.model.fields.selection,name:purchase.selection__purchase_order__document_tax_mode__tax_included
 msgid "Tax Incl."
-msgstr ""
+msgstr "С налогом"
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order__tax_totals
@@ -3481,7 +3481,7 @@ msgstr "Итоговые показатели по налогам"
 #: model:ir.model.fields,field_description:purchase.field_purchase_order__tax_calculation_rounding_method
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_line__tax_calculation_rounding_method
 msgid "Tax calculation rounding method"
-msgstr "Tax calculation rounding method"
+msgstr "Метод округления налога"
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_form
@@ -3534,13 +3534,13 @@ msgstr ""
 #. odoo-python
 #: code:addons/purchase/models/product.py:0
 msgid "Template for Products"
-msgstr ""
+msgstr "Шаблон для товаров"
 
 #. module: purchase
 #. odoo-python
 #: code:addons/purchase/models/purchase_order.py:0
 msgid "Template for Requests for Quotation"
-msgstr ""
+msgstr "Шаблон запросов на коммерческое предложение"
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_portal_content
@@ -3572,17 +3572,17 @@ msgstr "Цена за единицу товара в базовой единиц
 msgid ""
 "The following purchase orders %(invalid_orders)s can't be received. "
 "Cancelled all receptions."
-msgstr ""
+msgstr "Следующие заказы на закупку %(invalid_orders)s нельзя получить. Все приёмки отменены."
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.track_po_line_template
 msgid "The ordered quantity and unit price have been updated."
-msgstr ""
+msgstr "Заказанное количество и цена за единицу обновлены."
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.track_po_line_template
 msgid "The ordered quantity has been updated."
-msgstr ""
+msgstr "Заказанное количество обновлено."
 
 #. module: purchase
 #: model_terms:ir.actions.act_window,help:purchase.act_res_partner_2_purchase_order
@@ -3599,7 +3599,7 @@ msgstr ""
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.track_po_line_template
 msgid "The unit price has been updated."
-msgstr ""
+msgstr "Цена за единицу обновлена."
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_orders
@@ -3685,7 +3685,7 @@ msgstr "К согласованию"
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_line__price_subtotal_to_invoice
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_line_list_invoice
 msgid "To Invoice"
-msgstr ""
+msgstr "К выставлению счёта"
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_line__qty_to_invoice
@@ -3717,7 +3717,7 @@ msgstr "Итого по счету"
 #: model_terms:ir.ui.view,arch_db:purchase.product_product_purchase_tree_view
 #: model_terms:ir.ui.view,arch_db:purchase.product_template_purchase_tree_view
 msgid "Total Forecasted"
-msgstr ""
+msgstr "Всего прогноз"
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_bill_line_match_tree
@@ -3841,7 +3841,7 @@ msgstr "Отменить сопоставление"
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_bill_line_match_search
 msgid "Unmatched"
-msgstr ""
+msgstr "Не сопоставлено"
 
 #. module: purchase
 #. odoo-python
@@ -3870,7 +3870,7 @@ msgstr "Не облагаемые налогом Итого"
 #. odoo-python
 #: code:addons/purchase/models/account_invoice.py:0
 msgid "Update"
-msgstr ""
+msgstr "Обновить"
 
 #. module: purchase
 #. odoo-javascript
@@ -3955,13 +3955,13 @@ msgstr "Страна поставщика"
 #: model:ir.model.fields,field_description:purchase.field_res_partner__purchase_incoterm_id
 #: model:ir.model.fields,field_description:purchase.field_res_users__purchase_incoterm_id
 msgid "Vendor Incoterm"
-msgstr ""
+msgstr "Инкотермс поставщика"
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_res_partner__purchase_incoterm_location
 #: model:ir.model.fields,field_description:purchase.field_res_users__purchase_incoterm_location
 msgid "Vendor Incoterm Location"
-msgstr ""
+msgstr "Место по Инкотермс поставщика"
 
 #. module: purchase
 #: model:ir.ui.menu,name:purchase.menu_product_pricelist_action2_purchase
@@ -4137,12 +4137,12 @@ msgid ""
 "belongs to company %(quote_company)s. \n"
 " Please change the company of your RFQ or remove the products from other "
 "companies (%(bad_products)s)."
-msgstr ""
+msgstr "Ваш запрос котировок содержит товары компании %(product_company)s, хотя принадлежит компании %(quote_company)s. \n Смените компанию запроса или уберите товары других компаний (%(bad_products)s)."
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_form
 msgid "billing"
-msgstr ""
+msgstr "Выставление счетов"
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.view_product_supplier_inherit
@@ -4168,7 +4168,7 @@ msgstr "или создать новый"
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_form
 msgid "purchase"
-msgstr ""
+msgstr "Закупка"
 
 #. module: purchase
 #. odoo-python
@@ -4202,7 +4202,7 @@ msgstr "чтобы узнать все способы интеграции ва�
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_form
 msgid "tracking"
-msgstr ""
+msgstr "Отслеживание"
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.report_purchaseorder_document
@@ -4221,7 +4221,7 @@ msgstr "{{ object.company_id.name }} Заказ (Ссылка {{ object.name or 
 msgid ""
 "{{ object.company_id.name }} Request for Quotation (Ref {{ object.name or 'n/"
 "a' }})"
-msgstr ""
+msgstr "{{ object.company_id.name }} Запрос на коммерческое предложение (№ {{ object.name or 'n/a' }})"
 
 #~ msgid "Translated Product Name"
 #~ msgstr "Переведенное наименование товара"

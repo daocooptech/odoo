@@ -41,7 +41,7 @@ msgid ""
 "Dashboard / Reports for Warehouse Management includes:\n"
 "------------------------------------------------------\n"
 "* Stock Inventory Value at given date (support dates in the past)\n"
-msgstr ""
+msgstr "\nМодуль складского учёта (WMS)\n=============================\nЭтот модуль связывает модули «stock» и «account» и позволяет создавать проводки для оценки складских движений\n\nОсновные возможности\n--------------------\n* Оценка запасов (периодическая или автоматическая)\n* Счёт по перемещению\n\nПанель / отчёты по управлению складом включают:\n------------------------------------------------\n* Стоимость запасов на заданную дату (поддерживаются даты в прошлом)\n"
 
 #. module: stock_account
 #. odoo-python
@@ -55,7 +55,7 @@ msgstr " [Учтено на %s]"
 msgid ""
 "%(lot)s cost update from %(old_value)s to %(new_value)s for %(quantity)s by %"
 "(user)s"
-msgstr ""
+msgstr "Себестоимость %(lot)s изменена с %(old_value)s на %(new_value)s для %(quantity)s пользователем %(user)s"
 
 #. module: stock_account
 #. odoo-python
@@ -63,7 +63,7 @@ msgstr ""
 msgid ""
 "%(move)s cost update from %(old_value)s to %(new_value)s for %(quantity)s by "
 "%(user)s"
-msgstr ""
+msgstr "Себестоимость %(move)s изменена с %(old_value)s на %(new_value)s для %(quantity)s пользователем %(user)s"
 
 #. module: stock_account
 #. odoo-python
@@ -74,7 +74,7 @@ msgstr "%(quantity)s %(uom)s по себестоимости товара"
 #. module: stock_account
 #: model_terms:ir.ui.view,arch_db:stock_account.view_move_form
 msgid "<span class=\"o_stat_text\">Product Value</span>"
-msgstr ""
+msgstr "<span class=\"o_stat_text\">Стоимость товара</span>"
 
 #. module: stock_account
 #: model_terms:ir.ui.view,arch_db:stock_account.stock_account_report_invoice_document
@@ -109,17 +109,17 @@ msgstr "Стоимость по средней цене (AVCO)"
 #. module: stock_account
 #: model:ir.model,name:stock_account.model_res_groups
 msgid "Access Groups"
-msgstr ""
+msgstr "Группы доступа"
 
 #. module: stock_account
 #: model:ir.model.fields,field_description:stock_account.field_product_value__account_move_id
 msgid "Account Move"
-msgstr ""
+msgstr "Проводка"
 
 #. module: stock_account
 #: model:ir.model.fields,help:stock_account.field_stock_move__cogs_aml_ids
 msgid "Account move lines using this move in order to compute their COGS"
-msgstr ""
+msgstr "Строки проводок, использующие это движение для расчёта себестоимости продаж (COGS)"
 
 #. module: stock_account
 #: model:ir.model.fields,field_description:stock_account.field_stock_inventory_adjustment_name__accounting_date
@@ -172,12 +172,12 @@ msgstr "Скорректировано %(date)s пользователем %(use
 #. module: stock_account
 #: model:ir.model.fields,field_description:stock_account.field_product_value__adjustment
 msgid "Adjustment"
-msgstr ""
+msgstr "Корректировка"
 
 #. module: stock_account
 #: model_terms:ir.ui.view,arch_db:stock_account.product_value_search_view
 msgid "Adjustments"
-msgstr ""
+msgstr "Корректировки"
 
 #. module: stock_account
 #: model:ir.model.fields,help:stock_account.field_res_config_settings__module_stock_landed_costs
@@ -202,7 +202,7 @@ msgstr "Аналитическая линия счетов"
 #. module: stock_account
 #: model:ir.model,name:stock_account.model_account_analytic_plan
 msgid "Analytic Plan"
-msgstr ""
+msgstr "Аналитический план"
 
 #. module: stock_account
 #: model:ir.model.fields,field_description:stock_account.field_product_product__avg_cost
@@ -228,18 +228,18 @@ msgstr "Бекон"
 #. module: stock_account
 #: model:ir.model.fields,field_description:stock_account.field_stock_move__cogs_aml_ids
 msgid "COGS lines"
-msgstr ""
+msgstr "Строки себестоимости продаж"
 
 #. module: stock_account
 #: model:ir.model.fields,field_description:stock_account.field_account_move_line__cogs_move_ids
 msgid "COGS stock moves"
-msgstr ""
+msgstr "Складские движения себестоимости продаж"
 
 #. module: stock_account
 #: model:ir.model.fields,field_description:stock_account.field_account_bank_statement_line__closing_datetime
 #: model:ir.model.fields,field_description:stock_account.field_account_move__closing_datetime
 msgid "Closing Date"
-msgstr ""
+msgstr "Дата закрытия"
 
 #. module: stock_account
 #. odoo-python
@@ -303,7 +303,7 @@ msgstr "Себестоимость производства"
 #: code:addons/stock_account/models/product.py:0
 msgid ""
 "Cost update from %(old_value)s to %(new_value)s for %(quantity)s by %(user)s"
-msgstr ""
+msgstr "Себестоимость изменена с %(old_value)s на %(new_value)s для %(quantity)s пользователем %(user)s"
 
 #. module: stock_account
 #: model:ir.model.fields,field_description:stock_account.field_product_category__property_cost_method
@@ -410,7 +410,7 @@ msgstr "Отображение серийного номера и номера �
 #. module: stock_account
 #: model_terms:ir.ui.view,arch_db:stock_account.product_value_list_view
 msgid "Done By"
-msgstr ""
+msgstr "Выполнил"
 
 #. module: stock_account
 #: model:ir.model.fields,help:stock_account.field_stock_location__valuation_account_id
@@ -484,7 +484,7 @@ msgstr ""
 msgid ""
 "If the move originates from a document from another company, contains that "
 "company's partner, otherwise the move's partner."
-msgstr ""
+msgstr "Если движение создано по документу другой компании, содержит партнёра этой компании, иначе — партнёра движения."
 
 #. module: stock_account
 #. odoo-python
@@ -500,7 +500,7 @@ msgstr "Ссылка на корректировку запасов / причи
 #. module: stock_account
 #: model:ir.model,name:stock_account.model_stock_location
 msgid "Inventory Location"
-msgstr ""
+msgstr "Складское местоположение"
 
 #. module: stock_account
 #. odoo-javascript
@@ -513,17 +513,17 @@ msgstr "Потери запасов"
 #. module: stock_account
 #: model:ir.model.fields,help:stock_account.field_account_move_line__cogs_move_ids
 msgid "Inventory moves used to compute COGS values."
-msgstr ""
+msgstr "Складские движения, используемые для расчёта себестоимости продаж."
 
 #. module: stock_account
 #: model:ir.module.module,summary:base.module_stock_account
 msgid "Inventory, Logistic, Valuation, Accounting"
-msgstr ""
+msgstr "Склад, логистика, оценка запасов, бухгалтерия"
 
 #. module: stock_account
 #: model:ir.model.fields,field_description:stock_account.field_stock_move__invoice_line_ids
 msgid "Invoice Line"
-msgstr ""
+msgstr "Строка счёта"
 
 #. module: stock_account
 #: model:ir.model.fields,field_description:stock_account.field_stock_move__is_dropship
@@ -615,7 +615,7 @@ msgstr "Переместить"
 #. module: stock_account
 #: model:ir.model.fields,field_description:stock_account.field_product_value__new_cost
 msgid "New Unit Cost"
-msgstr ""
+msgstr "Новая себестоимость единицы"
 
 #. module: stock_account
 #: model:ir.model.fields,field_description:stock_account.field_product_value__new_value
@@ -626,12 +626,12 @@ msgstr "Новая стоимость"
 #. module: stock_account
 #: model:ir.model.fields,field_description:stock_account.field_product_value__old_cost
 msgid "Old Unit Cost"
-msgstr ""
+msgstr "Прежняя себестоимость единицы"
 
 #. module: stock_account
 #: model:ir.model.fields,field_description:stock_account.field_product_value__old_value
 msgid "Old Value"
-msgstr ""
+msgstr "Прежняя стоимость"
 
 #. module: stock_account
 #. odoo-python
@@ -645,17 +645,17 @@ msgstr ""
 msgid ""
 "Only set if the move is generated from a document belonging to another "
 "company"
-msgstr ""
+msgstr "Заполняется, только если движение создано по документу другой компании"
 
 #. module: stock_account
 #: model:ir.model.fields,field_description:stock_account.field_stock_move__order_partner_id
 msgid "Order Partner"
-msgstr ""
+msgstr "Партнёр по заказу"
 
 #. module: stock_account
 #: model:ir.model.fields,field_description:stock_account.field_stock_move__origin_company_id
 msgid "Origin Company"
-msgstr ""
+msgstr "Компания-источник"
 
 #. module: stock_account
 #: model:ir.model,name:stock_account.model_stock_picking_type
@@ -719,7 +719,7 @@ msgstr "Вариант продукта"
 msgid ""
 "Product should be passed as an argument in order to get the unit price for "
 "moves in a kit."
-msgstr ""
+msgstr "Чтобы получить цену за единицу для движений в комплекте, товар нужно передать аргументом."
 
 #. module: stock_account
 #: model:ir.model.fields,field_description:stock_account.field_res_company__account_production_wip_account_id
@@ -734,12 +734,12 @@ msgstr "Счет накладных расходов НЗП по произво�
 #. module: stock_account
 #: model:ir.model,name:stock_account.model_stock_quant
 msgid "Quant"
-msgstr ""
+msgstr "Квант"
 
 #. module: stock_account
 #: model:ir.model.fields,field_description:stock_account.field_product_value__quantity
 msgid "Quantity"
-msgstr ""
+msgstr "Количество"
 
 #. module: stock_account
 #: model:ir.model.fields,field_description:stock_account.field_stock_avco_report__reference
@@ -785,7 +785,7 @@ msgid ""
 "        Average Cost (AVCO): The products are valued at weighted average "
 "cost.\n"
 "        "
-msgstr ""
+msgstr "Стандартная цена: товары оцениваются по стандартной себестоимости, указанной в карточке товара.\n        Средняя себестоимость (AVCO): товары оцениваются по средневзвешенной себестоимости.\n        "
 
 #. module: stock_account
 #: model:ir.model,name:stock_account.model_stock_avco_report
@@ -823,7 +823,7 @@ msgstr "Счет оценки запасов"
 msgid ""
 "Technical field holding the tracking method. False on a storable product "
 "means it's tracked by quantity only."
-msgstr ""
+msgstr "Техническое поле с методом отслеживания. «False» у складируемого товара означает, что учёт ведётся только по количеству."
 
 #. module: stock_account
 #: model:ir.model.fields,help:stock_account.field_product_product__company_currency_id
@@ -864,7 +864,7 @@ msgstr ""
 #. module: stock_account
 #: model_terms:ir.ui.view,arch_db:stock_account.stock_move_view_list
 msgid "Total"
-msgstr ""
+msgstr "Итого"
 
 #. module: stock_account
 #: model:ir.model.fields,field_description:stock_account.field_stock_avco_report__total_quantity
@@ -893,7 +893,7 @@ msgstr "Общая стоимость"
 #. module: stock_account
 #: model:ir.model.fields,field_description:stock_account.field_product_value__product_tracking
 msgid "Tracking Method"
-msgstr ""
+msgstr "Метод отслеживания"
 
 #. module: stock_account
 #: model:ir.model,name:stock_account.model_stock_picking
@@ -992,7 +992,7 @@ msgstr "Стоимость на основе исходного перемеще
 #. odoo-python
 #: code:addons/stock_account/models/stock_move.py:0
 msgid "Value from previous move %(references)s"
-msgstr ""
+msgstr "Стоимость по предыдущему движению %(references)s"
 
 #. module: stock_account
 #: model:ir.model.fields,help:stock_account.field_stock_lot__standard_price
@@ -1011,12 +1011,12 @@ msgstr ""
 #. module: stock_account
 #: model_terms:ir.ui.view,arch_db:stock_account.product_value_list_view
 msgid "View Account Move"
-msgstr ""
+msgstr "Открыть проводку"
 
 #. module: stock_account
 #: model:ir.module.module,shortdesc:base.module_stock_account
 msgid "WMS Accounting"
-msgstr ""
+msgstr "Складской учёт (WMS)"
 
 #. module: stock_account
 #. odoo-python

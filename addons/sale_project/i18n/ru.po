@@ -52,13 +52,13 @@ msgid ""
 "Allows to create task from your sales order\n"
 "=============================================\n"
 "This module allows to generate a project/task from sales orders.\n"
-msgstr ""
+msgstr "\nСоздание задач из заказов на продажу\n=============================================\nМодуль позволяет создавать проект или задачу из заказов на продажу.\n"
 
 #. module: sale_project
 #. odoo-python
 #: code:addons/sale_project/models/project_project.py:0
 msgid "%(name)s's Margins"
-msgstr ""
+msgstr "Маржа: %(name)s"
 
 #. module: sale_project
 #: model_terms:ir.ui.view,arch_db:sale_project.view_edit_project_inherit_form
@@ -92,7 +92,7 @@ msgstr "<span class=\"o_stat_text\"> Задачи</span>"
 #. module: sale_project
 #: model_terms:ir.ui.view,arch_db:sale_project.view_edit_project_inherit_form
 msgid "<span class=\"o_stat_text\">Customer View</span>"
-msgstr ""
+msgstr "<span class=\"o_stat_text\">Для клиента</span>"
 
 #. module: sale_project
 #: model_terms:ir.ui.view,arch_db:sale_project.project_milestone_view_form
@@ -156,18 +156,18 @@ msgid ""
 "  - Timesheet: the quantity is the sum of hours recorded on tasks linked to "
 "this line\n"
 "  - Stock Moves: the quantity comes from confirmed pickings\n"
-msgstr ""
+msgstr "По настройкам товара поставленное количество может считаться автоматически одним из способов:\n  - Вручную: количество задаётся в строке вручную\n  - Аналитика из расходов: количество — сумма количеств по проведённым расходам\n  - Табель: количество — сумма часов, отмеченных в задачах, связанных с этой строкой\n  - Движения запасов: количество берётся из подтверждённых отборов\n"
 
 #. module: sale_project
 #: model:ir.model,name:sale_project.model_account_analytic_line
 msgid "Analytic Line"
-msgstr ""
+msgstr "Аналитическая строка"
 
 #. module: sale_project
 #. odoo-python
 #: code:addons/sale_project/models/product_template.py:0
 msgid "Based on Delivery (Manual)"
-msgstr ""
+msgstr "По поставке (вручную)"
 
 #. module: sale_project
 #. odoo-python
@@ -185,17 +185,17 @@ msgstr "Оплачиваемый"
 #. module: sale_project
 #: model:ir.model.fields,field_description:sale_project.field_account_analytic_line__billable_type
 msgid "Billable Type"
-msgstr ""
+msgstr "Тип выставления счёта"
 
 #. module: sale_project
 #: model_terms:ir.ui.view,arch_db:sale_project.sale_project_line_search
 msgid "Category"
-msgstr ""
+msgstr "Категория"
 
 #. module: sale_project
 #: model:ir.model.fields,field_description:sale_project.field_account_analytic_line__category_report
 msgid "Category Report"
-msgstr ""
+msgstr "Категория для отчёта"
 
 #. module: sale_project
 #: model_terms:ir.ui.view,arch_db:sale_project.view_order_simple_form
@@ -206,7 +206,7 @@ msgstr "Подтвердить и закрыть"
 #. odoo-javascript
 #: code:addons/sale_project/static/src/views/project_form/project_project_form_controller.js:0
 msgid "Confirmation Required"
-msgstr ""
+msgstr "Требуется подтверждение"
 
 #. module: sale_project
 #. odoo-python
@@ -221,7 +221,7 @@ msgstr ""
 #. module: sale_project
 #: model:ir.model.fields.selection,name:sale_project.selection__account_analytic_line__category_report__costs
 msgid "Costs"
-msgstr ""
+msgstr "Затраты"
 
 #. module: sale_project
 #: model:ir.actions.server,name:sale_project.model_sale_order_action_create_project
@@ -384,7 +384,7 @@ msgid ""
 "Making this project non-billable will unlink it from any products that "
 "create tasks in it or use it as a template. Are you sure you want to "
 "continue?"
-msgstr ""
+msgstr "Если сделать проект не подлежащим оплате, он будет отвязан от товаров, которые создают в нём задачи или используют его как шаблон. Продолжить?"
 
 #. module: sale_project
 #: model:ir.model.fields,help:sale_project.field_product_product__service_type
@@ -462,13 +462,13 @@ msgstr "Комплект офисной мебели (задача)"
 #. odoo-python
 #: code:addons/sale_project/models/account_analytic_line.py:0
 msgid "Other Costs"
-msgstr ""
+msgstr "Прочие затраты"
 
 #. module: sale_project
 #. odoo-python
 #: code:addons/sale_project/models/account_analytic_line.py:0
 msgid "Other Revenue"
-msgstr ""
+msgstr "Прочая выручка"
 
 #. module: sale_project
 #: model:product.template,name:sale_project.product_product_painting_product_template
@@ -561,7 +561,7 @@ msgstr "Вехи проекта"
 #. module: sale_project
 #: model:ir.model.fields,field_description:sale_project.field_sale_order__project_required
 msgid "Project Required"
-msgstr ""
+msgstr "Нужен проект"
 
 #. module: sale_project
 #: model:ir.model.fields,field_description:sale_project.field_product_product__project_template_id
@@ -573,7 +573,7 @@ msgstr "Шаблон проекта"
 #. module: sale_project
 #: model:ir.model.fields,field_description:sale_project.field_project_template_create_wizard__sale_warning_text
 msgid "Project Template Warning"
-msgstr ""
+msgstr "Предупреждение шаблона проекта"
 
 #. module: sale_project
 #: model:ir.model,name:sale_project.model_project_template_create_wizard
@@ -583,7 +583,7 @@ msgstr "Мастер создания шаблона проекта"
 #. module: sale_project
 #: model:ir.model.fields,field_description:sale_project.field_project_project__sale_warning_text
 msgid "Project Warning"
-msgstr ""
+msgstr "Предупреждение по проекту"
 
 #. module: sale_project
 #: model:ir.model.fields,field_description:sale_project.field_project_task__project_sale_order_id
@@ -610,12 +610,12 @@ msgstr "Строка шаблона коммерческого предложе�
 #. module: sale_project
 #: model_terms:ir.ui.view,arch_db:sale_project.view_edit_project_inherit_form
 msgid "Real Costs"
-msgstr ""
+msgstr "Фактические затраты"
 
 #. module: sale_project
 #: model:ir.model.fields.selection,name:sale_project.selection__account_analytic_line__category_report__revenues
 msgid "Revenue"
-msgstr ""
+msgstr "Выручка"
 
 #. module: sale_project
 #: model:ir.model.fields,field_description:sale_project.field_project_template_create_wizard__role_to_users_ids
@@ -625,7 +625,7 @@ msgstr "Назначение ролей пользователям"
 #. module: sale_project
 #: model_terms:ir.ui.view,arch_db:sale_project.view_edit_project_inherit_form
 msgid "Sales"
-msgstr ""
+msgstr "Продажи"
 
 #. module: sale_project
 #: model_terms:ir.ui.view,arch_db:sale_project.view_edit_project_inherit_form
@@ -635,7 +635,7 @@ msgstr "Продажи и выставление счетов"
 #. module: sale_project
 #: model:ir.module.module,shortdesc:base.module_sale_project
 msgid "Sales - Project"
-msgstr ""
+msgstr "Продажи — проекты"
 
 #. module: sale_project
 #: model:ir.model,name:sale_project.model_sale_report
@@ -645,7 +645,7 @@ msgstr "Отчет об анализе продаж"
 #. module: sale_project
 #: model_terms:ir.ui.view,arch_db:sale_project.view_edit_project_inherit_form
 msgid "Sales Items"
-msgstr ""
+msgstr "Позиции продаж"
 
 #. module: sale_project
 #. odoo-python
@@ -773,25 +773,25 @@ msgstr "Политика выставления счетов за услуги"
 #. odoo-python
 #: code:addons/sale_project/models/account_analytic_line.py:0
 msgid "Service Revenue (Fixed Price)"
-msgstr ""
+msgstr "Выручка от услуг (фиксированная цена)"
 
 #. module: sale_project
 #. odoo-python
 #: code:addons/sale_project/models/account_analytic_line.py:0
 msgid "Service Revenue (Manual)"
-msgstr ""
+msgstr "Выручка от услуг (вручную)"
 
 #. module: sale_project
 #. odoo-python
 #: code:addons/sale_project/models/account_analytic_line.py:0
 msgid "Service Revenue (Milestones)"
-msgstr ""
+msgstr "Выручка от услуг (этапы)"
 
 #. module: sale_project
 #. odoo-python
 #: code:addons/sale_project/models/account_analytic_line.py:0
 msgid "Service Revenue (Time & Materials)"
-msgstr ""
+msgstr "Выручка от услуг (время и материалы)"
 
 #. module: sale_project
 #: model:ir.model.fields,field_description:sale_project.field_project_task__sale_order_state
@@ -813,7 +813,7 @@ msgstr "Задание создано (%(name)s): %(link)s"
 #. module: sale_project
 #: model:ir.module.module,summary:base.module_sale_project
 msgid "Task Generation from Sales Orders"
-msgstr ""
+msgstr "Создание задач из заказов на продажу"
 
 #. module: sale_project
 #: model:ir.model,name:sale_project.model_project_task_recurrence
@@ -834,7 +834,7 @@ msgstr "Шаблон задачи"
 #. module: sale_project
 #: model:ir.model.fields,field_description:sale_project.field_project_task__sale_warning_text
 msgid "Task Warning"
-msgstr ""
+msgstr "Предупреждение по задаче"
 
 #. module: sale_project
 #: model:project.project,label_tasks:sale_project.so_template_project
@@ -888,7 +888,7 @@ msgstr ""
 msgid ""
 "The project couldn't be created because you don't have the right to create a "
 "project"
-msgstr ""
+msgstr "Не удалось создать проект: у вас нет прав на создание проектов"
 
 #. module: sale_project
 #. odoo-python
@@ -954,7 +954,7 @@ msgstr "Просмотр заказа на продажу"
 #: model:ir.model.fields,help:sale_project.field_project_task__sale_warning_text
 #: model:ir.model.fields,help:sale_project.field_project_template_create_wizard__sale_warning_text
 msgid "Warning for the partner as set by the user."
-msgstr ""
+msgstr "Предупреждение для партнёра, заданное пользователем."
 
 #. module: sale_project
 #: model:product.template,name:sale_project.product_service_create_project_and_task_product_template

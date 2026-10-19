@@ -28,7 +28,7 @@ msgstr ""
 #. odoo-python
 #: code:addons/stock/models/stock_location.py:0
 msgid "\t--Empty--"
-msgstr ""
+msgstr "\t--Пусто--"
 
 #. module: stock
 #. odoo-python
@@ -163,7 +163,7 @@ msgstr ""
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_picking__return_count
 msgid "# Returns"
-msgstr "# Returns"
+msgstr "Возвратов"
 
 #. module: stock
 #. odoo-python
@@ -233,7 +233,7 @@ msgstr ""
 #. odoo-python
 #: code:addons/stock/models/stock_picking_type.py:0
 msgid "%(picking_type)s : Detailed Moves"
-msgstr ""
+msgstr "%(picking_type)s: детализация перемещений"
 
 #. module: stock
 #. odoo-python
@@ -285,7 +285,7 @@ msgstr "%s дней"
 #. odoo-python
 #: code:addons/stock/models/stock_picking_batch.py:0
 msgid "%s was removed from the batch, no quantity processed"
-msgstr ""
+msgstr "%s удалено из пакета: количество не обработано"
 
 #. module: stock
 #. odoo-python
@@ -432,7 +432,7 @@ msgstr ""
 #. odoo-python
 #: code:addons/stock/models/stock_rule.py:0
 msgid "+ %d days"
-msgstr ""
+msgstr "+ %d дн."
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.report_stock_rule
@@ -545,7 +545,7 @@ msgid ""
 "    </p>\n"
 "</div>\n"
 "        "
-msgstr ""
+msgstr "<div style=\"margin: 0px; padding: 0px;\">\n    <p style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n        Здравствуйте, <t t-out=\"object.picking_partner_id.display_name or ''\"/><br/><br/>\n        Мы хотим объявить об отзыве следующего товара:<br/><br/>\n        Товар:<br/>\n        <t t-out=\"object.product_id.display_name or ''\"/><br/><br/>\n        Партия / серийный номер:<br/>\n        <t t-out=\"object.lot_id.name or object.lot_name or ''\"/><br/><br/>\n        Приносим извинения за доставленные неудобства.<br/><br/>\n        С наилучшими пожеланиями,\n    </p>\n</div>\n        "
 
 #. module: stock
 #: model:mail.template,body_html:stock.mail_template_data_delivery_confirmation
@@ -597,14 +597,14 @@ msgid ""
 "    </p>\n"
 "</div>\n"
 "        "
-msgstr ""
+msgstr "<div style=\"margin: 0px; padding: 0px;\">\n    <p style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n        Здравствуйте, <t t-out=\"object.partner_id.name or ''\">Brandon Freeman</t>,<br/><br/>\n        <t t-if=\"hasattr(object, 'delivery_type') and object.delivery_type == 'in_store'\">\n            Ваш заказ получен.\n        </t>\n        <t t-else=\"\">\n            Рады сообщить, что ваш заказ отправлен.\n        </t>\n        <t t-if=\"hasattr(object, 'carrier_tracking_ref') and object.carrier_tracking_ref\">\n            Номер для отслеживания:\n            <strong>\n            <t t-if=\"object.carrier_tracking_url\">\n                <t t-set=\"multiple_carrier_tracking\" t-value=\"object.get_multiple_carrier_tracking()\"/>\n                <t t-if=\"multiple_carrier_tracking\">\n                    <t t-foreach=\"multiple_carrier_tracking\" t-as=\"line\">\n                        <br/><a t-att-href=\"line[1]\" target=\"_blank\" t-out=\"line[0] or ''\"/>\n                    </t>\n                </t>\n                <t t-else=\"\">\n                    <a t-attf-href=\"{{ object.carrier_tracking_url }}\" target=\"_blank\" t-out=\"object.carrier_tracking_ref or ''\"/>.\n                </t>\n            </t>\n            <t t-else=\"\">\n                <t t-out=\"object.carrier_tracking_ref or ''\"/>.\n            </t>\n            </strong>\n        </t>\n        <br/><br/>\n        Подробности — в приложенном заказе на доставку.<br/><br/>\n        Спасибо,\n        <t t-if=\"user.signature\">\n            <br/>\n            <div data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/><t t-out=\"user.signature or ''\">Mitchell Admin</t></div>\n        </t>\n    </p>\n</div>\n        "
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.stock_picking_batch_card
 msgid ""
 "<i class=\"oi oi-filled text-primary me-2\" data-icon=\"calendar_today\" "
 "title=\"Calendar\"/>"
-msgstr ""
+msgstr "<i class=\"oi oi-filled text-primary me-2\" data-icon=\"calendar_today\" title=\"Календарь\"/>"
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.report_picking
@@ -612,7 +612,7 @@ msgid ""
 "<i class=\"oi\" data-icon=\"warning\"/>\n"
 "                                All products could not be reserved. Click on "
 "the \"Reserve\" button to try to reserve products."
-msgstr ""
+msgstr "<i class=\"oi\" data-icon=\"warning\"/>\n                                Не удалось зарезервировать все товары. Нажмите кнопку «Зарезервировать», чтобы повторить попытку."
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.stock_picking_type_kanban
@@ -644,14 +644,14 @@ msgstr "<span class=\"mt0 float-start\">Упаковка не назначена
 msgid ""
 "<span class=\"o_form_label fw-bold\" invisible=\"batch_creation_type == "
 "'manual'\">Grouping by</span>"
-msgstr ""
+msgstr "<span class=\"o_form_label fw-bold\" invisible=\"batch_creation_type == 'manual'\">Группировать по</span>"
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.view_picking_type_form
 msgid ""
 "<span class=\"o_form_label fw-bold\" invisible=\"batch_creation_type == "
 "'manual'\">Maximum</span>"
-msgstr ""
+msgstr "<span class=\"o_form_label fw-bold\" invisible=\"batch_creation_type == 'manual'\">Максимум</span>"
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
@@ -677,7 +677,7 @@ msgstr "<span class=\"o_stat_text\">Расположение</span>"
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.view_warehouse
 msgid "<span class=\"o_stat_text\">Locations</span>"
-msgstr ""
+msgstr "<span class=\"o_stat_text\">Местоположения</span>"
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.product_form_view_procurement_button
@@ -787,14 +787,14 @@ msgstr "<span class=\"text-muted small\"> В наличии</span>"
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.product_template_kanban_stock_view
 msgid "<span class=\"text-muted\">On Hand</span>"
-msgstr ""
+msgstr "<span class=\"text-muted\">В наличии</span>"
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.view_stock_replenishment_info
 msgid ""
 "<span class=\"text-muted\">When forecasted inventory reaches the minimum, "
 "replenish to reach maximum.</span>"
-msgstr ""
+msgstr "<span class=\"text-muted\">Когда прогнозный запас достигает минимума, пополняйте до максимума.</span>"
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
@@ -819,7 +819,7 @@ msgstr "<span>Оставшиеся объемы еще не доставлены
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.stock_picking_type_kanban
 msgid "<span>View</span>"
-msgstr ""
+msgstr "<span>Просмотр</span>"
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.view_location_form
@@ -897,12 +897,12 @@ msgstr ""
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.report_picking_batch
 msgid "<strong>FROM</strong>"
-msgstr ""
+msgstr "<strong>ОТКУДА</strong>"
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.report_picking
 msgid "<strong>From:</strong>"
-msgstr ""
+msgstr "<strong>Откуда:</strong>"
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.report_delivery_document
@@ -918,7 +918,7 @@ msgstr "<strong>Инструкции:</strong>"
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.report_picking_batch
 msgid "<strong>Lot/Serial Number</strong>"
-msgstr ""
+msgstr "<strong>Партия/серийный номер</strong>"
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.view_stock_warehouse_orderpoint_kanban
@@ -964,12 +964,12 @@ msgstr "<strong>Тип упаковки:</strong>"
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.report_picking_batch
 msgid "<strong>Package</strong>"
-msgstr ""
+msgstr "<strong>Упаковка</strong>"
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.report_picking_batch
 msgid "<strong>Product Barcode</strong>"
-msgstr ""
+msgstr "<strong>Штрихкод товара</strong>"
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.report_delivery_document
@@ -991,7 +991,7 @@ msgstr "<strong>Адрес получателя</strong>"
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.report_picking_batch
 msgid "<strong>Responsible:</strong>"
-msgstr ""
+msgstr "<strong>Ответственный:</strong>"
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
@@ -1024,7 +1024,7 @@ msgstr "<strong>Статус:</strong>"
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.report_picking_batch
 msgid "<strong>TO</strong>"
-msgstr ""
+msgstr "<strong>КУДА</strong>"
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.message_head
@@ -1083,7 +1083,7 @@ msgid ""
 "\n"
 "Concerned package(s):\n"
 "%(package_names)s"
-msgstr ""
+msgstr "Упаковку нельзя перемещать несколько раз в одном перемещении или разделять между несколькими местоположениями.\n\nЗатронутые упаковки:\n%(package_names)s"
 
 #. module: stock
 #: model:ir.model.constraint,message:stock.constraint_stock_warehouse_orderpoint_product_location_check
@@ -1102,7 +1102,7 @@ msgid ""
 "A transfer will not be automatically added to batches that will exceed this "
 "number of lines if the transfer is added to it.\n"
 "Leave this value as '0' if no line limit."
-msgstr ""
+msgstr "Перемещение не будет автоматически добавлено в пакет, если после этого число строк в нём превысит это значение.\nОставьте «0», если ограничения по строкам нет."
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_picking_type__batch_max_pickings
@@ -1110,7 +1110,7 @@ msgid ""
 "A transfer will not be automatically added to batches that will exceed this "
 "number of transfers.\n"
 "Leave this value as '0' if no transfer limit."
-msgstr ""
+msgstr "Перемещение не будет автоматически добавлено в пакет, если после этого число перемещений в нём превысит это значение.\nОставьте «0», если ограничения по числу перемещений нет."
 
 #. module: stock
 #: model:res.groups,name:stock.group_warning_stock
@@ -1120,7 +1120,7 @@ msgstr "Предупреждение может быть настроено на
 #. module: stock
 #: model:ir.model,name:stock.model_res_groups
 msgid "Access Groups"
-msgstr ""
+msgstr "Группы доступа"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_rule__action
@@ -1207,7 +1207,7 @@ msgstr "Вид деятельности"
 #: code:addons/stock/models/stock_picking.py:0
 #: code:addons/stock/wizard/stock_add_to_wave.py:0
 msgid "Add Operations"
-msgstr ""
+msgstr "Добавить операции"
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.view_picking_form
@@ -1223,7 +1223,7 @@ msgstr "Добавить партию/серийный номер"
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.stock_picking_view_batch_tree_ref
 msgid "Add a move line"
-msgstr ""
+msgstr "Добавить строку перемещения"
 
 #. module: stock
 #: model_terms:ir.actions.act_window,help:stock.action_location_form
@@ -1243,7 +1243,7 @@ msgstr "Добавьте новую категорию хранения"
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.stock_picking_view_batch_tree_ref
 msgid "Add a transfer"
-msgstr ""
+msgstr "Добавить перемещение"
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.view_picking_form
@@ -1295,7 +1295,7 @@ msgstr "Добавить строку: %s"
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.stock_picking_to_batch_form
 msgid "Add pickings to"
-msgstr ""
+msgstr "Добавить перемещения в"
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
@@ -1306,13 +1306,13 @@ msgstr "Добавьте проверки качества к вашим опе�
 #: model_terms:ir.ui.view,arch_db:stock.stock_add_to_wave_form
 #: model_terms:ir.ui.view,arch_db:stock.stock_picking_to_batch_form
 msgid "Add to"
-msgstr ""
+msgstr "Добавить в"
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.stock_add_to_wave_form
 #: model_terms:ir.ui.view,arch_db:stock.view_move_line_tree_detailed
 msgid "Add to Batch"
-msgstr ""
+msgstr "Добавить в пакет"
 
 #. module: stock
 #: model:ir.actions.act_window,name:stock.stock_add_to_wave_action_stock_picking
@@ -1435,7 +1435,7 @@ msgstr "Все возвращенные ходы"
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.stock_picking_batch_form
 msgid "Allocation"
-msgstr ""
+msgstr "Распределение"
 
 #. module: stock
 #. odoo-javascript
@@ -1466,7 +1466,7 @@ msgstr "Разрешить смешанные товары"
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_picking_type__allocated_location_id
 msgid "Allow to define the location where allocated products should be sent."
-msgstr ""
+msgstr "Позволяет указать местоположение, куда нужно отправлять распределённые товары."
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_warehouse_orderpoint__allowed_location_ids
@@ -1476,7 +1476,7 @@ msgstr "Разрешенное местоположение"
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_picking_batch__allowed_picking_ids
 msgid "Allowed Picking"
-msgstr ""
+msgstr "Разрешённое перемещение"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_warehouse_orderpoint__allowed_replenishment_uom_ids
@@ -1504,7 +1504,7 @@ msgstr "Всегда"
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
 msgid "Annual Inventory Date"
-msgstr ""
+msgstr "Дата ежегодной инвентаризации"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_res_company__annual_inventory_month
@@ -1626,7 +1626,7 @@ msgstr "Вы уверены, что хотите отменить это пер�
 msgid ""
 "Are you sure you want to proceed this transfer with moves that have no "
 "demand?"
-msgstr ""
+msgstr "Вы уверены, что хотите провести это перемещение с движениями без спроса?"
 
 #. module: stock
 #. odoo-python
@@ -1646,7 +1646,7 @@ msgstr ""
 #: model:ir.model.fields.selection,name:stock.selection__stock_picking__move_type__direct
 #: model:ir.model.fields.selection,name:stock.selection__stock_picking_type__move_type__direct
 msgid "As soon as possible, with back orders"
-msgstr ""
+msgstr "Как можно скорее, с невыполненными остатками"
 
 #. module: stock
 #: model:ir.model.fields.selection,name:stock.selection__stock_picking_type__create_backorder__ask
@@ -1679,7 +1679,7 @@ msgstr "Назначить на"
 #. odoo-javascript
 #: code:addons/stock/static/src/allocation_report/allocation_report.xml:0
 msgid "Assigned"
-msgstr ""
+msgstr "Назначено"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_package__child_package_dest_ids
@@ -1700,7 +1700,7 @@ msgstr "Назначено"
 #. odoo-python
 #: code:addons/stock/models/stock_picking.py:0
 msgid "Assigned to %s Responsible"
-msgstr ""
+msgstr "Назначено ответственному %s"
 
 #. module: stock
 #: model:ir.model.fields.selection,name:stock.selection__stock_picking_type__reservation_method__at_confirm
@@ -1778,7 +1778,7 @@ msgstr "Автоматическая печать возвратного лис�
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_picking_type__batch_auto_confirm
 msgid "Auto-confirm"
-msgstr ""
+msgstr "Автоподтверждение"
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.view_warehouse_orderpoint_tree_editable
@@ -1794,7 +1794,7 @@ msgstr "Автоматически"
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_picking_type__auto_batch
 msgid "Automatic Batches"
-msgstr ""
+msgstr "Автоматические пакеты"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_rule__auto
@@ -1809,29 +1809,29 @@ msgstr "Автоматика без шага"
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_picking_type__batch_group_by_partner
 msgid "Automatically group batches by contacts."
-msgstr ""
+msgstr "Автоматически группировать пакеты по контактам."
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_picking_type__batch_group_by_destination
 msgid "Automatically group batches by destination country."
-msgstr ""
+msgstr "Автоматически группировать пакеты по стране назначения."
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_picking_type__batch_group_by_dest_loc
 msgid "Automatically group batches by their destination location."
-msgstr ""
+msgstr "Автоматически группировать пакеты по месту назначения."
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_picking_type__batch_group_by_src_loc
 msgid "Automatically group batches by their source location."
-msgstr ""
+msgstr "Автоматически группировать пакеты по исходному местоположению."
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_picking_type__auto_batch
 #: model:ir.model.fields,help:stock.field_stock_picking_type__batch_creation_type
 msgid ""
 "Automatically put pickings into batches as they are confirmed when possible."
-msgstr ""
+msgstr "Автоматически помещать перемещения в пакеты при подтверждении, когда это возможно."
 
 #. module: stock
 #. odoo-javascript
@@ -1954,28 +1954,28 @@ msgstr "Основано на"
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.stock_orderpoint_suggest_form
 msgid "Based on average daily demands from"
-msgstr ""
+msgstr "На основе среднесуточного спроса с"
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.report_picking_batch
 #: model_terms:ir.ui.view,arch_db:stock.view_picking_form
 msgid "Batch"
-msgstr ""
+msgstr "Пакет"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_picking_type__batch_creation_type
 msgid "Batch Creation"
-msgstr ""
+msgstr "Создание пакетов"
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.report_picking_batch
 msgid "Batch Name"
-msgstr ""
+msgstr "Название пакета"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_picking_type__batch_properties_definition
 msgid "Batch Properties"
-msgstr ""
+msgstr "Свойства пакета"
 
 #. module: stock
 #. odoo-python
@@ -1997,7 +1997,7 @@ msgstr "Пакетное перемещение"
 #: model:ir.model,name:stock.model_stock_add_to_wave
 #: model:ir.model,name:stock.model_stock_picking_to_batch
 msgid "Batch Transfer Line"
-msgstr ""
+msgstr "Строка пакетного перемещения"
 
 #. module: stock
 #: model:ir.actions.act_window,name:stock.stock_picking_batch_action
@@ -2009,35 +2009,35 @@ msgstr "Пакетные перемещения"
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.stock_picking_batch_filter
 msgid "Batch Transfers not finished"
-msgstr ""
+msgstr "Незавершённые пакетные перемещения"
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_move_line__batch_id
 #: model:ir.model.fields,help:stock.field_stock_picking__batch_id
 msgid "Batch associated to this transfer"
-msgstr ""
+msgstr "Пакет, связанный с этим перемещением"
 
 #. module: stock
 #: model_terms:ir.actions.act_window,help:stock.stock_picking_batch_action
 msgid "Batch transfers"
-msgstr ""
+msgstr "Пакетные перемещения"
 
 #. module: stock
 #. odoo-python
 #: code:addons/stock/models/stock_picking_batch.py:0
 msgid "Batch transfers cannot be merged with wave transfers and vice versa."
-msgstr ""
+msgstr "Пакетные перемещения нельзя объединять с волновыми и наоборот."
 
 #. module: stock
 #. odoo-python
 #: code:addons/stock/models/stock_picking_batch.py:0
 msgid "Batch transfers have been merged into the following transfer"
-msgstr ""
+msgstr "Пакетные перемещения объединены в следующее перемещение"
 
 #. module: stock
 #: model_terms:ir.actions.act_window,help:stock.stock_picking_batch_action
 msgid "Batch transfers lines"
-msgstr ""
+msgstr "Строки пакетных перемещений"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_res_config_settings__group_stock_picking_batch
@@ -2048,18 +2048,18 @@ msgstr "Перемещение по партиям, волновое и груп
 #. odoo-python
 #: code:addons/stock/models/stock_picking_batch.py:0
 msgid "Batch/Wave transfers with different operation types cannot be merged."
-msgstr ""
+msgstr "Пакетные/волновые перемещения с разными типами операций нельзя объединять."
 
 #. module: stock
 #. odoo-python
 #: code:addons/stock/models/stock_picking_batch.py:0
 msgid "Batch/Wave transfers with different states cannot be merged."
-msgstr ""
+msgstr "Пакетные/волновые перемещения с разными статусами нельзя объединять."
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.stock_picking_type_kanban
 msgid "Batches"
-msgstr ""
+msgstr "Пакеты"
 
 #. module: stock
 #. odoo-python
@@ -2096,7 +2096,7 @@ msgstr "Насыпной вес"
 #. module: stock
 #: model_terms:ir.actions.act_window,help:stock.ir_module_module_action_delivery_provider_modules
 msgid "Buy Odoo Enterprise now to get more providers."
-msgstr ""
+msgstr "Купите Odoo Enterprise, чтобы получить больше служб доставки."
 
 #. module: stock
 #: model:ir.model.fields.selection,name:stock.selection__product_template__store_by__lot
@@ -2118,7 +2118,7 @@ msgstr "По уникальным серийным номерам"
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
 msgid "By default, next physical inventory will be scheduled at this date"
-msgstr ""
+msgstr "По умолчанию следующая инвентаризация будет назначена на эту дату"
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_move__procure_method
@@ -2203,7 +2203,7 @@ msgstr "Отменен"
 #. odoo-python
 #: code:addons/stock/wizard/stock_add_to_wave.py:0
 msgid "Cannot create wave transfers"
-msgstr ""
+msgstr "Невозможно создать волновые перемещения"
 
 #. module: stock
 #. odoo-python
@@ -2241,7 +2241,7 @@ msgstr "Категории"
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_picking_type__wave_category_ids
 msgid "Categories to consider when grouping waves."
-msgstr ""
+msgstr "Категории, учитываемые при группировке волн."
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.product_search_form_view_stock_report
@@ -2384,7 +2384,7 @@ msgstr "Ближайшее местоположение"
 #. module: stock
 #: model_terms:ir.actions.act_window,help:stock.stock_picking_batch_action
 msgid "Cluster transfers"
-msgstr ""
+msgstr "Кластерные перемещения"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_picking_type__color
@@ -2445,7 +2445,7 @@ msgstr "Конфигурация"
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
 msgid "Configure Methods"
-msgstr ""
+msgstr "Настроить способы"
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_res_company__horizon_days
@@ -2523,7 +2523,7 @@ msgstr "Накладки"
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_res_config_settings__group_stock_tracking_owner
 msgid "Consignment"
-msgstr "Consignment"
+msgstr "Консигнация"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_move_line__consume_line_ids
@@ -2600,7 +2600,7 @@ msgstr "Кол-во комплектований заказов на возвр�
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_picking_type__count_picking_batch
 msgid "Count Picking Batch"
-msgstr ""
+msgstr "Кол-во пакетных перемещений"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_picking_type__count_picking_draft
@@ -2891,7 +2891,7 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/stock/static/src/views/search/stock_report_search_panel.xml:0
 msgid "Current stock"
-msgstr ""
+msgstr "Текущий запас"
 
 #. module: stock
 #: model:ir.model.fields.selection,name:stock.selection__mrp_finished_product_label_layout__move_quantity__custom
@@ -2905,7 +2905,7 @@ msgstr "Пользовательский"
 #: model:ir.model.fields.selection,name:stock.selection__stock_replenishment_info__based_on__custom
 #: model:ir.model.fields.selection,name:stock.selection__stock_warehouse_orderpoint__min_max_based_on__custom
 msgid "Custom Demand"
-msgstr ""
+msgstr "Свой спрос"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_product_product__serial_prefix_format
@@ -2917,7 +2917,7 @@ msgstr "Пользовательский номер партии/серийны�
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_lot_label_layout__custom_quantity
 msgid "Custom Quantity"
-msgstr ""
+msgstr "Своё количество"
 
 #. module: stock
 #: model:ir.model.fields.selection,name:stock.selection__stock_location__usage__customer
@@ -2956,12 +2956,12 @@ msgstr "Циклический подсчет"
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_warehouse_orderpoint__daily_demand
 msgid "Daily Demand"
-msgstr ""
+msgstr "Суточный спрос"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_replenishment_info__danger_level
 msgid "Danger Level"
-msgstr ""
+msgstr "Критический уровень"
 
 #. module: stock
 #. odoo-javascript
@@ -2985,7 +2985,7 @@ msgstr "Категория даты"
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_picking_type__wave_date_granularity
 msgid "Date Precision"
-msgstr ""
+msgstr "Точность даты"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_move__date
@@ -3029,7 +3029,7 @@ msgstr "Дата следующей плановой инвентаризаци�
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.view_picking_type_form
 msgid "Date if same"
-msgstr ""
+msgstr "Если дата совпадает"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_picking__date_done
@@ -3049,7 +3049,7 @@ msgstr "Дата резервирования"
 #. module: stock
 #: model:ir.model.fields.selection,name:stock.selection__stock_picking_type__wave_date_granularity__day
 msgid "Day"
-msgstr ""
+msgstr "День"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_res_company__annual_inventory_day
@@ -3092,7 +3092,7 @@ msgid ""
 "Green if > Replenishment Time - Sales Availability Time\n"
 "Orange if = Replenishment Time - Sales Availability Time\n"
 "Red if < Replenishment Time - Sales Availability Time"
-msgstr ""
+msgstr "Дни спроса, покрываемые минимальным уровнем:\nДолжно быть ≥ Срок пополнения - Время доступности для продаж, чтобы избежать дефицита в период пополнения.\nДобавьте дополнительные дни запаса на непредвиденные ситуации.\n\nЗелёный, если > Срок пополнения - Время доступности для продаж\nОранжевый, если = Срок пополнения - Время доступности для продаж\nКрасный, если < Срок пополнения - Время доступности для продаж"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_picking_type__reservation_days_before_priority
@@ -3141,7 +3141,7 @@ msgstr "Штрихкод OBTRETU по умолчанию"
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_res_company__default_stock_location_id
 msgid "Default Stock Location"
-msgstr ""
+msgstr "Местоположение запасов по умолчанию"
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_warehouse__reception_steps
@@ -3366,7 +3366,7 @@ msgstr "Доставка - Лист"
 #. odoo-python
 #: code:addons/stock/models/stock_lot.py:0
 msgid "Delivery move lines of %s"
-msgstr ""
+msgstr "Строки отгрузочных перемещений %s"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_lot__delivery_count
@@ -3384,12 +3384,12 @@ msgstr "Спрос"
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_move__product_qty
 msgid "Demand in Product UoM"
-msgstr ""
+msgstr "Спрос в ед. изм. товара"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_replenishment_info__daily_demand
 msgid "Demand is"
-msgstr ""
+msgstr "Спрос определяется"
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_product_product__route_ids
@@ -3868,7 +3868,7 @@ msgstr "Пустые локации"
 #. module: stock
 #: model:res.groups,name:stock.group_stock_picking_batch
 msgid "Enable Batch, Wave and Cluster Transfers"
-msgstr ""
+msgstr "Включить пакетные, волновые и кластерные перемещения"
 
 #. module: stock
 #: model_terms:digest.tip,tip_description:stock.digest_tip_stock_0
@@ -3893,7 +3893,7 @@ msgstr "Обеспечьте отслеживание складируемого
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.view_picking_form
 msgid "Enter a Description..."
-msgstr ""
+msgstr "Введите описание..."
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_orderpoint_suggest__based_on
@@ -3902,7 +3902,7 @@ msgstr ""
 msgid ""
 "Estimate the daily average future demand volume based on past period or "
 "choose Custom Demand to enter manually average daily demand."
-msgstr ""
+msgstr "Оцените среднесуточный будущий спрос по прошлому периоду или выберите «Свой спрос», чтобы ввести среднесуточный спрос вручную."
 
 #. module: stock
 #: model_terms:ir.actions.act_window,help:stock.action_location_form
@@ -3954,7 +3954,7 @@ msgstr "Ожд %s"
 #. odoo-javascript
 #: code:addons/stock/static/src/client_actions/stock_traceability_report_backend.xml:0
 msgid "Expand"
-msgstr ""
+msgstr "Развернуть"
 
 #. module: stock
 #: model:ir.model.fields.selection,name:stock.selection__stock_picking__products_availability_state__expected
@@ -3999,7 +3999,7 @@ msgstr "Отсортированное размещение"
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
 msgid "Find a Delivery Provider"
-msgstr ""
+msgstr "Найти службу доставки"
 
 #. module: stock
 #: model:product.removal,name:stock.removal_fifo
@@ -4027,7 +4027,7 @@ msgstr "Первый серийный номер"
 #. odoo-javascript
 #: code:addons/stock/static/src/client_actions/stock_traceability_report_backend.xml:0
 msgid "Fold"
-msgstr ""
+msgstr "Свернуть"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_lot__message_follower_ids
@@ -4047,7 +4047,7 @@ msgstr "Подписчики"
 #. odoo-javascript
 #: code:addons/stock/static/src/allocation_report/allocation_report.xml:0
 msgid "For"
-msgstr ""
+msgstr "Для"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_product_category__removal_strategy_id
@@ -4128,7 +4128,7 @@ msgstr "Прогнозируемый Запас"
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_move__forecasted_location_id
 msgid "Forecasted Location"
-msgstr ""
+msgstr "Прогнозное местоположение"
 
 #. module: stock
 #. odoo-python
@@ -4173,7 +4173,7 @@ msgid ""
 "BOM.\n"
 "Won't be reached by on Hand stock if unforecasted demand is delivered while "
 "waiting for arrival."
-msgstr ""
+msgstr "Прогнозный уровень запаса при пополнении.\nРассчитывается автоматически как = Мин + Макс (Частота заказов x Суточный спрос x Коэффициент роста, MoQ), где MoQ — минимальное количество из прайс-листа поставщика / спецификации.\nЗапас «В наличии» его не достигнет, если непрогнозируемый спрос будет отгружен в ожидании поставки."
 
 #. module: stock
 #. odoo-javascript
@@ -4279,7 +4279,7 @@ msgstr "Общие"
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.view_picking_type_form
 msgid "General Source Location"
-msgstr ""
+msgstr "Общее исходное местоположение"
 
 #. module: stock
 #. odoo-javascript
@@ -4291,7 +4291,7 @@ msgstr "Сгенерировать номера партий"
 #. odoo-javascript
 #: code:addons/stock/static/src/widgets/lots_dialog.xml:0
 msgid "Generate Lots"
-msgstr ""
+msgstr "Создать партии"
 
 #. module: stock
 #. odoo-javascript
@@ -4303,7 +4303,7 @@ msgstr "Сгенерировать серийные номера"
 #. odoo-javascript
 #: code:addons/stock/static/src/widgets/lots_dialog.xml:0
 msgid "Generate Serials"
-msgstr ""
+msgstr "Создать серийные номера"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_picking_type__print_label
@@ -4344,17 +4344,17 @@ msgstr "Приходная накладная"
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_picking_type__wave_group_by_date
 msgid "Group by Date"
-msgstr ""
+msgstr "Группировать по дате"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_picking_type__batch_group_by_dest_loc
 msgid "Group by Destination Location"
-msgstr ""
+msgstr "Группировать по месту назначения"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_picking_type__batch_group_by_src_loc
 msgid "Group by Source Location"
-msgstr ""
+msgstr "Группировать по исходному местоположению"
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.report_picking_batch
@@ -4601,7 +4601,7 @@ msgstr "Если установлено, операции упаковывают
 msgid ""
 "If the Automatic Batches feature is enabled, at least one 'Grouping by' "
 "option must be selected."
-msgstr ""
+msgstr "Если включены автоматические пакеты, нужно выбрать хотя бы один вариант «Группировать по»."
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_lot_label_layout__label_quantity
@@ -4722,7 +4722,7 @@ msgstr ""
 msgid ""
 "If this checkbox is ticked, Odoo will automatically show the allocation "
 "report (if there are moves to allocate to) when validating."
-msgstr ""
+msgstr "Если флажок установлен, Odoo при подтверждении автоматически покажет отчёт о распределении (если есть движения для распределения)."
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_move_line__picking_type_use_create_lots
@@ -4819,7 +4819,7 @@ msgstr "Импорт серийных номеров"
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.stock_picking_batch_filter
 msgid "In Progress"
-msgstr ""
+msgstr "В работе"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_warehouse__in_type_id
@@ -4862,7 +4862,7 @@ msgstr ""
 #. module: stock
 #: model:ir.model.fields.selection,name:stock.selection__stock_picking_batch__state__in_progress
 msgid "In progress"
-msgstr ""
+msgstr "В работе"
 
 #. module: stock
 #. odoo-javascript
@@ -5144,7 +5144,7 @@ msgstr "Запрос на инвентаризацию"
 #. module: stock
 #: model:ir.model,name:stock.model_stock_route
 msgid "Inventory Route"
-msgstr ""
+msgstr "Складской маршрут"
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.view_stock_quant_form_editable
@@ -5160,7 +5160,7 @@ msgstr "Запасы на дату"
 #. module: stock
 #: model:ir.model.fields.selection,name:stock.selection__stock_picking__validate_button_style__invisible
 msgid "Invisible"
-msgstr ""
+msgstr "Скрыто"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_move__is_date_editable
@@ -5205,12 +5205,12 @@ msgstr "Разрешено изменение плановой даты"
 #: model:ir.model.fields,field_description:stock.field_stock_move__is_scrap
 #: model:ir.model.fields,field_description:stock.field_stock_move_line__is_scrap
 msgid "Is Scrap"
-msgstr ""
+msgstr "Это списание"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_lot__is_scrap
 msgid "Is Scrapped"
-msgstr ""
+msgstr "Списано"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_picking__is_signed
@@ -5296,7 +5296,7 @@ msgstr "Иван Иванов"
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_replenishment_info__json_lead_days
 msgid "Json Lead Days"
-msgstr "Json Lead Days"
+msgstr "Дни выполнения (JSON)"
 
 #. module: stock
 #. odoo-javascript
@@ -5343,7 +5343,7 @@ msgstr "Сохраняйте текущие линии"
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.view_zero_demand_confirmation
 msgid "Keep lines"
-msgstr ""
+msgstr "Оставить строки"
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.stock_inventory_conflict_form_view
@@ -5364,12 +5364,12 @@ msgstr ""
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_digest_digest__kpi_stock_delivery_count_value
 msgid "Kpi Stock Delivery Count Value"
-msgstr ""
+msgstr "Значение KPI: число отгрузок"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_digest_digest__kpi_stock_receipt_count_value
 msgid "Kpi Stock Receipt Count Value"
-msgstr ""
+msgstr "Значение KPI: число поступлений"
 
 #. module: stock
 #: model:ir.actions.server,name:stock.action_print_labels
@@ -5594,7 +5594,7 @@ msgstr "Последний статус наличия товара"
 msgid ""
 "Launch picking orders by aisle or area and regroup at packing zone. Ideal "
 "for large warehouses."
-msgstr ""
+msgstr "Запускайте комплектование по проходам или зонам и объединяйте в зоне упаковки. Подходит для больших складов."
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_warehouse_orderpoint__lead_days
@@ -5668,12 +5668,12 @@ msgstr ""
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_add_to_wave__line_ids
 msgid "Line"
-msgstr ""
+msgstr "Строка"
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.view_picking_type_form
 msgid "Lines"
-msgstr ""
+msgstr "Строки"
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.view_move_form
@@ -5683,7 +5683,7 @@ msgstr "Связанные перемещения"
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_picking_batch__picking_ids
 msgid "List of transfers associated to this batch"
-msgstr ""
+msgstr "Список перемещений этого пакета"
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.stock_picking_batch_form
@@ -5739,7 +5739,7 @@ msgstr "Штрихкод места (ZPL)"
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.report_picking_batch
 msgid "Location From Name"
-msgstr ""
+msgstr "Название места отправления"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_location__name
@@ -5755,7 +5755,7 @@ msgstr "Локальный запас"
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.report_picking_batch
 msgid "Location To Name"
-msgstr ""
+msgstr "Название места назначения"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_location__usage
@@ -5766,12 +5766,12 @@ msgstr "Тип местоположения"
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_picking_type__allocated_location_id
 msgid "Location for allocation"
-msgstr ""
+msgstr "Местоположение для распределения"
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_move__forecasted_location_id
 msgid "Location used in the computation of the forecast."
-msgstr ""
+msgstr "Местоположение, используемое при расчёте прогноза."
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.view_putaway_search
@@ -5800,7 +5800,7 @@ msgstr "Места хранения"
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_picking_type__wave_location_ids
 msgid "Locations to consider when grouping waves."
-msgstr ""
+msgstr "Местоположения, учитываемые при группировке волн."
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.view_picking_form
@@ -5829,7 +5829,7 @@ msgstr "Формат этикетки лота для автоматическо
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.report_picking_batch
 msgid "Lot Number"
-msgstr ""
+msgstr "Номер партии"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_product_product__lot_properties_definition
@@ -6001,7 +6001,7 @@ msgstr "Управление толкать и тянуть потоков ин�
 #. module: stock
 #: model:ir.module.module,summary:base.module_stock
 msgid "Manage your stock and logistics activities"
-msgstr ""
+msgstr "Управление запасами и логистикой"
 
 #. module: stock
 #: model:ir.model.fields.selection,name:stock.selection__stock_warehouse_orderpoint__trigger__manual
@@ -6012,7 +6012,7 @@ msgstr "Руководство"
 #. module: stock
 #: model:ir.model.fields.selection,name:stock.selection__stock_picking_type__batch_creation_type__manual
 msgid "Manual Only"
-msgstr ""
+msgstr "Только вручную"
 
 #. module: stock
 #: model:ir.model.fields.selection,name:stock.selection__stock_rule__auto__manual
@@ -6038,14 +6038,14 @@ msgstr "Март"
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.view_picking_form
 msgid "Mark as To Do"
-msgstr ""
+msgstr "Отметить к выполнению"
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_lot__activity_type_icon
 #: model:ir.model.fields,help:stock.field_stock_picking__activity_type_icon
 #: model:ir.model.fields,help:stock.field_stock_picking_batch__activity_type_icon
 msgid "Material Symbols icon e.g. checklist"
-msgstr ""
+msgstr "Значок Material Symbols, например checklist"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_replenishment_info__product_max_qty
@@ -6078,7 +6078,7 @@ msgstr "Максимальный вес должен быть положител
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_picking_type__batch_max_lines
 msgid "Maximum lines"
-msgstr ""
+msgstr "Максимум строк"
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_picking_type__reservation_days_before_priority
@@ -6103,12 +6103,12 @@ msgstr ""
 msgid ""
 "Maximum quantity in each package. If the package size is smaller than the "
 "total quantity of the product you will get as many new packages as necessary."
-msgstr ""
+msgstr "Максимальное количество в каждой упаковке. Если размер упаковки меньше общего количества товара, будет создано столько новых упаковок, сколько необходимо."
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_picking_type__batch_max_pickings
 msgid "Maximum transfers"
-msgstr ""
+msgstr "Максимум перемещений"
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_package_type__max_weight
@@ -6164,17 +6164,17 @@ msgstr "Мин"
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.view_stock_replenishment_info
 msgid "Min - Max Suggestion"
-msgstr ""
+msgstr "Предложение Мин - Макс"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_replenishment_info__min_coverage
 msgid "Min Coverage"
-msgstr ""
+msgstr "Мин. покрытие"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_warehouse_orderpoint__min_max_based_on_factor
 msgid "Min Max Based On Factor"
-msgstr ""
+msgstr "Мин-Макс по коэффициенту"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_warehouse_orderpoint__product_min_qty
@@ -6189,7 +6189,7 @@ msgid ""
 "A safety stock is included in the min to cover unusual situations if days of "
 "demand covered by the Minimum Level is > Replenishment Lead Times - "
 "Availability Time."
-msgstr ""
+msgstr "Минимальный прогнозный уровень запаса, при котором запускается пополнение.\nСтраховой запас входит в минимум для покрытия нештатных ситуаций, если дни спроса, покрываемые минимальным уровнем, > Срок пополнения - Время доступности."
 
 #. module: stock
 #: model:ir.model,name:stock.model_stock_warehouse_orderpoint
@@ -6206,7 +6206,7 @@ msgstr "Правила минимального запаса"
 msgid ""
 "Minimum days of coverage and order frequency to be achieved by Min and Max "
 "stock levels must first be defined for each product."
-msgstr ""
+msgstr "Минимальное число дней покрытия и частоту заказов, которые должны обеспечивать уровни запаса Мин и Макс, нужно сначала задать для каждого товара."
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.report_delivery_document
@@ -6218,7 +6218,7 @@ msgstr "Митчел Админ"
 #: model:ir.model.fields,field_description:stock.field_stock_add_to_wave__mode
 #: model:ir.model.fields,field_description:stock.field_stock_picking_to_batch__mode
 msgid "Mode"
-msgstr ""
+msgstr "Режим"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_product_label_layout__move_ids
@@ -6399,7 +6399,7 @@ msgstr "Отрицательный запас"
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_location__net_weight
 msgid "Net Weight"
-msgstr "Net Weight"
+msgstr "Вес нетто"
 
 #. module: stock
 #: model:ir.model.fields.selection,name:stock.selection__stock_picking_type__create_backorder__never
@@ -6522,7 +6522,7 @@ msgstr "Необходимость в распределении не обнар
 #. odoo-python
 #: code:addons/stock/models/stock_picking.py:0
 msgid "No backorder has been planned for undelivered demanded quantities: %s"
-msgstr ""
+msgstr "Невыполненный остаток не запланирован для неотгруженных запрошенных количеств: %s"
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.help_message_template
@@ -6776,7 +6776,7 @@ msgstr "Один на единицу"
 msgid ""
 "Only %(nbr_done)s %(uom)s of %(product)s delivered in contrast to the "
 "expected %(nbr_demanded)s %(uom)s"
-msgstr ""
+msgstr "Отгружено только %(nbr_done)s %(uom)s товара %(product)s вместо ожидаемых %(nbr_demanded)s %(uom)s"
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.stock_picking_type_kanban
@@ -6786,18 +6786,18 @@ msgstr "Открыть"
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_picking_type__open_button_style
 msgid "Open Button Style"
-msgstr ""
+msgstr "Стиль кнопки «Открыть»"
 
 #. module: stock
 #. odoo-python
 #: code:addons/stock/models/stock_move.py:0
 msgid "Open: Stock Move"
-msgstr ""
+msgstr "Открыть: движение запасов"
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.view_pickingtype_filter
 msgid "Operation Category"
-msgstr ""
+msgstr "Категория операций"
 
 #. module: stock
 #: model:ir.model.fields.selection,name:stock.selection__mrp_finished_product_label_layout__move_quantity__move
@@ -6836,7 +6836,7 @@ msgstr "Типы операций"
 #. odoo-python
 #: code:addons/stock/report/stock_allocation_report.py:0
 msgid "Operation not found"
-msgstr ""
+msgstr "Операция не найдена"
 
 #. module: stock
 #. odoo-python
@@ -6954,7 +6954,7 @@ msgstr "Точка заказа"
 msgid ""
 "Organize deliveries by dock, assign drivers and vehicles, and print "
 "consignment notes."
-msgstr ""
+msgstr "Организуйте доставки по докам, назначайте водителей и транспорт, печатайте транспортные накладные."
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.view_move_form
@@ -6980,7 +6980,7 @@ msgstr "Локация-источник"
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.view_move_form
 msgid "Origin Moves"
-msgstr "Origin Moves"
+msgstr "Исходные движения"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_put_in_pack__origin_package_ids
@@ -7102,7 +7102,7 @@ msgstr "Владелец:"
 #. odoo-python
 #: code:addons/stock/models/product.py:0
 msgid "P&L Qty"
-msgstr "P&L Qty"
+msgstr "Кол-во приб./убыт."
 
 #. module: stock
 #: model:ir.model.fields.selection,name:stock.selection__stock_picking_type__package_label_to_print__pdf
@@ -7204,7 +7204,7 @@ msgstr "История упаковки"
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.report_picking_batch
 msgid "Package ID"
-msgstr ""
+msgstr "ID упаковки"
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.view_picking_type_form
@@ -7238,7 +7238,7 @@ msgstr "Ссылка упаковки"
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_put_in_pack__package_capacity
 msgid "Package Size"
-msgstr ""
+msgstr "Размер упаковки"
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.stock_package_view_form
@@ -7299,7 +7299,7 @@ msgstr "Название упаковки является допустимым 
 #: code:addons/stock/models/stock_move_line.py:0
 msgid ""
 "Package size must be greater than zero and not exceed the initial quantity."
-msgstr ""
+msgstr "Размер упаковки должен быть больше нуля и не превышать исходное количество."
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.stock_putaway_list
@@ -7481,7 +7481,7 @@ msgstr "Тип комплектации"
 msgid ""
 "Pick multiple orders in one trip and prepare orders as you pick. This "
 "reduces packing time and is ideal for small products."
-msgstr ""
+msgstr "Собирайте несколько заказов за один обход и готовьте их по ходу сборки. Это сокращает время упаковки и подходит для небольших товаров."
 
 #. module: stock
 #: model:ir.model.fields.selection,name:stock.selection__stock_warehouse__delivery_steps__pick_ship
@@ -7570,13 +7570,13 @@ msgstr "Пожалуйста, создайте склад для компани�
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.return_label_header
 msgid "Please put this document inside your return parcel.<br/>"
-msgstr ""
+msgstr "Положите этот документ в посылку с возвратом.<br/>"
 
 #. module: stock
 #. odoo-python
 #: code:addons/stock/models/stock_picking_batch.py:0
 msgid "Please select at least two batch/wave transfers to merge."
-msgstr ""
+msgstr "Выберите не менее двух пакетных/волновых перемещений для объединения."
 
 #. module: stock
 #. odoo-javascript
@@ -7588,7 +7588,7 @@ msgstr "Предшествующие операции"
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_picking_type__wave_date_granularity
 msgid "Precision to consider when grouping waves."
-msgstr ""
+msgstr "Точность, учитываемая при группировке волн."
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_product_replenish__route_id
@@ -7610,27 +7610,27 @@ msgstr "Значение префикса записи для последова
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.stock_picking_type_kanban
 msgid "Prepare Batch"
-msgstr ""
+msgstr "Подготовить пакет"
 
 #. module: stock
 #: model:ir.model,name:stock.model_stock_location_label_layout
 msgid "Prepare Location Labels"
-msgstr ""
+msgstr "Подготовить этикетки местоположений"
 
 #. module: stock
 #: model:ir.model,name:stock.model_stock_picking_type_label_layout
 msgid "Prepare Operation Type Labels"
-msgstr ""
+msgstr "Подготовить этикетки типов операций"
 
 #. module: stock
 #: model:ir.model,name:stock.model_stock_package_label_layout
 msgid "Prepare Package Labels"
-msgstr ""
+msgstr "Подготовить этикетки упаковок"
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.report_picking
 msgid "Presence depends on the operation category."
-msgstr ""
+msgstr "Наличие зависит от категории операции."
 
 #. module: stock
 #. odoo-python
@@ -7651,7 +7651,7 @@ msgstr "Единица цены"
 #: model:ir.model.fields.selection,name:stock.selection__stock_picking__validate_button_style__primary
 #: model:ir.model.fields.selection,name:stock.selection__stock_picking_type__open_button_style__primary
 msgid "Primary"
-msgstr ""
+msgstr "Основной"
 
 #. module: stock
 #. odoo-javascript
@@ -7683,7 +7683,7 @@ msgstr "Печать этикеток"
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_product_label_layout__print_packaging
 msgid "Print Packaging"
-msgstr ""
+msgstr "Печатать упаковку"
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.view_picking_type_form
@@ -7693,7 +7693,7 @@ msgstr "Печать этикетки как:"
 #. module: stock
 #: model:ir.model.fields,help:stock.field_product_label_layout__print_packaging
 msgid "Print labels with each delivery order line's packaging."
-msgstr ""
+msgstr "Печатать этикетки с упаковкой каждой строки заказа на доставку."
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.view_picking_type_form
@@ -7799,7 +7799,7 @@ msgstr "Доступность товара"
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.report_picking_batch
 msgid "Product Barcode"
-msgstr ""
+msgstr "Штрихкод товара"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_storage_category__product_capacity_ids
@@ -7854,7 +7854,7 @@ msgstr "Перемещения товаров (Строка перемещени
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.report_picking_batch
 msgid "Product Name"
-msgstr ""
+msgstr "Название товара"
 
 #. module: stock
 #. odoo-python
@@ -7894,7 +7894,7 @@ msgstr "Отчет по маршрутам товара"
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.view_picking_type_form
 msgid "Product Source Location"
-msgstr ""
+msgstr "Исходное местоположение товара"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_product_replenish__product_tmpl_id
@@ -7928,12 +7928,12 @@ msgstr "Штрихкод товара"
 #. module: stock
 #: model:mail.template,description:stock.mail_template_data_stock_move_line_recall
 msgid "Product recall from lot/serial number"
-msgstr ""
+msgstr "Отзыв товара по партии/серийному номеру"
 
 #. module: stock
 #: model:mail.template,subject:stock.mail_template_data_stock_move_line_recall
 msgid "Product recall: {{ object.product_id.display_name or 'n/a' }}"
-msgstr ""
+msgstr "Отзыв товара: {{ object.product_id.display_name or 'n/a' }}"
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.view_production_lot_form
@@ -8108,7 +8108,7 @@ msgstr "Качество"
 #. odoo-python
 #: code:addons/stock/models/stock_warehouse.py:0
 msgid "Quality Control"
-msgstr "Quality Control"
+msgstr "Контроль качества"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_warehouse__wh_qc_stock_loc_id
@@ -8201,7 +8201,7 @@ msgstr "Количество"
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.report_picking_batch
 msgid "Quantity Done"
-msgstr ""
+msgstr "Выполненное количество"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_product_product__qty_available
@@ -8534,13 +8534,13 @@ msgstr "Ссылки"
 #. odoo-javascript
 #: code:addons/stock/static/src/widgets/json_widget.xml:0
 msgid "Refresh"
-msgstr ""
+msgstr "Обновить"
 
 #. module: stock
 #: model_terms:ir.actions.act_window,help:stock.stock_picking_batch_action
 msgid ""
 "Regroup multiple orders into one picking and consolidate at the packing zone."
-msgstr ""
+msgstr "Объединяйте несколько заказов в одно комплектование и консолидируйте в зоне упаковки."
 
 #. module: stock
 #: model:ir.actions.server,name:stock.action_stock_quant_relocate
@@ -8583,7 +8583,7 @@ msgstr "Удалить"
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.view_zero_demand_confirmation
 msgid "Remove lines"
-msgstr ""
+msgstr "Удалить строки"
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.view_warehouse_orderpoint_tree_editable
@@ -8636,7 +8636,7 @@ msgstr "Пополнение"
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_replenishment_info__replenish_frequency
 msgid "Replenish Frequency"
-msgstr ""
+msgstr "Частота пополнения"
 
 #. module: stock
 #. odoo-python
@@ -8653,7 +8653,7 @@ msgid ""
 "Replenish products up to the Max Quantity                     set. If a "
 "Quantity To Order has been manually forced, this quantity will be ordered "
 "instead."
-msgstr ""
+msgstr "Пополнять товары до заданного максимального количества.                     Если «Количество к заказу» задано вручную, будет заказано именно оно."
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.view_product_replenish
@@ -8675,7 +8675,7 @@ msgid ""
 "Replenishment Frequency: choose how many days there are between "
 "replenishment requests to optimize the balance between your storage costs "
 "and order costs and calculate your Maximum level."
-msgstr ""
+msgstr "Частота пополнения: выберите, через сколько дней делать запросы на пополнение, чтобы оптимизировать баланс затрат на хранение и на заказы и рассчитать максимальный уровень."
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_res_company__horizon_days
@@ -8715,7 +8715,7 @@ msgstr "Поиск отчетов о пополнении запасов"
 #. odoo-javascript
 #: code:addons/stock/static/src/widgets/json_widget.xml:0
 msgid "Replenishment Time ("
-msgstr ""
+msgstr "Срок пополнения ("
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_warehouse_orderpoint__replenishment_uom_id_placeholder
@@ -8811,7 +8811,7 @@ msgstr "Резервные частичные упаковки"
 #. odoo-javascript
 #: code:addons/stock/static/src/allocation_report/out_line/out_line.js:0
 msgid "Reserved"
-msgstr ""
+msgstr "Зарезервировано"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_quant__reserved_quantity
@@ -8845,7 +8845,7 @@ msgstr "Ответственный пользователь"
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.report_picking_batch
 msgid "Result Package ID"
-msgstr ""
+msgstr "ID итоговой упаковки"
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.view_warehouse
@@ -9146,7 +9146,7 @@ msgid ""
 "updated then this will be their earliest scheduled date\n"
 "                but this scheduled date will not be set for all transfers in "
 "batch."
-msgstr ""
+msgstr "Плановая дата обработки перемещений.\n              - Если задана вручную, плановая дата всех перемещений пакета автоматически обновится до неё.\n              - Если не менялась вручную, а перемещения добавляются/удаляются/изменяются, это будет их самая ранняя плановая дата,\n                но эта плановая дата не будет установлена для всех перемещений пакета."
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_move__date
@@ -9188,7 +9188,7 @@ msgstr "Брак"
 #. odoo-python
 #: code:addons/stock/models/stock_lot.py:0
 msgid "Scrap %(lot_name)s"
-msgstr ""
+msgstr "Списание %(lot_name)s"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_res_company__scrap_location_id
@@ -9218,7 +9218,7 @@ msgstr "Тег причины списания"
 #. odoo-python
 #: code:addons/stock/models/stock_move.py:0
 msgid "Scrap of %s"
-msgstr ""
+msgstr "Списание %s"
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.stock_move_line_view_search
@@ -9230,7 +9230,7 @@ msgstr "Забраковано"
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.view_move_form
 msgid "Scrapped Lots"
-msgstr ""
+msgstr "Списанные партии"
 
 #. module: stock
 #: model:ir.actions.act_window,name:stock.stock_scrapped_moves_action
@@ -9242,12 +9242,12 @@ msgstr "Несоответствующая продукция"
 #. odoo-python
 #: code:addons/stock/models/stock_lot.py:0
 msgid "Scraps of %s"
-msgstr ""
+msgstr "Списания %s"
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.stock_picking_batch_filter
 msgid "Search Batch Transfer"
-msgstr ""
+msgstr "Поиск пакетного перемещения"
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.view_stock_rule_filter
@@ -9269,7 +9269,7 @@ msgstr "Поиск недоступен без указания значения
 #: model:ir.model.fields.selection,name:stock.selection__stock_picking__validate_button_style__secondary
 #: model:ir.model.fields.selection,name:stock.selection__stock_picking_type__open_button_style__secondary
 msgid "Secondary"
-msgstr ""
+msgstr "Дополнительный"
 
 #. module: stock
 #. odoo-javascript
@@ -9293,23 +9293,23 @@ msgstr "Выберите тип упаковки"
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.view_picking_form
 msgid "Select a Product..."
-msgstr ""
+msgstr "Выберите товар..."
 
 #. module: stock
 #. odoo-javascript
 #: code:addons/stock/static/src/views/search/stock_report_search_panel.xml:0
 msgid "Select a date..."
-msgstr ""
+msgstr "Выберите дату..."
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.view_picking_type_form
 msgid "Select locations you want to group"
-msgstr ""
+msgstr "Выберите местоположения для группировки"
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.view_picking_type_form
 msgid "Select product categories you want to group"
-msgstr ""
+msgstr "Выберите категории товаров для группировки"
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.stock_location_route_form_view
@@ -9587,7 +9587,7 @@ msgstr "Краткое название, используемое для иде�
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_move__should_replenish_scrapped
 msgid "Should Replenish"
-msgstr ""
+msgstr "Нужно пополнить"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_picking__show_allocation
@@ -9598,7 +9598,7 @@ msgstr "Показать распределение"
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_picking_batch__show_allocation
 msgid "Show Allocation Button"
-msgstr ""
+msgstr "Показывать кнопку «Распределение»"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_picking__show_check_availability
@@ -9641,7 +9641,7 @@ msgstr "Показать операцию в обзоре"
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_put_in_pack__show_package_capacity
 msgid "Show Package Capacity"
-msgstr ""
+msgstr "Показывать вместимость упаковки"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_picking_type__show_picking_type
@@ -9661,12 +9661,12 @@ msgstr "Показать квант"
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_picking_batch__show_check_availability
 msgid "Show Reserve Button"
-msgstr ""
+msgstr "Показывать кнопку «Зарезервировать»"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_picking_type__show_return_picking_type
 msgid "Show Return Picking Type"
-msgstr ""
+msgstr "Показывать тип операции возврата"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_warehouse_orderpoint__show_supply_warning
@@ -9703,7 +9703,7 @@ msgstr "Показать имя_лота"
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_picking__show_return
 msgid "Show return button"
-msgstr ""
+msgstr "Показывать кнопку «Возврат»"
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_rules_report__warehouse_ids
@@ -9769,7 +9769,7 @@ msgstr "Снятый"
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.view_zero_demand_confirmation
 msgid "Some moves have zero demand quantity."
-msgstr ""
+msgstr "У некоторых движений нулевой спрос."
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.inventory_warning_set_view
@@ -9840,44 +9840,44 @@ msgstr "Разделить"
 #. odoo-python
 #: code:addons/stock/models/stock_picking.py:0
 msgid "Split Backorder"
-msgstr ""
+msgstr "Разделение невыполненного остатка"
 
 #. module: stock
 #. odoo-python
 #: code:addons/stock/models/stock_picking.py:0
 msgid "Split from %(original_picking_link)s."
-msgstr ""
+msgstr "Выделено из %(original_picking_link)s."
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_picking_type__wave_group_by_location
 msgid ""
 "Split transfers by defined locations, then group transfers with the same "
 "location."
-msgstr ""
+msgstr "Разделить перемещения по заданным местоположениям, затем сгруппировать перемещения с одним местоположением."
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_picking_type__wave_group_by_category
 msgid ""
 "Split transfers by product category, then group transfers that have the same "
 "product category."
-msgstr ""
+msgstr "Разделить перемещения по категории товаров, затем сгруппировать перемещения с одной категорией товаров."
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_picking_type__wave_group_by_product
 msgid ""
 "Split transfers by product then group transfers that have the same product."
-msgstr ""
+msgstr "Разделить перемещения по товарам, затем сгруппировать перемещения с одним товаром."
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_picking_type__wave_group_by_date
 msgid "Split transfers by their date."
-msgstr ""
+msgstr "Разделить перемещения по их дате."
 
 #. module: stock
 #: model:mail.message.subtype,description:stock.mt_batch_state
 #: model:mail.message.subtype,name:stock.mt_batch_state
 msgid "Stage Changed"
-msgstr ""
+msgstr "Этап изменён"
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.view_picking_internal_search
@@ -9911,7 +9911,7 @@ msgstr "Статус"
 #. odoo-javascript
 #: code:addons/stock/static/src/fields/stock_picking_locked_statusbar_field.js:0
 msgid "Status bar with lock/unlock indicator for Pickings"
-msgstr ""
+msgstr "Строка статуса с индикатором блокировки/разблокировки для перемещений"
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_lot__activity_state
@@ -9940,7 +9940,7 @@ msgstr "Наличие"
 #. module: stock
 #: model:ir.model,name:stock.model_stock_allocation_report
 msgid "Stock Allocation Report"
-msgstr ""
+msgstr "Отчёт о распределении запасов"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_res_config_settings__module_stock_barcode_barcodelookup
@@ -9952,7 +9952,7 @@ msgstr "База данных штрихкодов склада"
 #: model_terms:ir.ui.view,arch_db:stock.stock_picking_batch_form
 #: model_terms:ir.ui.view,arch_db:stock.stock_picking_batch_tree
 msgid "Stock Batch Transfer"
-msgstr ""
+msgstr "Пакетное складское перемещение"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_res_company__stock_confirmation_type
@@ -9985,7 +9985,7 @@ msgstr "Движение запасов"
 #. module: stock
 #: model:mail.template,name:stock.mail_template_data_stock_move_line_recall
 msgid "Stock Move Line: Product Recall"
-msgstr ""
+msgstr "Строка движения запасов: отзыв товара"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_picking__move_ids
@@ -10022,7 +10022,7 @@ msgstr "Операции с запасами"
 #. module: stock
 #: model:ir.model,name:stock.model_stock_orderpoint_suggest
 msgid "Stock Orderpoint Min-Max Suggestion"
-msgstr ""
+msgstr "Предложение Мин-Макс для правила пополнения"
 
 #. module: stock
 #: model:ir.model,name:stock.model_stock_package_destination
@@ -10112,17 +10112,17 @@ msgstr "Остатки по местам"
 #. module: stock
 #: model:ir.model,name:stock.model_stock_replenishment_info
 msgid "Stock delivery time information"
-msgstr ""
+msgstr "Сведения о сроках поставки запасов"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_picking_batch__move_line_ids
 msgid "Stock move lines"
-msgstr ""
+msgstr "Строки движений запасов"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_picking_batch__move_ids
 msgid "Stock moves"
-msgstr ""
+msgstr "Движения запасов"
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.view_move_search
@@ -10246,7 +10246,7 @@ msgstr "Подзона"
 #. odoo-javascript
 #: code:addons/stock/static/src/views/stock_orderpoint_list_view.xml:0
 msgid "Suggest"
-msgstr ""
+msgstr "Предложить"
 
 #. module: stock
 #: model:ir.actions.act_window,name:stock.action_orderpoint_suggest
@@ -10257,7 +10257,7 @@ msgstr "Предложить мин.–макс."
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.report_picking_batch
 msgid "Summary:"
-msgstr ""
+msgstr "Сводка:"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_route__supplied_wh_id
@@ -10343,20 +10343,20 @@ msgstr "Техническая Информация"
 msgid ""
 "Technical field holding the tracking method. False on a storable product "
 "means it's tracked by quantity only."
-msgstr ""
+msgstr "Техническое поле с методом отслеживания. «False» у складируемого товара означает, что учёт ведётся только по количеству."
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_picking__show_check_availability
 msgid ""
 "Technical field used to compute whether the button \"Reserve\" should be "
 "displayed."
-msgstr ""
+msgstr "Техническое поле для вычисления того, нужно ли показывать кнопку «Зарезервировать»."
 
 #. module: stock
 #. odoo-python
 #: code:addons/stock/models/stock_quant.py:0
 msgid "Template for Inventory Adjustments"
-msgstr ""
+msgstr "Шаблон корректировок запасов"
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
@@ -10422,7 +10422,7 @@ msgstr "Фактическая дата выполнения перемещен�
 #. odoo-python
 #: code:addons/stock/models/stock_picking.py:0
 msgid "The backorder %(backorder_picking_link)s has been created."
-msgstr ""
+msgstr "Создан невыполненный остаток %(backorder_picking_link)s."
 
 #. module: stock
 #: model:ir.model.constraint,message:stock.constraint_stock_location_barcode_company_uniq
@@ -10495,14 +10495,14 @@ msgstr "Первый в последовательности является с
 #: code:addons/stock/models/stock_move_line.py:0
 #: code:addons/stock/wizard/stock_picking_to_batch.py:0
 msgid "The following batch transfer has been created"
-msgstr ""
+msgstr "Создано следующее пакетное перемещение"
 
 #. module: stock
 #. odoo-python
 #: code:addons/stock/models/stock_move_line.py:0
 #: code:addons/stock/wizard/stock_picking_to_batch.py:0
 msgid "The following batch transfer has been updated"
-msgstr ""
+msgstr "Обновлено следующее пакетное перемещение"
 
 #. module: stock
 #. odoo-python
@@ -10518,7 +10518,7 @@ msgid ""
 "check their states and operation types.\n"
 "\n"
 "Incompatibilities: %(incompatible_transfers)s"
-msgstr ""
+msgstr "Следующие перемещения нельзя добавить в пакетное перемещение %(batch)s. Проверьте их статусы и типы операций.\n\nНесовместимости: %(incompatible_transfers)s"
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.view_product_replenish
@@ -10669,25 +10669,25 @@ msgstr ""
 #. odoo-python
 #: code:addons/stock/wizard/stock_add_to_wave.py:0
 msgid "The selected operations should belong to a unique company."
-msgstr ""
+msgstr "Выбранные операции должны относиться к одной компании."
 
 #. module: stock
 #. odoo-python
 #: code:addons/stock/wizard/stock_picking_to_batch.py:0
 msgid "The selected pickings should belong to an unique company."
-msgstr ""
+msgstr "Выбранные перемещения должны относиться к одной компании."
 
 #. module: stock
 #. odoo-python
 #: code:addons/stock/wizard/stock_add_to_wave.py:0
 msgid "The selected transfers should belong to a unique company."
-msgstr ""
+msgstr "Выбранные перемещения должны относиться к одной компании."
 
 #. module: stock
 #. odoo-python
 #: code:addons/stock/wizard/stock_add_to_wave.py:0
 msgid "The selected transfers should belong to the same operation type"
-msgstr ""
+msgstr "Выбранные перемещения должны иметь один тип операции"
 
 #. module: stock
 #. odoo-python
@@ -10695,7 +10695,7 @@ msgstr ""
 msgid ""
 "The sequence 'picking.batch' is misconfigured. Its prefix should end with a "
 "'/' separator."
-msgstr ""
+msgstr "Последовательность «picking.batch» настроена неверно. Её префикс должен заканчиваться разделителем «/»."
 
 #. module: stock
 #. odoo-python
@@ -10750,7 +10750,7 @@ msgstr "Нет никаких корректировок инвентариза�
 #. odoo-python
 #: code:addons/stock/models/stock_picking.py:0
 msgid "There is nothing to reserve."
-msgstr ""
+msgstr "Нечего резервировать."
 
 #. module: stock
 #: model_terms:ir.actions.act_window,help:stock.stock_move_line_action
@@ -10790,7 +10790,7 @@ msgstr ""
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_picking_batch__is_wave
 msgid "This batch is a wave"
-msgstr ""
+msgstr "Этот пакет — волна"
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_move__picked
@@ -10861,7 +10861,7 @@ msgstr ""
 msgid ""
 "This location will be used as the source location for stock moves generated "
 "by an inventory adjustment."
-msgstr ""
+msgstr "Это местоположение будет исходным для движений запасов, создаваемых корректировкой запасов."
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_product_product__property_stock_production
@@ -10869,7 +10869,7 @@ msgstr ""
 msgid ""
 "This location will be used as the source location for stock moves generated "
 "by a manufacturing order."
-msgstr ""
+msgstr "Это местоположение будет исходным для движений запасов, создаваемых производственным заказом."
 
 #. module: stock
 #. odoo-python
@@ -10987,7 +10987,7 @@ msgstr "Такая запись уже существует"
 msgid ""
 "This report cannot be used for done and not done %(doc_type)s at the same "
 "time"
-msgstr ""
+msgstr "Этот отчёт нельзя использовать одновременно для выполненных и невыполненных %(doc_type)s"
 
 #. module: stock
 #. odoo-python
@@ -11109,7 +11109,7 @@ msgstr "К заказу (Вручную)"
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_warehouse_orderpoint__qty_to_order_to_max
 msgid "To Order to Reach Max"
-msgstr ""
+msgstr "Заказать до максимума"
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.stock_quant_relocate_view_form
@@ -11301,7 +11301,7 @@ msgstr "Отслеживание"
 #: model:ir.model.fields,field_description:stock.field_stock_move_line__tracking
 #: model:ir.model.fields,field_description:stock.field_stock_quant__tracking
 msgid "Tracking Method"
-msgstr ""
+msgstr "Метод отслеживания"
 
 #. module: stock
 #: model:ir.model,name:stock.model_stock_picking
@@ -11319,17 +11319,17 @@ msgstr "Перевод"
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.report_picking_batch
 msgid "Transfer Display Name"
-msgstr ""
+msgstr "Отображаемое название перемещения"
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.report_picking_batch
 msgid "Transfer Name"
-msgstr ""
+msgstr "Название перемещения"
 
 #. module: stock
 #: model:mail.message.subtype,name:stock.mt_picking_state
 msgid "Transfer Status"
-msgstr ""
+msgstr "Статус перемещения"
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.view_production_lot_tree
@@ -11351,7 +11351,7 @@ msgstr ""
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.view_stock_move_operations
 msgid "Transfer:"
-msgstr ""
+msgstr "Перемещение:"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_picking__package_history_ids
@@ -11362,7 +11362,7 @@ msgstr "Перемещенные упаковки"
 #. odoo-python
 #: code:addons/stock/models/stock_picking_batch.py:0
 msgid "Transferred by"
-msgstr ""
+msgstr "Выполнил"
 
 #. module: stock
 #. odoo-python
@@ -11414,7 +11414,7 @@ msgstr "Транзитные места хранения"
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_res_config_settings__module_stock_fleet
 msgid "Transport Management"
-msgstr ""
+msgstr "Управление перевозками"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_warehouse_orderpoint__trigger
@@ -11477,7 +11477,7 @@ msgstr "Отменить назначение"
 #. odoo-python
 #: code:addons/stock/models/stock_picking.py:0
 msgid "Unassigned responsible from %s"
-msgstr ""
+msgstr "Ответственный %s снят с назначения"
 
 #. module: stock
 #. odoo-python
@@ -11542,7 +11542,7 @@ msgstr "Единство меры"
 msgid ""
 "Unless previously specified by the source document, this will be the default "
 "shipping policy for this operation type."
-msgstr ""
+msgstr "Если иное не указано в документе-источнике, это будет политика отгрузки по умолчанию для данного типа операции."
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.view_picking_form
@@ -11571,7 +11571,7 @@ msgstr "Нежелательное пополнение"
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.stock_orderpoint_suggest_form
 msgid "Update"
-msgstr ""
+msgstr "Обновить"
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.stock_inventory_adjustment_name_form_view
@@ -11672,7 +11672,7 @@ msgstr "Подтвердить"
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_picking__validate_button_style
 msgid "Validate Button Style"
-msgstr ""
+msgstr "Стиль кнопки «Подтвердить»"
 
 #. module: stock
 #. odoo-javascript
@@ -11722,7 +11722,7 @@ msgstr "Посмотреть местоположение"
 #. odoo-javascript
 #: code:addons/stock/static/src/allocation_report/product_line/product_line.xml:0
 msgid "View more"
-msgstr ""
+msgstr "Показать ещё"
 
 #. module: stock
 #: model:ir.model.fields.selection,name:stock.selection__stock_location__usage__view
@@ -11928,23 +11928,23 @@ msgstr "Предупреждения для запасов"
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_picking_type__wave_location_ids
 msgid "Wave Locations"
-msgstr ""
+msgstr "Местоположения волны"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_picking_type__wave_category_ids
 msgid "Wave Product Categories"
-msgstr ""
+msgstr "Категории товаров волны"
 
 #. module: stock
 #: model:ir.model.fields.selection,name:stock.selection__stock_picking_type__wave_date_granularity__week
 msgid "Week"
-msgstr ""
+msgstr "Неделя"
 
 #. module: stock
 #. odoo-python
 #: code:addons/stock/models/stock_move_line.py:0
 msgid "Week %d"
-msgstr ""
+msgstr "Неделя %d"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_package_type__base_weight
@@ -12000,7 +12000,7 @@ msgstr "Когда все товары готовы"
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_picking_to_batch__is_create_draft
 msgid "When checked, create the batch in draft status"
-msgstr ""
+msgstr "Если отмечено, пакет создаётся в статусе «Черновик»"
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_route__product_selectable
@@ -12292,7 +12292,7 @@ msgstr ""
 msgid ""
 "You can't deactivate the multi-location feature if you have more than one "
 "warehouse per company"
-msgstr ""
+msgstr "Нельзя отключить режим нескольких местоположений, если в компании больше одного склада"
 
 #. module: stock
 #. odoo-python
@@ -12367,7 +12367,7 @@ msgstr ""
 #. odoo-python
 #: code:addons/stock/models/stock_picking_batch.py:0
 msgid "You cannot delete Done batch transfers."
-msgstr ""
+msgstr "Нельзя удалять выполненные пакетные перемещения."
 
 #. module: stock
 #. odoo-python
@@ -12379,7 +12379,7 @@ msgstr "Вы не можете дублировать складские ост�
 #. odoo-python
 #: code:addons/stock/models/stock_picking_batch.py:0
 msgid "You cannot merge done or cancelled batch/wave transfers."
-msgstr ""
+msgstr "Нельзя объединять выполненные или отменённые пакетные/волновые перемещения."
 
 #. module: stock
 #. odoo-python
@@ -12484,13 +12484,13 @@ msgstr ""
 #. odoo-python
 #: code:addons/stock/models/stock_picking_batch.py:0
 msgid "You have to set some pickings to batch."
-msgstr ""
+msgstr "Нужно выбрать перемещения для пакета."
 
 #. module: stock
 #. odoo-python
 #: code:addons/stock/models/stock_move.py:0
 msgid "You must select a lot/serial number."
-msgstr ""
+msgstr "Нужно выбрать партию/серийный номер."
 
 #. module: stock
 #. odoo-python
@@ -12558,7 +12558,7 @@ msgid ""
 "stock levels for\n"
 "            some products, and automate these rules to create RFQs or "
 "Manufacturing Orders."
-msgstr ""
+msgstr "Здесь вы найдёте умные предложения по пополнению на основе прогнозов запасов.\n            Создайте новые правила пополнения, если хотите поддерживать минимальные уровни запасов\n            по некоторым товарам, и автоматизируйте их для создания запросов котировок или производственных заказов."
 
 #. module: stock
 #: model_terms:res.company,lunch_notify_message:stock.res_company_1
@@ -12572,7 +12572,7 @@ msgstr ""
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.return_label_header
 msgid "Your parcel must be sent to this address:"
-msgstr ""
+msgstr "Посылку нужно отправить по этому адресу:"
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.view_warehouse_orderpoint_tree_editable
@@ -12602,14 +12602,14 @@ msgstr "Этикетки ZPL"
 #. module: stock
 #: model:ir.model,name:stock.model_stock_zero_demand_confirmation
 msgid "Zero Demand Confirmation"
-msgstr ""
+msgstr "Подтверждение нулевого спроса"
 
 #. module: stock
 #. odoo-python
 #: code:addons/stock/models/stock_picking.py:0
 #: model_terms:ir.ui.view,arch_db:stock.view_zero_demand_confirmation
 msgid "Zero Demand Warning"
-msgstr ""
+msgstr "Предупреждение о нулевом спросе"
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.report_stock_rule
@@ -12707,13 +12707,13 @@ msgstr ""
 #: model:ir.model.fields.selection,name:stock.selection__stock_add_to_wave__mode__new
 #: model:ir.model.fields.selection,name:stock.selection__stock_picking_to_batch__mode__new
 msgid "a new batch transfer"
-msgstr ""
+msgstr "новое пакетное перемещение"
 
 #. module: stock
 #: model:ir.model.fields.selection,name:stock.selection__stock_add_to_wave__mode__existing
 #: model:ir.model.fields.selection,name:stock.selection__stock_picking_to_batch__mode__existing
 msgid "an existing batch transfer"
-msgstr ""
+msgstr "существующее пакетное перемещение"
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
@@ -12724,7 +12724,7 @@ msgstr "barcodelookup.com"
 #. odoo-python
 #: code:addons/stock/report/stock_allocation_report.py:0
 msgid "batches"
-msgstr ""
+msgstr "пакеты"
 
 #. module: stock
 #: model:product.removal,method:stock.removal_closest
@@ -12753,7 +12753,7 @@ msgstr "дни до/"
 #. odoo-javascript
 #: code:addons/stock/static/src/widgets/json_widget.xml:0
 msgid "days)"
-msgstr ""
+msgstr "дн.)"
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.view_location_form
@@ -12944,7 +12944,7 @@ msgstr ""
 #. odoo-python
 #: code:addons/stock/report/stock_allocation_report.py:0
 msgid "transfers"
-msgstr ""
+msgstr "перемещения"
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.report_delivery_document

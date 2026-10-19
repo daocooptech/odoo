@@ -156,7 +156,7 @@ msgstr "<i class=\"oi\" data-icon=\"refresh\" title=\"Повторяющийся
 msgid ""
 "<i class=\"oi\" data-icon=\"warning\" title=\"Exceeded\" invisible=\"not "
 "lead_all_assigned_month_exceeded\"/>"
-msgstr ""
+msgstr "<i class=\"oi\" data-icon=\"warning\" title=\"Превышено\" invisible=\"not lead_all_assigned_month_exceeded\"/>"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.quick_create_opportunity_form
@@ -175,12 +175,12 @@ msgstr ""
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_team_member_view_form
 msgid "<span class=\"me-1\"> of </span>"
-msgstr ""
+msgstr "<span class=\"me-1\"> из </span>"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_view_form
 msgid "<span class=\"mx-3 mb-1\" invisible=\"type == 'lead'\"> at</span>"
-msgstr ""
+msgstr "<span class=\"mx-3 mb-1\" invisible=\"type == 'lead'\"> при</span>"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_view_form
@@ -249,7 +249,7 @@ msgid ""
 "                        Convert the selected Leads to Opportunities and "
 "merge all duplicates listed below.\n"
 "                    </span>"
-msgstr ""
+msgstr "<span invisible=\"name != 'convert'\">\n                        Найдены возможные дубликаты. Нажмите «Преобразовать и объединить с дубликатами», чтобы очистить данные перед преобразованием.\n                    </span>\n                    <span invisible=\"name != 'convert_and_merge'\">\n                        Преобразовать выбранные обращения и объединить все дубликаты из списка ниже.\n                    </span>"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_view_form
@@ -259,7 +259,7 @@ msgstr ""
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_team_member_view_form
 msgid "<span> leads per 30 days </span>"
-msgstr ""
+msgstr "<span> обращений за 30 дней </span>"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_view_form
@@ -291,12 +291,12 @@ msgid ""
 "                                    All sales teams will use this setting by "
 "default.\n"
 "                                </span>"
-msgstr ""
+msgstr "<span>Периодически назначать обращения по приоритетам и фильтрам.</span><br/>\n                                <span invisible=\"not crm_use_auto_assignment\">\n                                    Эта настройка по умолчанию действует для всех отделов продаж.\n                                </span>"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_stage_form
 msgid "<span>days</span>"
-msgstr ""
+msgstr "<span>дней</span>"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_merge_summary
@@ -419,13 +419,13 @@ msgstr "Принимать письма от"
 #. module: crm
 #: model:ir.model,name:crm.model_res_groups
 msgid "Access Groups"
-msgstr ""
+msgstr "Группы доступа"
 
 #. module: crm
 #. odoo-javascript
 #: code:addons/crm/static/src/components/lead_generation_dropdown/lead_generation_dropdown.js:0
 msgid "Access request for \"%s\""
-msgstr ""
+msgstr "Запрос доступа к «%s»"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead__message_needaction
@@ -616,7 +616,7 @@ msgstr "Модель с псевдонимом"
 #. odoo-javascript
 #: code:addons/crm/static/src/components/team_switcher/team_switcher.js:0
 msgid "All Teams"
-msgstr ""
+msgstr "Все отделы"
 
 #. module: crm
 #. odoo-javascript
@@ -627,7 +627,7 @@ msgstr "Все готово. Давайте <b>запланируем</b>."
 #. module: crm
 #: model:ir.model.fields.selection,name:crm.selection__crm_team_member__assignment_rules__unlimited
 msgid "Always in rotation"
-msgstr ""
+msgstr "Всегда в ротации"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_activity_report_view_search
@@ -646,7 +646,7 @@ msgstr "В архиве"
 msgid ""
 "As you are a member of no Sales Team, you are showed the entire Pipeline.<br/"
 ">"
-msgstr ""
+msgstr "Вы не состоите ни в одном отделе продаж, поэтому вам показана вся воронка.<br/>"
 
 #. module: crm
 #. odoo-javascript
@@ -725,7 +725,7 @@ msgstr "Дата следующего выполнения автоматиче�
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_team_member__assignment_rules
 msgid "Auto-Assignment Rules"
-msgstr ""
+msgstr "Правила автоназначения"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead__automated_probability
@@ -768,7 +768,7 @@ msgstr "Отказ"
 #. odoo-javascript
 #: code:addons/crm/static/src/components/promote_mail_plugins_dialog/promote_mail_plugins_dialog.xml:0
 msgid "Bring Odoo into your inbox:"
-msgstr ""
+msgstr "Подключите Odoo к своей почте:"
 
 #. module: crm
 #: model:ir.module.module,shortdesc:base.module_crm
@@ -786,12 +786,12 @@ msgstr "Анализ активности CRM"
 #. module: crm
 #: model:ir.model,name:crm.model_crm_recurring_plan
 msgid "CRM Recurring Revenue Plan"
-msgstr ""
+msgstr "План регулярной выручки CRM"
 
 #. module: crm
 #: model:ir.model,name:crm.model_crm_stage
 msgid "CRM Stage"
-msgstr ""
+msgstr "Этап CRM"
 
 #. module: crm
 #: model:ir.actions.server,name:crm.ir_cron_crm_lead_assign_ir_actions_server
@@ -881,7 +881,7 @@ msgstr ""
 msgid ""
 "Click on the breadcrumbs to go back to your Pipeline. Odoo will save all "
 "your changes as you navigate."
-msgstr ""
+msgstr "Нажмите на «хлебные крошки», чтобы вернуться в воронку. Odoo сохранит все изменения при переходах."
 
 #. module: crm
 #. odoo-javascript
@@ -976,7 +976,7 @@ msgstr "Поздравляем, удачи в поимке такой больш
 #. odoo-javascript
 #: code:addons/crm/static/src/components/promote_mail_plugins_dialog/promote_mail_plugins_dialog.xml:0
 msgid "Connect to Gmail or Outlook accounts."
-msgstr ""
+msgstr "Подключите учётные записи Gmail или Outlook."
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_pls_update_view_form
@@ -1047,12 +1047,12 @@ msgstr "Дата конверсии обращения в сделку"
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.view_crm_lead2opportunity_partner_mass
 msgid "Convert"
-msgstr ""
+msgstr "Преобразовать"
 
 #. module: crm
 #: model:ir.model.fields.selection,name:crm.selection__crm_lead2opportunity_partner_mass__name__convert_and_merge
 msgid "Convert & Merge with Opportunities"
-msgstr ""
+msgstr "Преобразовать и объединить с обращениями"
 
 #. module: crm
 #: model:ir.model,name:crm.model_crm_lead2opportunity_partner_mass
@@ -1062,7 +1062,7 @@ msgstr "Конвертировать обращения в сделки (мас�
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_view_form
 msgid "Convert into an Opportunity to see it in your Pipeline"
-msgstr ""
+msgstr "Преобразуйте, чтобы увидеть обращение в воронке"
 
 #. module: crm
 #: model:ir.actions.act_window,name:crm.action_crm_send_mass_convert
@@ -1111,7 +1111,7 @@ msgstr "Страна"
 #. odoo-javascript
 #: code:addons/crm/static/src/components/promote_mail_plugins_dialog/promote_mail_plugins_dialog.xml:0
 msgid "Create Contacts, Leads, Tickets, Projects and Tasks."
-msgstr ""
+msgstr "Создавайте контакты, обращения, заявки, проекты и задачи."
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_res_config_settings__module_website_crm_iap_reveal
@@ -1172,7 +1172,7 @@ msgstr "Создайте обращение, чтобы начать работ�
 #. odoo-javascript
 #: code:addons/crm/static/src/js/tours/crm.js:0
 msgid "Create your new contact."
-msgstr ""
+msgstr "Создайте новый контакт."
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead2opportunity_partner_mass__create_uid
@@ -1344,7 +1344,7 @@ msgstr "Дайджест"
 #. module: crm
 #: model:ir.model,name:crm.model_discuss_channel
 msgid "Discussion Channel"
-msgstr ""
+msgstr "Канал обсуждений"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_calendar_event__display_name
@@ -1376,7 +1376,7 @@ msgstr "Отображаемое имя"
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.res_config_settings_view_form
 msgid "Display your partners on a dedicated website page."
-msgstr ""
+msgstr "Показывайте партнёров на отдельной странице сайта."
 
 #. module: crm
 #. odoo-python
@@ -1388,7 +1388,7 @@ msgstr "Вы действительно хотите обновить этот �
 #. odoo-javascript
 #: code:addons/crm/static/src/components/lead_generation_dropdown/lead_generation_dropdown.js:0
 msgid "Do you want to install the \"%(module_name)s\" App?"
-msgstr ""
+msgstr "Установить приложение «%(module_name)s»?"
 
 #. module: crm
 #. odoo-javascript
@@ -1423,7 +1423,7 @@ msgstr "Дубль обращения"
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead2opportunity_partner_mass__duplicated_lead_ids_domain
 msgid "Duplicated Lead Ids Domain"
-msgstr ""
+msgstr "Домен идентификаторов обращений-дубликатов"
 
 #. module: crm
 #. odoo-python
@@ -1464,7 +1464,7 @@ msgstr "Критерий домена эл. почты"
 #. odoo-javascript
 #: code:addons/crm/static/src/components/lead_generation_dropdown/lead_generation_dropdown.js:0
 msgid "Email Marketing"
-msgstr ""
+msgstr "Email-маркетинг"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead__email_state
@@ -1529,12 +1529,12 @@ msgstr "Оценка даты, когда обращение будет выиг
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead2opportunity_partner_mass__force_assignment
 msgid "Even if assigned"
-msgstr ""
+msgstr "Даже если назначены"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.res_config_settings_view_form
 msgid "Every"
-msgstr ""
+msgstr "Каждые"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_activity_report__date_deadline
@@ -1588,7 +1588,7 @@ msgstr "Дополнительные поля..."
 #. odoo-javascript
 #: code:addons/crm/static/src/components/lead_generation_dropdown/lead_generation_dropdown.js:0
 msgid "Failed to install \"%(module_name)s\""
-msgstr ""
+msgstr "Не удалось установить «%(module_name)s»"
 
 #. module: crm
 #. odoo-javascript
@@ -1620,12 +1620,12 @@ msgstr "Поля, используемые для расчета прогноз�
 #. odoo-javascript
 #: code:addons/crm/static/src/components/promote_mail_plugins_dialog/promote_mail_plugins_dialog.xml:0
 msgid "Find any Odoo record without leaving your inbox."
-msgstr ""
+msgstr "Находите любую запись Odoo, не выходя из почты."
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_stage_form
 msgid "Fold by Default"
-msgstr ""
+msgstr "Сворачивать по умолчанию"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_stage__fold
@@ -1688,13 +1688,13 @@ msgstr "Будущие задачи"
 #. odoo-javascript
 #: code:addons/crm/static/src/components/lead_generation_dropdown/lead_generation_dropdown.xml:0
 msgid "Generate"
-msgstr ""
+msgstr "Создать"
 
 #. module: crm
 #. odoo-javascript
 #: code:addons/crm/static/src/components/lead_generation_dropdown/lead_generation_dropdown.js:0
 msgid "Generate leads from Outlook & Gmail"
-msgstr ""
+msgstr "Создавайте обращения из Outlook и Gmail"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_res_config_settings__module_crm_iap_mine
@@ -1715,24 +1715,24 @@ msgstr "Указать причину потери"
 #. odoo-javascript
 #: code:addons/crm/static/src/components/promote_mail_plugins_dialog/promote_mail_plugins_dialog.xml:0
 msgid "Get it for Gmail"
-msgstr ""
+msgstr "Получить для Gmail"
 
 #. module: crm
 #. odoo-javascript
 #: code:addons/crm/static/src/components/promote_mail_plugins_dialog/promote_mail_plugins_dialog.xml:0
 msgid "Get it for Outlook"
-msgstr ""
+msgstr "Получить для Outlook"
 
 #. module: crm
 #. odoo-javascript
 #: code:addons/crm/static/src/components/lead_generation_dropdown/lead_generation_dropdown.js:0
 msgid "Get our Mail Plugins!"
-msgstr ""
+msgstr "Подключите наши почтовые плагины!"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_team_member_view_form
 msgid "Give priority if"
-msgstr ""
+msgstr "Приоритет, если"
 
 #. module: crm
 #. odoo-javascript
@@ -1889,13 +1889,13 @@ msgstr "Загрузить обращения из файла CSV или Excel"
 #. module: crm
 #: model:ir.model.fields.selection,name:crm.selection__crm_team_member__assignment_rules__limited
 msgid "In rotation, with a limit"
-msgstr ""
+msgstr "В ротации, с ограничением"
 
 #. module: crm
 #. odoo-javascript
 #: code:addons/crm/static/src/webclient/share_target/crm_share_target_item.xml:0
 msgid "In sales team"
-msgstr ""
+msgstr "В отделе продаж"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_opportunity_report_view_search
@@ -1924,13 +1924,13 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/crm/static/src/components/lead_generation_dropdown/lead_generation_dropdown.js:0
 msgid "Install request for \"%s\""
-msgstr ""
+msgstr "Запрос на установку «%s»"
 
 #. module: crm
 #. odoo-javascript
 #: code:addons/crm/static/src/components/lead_generation_dropdown/lead_generation_dropdown.js:0
 msgid "Installing \"%(module_name)s\""
-msgstr ""
+msgstr "Установка «%(module_name)s»"
 
 #. module: crm
 #: model:ir.model.fields,help:crm.field_res_config_settings__crm_auto_assignment_interval_type
@@ -1987,22 +1987,22 @@ msgstr "Должность:"
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.merge_opportunity_form
 msgid "Keep current team"
-msgstr ""
+msgstr "Оставить текущий отдел"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.view_crm_lead2opportunity_partner_mass
 msgid "Keep current teams"
-msgstr ""
+msgstr "Оставить текущие отделы"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.merge_opportunity_form
 msgid "Keep current user"
-msgstr ""
+msgstr "Оставить текущего пользователя"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.view_crm_lead2opportunity_partner_mass
 msgid "Keep current users"
-msgstr ""
+msgstr "Оставить текущих пользователей"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_digest_digest__kpi_crm_lead_created_value
@@ -2177,7 +2177,7 @@ msgstr "Дата начала оценки обращений (строка)"
 #. odoo-javascript
 #: code:addons/crm/static/src/components/lead_generation_dropdown/lead_generation_dropdown.js:0
 msgid "Lead Sourcing"
-msgstr ""
+msgstr "Поиск обращений"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_activity_report_view_search
@@ -2347,12 +2347,12 @@ msgstr "Давайте посмотрим на обращение."
 msgid ""
 "Link these opportunities to customers by either finding a match or creating "
 "a new one."
-msgstr ""
+msgstr "Привязать эти обращения к клиентам: найти совпадение или создать нового."
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead2opportunity_partner_mass__link_to_matching_customer
 msgid "Link to matching customers"
-msgstr ""
+msgstr "Привязать к подходящим клиентам"
 
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_lead__partner_id
@@ -2457,7 +2457,7 @@ msgstr "MRR"
 #. odoo-javascript
 #: code:addons/crm/static/src/components/lead_generation_dropdown/lead_generation_dropdown.js:0
 msgid "Mail plugins"
-msgstr ""
+msgstr "Почтовые плагины"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.res_config_settings_view_form
@@ -2468,14 +2468,14 @@ msgstr "Управлять повторяющимися планами"
 #. odoo-javascript
 #: code:addons/crm/static/src/components/team_switcher/team_switcher.xml:0
 msgid "Manage Teams"
-msgstr ""
+msgstr "Управление отделами"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.res_config_settings_view_form
 msgid ""
 "Manage members or partners. Members get levels and pricelists, partners "
 "allow lead assignment and commission plans."
-msgstr ""
+msgstr "Управляйте участниками или партнёрами. Участники получают уровни и прайс-листы, партнёрам можно назначать обращения и планы комиссий."
 
 #. module: crm
 #: model:ir.model.fields,help:crm.field_res_config_settings__crm_auto_assignment_action
@@ -2518,7 +2518,7 @@ msgstr "Маркетинг:"
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_lead__activity_type_icon
 msgid "Material Symbols icon e.g. checklist"
-msgstr ""
+msgstr "Значок Material Symbols, например checklist"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_team__lead_all_assigned_month_exceeded
@@ -3027,7 +3027,7 @@ msgid ""
 "\n"
 "Compare revenues with forecasts and budgets in real time.\n"
 "\n"
-msgstr ""
+msgstr "Odoo CRM\n--------\n\nПовышайте продуктивность продаж и долю выигранных сделок, наращивайте выручку\nс помощью <a href=\"https://www.odoo.com/app/crm\">Open Source CRM</a> от Odoo.\n\nУправляйте воронкой продаж без усилий. Привлекайте обращения, ведите учёт\nзвонков и встреч. Анализируйте качество обращений, чтобы принимать взвешенные\nрешения, и экономьте время, подключив почту прямо к приложению.\n\nВоронка продаж так, как вам удобно\n----------------------------------\n\nСледите за воронкой обращений в наглядном канбане. Работайте прямо в воронке и\nсразу видьте следующие действия, новые сообщения, главные обращения и\nожидаемую выручку.\n\nПростая работа с обращениями\n----------------------------\n\nСоздавайте обращения автоматически из входящих писем. Анализируйте\nэффективность обращений и сравнивайте результаты по кампаниям, каналам и\nотделам продаж.\n\nНаходите дубликаты, объединяйте обращения и назначайте их нужному продавцу\nодной операцией. Тратьте меньше времени на администрирование и больше — на\nоценку обращений.\n\nПорядок в обращениях\n--------------------\n\nНаведите порядок в обращениях, чтобы сосредоточиться на самых перспективных.\nВедите все контакты с клиентом из обращения: письма, звонки, внутренние\nзаметки, встречи и коммерческие предложения.\n\nПодпишитесь на интересные обращения, чтобы получать уведомления о событиях:\nсделка выиграна или проиграна, сменился этап, появился новый запрос клиента и\nт. д.\n\nИнтеграция с почтой и автоматизация\n-----------------------------------\n\nРаботайте в почтовых программах, которыми вы уже пользуетесь каждый день.\nБудь то Microsoft Outlook или Gmail, никому не придётся менять привычки, и\nвсе остаются продуктивными.\n\nАвтоматически направляйте, сортируйте и фильтруйте входящие письма. Odoo CRM\nобрабатывает входящие письма и направляет их в нужные обращения или отделы\nпродаж. Новые обращения создаются на лету, а заинтересованные продавцы\nполучают уведомления автоматически.\n\nОбщий календарь\n---------------\n\nПланируйте встречи и звонки во встроенном календаре. Ваш календарь и\nкалендари коллег видны в одном окне. Руководителю легко понять, чем занята\nего команда.\n\nАвтоматизация обращений и маркетинговые кампании\n------------------------------------------------\n\nПовышайте результативность, автоматизируя задачи в Odoo <a href=\"https://www.odoo.com/app/crm\">CRM</a>.\n\nИспользуйте маркетинговые кампании, чтобы автоматизировать привлечение\nобращений, напоминания и акции. Задавайте правила автоматизации (например,\nпоручить продавцу позвонить, отправить письмо, ...) по триггерам (нет\nактивности 20 дней, ответ на рекламное письмо и т. д.).\n\nОптимизируйте кампании от обращения до закрытия сделки в любом канале.\nПринимайте более точные решения о том, куда вкладываться, и показывайте, как\nмаркетинг влияет на итоговый результат компании.\n\nНастройте свой цикл продаж\n--------------------------\n\nНастройте цикл продаж, задав этапы, которые точно соответствуют вашему подходу\nк продажам. Следите за статистикой, чтобы получать точные прогнозы и улучшать\nпродажи на каждом этапе отношений с клиентом.\n\nВовлечённость через игровые механики\n------------------------------------\n\n### Используйте естественное стремление команды к соревнованию\n\nЗакрепляйте хорошие привычки и повышайте долю выигранных сделок с помощью\nпризнания и наград в реальном времени, построенных на\n[игровых механиках](http://en.wikipedia.org/wiki/Gamification).\nОбъединяйте отделы продаж вокруг понятных бизнес-целей с помощью испытаний,\nличных целей и командных таблиц лидеров.\n\n### Таблицы лидеров\n\nОтмечайте лидеров и поддерживайте соревнование между отделами продаж с\nпомощью показателей результативности.\n\n### Личные цели\n\nСтавьте пользователям чёткие цели, чтобы согласовать их с целями компании.\n\n### Цели команды\n\nСравнивайте выручку с прогнозами и бюджетами в реальном времени.\n\n"
 
 #. module: crm
 #: model_terms:ir.actions.act_window,help:crm.crm_case_form_view_salesteams_opportunity
@@ -3062,7 +3062,7 @@ msgstr "В процессе"
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_team_member_view_form
 msgid "Only assign if"
-msgstr ""
+msgstr "Назначать, только если"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.view_crm_case_opportunities_filter
@@ -3211,7 +3211,7 @@ msgstr ""
 #. module: crm
 #: model:ir.model.fields.selection,name:crm.selection__crm_team_member__assignment_rules__opt-out
 msgid "Out of rotation"
-msgstr ""
+msgstr "Вне ротации"
 
 #. module: crm
 #. odoo-javascript
@@ -3279,12 +3279,12 @@ msgstr "Партнер в черном списке"
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_res_config_settings__module_website_partnership
 msgid "Partners Website Page"
-msgstr ""
+msgstr "Страница партнёров на сайте"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_team__assignment_optout
 msgid "Pause auto assignment"
-msgstr ""
+msgstr "Приостановить автоназначение"
 
 #. module: crm
 #: model:ir.model.fields.selection,name:crm.selection__crm_activity_report__won_status__pending
@@ -3411,7 +3411,7 @@ msgstr "Домен предпочтительного назначения"
 #. odoo-javascript
 #: code:addons/crm/static/src/components/promote_mail_plugins_dialog/promote_mail_plugins_dialog.xml:0
 msgid "Preview records and open their forms in one click."
-msgstr ""
+msgstr "Просматривайте записи и открывайте их карточки в один клик."
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead__priority
@@ -3481,7 +3481,7 @@ msgstr "Квалифицированный"
 #. odoo-javascript
 #: code:addons/crm/static/src/components/lead_generation_dropdown/lead_generation_dropdown.js:0
 msgid "Qualify leads with a Survey"
-msgstr ""
+msgstr "Оценивайте обращения с помощью опроса"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead__rating_ids
@@ -3497,7 +3497,7 @@ msgstr "Готовы увеличить продажи? Давайте взгл�
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.merge_opportunity_form
 msgid "Reassign To"
-msgstr ""
+msgstr "Переназначить на"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_team__alias_force_thread_id
@@ -3529,7 +3529,7 @@ msgstr "Регулярные доходы"
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_view_form
 msgid "Reference"
-msgstr ""
+msgstr "Ссылка"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead__referred
@@ -3587,7 +3587,7 @@ msgstr "Зависшие"
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_stage_form
 msgid "Rotting in"
-msgstr ""
+msgstr "Зависает через"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_res_config_settings__crm_use_auto_assignment
@@ -3669,7 +3669,7 @@ msgstr "Очищенный номер"
 #. odoo-javascript
 #: code:addons/crm/static/src/components/promote_mail_plugins_dialog/promote_mail_plugins_dialog.xml:0
 msgid "Save emails and attachments directly to Odoo."
-msgstr ""
+msgstr "Сохраняйте письма и вложения прямо в Odoo."
 
 #. module: crm
 #: model_terms:ir.actions.act_window,help:crm.crm_lead_action_my_activities
@@ -3691,7 +3691,7 @@ msgstr "Поиск обращений"
 #. odoo-javascript
 #: code:addons/crm/static/src/components/lead_generation_dropdown/lead_generation_dropdown.js:0
 msgid "Search in our directory of 580M+ entities"
-msgstr ""
+msgstr "Поиск по нашему справочнику из 580 млн+ организаций"
 
 #. module: crm
 #. odoo-javascript
@@ -3713,13 +3713,13 @@ msgstr "Выберите минимум два обращения из спис�
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_view_form
 msgid "Select or create a contact..."
-msgstr ""
+msgstr "Выберите или создайте контакт..."
 
 #. module: crm
 #. odoo-javascript
 #: code:addons/crm/static/src/components/lead_generation_dropdown/lead_generation_dropdown.js:0
 msgid "Send an email and get leads from replies"
-msgstr ""
+msgstr "Отправьте письмо и получайте обращения из ответов"
 
 #. module: crm
 #: model:ir.actions.act_window,name:crm.action_lead_mail_compose
@@ -3756,7 +3756,7 @@ msgstr "Настройки"
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_team__show_assignment_max
 msgid "Show Assignment Max"
-msgstr ""
+msgstr "Показывать максимум назначений"
 
 #. module: crm
 #: model:res.groups,name:crm.group_use_lead
@@ -3798,13 +3798,13 @@ msgstr "Показать только обращение"
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_stage_form
 msgid "Show to all teams"
-msgstr ""
+msgstr "Показывать всем отделам"
 
 #. module: crm
 #. odoo-python
 #: code:addons/crm/wizard/crm_merge_opportunities.py:0
 msgid "Something went wrong, please try again later"
-msgstr ""
+msgstr "Что-то пошло не так, попробуйте позже"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead__source_id
@@ -3938,7 +3938,7 @@ msgstr "Подтип"
 #. odoo-javascript
 #: code:addons/crm/static/src/components/lead_generation_dropdown/lead_generation_dropdown.js:0
 msgid "Survey"
-msgstr ""
+msgstr "Опрос"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_view_form
@@ -3978,7 +3978,7 @@ msgstr "Теги:"
 #. odoo-javascript
 #: code:addons/crm/static/src/views/crm_search_model.js:0
 msgid "Team"
-msgstr ""
+msgstr "Отдел"
 
 #. module: crm
 #: model:ir.ui.menu,name:crm.sales_team_menu_team_pipeline
@@ -4218,14 +4218,14 @@ msgstr "Совет: Превратите выбор обращений в кар
 #. odoo-javascript
 #: code:addons/crm/static/src/components/promote_mail_plugins_dialog/promote_mail_plugins_dialog.xml:0
 msgid "Tired of copy-pasting emails?"
-msgstr ""
+msgstr "Надоело копировать письма?"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_view_list_simplified
 #: model_terms:ir.ui.view,arch_db:crm.merge_opportunity_form
 #: model_terms:ir.ui.view,arch_db:crm.view_crm_lead2opportunity_partner_mass
 msgid "Title"
-msgstr ""
+msgstr "Название"
 
 #. module: crm
 #. odoo-python
@@ -4243,13 +4243,13 @@ msgstr ""
 msgid ""
 "To work with the CRM, you should <a name=\"%d\" type=\"action\" "
 "tabindex=\"-1\">join a Team.</a>"
-msgstr ""
+msgstr "Чтобы работать в CRM, <a name=\"%d\" type=\"action\" tabindex=\"-1\">вступите в отдел.</a>"
 
 #. module: crm
 #. odoo-python
 #: code:addons/crm/models/crm_lead.py:0
 msgid "To work with the CRM, you should be added to a Team."
-msgstr ""
+msgstr "Чтобы работать в CRM, вас нужно добавить в отдел."
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.view_crm_case_leads_filter
@@ -4301,7 +4301,7 @@ msgstr "Попробуйте отправить письмо"
 #. odoo-javascript
 #: code:addons/crm/static/src/components/lead_generation_dropdown/lead_generation_dropdown.js:0
 msgid "Turn visitors into leads via a form"
-msgstr ""
+msgstr "Превращайте посетителей в обращения через форму"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_activity_report__lead_type
@@ -4333,7 +4333,7 @@ msgstr "UTM-кампания"
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead__utm_reference
 msgid "UTM Reference"
-msgstr ""
+msgstr "UTM-ссылка"
 
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_lead__user_company_ids
@@ -4543,7 +4543,7 @@ msgstr "Что пошло не так?"
 #. odoo-javascript
 #: code:addons/crm/static/src/views/crm_kanban/crm_column_progress.js:0
 msgid "Without activities scheduled"
-msgstr ""
+msgstr "Без запланированных дел"
 
 #. module: crm
 #: model:crm.stage,name:crm.stage_lead4
@@ -4602,7 +4602,7 @@ msgstr "Да"
 msgid ""
 "You can make your opportunity advance through your pipeline by clicking on "
 "stages here. Try sending it to the next stage!"
-msgstr ""
+msgstr "Продвигайте обращение по воронке, нажимая на этапы здесь. Попробуйте перевести его на следующий этап!"
 
 #. module: crm
 #. odoo-python
@@ -4672,12 +4672,12 @@ msgstr "псевдоним"
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_team_member_view_form
 msgid "assigned)"
-msgstr ""
+msgstr "назначено)"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_view_form
 msgid "at"
-msgstr ""
+msgstr "при"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_view_form
@@ -4688,7 +4688,7 @@ msgstr "например, «Ежемесячно»"
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_view_form
 msgid "e.g. (555) 555-0199"
-msgstr ""
+msgstr "напр. (555) 555-0199"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_view_form
@@ -4698,7 +4698,7 @@ msgstr "например, Цены на продукт"
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_stage_form
 msgid "e.g. Qualification"
-msgstr ""
+msgstr "напр. Квалификация"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lost_reason_view_form
@@ -4713,7 +4713,7 @@ msgstr "например, https://www.odoo.com"
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_view_form
 msgid "e.g. john.doe@email.com"
-msgstr ""
+msgstr "напр. ivan.ivanov@email.com"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.sales_team_form_view_in_crm

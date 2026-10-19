@@ -91,7 +91,7 @@ msgstr "<small class=\"text-600\">Сохранить мои платежные �
 #. module: payment
 #: model_terms:ir.ui.view,arch_db:payment.amount_input
 msgid "<small>Amount</small>"
-msgstr ""
+msgstr "<small>Сумма</small>"
 
 #. module: payment
 #: model_terms:ir.ui.view,arch_db:payment.payment_provider_form
@@ -137,7 +137,7 @@ msgid ""
 "fs-6\">\n"
 "                            Test Mode\n"
 "                        </span>"
-msgstr ""
+msgstr "<span invisible=\"is_live\" class=\"badge rounded-pill text-bg-warning fs-6\">\n                            Тестовый режим\n                        </span>"
 
 #. module: payment
 #: model_terms:ir.ui.view,arch_db:payment.method_form
@@ -157,12 +157,12 @@ msgstr ""
 #. module: payment
 #: model_terms:ir.ui.view,arch_db:payment.no_pms_available_warning
 msgid "<strong>No payment methods are available</strong>"
-msgstr ""
+msgstr "<strong>Нет доступных способов оплаты</strong>"
 
 #. module: payment
 #: model_terms:ir.ui.view,arch_db:payment.no_pms_available_warning
 msgid "<strong>No payment providers are configured</strong>"
-msgstr ""
+msgstr "<strong>Не настроено ни одного платёжного провайдера</strong>"
 
 #. module: payment
 #: model_terms:ir.ui.view,arch_db:payment.payment_capture_wizard_view_form
@@ -194,7 +194,7 @@ msgid ""
 "<strong>Warning:</strong> Creating a payment provider from scratch is not\n"
 "                        supported; please use the <em>Duplicate</em> action "
 "instead."
-msgstr ""
+msgstr "<strong>Внимание:</strong> Создание платёжного провайдера с нуля не\n                        поддерживается; используйте действие <em>Дублировать</em>."
 
 #. module: payment
 #: model_terms:ir.ui.view,arch_db:payment.pay
@@ -220,7 +220,7 @@ msgstr "<strong>Предупреждение</strong> Для оплаты вы �
 #. module: payment
 #: model_terms:ir.ui.view,arch_db:payment.no_pms_available_warning
 msgid "Account"
-msgstr ""
+msgstr "Счёт"
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_method__active
@@ -247,12 +247,12 @@ msgstr "Adyen"
 #. module: payment
 #: model_terms:ir.ui.view,arch_db:payment.payment_provider_form
 msgid "All Countries"
-msgstr ""
+msgstr "Все страны"
 
 #. module: payment
 #: model_terms:ir.ui.view,arch_db:payment.payment_provider_form
 msgid "All Currencies"
-msgstr ""
+msgstr "Все валюты"
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_provider__allow_express_checkout
@@ -267,7 +267,7 @@ msgstr "Разрешить накопительные способы оплат�
 #. module: payment
 #: model:ir.model.fields,help:payment.field_payment_method__allow_amount_selection
 msgid "Allow splitting payments across several payment methods."
-msgstr ""
+msgstr "Разрешить делить платёж между несколькими способами оплаты."
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_capture_wizard__captured_amount
@@ -296,7 +296,7 @@ msgstr "Сумма"
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_method__allow_amount_selection
 msgid "Amount Selection"
-msgstr ""
+msgstr "Выбор суммы"
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_capture_wizard__amount_to_capture
@@ -334,7 +334,7 @@ msgstr "Вы уверены, что хотите удалить этот спо�
 msgid ""
 "Are you sure you want to void the authorized transaction? "
 "This                                  action can't be undone."
-msgstr ""
+msgstr "Вы уверены, что хотите аннулировать авторизованную транзакцию? Это действие нельзя отменить."
 
 #. module: payment
 #: model:payment.provider,name:payment.payment_provider_asiapay
@@ -429,12 +429,12 @@ msgid ""
 "Capture the amount from Odoo, when the delivery is completed. Use this if "
 "you want to charge your customers cards only when you are sure you can ship "
 "the goods to them."
-msgstr ""
+msgstr "Списывайте сумму из Odoo, когда доставка выполнена. Используйте этот режим, если хотите списывать деньги с карт клиентов только тогда, когда уверены, что сможете отправить им товар."
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_transaction__child_transaction_count
 msgid "Child Transaction Count"
-msgstr ""
+msgstr "Количество дочерних транзакций"
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_transaction__child_transaction_ids
@@ -501,7 +501,7 @@ msgstr "Подтверждена"
 #. module: payment
 #: model_terms:ir.ui.view,arch_db:payment.no_pms_available_warning
 msgid "Connect"
-msgstr ""
+msgstr "Подключить"
 
 #. module: payment
 #: model:ir.model,name:payment.model_res_partner
@@ -535,7 +535,7 @@ msgstr "Страна"
 #. module: payment
 #: model_terms:ir.ui.view,arch_db:payment.no_pms_available_warning
 msgid "Create"
-msgstr ""
+msgstr "Создать"
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_transaction__tokenize
@@ -551,7 +551,7 @@ msgstr "Создать клиента"
 #: model_terms:ir.ui.view,arch_db:payment.payment_data_form
 #: model_terms:ir.ui.view,arch_db:payment.payment_data_list
 msgid "Created On"
-msgstr ""
+msgstr "Создано"
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_capture_wizard__create_uid
@@ -664,7 +664,7 @@ msgstr "ECPay"
 #: model:ir.model.fields,field_description:payment.field_payment_link_wizard__partner_email
 #: model:ir.model.fields,field_description:payment.field_payment_transaction__partner_email
 msgid "Email"
-msgstr "Email"
+msgstr "Эл. почта"
 
 #. module: payment
 #: model_terms:ir.ui.view,arch_db:payment.payment_provider_kanban
@@ -679,7 +679,7 @@ msgstr "Ошибка"
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_data__error_traceback
 msgid "Error Traceback"
-msgstr ""
+msgstr "Трассировка ошибки"
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_method__support_express_checkout
@@ -708,17 +708,17 @@ msgstr ""
 #. odoo-python
 #: code:addons/payment/const.py:0
 msgid "Express checkout not supported"
-msgstr ""
+msgstr "Экспресс-оплата не поддерживается"
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_data__errored
 msgid "Failed"
-msgstr ""
+msgstr "Сбой"
 
 #. module: payment
 #: model_terms:ir.ui.view,arch_db:payment.no_pms_available_warning
 msgid "Find a Payment Provider"
-msgstr ""
+msgstr "Найти платёжного провайдера"
 
 #. module: payment
 #: model:payment.provider,name:payment.payment_provider_flutterwave
@@ -808,7 +808,7 @@ msgstr "ID"
 msgid ""
 "If live mode is disabled, a fake payment is processed through a test payment "
 "interface. This mode is advised when setting up the provider."
-msgstr ""
+msgstr "Если рабочий режим отключён, платёж проходит через тестовый интерфейс оплаты. Этот режим рекомендуется при настройке провайдера."
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_method__image
@@ -819,19 +819,19 @@ msgstr "Изображение"
 #. odoo-python
 #: code:addons/payment/const.py:0
 msgid "Incompatible country"
-msgstr ""
+msgstr "Несовместимая страна"
 
 #. module: payment
 #. odoo-python
 #: code:addons/payment/const.py:0
 msgid "Incompatible currency"
-msgstr ""
+msgstr "Несовместимая валюта"
 
 #. module: payment
 #. odoo-python
 #: code:addons/payment/const.py:0
 msgid "Incompatible website"
-msgstr ""
+msgstr "Несовместимый сайт"
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_provider__inline_form_view_id
@@ -862,7 +862,7 @@ msgstr "Установлен"
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_res_config_settings__installed_provider_id
 msgid "Installed Provider"
-msgstr ""
+msgstr "Установленный провайдер"
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_capture_wizard__is_amount_to_capture_valid
@@ -941,12 +941,12 @@ msgstr "Дата последнего обновления:"
 #: model:ir.model.fields,field_description:payment.field_payment_provider__is_live
 #: model_terms:ir.ui.view,arch_db:payment.payment_provider_kanban
 msgid "Live"
-msgstr ""
+msgstr "Рабочий"
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_provider__image_128
 msgid "Logo"
-msgstr ""
+msgstr "Логотип"
 
 #. module: payment
 #: model:portal.entry,description:payment.payment_methods_portal_entry
@@ -967,13 +967,13 @@ msgstr "Поддерживается ручная съемка"
 #. odoo-python
 #: code:addons/payment/const.py:0
 msgid "Manual capture not supported"
-msgstr ""
+msgstr "Ручное списание не поддерживается"
 
 #. module: payment
 #. odoo-python
 #: code:addons/payment/models/payment_transaction.py:0
 msgid "Manually confirmed by the user."
-msgstr ""
+msgstr "Подтверждено пользователем вручную."
 
 #. module: payment
 #: model:ir.actions.server,name:payment.action_confirm_payment_transaction
@@ -1012,18 +1012,18 @@ msgstr "Сообщения"
 #: model_terms:ir.ui.view,arch_db:payment.payment_token_list
 #: model_terms:ir.ui.view,arch_db:payment.payment_transaction_list
 msgid "Method"
-msgstr ""
+msgstr "Способ"
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_provider__minimum_amount
 msgid "Minimum Amount"
-msgstr ""
+msgstr "Минимальная сумма"
 
 #. module: payment
 #. odoo-python
 #: code:addons/payment/const.py:0
 msgid "Minimum or maximum amount exceeded"
-msgstr ""
+msgstr "Превышена минимальная или максимальная сумма"
 
 #. module: payment
 #: model:payment.provider,name:payment.payment_provider_mollie
@@ -1123,12 +1123,12 @@ msgstr "Операция"
 #: code:addons/payment/models/payment_transaction.py:0
 #: model_terms:ir.ui.view,arch_db:payment.payment_transaction_form
 msgid "Operations"
-msgstr ""
+msgstr "Операции"
 
 #. module: payment
 #: model_terms:ir.ui.view,arch_db:payment.payment_provider_form
 msgid "Options"
-msgstr ""
+msgstr "Параметры"
 
 #. module: payment
 #: model_terms:ir.ui.view,arch_db:payment.form
@@ -1138,7 +1138,7 @@ msgstr "Другие способы оплаты"
 #. module: payment
 #: model_terms:ir.ui.view,arch_db:payment.payment_provider_form
 msgid "Others"
-msgstr ""
+msgstr "Другие"
 
 #. module: payment
 #: model:ir.model.fields.selection,name:payment.selection__payment_provider__support_manual_capture__partial
@@ -1166,17 +1166,17 @@ msgstr "Оплатить"
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_res_company__pay_later_label
 msgid "Pay Later Label"
-msgstr ""
+msgstr "Подпись «Оплатить позже»"
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_res_company__pay_now_label
 msgid "Pay Now Label"
-msgstr ""
+msgstr "Подпись «Оплатить сейчас»"
 
 #. module: payment
 #: model:payment.provider,name:payment.payment_provider_pay_on_invoice
 msgid "Pay on Invoice"
-msgstr ""
+msgstr "Оплата по счёту"
 
 #. module: payment
 #: model:payment.provider,name:payment.payment_provider_paypal
@@ -1191,7 +1191,7 @@ msgstr "PayU"
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_data__payload
 msgid "Payload"
-msgstr ""
+msgstr "Данные запроса"
 
 #. module: payment
 #: model_terms:ir.ui.view,arch_db:payment.pay
@@ -1212,7 +1212,7 @@ msgstr "Подтверждение платежа"
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_transaction__payment_data_count
 msgid "Payment Data Count"
-msgstr ""
+msgstr "Количество данных платежа"
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_token__payment_details
@@ -1222,13 +1222,13 @@ msgstr "Детали оплаты"
 #. module: payment
 #: model:ir.module.module,shortdesc:base.module_payment
 msgid "Payment Engine"
-msgstr ""
+msgstr "Платёжный движок"
 
 #. module: payment
 #. odoo-python
 #: code:addons/payment/models/payment_provider.py:0
 msgid "Payment History"
-msgstr ""
+msgstr "История платежей"
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_link_wizard__link
@@ -1337,13 +1337,13 @@ msgstr "Способ оплаты"
 #. odoo-javascript
 #: code:addons/payment/static/src/interactions/payment_form.js:0
 msgid "Payment method unavailable"
-msgstr ""
+msgstr "Способ оплаты недоступен"
 
 #. module: payment
 #. odoo-python
 #: code:addons/payment/const.py:0
 msgid "Payment method with duplicate code"
-msgstr ""
+msgstr "Способ оплаты с повторяющимся кодом"
 
 #. module: payment
 #: model_terms:ir.ui.view,arch_db:payment.availability_report
@@ -1374,7 +1374,7 @@ msgid ""
 "Payment transactions should not be updated directly. Either use _record() to "
 "queue payment data for processing, or pass payment_safe_write=True to the "
 "context after ensuring that the update can tolerate a rollback."
-msgstr ""
+msgstr "Платёжные транзакции нельзя менять напрямую. Используйте _record(), чтобы поставить данные платежа в очередь на обработку, или передайте в контекст payment_safe_write=True, убедившись, что изменение допускает откат."
 
 #. module: payment
 #: model:ir.actions.server,name:payment.post_processing_cron_ir_actions_server
@@ -1414,12 +1414,12 @@ msgstr "Сообщения ожидающие ответа"
 #: model_terms:ir.ui.view,arch_db:payment.payment_data_list
 #: model_terms:ir.ui.view,arch_db:payment.payment_transaction_form
 msgid "Pending Updates"
-msgstr ""
+msgstr "Ожидающие обновления"
 
 #. module: payment
 #: model:ir.model,name:payment.model_payment_data
 msgid "Pending payment data payload to process"
-msgstr ""
+msgstr "Данные платежа, ожидающие обработки"
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_transaction__partner_phone
@@ -1430,12 +1430,12 @@ msgstr "Телефон"
 #. odoo-javascript
 #: code:addons/payment/static/src/interactions/payment_form.js:0
 msgid "Please choose another payment method."
-msgstr ""
+msgstr "Пожалуйста, выберите другой способ оплаты."
 
 #. module: payment
 #: model_terms:payment.provider,pending_msg:payment.payment_provider_transfer
 msgid "Please find the payment details below."
-msgstr ""
+msgstr "Ниже приведены сведения о платеже."
 
 #. module: payment
 #. odoo-python
@@ -1456,7 +1456,7 @@ msgstr "Подождите..."
 #. module: payment
 #: model:ir.model,name:payment.model_portal_entry
 msgid "Portal Entry"
-msgstr ""
+msgstr "Раздел портала"
 
 #. module: payment
 #: model_terms:ir.ui.view,arch_db:payment.payment_transaction_form
@@ -1466,7 +1466,7 @@ msgstr "Постобработка"
 #. module: payment
 #: model_terms:ir.ui.view,arch_db:payment.payment_transaction_form
 msgid "Post-processed"
-msgstr ""
+msgstr "Постобработан"
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_method__primary_payment_method_id
@@ -1477,12 +1477,12 @@ msgstr "Основной способ оплаты"
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_provider__primary_payment_method_ids
 msgid "Primary Payment Methods"
-msgstr ""
+msgstr "Основные способы оплаты"
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_provider__processed_amount
 msgid "Processed Amount"
-msgstr ""
+msgstr "Обработанная сумма"
 
 #. module: payment
 #: model_terms:ir.ui.view,arch_db:payment.confirm
@@ -1595,7 +1595,7 @@ msgstr "Модель сопутствующего документа"
 #. module: payment
 #: model_terms:ir.ui.view,arch_db:payment.payment_provider_form
 msgid "Restrictions"
-msgstr ""
+msgstr "Ограничения"
 
 #. module: payment
 #: model_terms:ir.ui.view,arch_db:payment.payment_transaction_form
@@ -1685,7 +1685,7 @@ msgstr "Поддерживается"
 #. module: payment
 #: model_terms:ir.ui.view,arch_db:payment.payment_provider_kanban
 msgid "Test"
-msgstr ""
+msgstr "Тест"
 
 #. module: payment
 #: model_terms:ir.ui.view,arch_db:payment.payment_provider_form
@@ -1850,14 +1850,14 @@ msgstr "Внутренняя ссылка транзакции"
 msgid ""
 "The label to be displayed on the payment buttons for 'Pay Later' payment "
 "methods."
-msgstr ""
+msgstr "Подпись на кнопках оплаты для способов «Оплатить позже»."
 
 #. module: payment
 #: model:ir.model.fields,help:payment.field_res_company__pay_now_label
 msgid ""
 "The label to be displayed on the payment buttons for 'Pay Now' payment "
 "methods."
-msgstr ""
+msgstr "Подпись на кнопках оплаты для способов «Оплатить сейчас»."
 
 #. module: payment
 #: model:ir.model.fields,help:payment.field_payment_method__supported_country_ids
@@ -1929,12 +1929,12 @@ msgstr "Сообщение, отображаемое для пояснения �
 msgid ""
 "The minimum payment amount that this payment provider is available for. "
 "Leave blank to make it available for any payment amount."
-msgstr ""
+msgstr "Минимальная сумма платежа, при которой доступен этот платёжный провайдер. Оставьте пустым, чтобы он был доступен при любой сумме."
 
 #. module: payment
 #: model:ir.module.module,summary:base.module_payment
 msgid "The payment engine used by payment provider modules."
-msgstr ""
+msgstr "Платёжный движок, который используют модули платёжных провайдеров."
 
 #. module: payment
 #: model:ir.model.fields,help:payment.field_payment_method__support_manual_capture
@@ -1966,13 +1966,13 @@ msgstr ""
 #. module: payment
 #: model:ir.model.constraint,message:payment.constraint_payment_method_provider_id_code_uniq
 msgid "The provider already has a payment method with this code."
-msgstr ""
+msgstr "У провайдера уже есть способ оплаты с этим кодом."
 
 #. module: payment
 #. odoo-python
 #: code:addons/payment/models/payment_transaction.py:0
 msgid "The provider must not be archived to make a request."
-msgstr ""
+msgstr "Чтобы выполнить запрос, провайдер не должен быть в архиве."
 
 #. module: payment
 #: model:ir.model.fields,help:payment.field_payment_token__provider_ref
@@ -1987,7 +1987,7 @@ msgstr "Ссылка на поставщика транзакции"
 #. module: payment
 #: model:ir.model.fields,help:payment.field_payment_method__provider_id
 msgid "The provider supporting this payment method."
-msgstr ""
+msgstr "Провайдер, поддерживающий этот способ оплаты."
 
 #. module: payment
 #. odoo-python
@@ -2097,7 +2097,7 @@ msgstr ""
 msgid ""
 "This action will also archive %s tokens that are registered with this "
 "provider."
-msgstr ""
+msgstr "Это действие также архивирует токены, зарегистрированные у этого провайдера: %s."
 
 #. module: payment
 #: model:ir.model.fields,help:payment.field_payment_provider__allow_tokenization
@@ -2106,7 +2106,7 @@ msgid ""
 "tokens. A payment token is an anonymous link to the payment method details "
 "saved in the provider's database, allowing the customer to reuse it for a "
 "next purchase."
-msgstr ""
+msgstr "Определяет, могут ли клиенты сохранять свои способы оплаты как платёжные токены. Платёжный токен — это анонимная ссылка на данные способа оплаты, сохранённые в базе провайдера; она позволяет клиенту использовать его снова при следующей покупке."
 
 #. module: payment
 #: model:ir.model.fields,help:payment.field_payment_provider__allow_express_checkout
@@ -2146,12 +2146,12 @@ msgstr "Переключите основную компанию в панели
 #: model_terms:ir.ui.view,arch_db:payment.payment_token_form
 #: model_terms:ir.ui.view,arch_db:payment.payment_token_list
 msgid "Token"
-msgstr ""
+msgstr "Токен"
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_provider__token_count
 msgid "Token Count"
-msgstr ""
+msgstr "Количество токенов"
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_provider__token_inline_form_view_id
@@ -2178,18 +2178,18 @@ msgstr ""
 #. odoo-python
 #: code:addons/payment/const.py:0
 msgid "Tokenization not supported"
-msgstr ""
+msgstr "Токенизация не поддерживается"
 
 #. module: payment
 #. odoo-python
 #: code:addons/payment/const.py:0
 msgid "Tokenization without payment no supported"
-msgstr ""
+msgstr "Токенизация без платежа не поддерживается"
 
 #. module: payment
 #: model_terms:ir.ui.view,arch_db:payment.payment_provider_form
 msgid "Tokens"
-msgstr ""
+msgstr "Токены"
 
 #. module: payment
 #: model:payment.provider,name:payment.payment_provider_toss_payments
@@ -2205,7 +2205,7 @@ msgstr "Транзакция"
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_provider__transaction_count
 msgid "Transaction Count"
-msgstr ""
+msgstr "Количество транзакций"
 
 #. module: payment
 #. odoo-python
@@ -2220,7 +2220,7 @@ msgstr ""
 #. module: payment
 #: model_terms:ir.ui.view,arch_db:payment.payment_provider_form
 msgid "Transactions"
-msgstr ""
+msgstr "Транзакции"
 
 #. module: payment
 #: model_terms:ir.ui.view,arch_db:payment.method_form
@@ -2327,7 +2327,7 @@ msgstr "Xendit"
 msgid ""
 "You can't unarchive tokens linked to inactive payment methods or archived "
 "providers."
-msgstr ""
+msgstr "Нельзя вернуть из архива токены, связанные с неактивными способами оплаты или архивными провайдерами."
 
 #. module: payment
 #. odoo-python
@@ -2350,7 +2350,7 @@ msgstr "Вы не можете удалить основной метод опл
 #: code:addons/payment/models/payment_provider.py:0
 msgid ""
 "You cannot delete the payment provider %s; archive or uninstall it instead."
-msgstr ""
+msgstr "Нельзя удалить платёжного провайдера %s; архивируйте его или удалите его модуль."
 
 #. module: payment
 #. odoo-python
@@ -2371,7 +2371,7 @@ msgstr ""
 #. module: payment
 #: model_terms:payment.provider,done_msg:payment.payment_provider_pay_on_invoice
 msgid "Your order is confirmed, you will receive your invoice shortly."
-msgstr ""
+msgstr "Ваш заказ подтверждён, счёт вы скоро получите."
 
 #. module: payment
 #. odoo-python
@@ -2504,7 +2504,7 @@ msgstr "Ваш платеж еще не обработан."
 #. module: payment
 #: model_terms:ir.ui.view,arch_db:payment.payment_status
 msgid "Your payment is being processed."
-msgstr ""
+msgstr "Ваш платёж обрабатывается."
 
 #. module: payment
 #: model_terms:ir.ui.view,arch_db:payment.payment_status
@@ -2521,7 +2521,7 @@ msgstr "Ваш метод оплаты был сохранен."
 #. odoo-python
 #: code:addons/payment/models/payment_transaction.py:0
 msgid "Your payment method has not been saved yet."
-msgstr ""
+msgstr "Ваш способ оплаты ещё не сохранён."
 
 #. module: payment
 #: model_terms:ir.ui.view,arch_db:payment.form
@@ -2547,7 +2547,7 @@ msgstr "Ваша платежная операция успешно отправ
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_transaction__partner_zip
 msgid "Zip Code"
-msgstr ""
+msgstr "Почтовый индекс"
 
 #. module: payment
 #. odoo-python
@@ -2569,7 +2569,7 @@ msgstr ""
 #. module: payment
 #: model_terms:ir.ui.view,arch_db:payment.no_pms_available_warning
 msgid "the website administrator."
-msgstr ""
+msgstr "администратор сайта."
 
 #. module: payment
 #: model_terms:ir.ui.view,arch_db:payment.company_mismatch_warning
@@ -2589,7 +2589,7 @@ msgstr ""
 #. module: payment
 #: model:ir.model,name:payment.model_ir_websocket
 msgid "websocket message handling"
-msgstr ""
+msgstr "обработка сообщений websocket"
 
 #~ msgid "Zip"
 #~ msgstr "Индекс"
