@@ -76,7 +76,7 @@ msgstr "%s дней просрочки"
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.portal_docs_entry
 msgid "'Icon for %s' % entry.name"
-msgstr ""
+msgstr "'Значок для %s' % entry.name"
 
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.portal_my_security
@@ -1522,7 +1522,7 @@ msgstr "odoo"
 #. module: portal
 #: model:ir.model.fields,field_description:portal.field_portal_entry__sequence
 msgid "sequence"
-msgstr ""
+msgstr "последовательность"
 
 #. module: portal
 #. odoo-javascript

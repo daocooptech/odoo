@@ -29,7 +29,7 @@ msgid ""
 "When generating the PDF on the order, the PDF will be embedded inside the "
 "xml for all UBL formats. This allows the\n"
 "receiver to retrieve the PDF with only the xml file.\n"
-msgstr ""
+msgstr "\nПозволяет экспортировать и импортировать форматы: UBL Bis 3.\nПри формировании PDF по заказу PDF встраивается в xml для всех форматов UBL. Это позволяет\nполучателю получить PDF, имея только xml-файл.\n"
 
 #. module: purchase_edi_ubl_bis3
 #. odoo-python
@@ -54,7 +54,7 @@ msgstr "ID"
 #. module: purchase_edi_ubl_bis3
 #: model:ir.module.module,shortdesc:base.module_purchase_edi_ubl_bis3
 msgid "Import/Export electronic orders with UBL"
-msgstr ""
+msgstr "Импорт/экспорт электронных заказов в формате UBL"
 
 #. module: purchase_edi_ubl_bis3
 #: model:ir.model,name:purchase_edi_ubl_bis3.model_account_move

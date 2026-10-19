@@ -601,7 +601,7 @@ msgid ""
 "Barbara\n"
 "                                Rd<br/>Pleasant Hill CA 94523<br/>United "
 "States</span>"
-msgstr ""
+msgstr "<span class=\"w-100 o_force_ltr\" itemprop=\"streetAddress\">77 Santa Barbara\n                                Rd<br/>Pleasant Hill CA 94523<br/>США</span>"
 
 #. module: web
 #: model_terms:ir.ui.view,arch_db:web.report_invoice_wizard_preview
@@ -630,7 +630,7 @@ msgid ""
 "                                        Office chairs can harm your floor: "
 "protect it\n"
 "                                    </span>"
-msgstr ""
+msgstr "<span>\n                                        Защита пола от стула<br/>\n                                        Офисные стулья могут повредить пол: защитите его\n                                    </span>"
 
 #. module: web
 #: model_terms:ir.ui.view,arch_db:web.report_invoice_wizard_preview
@@ -640,7 +640,7 @@ msgid ""
 "                                        Comfortable yellow chair for daily "
 "work\n"
 "                                    </span>"
-msgstr ""
+msgstr "<span>\n                                        [FURN_7777] Офисный стул<br/>\n                                        Удобный жёлтый стул для ежедневной работы\n                                    </span>"
 
 #. module: web
 #: model_terms:ir.ui.view,arch_db:web.report_invoice_wizard_preview
@@ -650,7 +650,7 @@ msgid ""
 "                                        Three Seater Sofa with Lounger in "
 "Steel Grey Colour\n"
 "                                    </span>"
-msgstr ""
+msgstr "<span>\n                                        [FURN_8999] Трёхместный диван<br/>\n                                        Трёхместный диван с шезлонгом стального серого цвета\n                                    </span>"
 
 #. module: web
 #: model_terms:ir.ui.view,arch_db:web.report_invoice_wizard_preview
@@ -710,7 +710,7 @@ msgid ""
 "<span>[FURN_8220] Four Person Desk<br/>\n"
 "                                    Four person modern office workstation</"
 "span>"
-msgstr ""
+msgstr "<span>[FURN_8220] Стол на четверых<br/>\n                                    Современное офисное рабочее место на четверых</span>"
 
 #. module: web
 #: model_terms:ir.ui.view,arch_db:web.report_invoice_wizard_preview
@@ -3336,7 +3336,7 @@ msgstr "Изменено"
 #: model:ir.model.fields,field_description:web.field_base_document_layout__email
 #: model_terms:ir.ui.view,arch_db:web.login
 msgid "Email"
-msgstr "Email"
+msgstr "Электронная почта"
 
 #. module: web
 #: model:ir.model.fields,field_description:web.field_res_users_settings__embedded_actions_config_ids

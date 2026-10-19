@@ -40,21 +40,21 @@ msgstr "Остатки по сроку хранения: стоимость (п�
 #: code:addons/spreadsheet_dashboard_stock_account/data/files/warehouse_metrics_dashboard.json:0
 #: code:addons/spreadsheet_dashboard_stock_account/data/files/warehouse_metrics_sample_dashboard.json:0
 msgid "Available & Reserved Stock Quantity"
-msgstr ""
+msgstr "Доступное и зарезервированное количество на складе"
 
 #. module: spreadsheet_dashboard_stock_account
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_stock_account/data/files/warehouse_metrics_dashboard.json:0
 #: code:addons/spreadsheet_dashboard_stock_account/data/files/warehouse_metrics_sample_dashboard.json:0
 msgid "Available & Reserved Stock Value"
-msgstr ""
+msgstr "Стоимость доступных и зарезервированных запасов"
 
 #. module: spreadsheet_dashboard_stock_account
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_stock_account/data/files/warehouse_metrics_dashboard.json:0
 #: code:addons/spreadsheet_dashboard_stock_account/data/files/warehouse_metrics_sample_dashboard.json:0
 msgid "Chart"
-msgstr ""
+msgstr "График"
 
 #. module: spreadsheet_dashboard_stock_account
 #. odoo-javascript
@@ -98,7 +98,7 @@ msgstr "Категория товара"
 #: code:addons/spreadsheet_dashboard_stock_account/data/files/warehouse_metrics_dashboard.json:0
 #: code:addons/spreadsheet_dashboard_stock_account/data/files/warehouse_metrics_sample_dashboard.json:0
 msgid "Products with negative stock"
-msgstr ""
+msgstr "Товары с отрицательным остатком"
 
 #. module: spreadsheet_dashboard_stock_account
 #. odoo-javascript
@@ -118,33 +118,33 @@ msgstr "Доля зарезервированной стоимости"
 #: model:ir.module.module,description:base.module_spreadsheet_dashboard_stock_account
 #: model:ir.module.module,summary:base.module_spreadsheet_dashboard_stock_account
 msgid "Spreadsheet"
-msgstr ""
+msgstr "Электронная таблица"
 
 #. module: spreadsheet_dashboard_stock_account
 #: model:ir.module.module,shortdesc:base.module_spreadsheet_dashboard_stock_account
 msgid "Spreadsheet dashboard for stock"
-msgstr ""
+msgstr "Дашборд электронной таблицы по складу"
 
 #. module: spreadsheet_dashboard_stock_account
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_stock_account/data/files/warehouse_metrics_dashboard.json:0
 #: code:addons/spreadsheet_dashboard_stock_account/data/files/warehouse_metrics_sample_dashboard.json:0
 msgid "Top 50"
-msgstr ""
+msgstr "Топ-50"
 
 #. module: spreadsheet_dashboard_stock_account
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_stock_account/data/files/warehouse_metrics_dashboard.json:0
 #: code:addons/spreadsheet_dashboard_stock_account/data/files/warehouse_metrics_sample_dashboard.json:0
 msgid "Top Locations"
-msgstr ""
+msgstr "Топ складских локаций"
 
 #. module: spreadsheet_dashboard_stock_account
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_stock_account/data/files/warehouse_metrics_dashboard.json:0
 #: code:addons/spreadsheet_dashboard_stock_account/data/files/warehouse_metrics_sample_dashboard.json:0
 msgid "Top Products"
-msgstr ""
+msgstr "Топ товаров"
 
 #. module: spreadsheet_dashboard_stock_account
 #. odoo-javascript

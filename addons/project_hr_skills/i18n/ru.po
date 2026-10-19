@@ -27,7 +27,7 @@ msgstr ""
 msgid ""
 "\n"
 "Search project tasks according to the assignees' skills\n"
-msgstr ""
+msgstr "\nПоиск задач проекта по навыкам исполнителей\n"
 
 #. module: project_hr_skills
 #: model:ir.model,website_form_label:project_hr_skills.model_project_task
@@ -51,12 +51,12 @@ msgstr "ID"
 #. module: project_hr_skills
 #: model:ir.module.module,shortdesc:base.module_project_hr_skills
 msgid "Project - Skills"
-msgstr ""
+msgstr "Проект: навыки"
 
 #. module: project_hr_skills
 #: model:ir.module.module,summary:base.module_project_hr_skills
 msgid "Project skills"
-msgstr ""
+msgstr "Навыки проекта"
 
 #. module: project_hr_skills
 #: model:ir.model.fields,field_description:project_hr_skills.field_project_task__user_skill_ids

@@ -30,12 +30,12 @@ msgid ""
 "\n"
 "The purpose of this technical module is to provide a front for\n"
 "social media configuration for any other module that might need it.\n"
-msgstr ""
+msgstr "\nНазначение этого технического модуля — дать интерфейс для настройки\nсоциальных сетей любому другому модулю, которому это может понадобиться.\n"
 
 #. module: social_media
 #: model:ir.model,name:social_media.model_res_company
 msgid "Company"
-msgstr ""
+msgstr "Компания"
 
 #. module: social_media
 #: model:ir.model.fields,field_description:social_media.field_res_company__social_discord
@@ -45,7 +45,7 @@ msgstr "Аккаунт Discord"
 #. module: social_media
 #: model:ir.model.fields,field_description:social_media.field_res_company__display_name
 msgid "Display Name"
-msgstr "Display Name"
+msgstr "Отображаемое имя"
 
 #. module: social_media
 #: model:ir.model.fields,field_description:social_media.field_res_company__social_facebook
@@ -81,7 +81,7 @@ msgstr "Социальные сети"
 #. module: social_media
 #: model:ir.module.module,summary:base.module_social_media
 msgid "Social media connectors for company settings."
-msgstr ""
+msgstr "Подключения к социальным сетям для настроек компании."
 
 #. module: social_media
 #: model:ir.model.fields,field_description:social_media.field_res_company__social_tiktok

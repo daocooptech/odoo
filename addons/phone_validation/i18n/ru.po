@@ -39,7 +39,7 @@ msgid ""
 "\n"
 "It adds mail.thread.phone mixin that handles sanitation and blacklist of\n"
 "records numbers. "
-msgstr ""
+msgstr "\nПроверка номеров телефонов\n========================\n\nЭтот модуль добавляет проверку и форматирование номеров телефонов\nв соответствии со страной назначения.\n\nОн также добавляет управление чёрным списком телефонов с помощью отдельной модели,\nхранящей номера из чёрного списка.\n\nОн добавляет примесь mail.thread.phone, которая обрабатывает очистку и чёрный список\nномеров записей. "
 
 #. module: phone_validation
 #. odoo-python
@@ -62,17 +62,17 @@ msgstr "Активный"
 #. module: phone_validation
 #: model:ir.model,name:phone_validation.model_mail_activity
 msgid "Activity"
-msgstr ""
+msgstr "Активность"
 
 #. module: phone_validation
 #: model:ir.model,name:phone_validation.model_mail_activity_mixin
 msgid "Activity Mixin"
-msgstr ""
+msgstr "Примесь активности"
 
 #. module: phone_validation
 #: model:ir.model,name:phone_validation.model_mail_activity_schedule
 msgid "Activity schedule plan Wizard"
-msgstr ""
+msgstr "Мастер плана планирования активностей"
 
 #. module: phone_validation
 #: model_terms:ir.actions.act_window,help:phone_validation.phone_blacklist_action
@@ -402,7 +402,7 @@ msgstr "Телефон в черном списке"
 #. module: phone_validation
 #: model:ir.model.fields,field_description:phone_validation.field_mail_activity_schedule__phone_formatted
 msgid "Phone Formatted"
-msgstr ""
+msgstr "Телефон в формате"
 
 #. module: phone_validation
 #: model:ir.model.fields,field_description:phone_validation.field_mail_thread_phone__phone_mobile_search
@@ -417,7 +417,7 @@ msgstr "Номер телефона"
 #. module: phone_validation
 #: model:ir.module.module,shortdesc:base.module_phone_validation
 msgid "Phone Numbers Validation"
-msgstr ""
+msgstr "Проверка номеров телефонов"
 
 #. module: phone_validation
 #. odoo-python
@@ -476,7 +476,7 @@ msgstr "Пользователь"
 #. module: phone_validation
 #: model:ir.module.module,summary:base.module_phone_validation
 msgid "Validate and format phone numbers"
-msgstr ""
+msgstr "Проверка и форматирование номеров телефонов"
 
 #. module: phone_validation
 #. odoo-python

@@ -18,7 +18,7 @@ msgstr ""
 #. module: sale_project_stock_account
 #: model:ir.model.fields,field_description:sale_project_stock_account.field_stock_move__display_name
 msgid "Display Name"
-msgstr "Display Name"
+msgstr "Отображаемое имя"
 
 #. module: sale_project_stock_account
 #: model:ir.model.fields,field_description:sale_project_stock_account.field_stock_move__id
@@ -28,7 +28,7 @@ msgstr "ID"
 #. module: sale_project_stock_account
 #: model:ir.module.module,shortdesc:base.module_sale_project_stock_account
 msgid "Sale Project Stock Account"
-msgstr ""
+msgstr "Проект продаж: складской учёт"
 
 #. module: sale_project_stock_account
 #: model:ir.model,name:sale_project_stock_account.model_stock_move
@@ -38,4 +38,4 @@ msgstr "Движение запасов"
 #. module: sale_project_stock_account
 #: model:ir.module.module,summary:base.module_sale_project_stock_account
 msgid "Technical Bridge"
-msgstr ""
+msgstr "Технический мост"

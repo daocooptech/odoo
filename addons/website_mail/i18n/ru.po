@@ -29,7 +29,7 @@ msgstr ""
 msgid ""
 "\n"
 "Module holding mail improvements for website. It holds the follow widget.\n"
-msgstr ""
+msgstr "\nМодуль с улучшениями почты для сайта. Содержит виджет подписки.\n"
 
 #. module: website_mail
 #: model_terms:ir.ui.view,arch_db:website_mail.follow
@@ -45,7 +45,7 @@ msgstr "<small>Отклонить</small><i class=\"oi oi-fw ms-1\"/>"
 #: model:ir.model.fields,field_description:website_mail.field_ir_http__display_name
 #: model:ir.model.fields,field_description:website_mail.field_publisher_warranty_contract__display_name
 msgid "Display Name"
-msgstr "Display Name"
+msgstr "Отображаемое имя"
 
 #. module: website_mail
 #: model:ir.model,name:website_mail.model_ir_http
@@ -76,12 +76,12 @@ msgstr "Отписаться"
 #. module: website_mail
 #: model:ir.module.module,shortdesc:base.module_website_mail
 msgid "Website Mail"
-msgstr ""
+msgstr "Почта сайта"
 
 #. module: website_mail
 #: model:ir.module.module,summary:base.module_website_mail
 msgid "Website Module for Mail"
-msgstr ""
+msgstr "Модуль сайта для почты"
 
 #. module: website_mail
 #: model_terms:ir.ui.view,arch_db:website_mail.follow

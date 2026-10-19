@@ -366,7 +366,7 @@ msgid ""
 "    </div>\n"
 "</div>\n"
 "        "
-msgstr ""
+msgstr "<div style=\"margin: 0px; padding: 0px;\">\n    <div style=\"font-size: 13px; margin: 0px; padding: 0px;\">\n        Здравствуйте,<br/><br/>\n        Благодарим вас за интерес и потраченное время.<br/>\n        Желаем вам всего наилучшего в дальнейшей карьере.\n        <br/><br/>\n        С уважением<br/>\n        <div style=\"font-size: 11px; color: grey;\">\n            <t t-if=\"object.recruiter_id and object.recruiter_id.user_id\">\n                -- <br/>\n                <strong t-out=\"object.recruiter_id.name or ''\">Marc Demo</strong><br/>\n                Эл. почта: <t t-out=\"object.recruiter_id.work_email or ''\">mark.brown23@example.com</t><br/>\n                Телефон: <t t-out=\"object.recruiter_id.work_phone or ''\">+1 650-123-4567</t>\n            </t>\n            <t t-else=\"\">\n                -- <br/>\n                <t t-out=\"object.company_id.name or ''\">YourCompany</t><br/>\n                Отдел кадров<br/>\n            </t>\n        </div>\n    </div>\n</div>\n        "
 
 #. module: hr_recruitment
 #: model:mail.template,body_html:hr_recruitment.email_template_data_applicant_interest
@@ -605,7 +605,7 @@ msgstr ""
 msgid ""
 "<i class=\"oi oi-filled flex-shrink-0 me-1 text-center\" data-icon=\"mail\" "
 "title=\"Email\"/>"
-msgstr ""
+msgstr "<i class=\"oi oi-filled flex-shrink-0 me-1 text-center\" data-icon=\"mail\" title=\"Эл. почта\"/>"
 
 #. module: hr_recruitment
 #: model_terms:ir.ui.view,arch_db:hr_recruitment.view_hr_job_kanban
@@ -626,7 +626,7 @@ msgstr ""
 #. module: hr_recruitment
 #: model_terms:ir.ui.view,arch_db:hr_recruitment.hr_employee_view_form_inherit_applicant_button
 msgid "<span class=\"o_stat_text\">Applicant</span>"
-msgstr ""
+msgstr "<span class=\"o_stat_text\">Кандидат</span>"
 
 #. module: hr_recruitment
 #: model_terms:ir.ui.view,arch_db:hr_recruitment.hr_applicant_view_form
@@ -639,7 +639,7 @@ msgid ""
 "<span class=\"oi pe-1\" data-icon=\"warning\"/>\n"
 "                                    All applications will lose their hired "
 "date and hired status."
-msgstr ""
+msgstr "<span class=\"oi pe-1\" data-icon=\"warning\"/>\n                                    Все отклики потеряют дату и статус найма."
 
 #. module: hr_recruitment
 #: model_terms:ir.ui.view,arch_db:hr_recruitment.hr_job_survey
@@ -694,7 +694,7 @@ msgstr "<span>Посмотреть</span>"
 #. module: hr_recruitment
 #: model_terms:ir.ui.view,arch_db:hr_recruitment.hr_recruitment_stage_form
 msgid "<span>days</span>"
-msgstr ""
+msgstr "<span>дн.</span>"
 
 #. module: hr_recruitment
 #: model:ir.model.fields,help:hr_recruitment.field_hr_job__alias_defaults
@@ -708,7 +708,7 @@ msgstr ""
 #. module: hr_recruitment
 #: model:ir.model,name:hr_recruitment.model_res_groups
 msgid "Access Groups"
-msgstr ""
+msgstr "Группы доступа"
 
 #. module: hr_recruitment
 #: model:ir.model.fields,field_description:hr_recruitment.field_hr_applicant__message_needaction
@@ -842,7 +842,7 @@ msgstr "Добавить личные заметки об этом кандид�
 #. module: hr_recruitment
 #: model_terms:ir.ui.view,arch_db:hr_recruitment.job_add_applicants_view_form
 msgid "Add to New Job"
-msgstr ""
+msgstr "Добавить в новую должность"
 
 #. module: hr_recruitment
 #: model_terms:ir.ui.view,arch_db:hr_recruitment.crm_case_tree_view_job
@@ -855,7 +855,7 @@ msgstr "Добавить в резерв"
 #. module: hr_recruitment
 #: model_terms:ir.ui.view,arch_db:hr_recruitment.job_add_applicants_from_job_view_form
 msgid "Add to this Job"
-msgstr ""
+msgstr "Добавить в эту должность"
 
 #. module: hr_recruitment
 #: model:ir.actions.act_window,name:hr_recruitment.mail_followers_edit_action_from_hr_recruitment
@@ -866,7 +866,7 @@ msgstr "Добавить / удалить наблюдателей"
 #. odoo-python
 #: code:addons/hr_recruitment/wizard/talent_pool_add_applicants.py:0
 msgid "Added the following talents to %(talent_pools)s: %(talent_names)s."
-msgstr ""
+msgstr "В кадровый резерв %(talent_pools)s добавлены специалисты: %(talent_names)s."
 
 #. module: hr_recruitment
 #: model:res.groups,name:hr_recruitment.group_hr_recruitment_manager
@@ -966,7 +966,7 @@ msgstr "Кандидат принят на работу"
 #. module: hr_recruitment
 #: model:ir.model.fields,field_description:hr_recruitment.field_hr_employee__applicant_name
 msgid "Applicant Name"
-msgstr ""
+msgstr "Имя кандидата"
 
 #. module: hr_recruitment
 #: model:ir.model.fields,field_description:hr_recruitment.field_hr_applicant__applicant_notes
@@ -1089,7 +1089,7 @@ msgstr "Применяют на"
 #: model_terms:ir.ui.view,arch_db:hr_recruitment.job_add_applicants_from_job_view_form
 #: model_terms:ir.ui.view,arch_db:hr_recruitment.job_add_applicants_view_form
 msgid "Apply"
-msgstr ""
+msgstr "Откликнуться"
 
 #. module: hr_recruitment
 #: model:ir.model,website_form_label:hr_recruitment.model_hr_applicant
@@ -1122,7 +1122,7 @@ msgstr "Архив"
 #: code:addons/hr_recruitment/static/src/views/recruitment_kanban_view.js:0
 #: code:addons/hr_recruitment/static/src/views/recruitment_list_controller.js:0
 msgid "Archive job position"
-msgstr ""
+msgstr "Архивировать должность"
 
 #. module: hr_recruitment
 #: model:ir.model.fields.selection,name:hr_recruitment.selection__hr_applicant__application_status__archived
@@ -1184,7 +1184,7 @@ msgstr "Бакалавр"
 #: model:ir.model.fields.selection,name:hr_recruitment.selection__hr_applicant__schedule_pay__biweekly
 #: model:ir.model.fields.selection,name:hr_recruitment.selection__hr_job__payment_interval__biweekly
 msgid "Bi-Week"
-msgstr ""
+msgstr "Две недели"
 
 #. module: hr_recruitment
 #: model:ir.model.fields,field_description:hr_recruitment.field_hr_applicant__is_blacklisted
@@ -1301,7 +1301,7 @@ msgstr "Компания"
 #. module: hr_recruitment
 #: model:ir.model.fields,field_description:hr_recruitment.field_hr_job__company_partner_id
 msgid "Company Partner"
-msgstr ""
+msgstr "Партнёр компании"
 
 #. module: hr_recruitment
 #: model:ir.model,name:hr_recruitment.model_res_config_settings
@@ -1465,7 +1465,7 @@ msgstr "Дата создания"
 #: model:ir.model.fields,field_description:hr_recruitment.field_hr_applicant__currency_id
 #: model:ir.model.fields,field_description:hr_recruitment.field_hr_job__currency_id
 msgid "Currency"
-msgstr ""
+msgstr "Валюта"
 
 #. module: hr_recruitment
 #: model:ir.model.fields,field_description:hr_recruitment.field_hr_job__no_of_employee
@@ -1481,7 +1481,7 @@ msgstr "Пользовательское сообщение об отказе"
 #: model:ir.model.fields.selection,name:hr_recruitment.selection__hr_applicant__schedule_pay__daily
 #: model:ir.model.fields.selection,name:hr_recruitment.selection__hr_job__payment_interval__daily
 msgid "Day"
-msgstr ""
+msgstr "День"
 
 #. module: hr_recruitment
 #: model:ir.model.fields,help:hr_recruitment.field_hr_recruitment_stage__rotting_threshold_days
@@ -1640,7 +1640,7 @@ msgstr ""
 #. module: hr_recruitment
 #: model:hr.recruitment.degree,name:hr_recruitment.degree_diploma
 msgid "Diploma"
-msgstr ""
+msgstr "Диплом"
 
 #. module: hr_recruitment
 #: model_terms:ir.ui.view,arch_db:hr_recruitment.hr_applicant_view_form
@@ -1749,13 +1749,13 @@ msgstr "Количество дублей"
 #. module: hr_recruitment
 #: model_terms:ir.ui.view,arch_db:hr_recruitment.job_add_applicants_from_job_view_form
 msgid "Duplicates the selected Talent profile(s) for the selected Job Position"
-msgstr ""
+msgstr "Дублирует выбранные профили специалистов для выбранной должности"
 
 #. module: hr_recruitment
 #: model_terms:ir.ui.view,arch_db:hr_recruitment.job_add_applicants_view_form
 msgid ""
 "Duplicates this Applicant/Talent profile for the selected Job Position(s)"
-msgstr ""
+msgstr "Дублирует профиль этого кандидата/специалиста для выбранных должностей"
 
 #. module: hr_recruitment
 #: model:ir.model.fields,field_description:hr_recruitment.field_hr_applicant__email_from
@@ -1763,7 +1763,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr_recruitment.field_hr_recruitment_source__email
 #: model_terms:ir.ui.view,arch_db:hr_recruitment.hr_applicant_view_search_bis
 msgid "Email"
-msgstr "Email"
+msgstr "Эл. почта"
 
 #. module: hr_recruitment
 #: model:ir.model.fields,field_description:hr_recruitment.field_hr_job__alias_email
@@ -1897,7 +1897,7 @@ msgstr "Расширенный интервьюер"
 #. module: hr_recruitment
 #: model:ir.model.fields,field_description:hr_recruitment.field_hr_job__favorite_recruiter_ids
 msgid "Favorite Recruiter"
-msgstr ""
+msgstr "Избранный рекрутёр"
 
 #. module: hr_recruitment
 #: model:ir.model.fields,help:hr_recruitment.field_hr_applicant__phone_sanitized
@@ -1921,7 +1921,7 @@ msgstr "Первое интервью"
 #. module: hr_recruitment
 #: model_terms:ir.ui.view,arch_db:hr_recruitment.hr_recruitment_stage_form
 msgid "Fold by Default"
-msgstr ""
+msgstr "Свёрнуто по умолчанию"
 
 #. module: hr_recruitment
 #: model:ir.model.fields,field_description:hr_recruitment.field_hr_recruitment_stage__fold
@@ -1948,7 +1948,7 @@ msgstr "Подписчики"
 #. module: hr_recruitment
 #: model_terms:ir.ui.view,arch_db:hr_recruitment.hr_recruitment_stage_form
 msgid "For all companies"
-msgstr ""
+msgstr "Для всех компаний"
 
 #. module: hr_recruitment
 #: model_terms:ir.ui.view,arch_db:hr_recruitment.hr_applicant_view_search_bis
@@ -2004,7 +2004,7 @@ msgstr "Этап \"Нанят\""
 #: model:ir.model.fields.selection,name:hr_recruitment.selection__hr_applicant__schedule_pay__hourly
 #: model:ir.model.fields.selection,name:hr_recruitment.selection__hr_job__payment_interval__hourly
 msgid "Hour"
-msgstr ""
+msgstr "Час"
 
 #. module: hr_recruitment
 #: model:ir.model.fields,field_description:hr_recruitment.field_applicant_get_refuse_reason__id
@@ -2144,7 +2144,7 @@ msgstr ""
 msgid ""
 "If you archive these job positions, all their applicants will be archived "
 "too. Are you sure?"
-msgstr ""
+msgstr "Если вы архивируете эти должности, все их кандидаты тоже будут архивированы. Вы уверены?"
 
 #. module: hr_recruitment
 #. odoo-javascript
@@ -2154,7 +2154,7 @@ msgstr ""
 msgid ""
 "If you archive this job position, all its applicants will be archived too. "
 "Are you sure?"
-msgstr ""
+msgstr "Если вы архивируете эту должность, все её кандидаты тоже будут архивированы. Вы уверены?"
 
 #. module: hr_recruitment
 #: model:ir.model.fields.selection,name:hr_recruitment.selection__hr_applicant__kanban_state__normal
@@ -2172,7 +2172,7 @@ msgstr "Покупки в приложениях"
 msgid ""
 "Incoming emails create applications automatically. Use it for direct "
 "applications or when posting job opportunities on LinkedIn, Monster, etc."
-msgstr ""
+msgstr "Входящие письма автоматически создают отклики. Используйте это для прямых откликов или при публикации вакансий на LinkedIn, Monster и т. д."
 
 #. module: hr_recruitment
 #: model:ir.model.fields,help:hr_recruitment.field_hr_applicant__phone_blacklisted
@@ -2290,7 +2290,7 @@ msgstr "Страница вакансии"
 #. module: hr_recruitment
 #: model:ir.model,name:hr_recruitment.model_hr_job_platform
 msgid "Job Platform"
-msgstr ""
+msgstr "Платформа вакансий"
 
 #. module: hr_recruitment
 #: model:ir.model,name:hr_recruitment.model_hr_job
@@ -2544,7 +2544,7 @@ msgid ""
 "Documents like resumes and motivation letters are indexed automatically,\n"
 "allowing you to easily find for specific skills and build up a database of\n"
 "profiles.\n"
-msgstr ""
+msgstr "Подбор персонала и отклики на вакансии\n---------------------------------------\n\nПубликуйте, продвигайте и организуйте свои предложения о работе с помощью\n<a href=\"https://www.odoo.com/app/recruitment\">приложения для подбора персонала Odoo с открытым исходным кодом</a>.\n\nОрганизуйте свою доску вакансий, продвигайте объявления о работе и легко\nотслеживайте поступающие отклики. Следите за каждым кандидатом и накапливайте базу\nнавыков и профилей с индексируемыми документами.\n\nПубликуйте вакансии на лучших сайтах поиска работы\n---------------------------------------------------\n\nАвтоматически подключайтесь к самым известным сайтам с вакансиями: LinkedIn, Monster,\nCraigslist и др. Каждой должности автоматически назначается новый адрес\nэлектронной почты, чтобы отклики попадали к нужной должности.\n\nСвязываются ли кандидаты с вами по почте или через онлайн-форму, вся\nинформация (резюме, мотивационное письмо) индексируется автоматически, а ответить\nможно в один щелчок, используя шаблоны ответов.\n\nНастройте процесс подбора персонала\n-----------------------------------\n\nИспользуйте канбан-представление и настройте этапы процесса подбора:\nпредварительный отбор, первое собеседование, второе собеседование, переговоры и т. д.\n\nПолучайте точную статистику по воронке подбора. Получайте отчёты для сравнения\nэффективности ваших вложений в сторонние сайты с вакансиями.\n\nУпростите процесс подбора персонала\n-----------------------------------\n\nСледите за кандидатами в процессе подбора с помощью удобного канбан-представления. Экономьте\nвремя, автоматизируя часть переписки с помощью шаблонов писем.\n\nДокументы, такие как резюме и мотивационные письма, индексируются автоматически,\nчто позволяет легко находить нужные навыки и накапливать базу\nпрофилей.\n"
 
 #. module: hr_recruitment
 #: model:hr.recruitment.degree,name:hr_recruitment.degree_licenced
@@ -2555,18 +2555,18 @@ msgstr "Степень магистра"
 #. odoo-python
 #: code:addons/hr_recruitment/models/hr_job.py:0
 msgid "Matching Talents"
-msgstr ""
+msgstr "Подходящие специалисты"
 
 #. module: hr_recruitment
 #: model:ir.model.fields,help:hr_recruitment.field_hr_applicant__activity_type_icon
 #: model:ir.model.fields,help:hr_recruitment.field_hr_job__activity_type_icon
 msgid "Material Symbols icon e.g. checklist"
-msgstr ""
+msgstr "Значок Material Symbols, например checklist"
 
 #. module: hr_recruitment
 #: model:ir.model.fields,field_description:hr_recruitment.field_hr_job__salary_max
 msgid "Maximum Salary"
-msgstr ""
+msgstr "Максимальная зарплата"
 
 #. module: hr_recruitment
 #: model:ir.model.fields,field_description:hr_recruitment.field_hr_applicant__medium_id
@@ -2614,14 +2614,14 @@ msgstr "Сообщения"
 #. module: hr_recruitment
 #: model:ir.model.fields,field_description:hr_recruitment.field_hr_job__salary_min
 msgid "Minimum Salary"
-msgstr ""
+msgstr "Минимальная зарплата"
 
 #. module: hr_recruitment
 #: model:ir.model.fields.selection,name:hr_recruitment.selection__hr_applicant__schedule_pay__monthly
 #: model:ir.model.fields.selection,name:hr_recruitment.selection__hr_job__payment_interval__monthly
 #: model_terms:ir.ui.view,arch_db:hr_recruitment.hr_applicant_view_form
 msgid "Month"
-msgstr ""
+msgstr "Месяц"
 
 #. module: hr_recruitment
 #: model_terms:ir.ui.view,arch_db:hr_recruitment.hr_applicant_view_search_bis
@@ -2738,7 +2738,7 @@ msgstr "Следующая встреча"
 #. module: hr_recruitment
 #: model:res.groups.privilege,placeholder:hr_recruitment.res_groups_privilege_recruitment
 msgid "No"
-msgstr ""
+msgstr "Нет"
 
 #. module: hr_recruitment
 #. odoo-python
@@ -2778,7 +2778,7 @@ msgstr "Пока нет данных!"
 #. module: hr_recruitment
 #: model_terms:ir.ui.view,arch_db:hr_recruitment.hr_recruitment_stage_form
 msgid "No email"
-msgstr ""
+msgstr "Нет эл. почты"
 
 #. module: hr_recruitment
 #: model_terms:ir.actions.act_window,help:hr_recruitment.action_hr_job_platforms
@@ -2793,7 +2793,7 @@ msgstr "Кадровые резервы еще не созданы"
 #. module: hr_recruitment
 #: model_terms:ir.ui.view,arch_db:hr_recruitment.hr_applicant_view_search_bis
 msgid "Non-Linked Talents"
-msgstr ""
+msgstr "Несвязанные специалисты"
 
 #. module: hr_recruitment
 #: model:ir.model.fields.selection,name:hr_recruitment.selection__hr_applicant__priority__0
@@ -3045,7 +3045,7 @@ msgstr "Предлагаемая дополнительная зарплата"
 #. module: hr_recruitment
 #: model_terms:ir.ui.view,arch_db:hr_recruitment.res_config_settings_view_form
 msgid "Publish job opportunities on your website"
-msgstr ""
+msgstr "Публикуйте вакансии на своём сайте"
 
 #. module: hr_recruitment
 #: model:hr.recruitment.stage,name:hr_recruitment.stage_job1
@@ -3061,7 +3061,7 @@ msgstr "Рейтинги"
 #. module: hr_recruitment
 #: model:ir.model.fields.selection,name:hr_recruitment.selection__hr_applicant__kanban_state__done
 msgid "Ready"
-msgstr ""
+msgstr "Готово"
 
 #. module: hr_recruitment
 #: model_terms:ir.ui.view,arch_db:hr_recruitment.hr_applicant_view_search_bis
@@ -3095,7 +3095,7 @@ msgstr "Специалист по подбору кадров"
 #. module: hr_recruitment
 #: model:ir.model.fields,field_description:hr_recruitment.field_hr_applicant__recruiter_email
 msgid "Recruiter Work Email"
-msgstr ""
+msgstr "Рабочая эл. почта рекрутёра"
 
 #. module: hr_recruitment
 #: model:ir.module.module,shortdesc:base.module_hr_recruitment
@@ -3131,7 +3131,7 @@ msgstr "План подбора персонала"
 #. module: hr_recruitment
 #: model:ir.model,name:hr_recruitment.model_hr_recruitment_stage
 msgid "Recruitment Stage"
-msgstr ""
+msgstr "Этап подбора"
 
 #. module: hr_recruitment
 #: model:mail.template,name:hr_recruitment.email_template_data_applicant_congratulations
@@ -3156,7 +3156,7 @@ msgstr "Рекрутинг: Отходы"
 #. module: hr_recruitment
 #: model_terms:ir.ui.view,arch_db:hr_recruitment.hr_applicant_view_form
 msgid "Reference"
-msgstr ""
+msgstr "Ссылка"
 
 #. module: hr_recruitment
 #: model_terms:ir.ui.view,arch_db:hr_recruitment.applicant_get_refuse_reason_view_form
@@ -3207,7 +3207,7 @@ msgstr "Причины отказа"
 #. module: hr_recruitment
 #: model:ir.model,name:hr_recruitment.model_applicant_refuse_single
 msgid "Refuse a single applicant"
-msgstr ""
+msgstr "Отказать одному кандидату"
 
 #. module: hr_recruitment
 #: model:ir.model.fields.selection,name:hr_recruitment.selection__hr_applicant__application_status__refused
@@ -3247,7 +3247,7 @@ msgstr "Регулярное выражение"
 #: model:ir.model.fields,field_description:hr_recruitment.field_applicant_get_refuse_reason__model
 #: model:ir.model.fields,field_description:hr_recruitment.field_applicant_refuse_single__model
 msgid "Related Document Model"
-msgstr ""
+msgstr "Модель связанного документа"
 
 #. module: hr_recruitment
 #. odoo-python
@@ -3308,7 +3308,7 @@ msgstr "Зависшие"
 #. module: hr_recruitment
 #: model_terms:ir.ui.view,arch_db:hr_recruitment.hr_recruitment_stage_form
 msgid "Rotting in"
-msgstr ""
+msgstr "Зависнет через"
 
 #. module: hr_recruitment
 #: model_terms:ir.ui.view,arch_db:hr_recruitment.hr_applicant_view_search_bis
@@ -3355,7 +3355,7 @@ msgstr ""
 #. module: hr_recruitment
 #: model_terms:ir.ui.view,arch_db:hr_recruitment.hr_job_survey
 msgid "Salary Range"
-msgstr ""
+msgstr "Диапазон зарплаты"
 
 #. module: hr_recruitment
 #: model:ir.model.fields,field_description:hr_recruitment.field_hr_applicant__phone_sanitized
@@ -3381,7 +3381,7 @@ msgstr "Интервью по расписанию"
 #. module: hr_recruitment
 #: model:ir.model.fields,field_description:hr_recruitment.field_hr_applicant__schedule_pay
 msgid "Schedule Pay"
-msgstr ""
+msgstr "График выплат"
 
 #. module: hr_recruitment
 #: model:ir.model.fields,field_description:hr_recruitment.field_applicant_get_refuse_reason__scheduled_date
@@ -3392,7 +3392,7 @@ msgstr "Планируемая дата"
 #. module: hr_recruitment
 #: model:ir.model.fields,field_description:hr_recruitment.field_hr_job__payment_interval
 msgid "Scheduled Pay"
-msgstr ""
+msgstr "Запланированная выплата"
 
 #. module: hr_recruitment
 #: model:ir.model.fields,field_description:hr_recruitment.field_hr_recruitment_degree__score
@@ -3422,7 +3422,7 @@ msgstr "Второе интервью"
 #. module: hr_recruitment
 #: model:hr.recruitment.degree,name:hr_recruitment.degree_graduate
 msgid "Secondary Education"
-msgstr ""
+msgstr "Среднее образование"
 
 #. module: hr_recruitment
 #: model_terms:ir.ui.view,arch_db:hr_recruitment.hr_applicant_view_form
@@ -3527,7 +3527,7 @@ msgstr ""
 #. module: hr_recruitment
 #: model_terms:ir.ui.view,arch_db:hr_recruitment.hr_recruitment_stage_form
 msgid "Show for all positions"
-msgstr ""
+msgstr "Показывать для всех должностей"
 
 #. module: hr_recruitment
 #: model:ir.model.fields,field_description:hr_recruitment.field_hr_applicant__source_id
@@ -3619,7 +3619,7 @@ msgstr "Стадии"
 #. module: hr_recruitment
 #: model_terms:ir.ui.view,arch_db:hr_recruitment.crm_case_tree_view_job
 msgid "State"
-msgstr ""
+msgstr "Состояние"
 
 #. module: hr_recruitment
 #: model:ir.model.fields,help:hr_recruitment.field_hr_applicant__activity_state
@@ -3655,7 +3655,7 @@ msgstr "Тема…"
 #. module: hr_recruitment
 #: model:ir.model,name:hr_recruitment.model_hr_job_tag
 msgid "Tag"
-msgstr ""
+msgstr "Тег"
 
 #. module: hr_recruitment
 #: model:ir.model.fields,field_description:hr_recruitment.field_hr_applicant_category__name
@@ -3738,7 +3738,7 @@ msgstr "Специалисты"
 #. odoo-python
 #: code:addons/hr_recruitment/wizard/talent_pool_add_applicants.py:0
 msgid "Talents Added To Talent Pool(s)"
-msgstr ""
+msgstr "Специалисты, добавленные в кадровый резерв"
 
 #. module: hr_recruitment
 #: model:ir.model.constraint,message:hr_recruitment.constraint_hr_job_platform_email_uniq
@@ -3788,7 +3788,7 @@ msgstr ""
 msgid ""
 "The company this stage is available to. If not set, it is available to all "
 "companies."
-msgstr ""
+msgstr "Компания, для которой доступен этот этап. Если не задана, этап доступен всем компаниям."
 
 #. module: hr_recruitment
 #: model:ir.model.fields,help:hr_recruitment.field_hr_applicant__availability
@@ -3901,7 +3901,7 @@ msgstr "Общее количество прогнозируемых сотру�
 #. module: hr_recruitment
 #: model:ir.module.module,summary:base.module_hr_recruitment
 msgid "Track your recruitment pipeline"
-msgstr ""
+msgstr "Отслеживайте воронку подбора"
 
 #. module: hr_recruitment
 #: model:ir.actions.act_window,name:hr_recruitment.action_hr_job_sources
@@ -3923,7 +3923,7 @@ msgstr "Попробуйте отправить письмо"
 #. module: hr_recruitment
 #: model_terms:web_tour.tour,rainbow_man_message:hr_recruitment.hr_recruitment_tour
 msgid "Try the Website app to publish job opportunities online."
-msgstr ""
+msgstr "Попробуйте приложение «Сайт», чтобы публиковать вакансии онлайн."
 
 #. module: hr_recruitment
 #: model_terms:ir.actions.act_window,help:hr_recruitment.mail_activity_type_action_config_hr_applicant
@@ -3948,7 +3948,7 @@ msgstr "Кампания UTM"
 #. module: hr_recruitment
 #: model:ir.model.fields,field_description:hr_recruitment.field_hr_applicant__utm_reference
 msgid "UTM Reference"
-msgstr ""
+msgstr "Ссылка UTM"
 
 #. module: hr_recruitment
 #: model:ir.model,name:hr_recruitment.model_utm_source
@@ -4037,12 +4037,12 @@ msgstr "Хотите проанализировать, откуда приход
 #: model:ir.model.fields.selection,name:hr_recruitment.selection__hr_applicant__schedule_pay__weekly
 #: model:ir.model.fields.selection,name:hr_recruitment.selection__hr_job__payment_interval__weekly
 msgid "Week"
-msgstr ""
+msgstr "Неделя"
 
 #. module: hr_recruitment
 #: model_terms:ir.ui.view,arch_db:hr_recruitment.hr_recruitment_stage_form
 msgid "What are the requirements to move an applicant to this stage?"
-msgstr ""
+msgstr "Каковы требования для перевода кандидата на этот этап?"
 
 #. module: hr_recruitment
 #. odoo-javascript
@@ -4072,7 +4072,7 @@ msgstr ""
 #: model:ir.model.fields.selection,name:hr_recruitment.selection__hr_applicant__schedule_pay__yearly
 #: model:ir.model.fields.selection,name:hr_recruitment.selection__hr_job__payment_interval__yearly
 msgid "Year"
-msgstr ""
+msgstr "Год"
 
 #. module: hr_recruitment
 #. odoo-python
@@ -4169,7 +4169,7 @@ msgstr "например, магистратура"
 #. module: hr_recruitment
 #: model_terms:ir.ui.view,arch_db:hr_recruitment.hr_recruitment_stage_form
 msgid "e.g. Qualification"
-msgstr ""
+msgstr "напр., Отбор"
 
 #. module: hr_recruitment
 #: model_terms:ir.ui.view,arch_db:hr_recruitment.hr_job_simple_form
@@ -4230,12 +4230,12 @@ msgstr "id"
 #. module: hr_recruitment
 #: model_terms:ir.ui.view,arch_db:hr_recruitment.view_hr_job_kanban
 msgid "in<br/><span class=\"text-nowrap\">progress</span>"
-msgstr ""
+msgstr "в<br/><span class=\"text-nowrap\">работе</span>"
 
 #. module: hr_recruitment
 #: model_terms:ir.ui.view,arch_db:hr_recruitment.view_hr_job_kanban
 msgid "new<br/><span class=\"text-nowrap\">applications</span>"
-msgstr ""
+msgstr "новые<br/><span class=\"text-nowrap\">отклики</span>"
 
 #. module: hr_recruitment
 #. odoo-javascript
@@ -4262,4 +4262,4 @@ msgstr "кадровым резервом"
 #. module: hr_recruitment
 #: model_terms:ir.ui.view,arch_db:hr_recruitment.view_hr_job_kanban
 msgid "to<br/><span class=\"text-nowrap\">recruit</span>"
-msgstr ""
+msgstr "к<br/><span class=\"text-nowrap\">найму</span>"

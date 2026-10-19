@@ -79,7 +79,7 @@ msgstr "Электронная почта уже зарегистрирован�
 #. module: project_mail_plugin
 #: model:ir.module.module,summary:base.module_project_mail_plugin
 msgid "Integrate your inbox with projects"
-msgstr ""
+msgstr "Интеграция почтового ящика с проектами"
 
 #. module: project_mail_plugin
 #. odoo-javascript
@@ -93,7 +93,7 @@ msgstr "Зафиксируйте электронное письмо в зада
 #: code:addons/project_mail_plugin/static/src/to_translate/translations_gmail.xml:0
 #: code:addons/project_mail_plugin/static/src/to_translate/translations_outlook.xml:0
 msgid "New"
-msgstr ""
+msgstr "Новая"
 
 #. module: project_mail_plugin
 #. odoo-javascript
@@ -111,7 +111,7 @@ msgstr "Проект не найден."
 #. module: project_mail_plugin
 #: model:ir.module.module,shortdesc:base.module_project_mail_plugin
 msgid "Project Mail Plugin"
-msgstr ""
+msgstr "Почтовый плагин проектов"
 
 #. module: project_mail_plugin
 #. odoo-javascript
@@ -132,7 +132,7 @@ msgstr "Поиск"
 #: code:addons/project_mail_plugin/static/src/to_translate/translations_gmail.xml:0
 #: code:addons/project_mail_plugin/static/src/to_translate/translations_outlook.xml:0
 msgid "Search Tasks"
-msgstr ""
+msgstr "Найти задачи"
 
 #. module: project_mail_plugin
 #. odoo-javascript
@@ -146,7 +146,7 @@ msgstr "Поиск проекта"
 #: code:addons/project_mail_plugin/static/src/to_translate/translations_gmail.xml:0
 #: code:addons/project_mail_plugin/static/src/to_translate/translations_outlook.xml:0
 msgid "Show all"
-msgstr ""
+msgstr "Показать все"
 
 #. module: project_mail_plugin
 #. odoo-python
@@ -159,7 +159,7 @@ msgstr "Задание для %s"
 #: code:addons/project_mail_plugin/static/src/to_translate/translations_gmail.xml:0
 #: code:addons/project_mail_plugin/static/src/to_translate/translations_outlook.xml:0
 msgid "Tasks"
-msgstr ""
+msgstr "Задачи"
 
 #. module: project_mail_plugin
 #. odoo-javascript
@@ -190,4 +190,4 @@ msgstr ""
 msgid ""
 "Turn emails received in your mailbox into tasks and log their content as "
 "internal notes."
-msgstr ""
+msgstr "Превращайте письма из вашего почтового ящика в задачи и сохраняйте их содержимое во внутренних заметках."

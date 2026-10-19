@@ -42,7 +42,7 @@ msgstr ""
 #: code:addons/mail_plugin/static/src/to_translate/translations_gmail.xml:0
 #: code:addons/mail_plugin/static/src/to_translate/translations_outlook.xml:0
 msgid "Add to Odoo"
-msgstr ""
+msgstr "Добавить в Odoo"
 
 #. module: mail_plugin
 #: model_terms:ir.ui.view,arch_db:mail_plugin.app_auth
@@ -52,7 +52,7 @@ msgstr "Разрешить"
 #. module: mail_plugin
 #: model:ir.module.module,summary:base.module_mail_plugin
 msgid "Allows integration with mail plugins."
-msgstr ""
+msgstr "Позволяет интегрироваться с почтовыми плагинами."
 
 #. module: mail_plugin
 #. odoo-javascript
@@ -87,7 +87,7 @@ msgstr "Очистить кэш переводов"
 #. module: mail_plugin
 #: model_terms:digest.tip,tip_description:mail_plugin.digest_tip_mail_plugin
 msgid "Connect Odoo to your inbox to access your data from any email."
-msgstr ""
+msgstr "Подключите Odoo к своей почте, чтобы получать доступ к данным из любого письма."
 
 #. module: mail_plugin
 #. odoo-javascript
@@ -135,7 +135,7 @@ msgstr "Отображаемое имя"
 #. odoo-javascript
 #: code:addons/mail_plugin/static/src/to_translate/translations_gmail.xml:0
 msgid "Email already logged"
-msgstr ""
+msgstr "Письмо уже записано"
 
 #. module: mail_plugin
 #. odoo-javascript
@@ -164,14 +164,14 @@ msgstr "ID"
 #: code:addons/mail_plugin/static/src/to_translate/translations_gmail.xml:0
 #: code:addons/mail_plugin/static/src/to_translate/translations_outlook.xml:0
 msgid "In this conversation"
-msgstr ""
+msgstr "В этой переписке"
 
 #. module: mail_plugin
 #: model:ir.module.module,description:base.module_mail_plugin
 msgid ""
 "Integrate Odoo with your mailbox, get information about contacts directly "
 "inside your mailbox, log content of emails as internal notes"
-msgstr ""
+msgstr "Интегрируйте Odoo с почтовым ящиком, получайте информацию о контактах прямо в нём и записывайте содержимое писем во внутренние заметки"
 
 #. module: mail_plugin
 #. odoo-javascript
@@ -191,7 +191,7 @@ msgstr "Электронная почта журнала"
 #: code:addons/mail_plugin/static/src/to_translate/translations_gmail.xml:0
 #: code:addons/mail_plugin/static/src/to_translate/translations_outlook.xml:0
 msgid "Log out"
-msgstr ""
+msgstr "Выйти"
 
 #. module: mail_plugin
 #. odoo-python
@@ -202,27 +202,27 @@ msgstr "Записано от"
 #. module: mail_plugin
 #: model:ir.module.module,shortdesc:base.module_mail_plugin
 msgid "Mail Plugin"
-msgstr ""
+msgstr "Почтовый плагин"
 
 #. module: mail_plugin
 #. odoo-javascript
 #: code:addons/mail_plugin/static/src/to_translate/translations_gmail.xml:0
 #: code:addons/mail_plugin/static/src/to_translate/translations_outlook.xml:0
 msgid "New Person"
-msgstr ""
+msgstr "Новый контакт"
 
 #. module: mail_plugin
 #. odoo-javascript
 #: code:addons/mail_plugin/static/src/to_translate/translations_gmail.xml:0
 msgid "No contact found."
-msgstr ""
+msgstr "Контакт не найден."
 
 #. module: mail_plugin
 #. odoo-javascript
 #: code:addons/mail_plugin/static/src/to_translate/translations_gmail.xml:0
 #: code:addons/mail_plugin/static/src/to_translate/translations_outlook.xml:0
 msgid "No record found."
-msgstr ""
+msgstr "Запись не найдена."
 
 #. module: mail_plugin
 #. odoo-javascript
@@ -240,13 +240,13 @@ msgstr "URL-адрес сервера Odoo"
 #. odoo-javascript
 #: code:addons/mail_plugin/static/src/to_translate/translations_gmail.xml:0
 msgid "Odoo for Gmail"
-msgstr ""
+msgstr "Odoo для Gmail"
 
 #. module: mail_plugin
 #. odoo-javascript
 #: code:addons/mail_plugin/static/src/to_translate/translations_outlook.xml:0
 msgid "Odoo for Outlook"
-msgstr ""
+msgstr "Odoo для Outlook"
 
 #. module: mail_plugin
 #: model_terms:digest.tip,tip_description:mail_plugin.digest_tip_mail_plugin
@@ -271,7 +271,7 @@ msgstr "Поиск"
 #. odoo-javascript
 #: code:addons/mail_plugin/static/src/to_translate/translations_gmail.xml:0
 msgid "Search %s"
-msgstr ""
+msgstr "Искать %s"
 
 #. module: mail_plugin
 #. odoo-javascript
@@ -284,14 +284,14 @@ msgstr "Поисковый контакт"
 #. odoo-python
 #: code:addons/mail_plugin/controllers/mail_plugin.py:0
 msgid "Sent on: %s"
-msgstr ""
+msgstr "Отправлено: %s"
 
 #. module: mail_plugin
 #. odoo-javascript
 #: code:addons/mail_plugin/static/src/to_translate/translations_gmail.xml:0
 #: code:addons/mail_plugin/static/src/to_translate/translations_outlook.xml:0
 msgid "Show all"
-msgstr ""
+msgstr "Показать все"
 
 #. module: mail_plugin
 #. odoo-javascript
@@ -319,45 +319,45 @@ msgstr ""
 #. module: mail_plugin
 #: model_terms:digest.tip,tip_description:mail_plugin.digest_tip_mail_plugin
 msgid "Tip: Connect Odoo to your inbox"
-msgstr ""
+msgstr "Совет: подключите Odoo к своей почте"
 
 #. module: mail_plugin
 #: model:digest.tip,name:mail_plugin.digest_tip_mail_plugin
 msgid "Tip: Connect Odoo to your inbox "
-msgstr ""
+msgstr "Совет: подключите Odoo к своей почте "
 
 #. module: mail_plugin
 #. odoo-javascript
 #: code:addons/mail_plugin/static/src/to_translate/translations_gmail.xml:0
 #: code:addons/mail_plugin/static/src/to_translate/translations_outlook.xml:0
 msgid "Try using different keywords."
-msgstr ""
+msgstr "Попробуйте использовать другие ключевые слова."
 
 #. module: mail_plugin
 #. odoo-javascript
 #: code:addons/mail_plugin/static/src/to_translate/translations_gmail.xml:0
 #: code:addons/mail_plugin/static/src/to_translate/translations_outlook.xml:0
 msgid "View in Odoo"
-msgstr ""
+msgstr "Открыть в Odoo"
 
 #. module: mail_plugin
 #. odoo-python
 #: code:addons/mail_plugin/controllers/mail_plugin.py:0
 msgid "You need to specify at least the partner_id or the email"
-msgstr ""
+msgstr "Необходимо указать как минимум partner_id или адрес эл. почты"
 
 #. module: mail_plugin
 #. odoo-python
 #: code:addons/mail_plugin/controllers/mail_plugin.py:0
 msgid "by %s"
-msgstr ""
+msgstr "от %s"
 
 #. module: mail_plugin
 #: model_terms:digest.tip,tip_description:mail_plugin.digest_tip_mail_plugin
 msgid "connect to <br>"
-msgstr ""
+msgstr "подключиться к <br>"
 
 #. module: mail_plugin
 #: model_terms:ir.ui.view,arch_db:mail_plugin.app_auth
 msgid "to access your Odoo database?"
-msgstr ""
+msgstr "для доступа к вашей базе данных Odoo?"

@@ -32,7 +32,7 @@ msgid ""
 "\n"
 "This module adds a new view called to be able to define a view to display\n"
 "an organization such as an Organization Chart for employees for instance.\n"
-msgstr ""
+msgstr "\nПредставление «Иерархия» Odoo Web\n=======================\n\nЭтот модуль добавляет новое представление, позволяющее отображать\nорганизационную структуру, например организационную схему сотрудников.\n"
 
 #. module: web_hierarchy
 #: model:ir.model,name:web_hierarchy.model_ir_actions_act_window_view
@@ -55,7 +55,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:web_hierarchy.field_ir_actions_act_window_view__display_name
 #: model:ir.model.fields,field_description:web_hierarchy.field_ir_ui_view__display_name
 msgid "Display Name"
-msgstr "Display Name"
+msgstr "Отображаемое имя"
 
 #. module: web_hierarchy
 #: model:ir.model.fields.selection,name:web_hierarchy.selection__ir_actions_act_window_view__view_mode__hierarchy
@@ -137,4 +137,4 @@ msgstr "Тип просмотра"
 #. module: web_hierarchy
 #: model:ir.module.module,shortdesc:base.module_web_hierarchy
 msgid "Web Hierarchy"
-msgstr ""
+msgstr "Веб-иерархия"

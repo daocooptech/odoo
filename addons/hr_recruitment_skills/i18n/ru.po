@@ -43,7 +43,7 @@ msgstr "Категория"
 #. module: hr_recruitment_skills
 #: model:ir.model.fields,field_description:hr_recruitment_skills.field_hr_applicant_skill__certificate_file
 msgid "Certificate"
-msgstr ""
+msgstr "Сертификат"
 
 #. module: hr_recruitment_skills
 #: model:ir.model.fields,field_description:hr_recruitment_skills.field_hr_applicant_skill__color
@@ -68,12 +68,12 @@ msgstr "Текущий навык кандидата"
 #. module: hr_recruitment_skills
 #: model:ir.model.fields,field_description:hr_recruitment_skills.field_hr_applicant__degree_score
 msgid "Degree Score"
-msgstr ""
+msgstr "Оценка образования"
 
 #. module: hr_recruitment_skills
 #: model:ir.model.fields,field_description:hr_recruitment_skills.field_hr_applicant__is_degree_score_matching
 msgid "Degree Score Matching"
-msgstr ""
+msgstr "Соответствие оценке образования"
 
 #. module: hr_recruitment_skills
 #: model:ir.model.fields,field_description:hr_recruitment_skills.field_hr_applicant__display_name
@@ -97,7 +97,7 @@ msgstr "ID"
 #. module: hr_recruitment_skills
 #: model:ir.model.fields,field_description:hr_recruitment_skills.field_hr_applicant__job_expected_degree
 msgid "Job Degree"
-msgstr ""
+msgstr "Образование для должности"
 
 #. module: hr_recruitment_skills
 #: model:ir.model,name:hr_recruitment_skills.model_hr_job
@@ -129,7 +129,7 @@ msgstr "Количество уровней"
 #. module: hr_recruitment_skills
 #: model:ir.module.module,summary:base.module_hr_recruitment_skills
 msgid "Manage skills of your employees"
-msgstr ""
+msgstr "Управление навыками сотрудников"
 
 #. module: hr_recruitment_skills
 #: model_terms:ir.ui.view,arch_db:hr_recruitment_skills.hr_job_list_inherit_hr_recruitment_skills
@@ -145,7 +145,7 @@ msgstr "Подходящие кандидаты"
 #. module: hr_recruitment_skills
 #: model:ir.model.fields,field_description:hr_recruitment_skills.field_hr_applicant__matching_skill_ids
 msgid "Matching Factors"
-msgstr ""
+msgstr "Факторы соответствия"
 
 #. module: hr_recruitment_skills
 #: model:ir.model.fields,field_description:hr_recruitment_skills.field_hr_applicant__matching_score
@@ -170,24 +170,24 @@ msgstr "Совпадающие навыки"
 #: model_terms:ir.ui.view,arch_db:hr_recruitment_skills.view_hr_job_form
 #: model_terms:ir.ui.view,arch_db:hr_recruitment_skills.view_hr_job_kanban
 msgid "Matching Talents"
-msgstr ""
+msgstr "Подходящие специалисты"
 
 #. module: hr_recruitment_skills
 #. odoo-javascript
 #: code:addons/hr_recruitment_skills/static/src/components/match_scores_gauge/match_scores_gauge.js:0
 msgid "Max Value"
-msgstr ""
+msgstr "Максимальное значение"
 
 #. module: hr_recruitment_skills
 #. odoo-javascript
 #: code:addons/hr_recruitment_skills/static/src/components/match_scores_gauge/match_scores_gauge.js:0
 msgid "Max Value Field"
-msgstr ""
+msgstr "Поле максимального значения"
 
 #. module: hr_recruitment_skills
 #: model:ir.model.fields,field_description:hr_recruitment_skills.field_hr_applicant__missing_skill_ids
 msgid "Missing Factors"
-msgstr ""
+msgstr "Недостающие факторы"
 
 #. module: hr_recruitment_skills
 #: model:ir.model.fields,field_description:hr_recruitment_skills.field_hr_job__missing_applicant_skill_ids
@@ -203,7 +203,7 @@ msgstr "Перевести на эту должность"
 #. odoo-python
 #: code:addons/hr_recruitment_skills/models/hr_job.py:0
 msgid "No Matching Talents"
-msgstr ""
+msgstr "Нет подходящих специалистов"
 
 #. module: hr_recruitment_skills
 #: model:ir.model.fields,help:hr_recruitment_skills.field_hr_applicant_skill__levels_count
@@ -223,19 +223,19 @@ msgstr "Прогресс от отсутствия знаний (0 %) до п�
 #. module: hr_recruitment_skills
 #: model:ir.module.module,shortdesc:base.module_hr_recruitment_skills
 msgid "Recruitment - Skills Management"
-msgstr ""
+msgstr "Подбор персонала: управление навыками"
 
 #. module: hr_recruitment_skills
 #. odoo-javascript
 #: code:addons/hr_recruitment_skills/static/src/components/match_scores_gauge/match_scores_gauge.js:0
 msgid "Remaining"
-msgstr ""
+msgstr "Осталось"
 
 #. module: hr_recruitment_skills
 #. odoo-javascript
 #: code:addons/hr_recruitment_skills/static/src/components/match_scores_gauge/match_scores_gauge.js:0
 msgid "Score Fields"
-msgstr ""
+msgstr "Поля оценки"
 
 #. module: hr_recruitment_skills
 #: model:ir.model.fields,field_description:hr_recruitment_skills.field_hr_applicant__skill_ids
@@ -276,7 +276,7 @@ msgstr "Навыки"
 #. module: hr_recruitment_skills
 #: model:ir.model.fields,field_description:hr_recruitment_skills.field_hr_applicant__skills_score
 msgid "Skills Score"
-msgstr ""
+msgstr "Оценка навыков"
 
 #. module: hr_recruitment_skills
 #: model_terms:ir.ui.view,arch_db:hr_recruitment_skills.hr_applicant_skill_view_form
@@ -287,7 +287,7 @@ msgstr "Дата окончания должна быть позже даты н
 #. odoo-javascript
 #: code:addons/hr_recruitment_skills/static/src/components/match_scores_gauge/match_scores_gauge.js:0
 msgid "Title"
-msgstr ""
+msgstr "Название"
 
 #. module: hr_recruitment_skills
 #: model_terms:ir.ui.view,arch_db:hr_recruitment_skills.hr_applicant_skill_view_form
@@ -315,7 +315,7 @@ msgstr "Остановка действия"
 msgid ""
 "We do not have any talents who meet the skill requirements for this job "
 "position in the database at the moment."
-msgstr ""
+msgstr "В базе данных сейчас нет специалистов, чьи навыки соответствуют требованиям этой должности."
 
 #. module: hr_recruitment_skills
 #: model:ir.model.fields,help:hr_recruitment_skills.field_hr_applicant_skill__is_certification

@@ -23,7 +23,7 @@ msgstr ""
 #. module: project_purchase_stock
 #: model:ir.module.module,description:base.module_project_purchase_stock
 msgid "Add a project link between POs and their generated stock pickings."
-msgstr ""
+msgstr "Добавляет ссылку на проект между заказами на закупку и созданными по ним складскими отборами."
 
 #. module: project_purchase_stock
 #: model:ir.model.fields,field_description:project_purchase_stock.field_purchase_order_line__display_name
@@ -42,17 +42,17 @@ msgstr "ID"
 #. module: project_purchase_stock
 #: model:ir.module.module,shortdesc:base.module_project_purchase_stock
 msgid "Project - Purchase - Stock"
-msgstr ""
+msgstr "Проект: закупки и склад"
 
 #. module: project_purchase_stock
 #: model:ir.model,name:project_purchase_stock.model_purchase_order_line
 msgid "Purchase Order Line"
-msgstr ""
+msgstr "Позиция заказа на закупку"
 
 #. module: project_purchase_stock
 #: model:ir.model,name:project_purchase_stock.model_stock_move
 msgid "Stock Move"
-msgstr ""
+msgstr "Складское перемещение"
 
 #. module: project_purchase_stock
 #: model:ir.model,name:project_purchase_stock.model_stock_rule

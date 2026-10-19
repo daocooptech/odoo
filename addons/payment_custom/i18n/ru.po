@@ -27,22 +27,22 @@ msgstr ""
 #. module: payment_custom
 #: model_terms:ir.ui.view,arch_db:payment_custom.custom_payment_transfer_details
 msgid "<b>Amount:</b>"
-msgstr ""
+msgstr "<b>Сумма:</b>"
 
 #. module: payment_custom
 #: model_terms:ir.ui.view,arch_db:payment_custom.custom_payment_transfer_details
 msgid "<b>Bank Account:</b>"
-msgstr ""
+msgstr "<b>Банковский счёт:</b>"
 
 #. module: payment_custom
 #: model_terms:ir.ui.view,arch_db:payment_custom.custom_payment_transfer_details
 msgid "<b>Beneficiary:</b>"
-msgstr ""
+msgstr "<b>Получатель:</b>"
 
 #. module: payment_custom
 #: model_terms:ir.ui.view,arch_db:payment_custom.custom_payment_transfer_details
 msgid "<b>Communication:</b>"
-msgstr ""
+msgstr "<b>Назначение платежа:</b>"
 
 #. module: payment_custom
 #: model_terms:ir.ui.view,arch_db:payment_custom.custom_payment_transfer_details
@@ -50,12 +50,12 @@ msgid ""
 "<small class=\"text-center text-wrap lh-sm\">\n"
 "                            Scan me in your banking app\n"
 "                        </small>"
-msgstr ""
+msgstr "<small class=\"text-center text-wrap lh-sm\">\n                            Отсканируйте в банковском приложении\n                        </small>"
 
 #. module: payment_custom
 #: model:ir.module.module,summary:base.module_payment_custom
 msgid "A payment provider for custom flows like wire transfers."
-msgstr ""
+msgstr "Платёжный провайдер для особых схем, например банковских переводов."
 
 #. module: payment_custom
 #: model:ir.model.fields,field_description:payment_custom.field_payment_provider__partner_bank_id
@@ -119,18 +119,18 @@ msgstr ""
 #. module: payment_custom
 #: model_terms:ir.ui.view,arch_db:payment_custom.payment_provider_form
 msgid "Others"
-msgstr ""
+msgstr "Другие"
 
 #. module: payment_custom
 #: model:ir.model.fields,field_description:payment_custom.field_payment_provider__company_partner_id
 msgid "Partner"
-msgstr ""
+msgstr "Партнёр"
 
 #. module: payment_custom
 #: model:ir.model.fields.selection,name:payment_custom.selection__payment_provider__custom_mode__pay_on_invoice
 #: model:payment.method,name:payment_custom.payment_method_pay_on_invoice
 msgid "Pay on Invoice"
-msgstr ""
+msgstr "Оплата по счёту"
 
 #. module: payment_custom
 #: model:ir.model,name:payment_custom.model_payment_provider
@@ -140,7 +140,7 @@ msgstr "Поставщик платежей"
 #. module: payment_custom
 #: model:ir.module.module,shortdesc:base.module_payment_custom
 msgid "Payment Provider: Custom Payment Modes"
-msgstr ""
+msgstr "Платёжный провайдер: особые способы оплаты"
 
 #. module: payment_custom
 #: model:ir.model,name:payment_custom.model_payment_transaction

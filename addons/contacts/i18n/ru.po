@@ -30,27 +30,27 @@ msgid ""
 "This module gives you a quick view of your contacts directory, accessible "
 "from your home page.\n"
 "You can track your vendors, customers and other contacts.\n"
-msgstr ""
+msgstr "\nЭтот модуль даёт быстрый обзор вашей адресной книги, доступный с главной страницы.\nВы можете отслеживать поставщиков, клиентов и другие контакты.\n"
 
 #. module: contacts
 #: model_terms:ir.ui.view,arch_db:contacts.res_partner_view_hierarchy
 msgid ""
 "<i class=\"oi oi-fw me-1\" data-icon=\"location_on\" title=\"Location\"/>"
-msgstr ""
+msgstr "<i class=\"oi oi-fw me-1\" data-icon=\"location_on\" title=\"Местоположение\"/>"
 
 #. module: contacts
 #: model_terms:ir.ui.view,arch_db:contacts.res_partner_view_hierarchy
 msgid ""
 "<i class=\"oi oi-fw oi-filled me-1 text-muted\" data-icon=\"mail\" "
 "title=\"Email\"/>"
-msgstr ""
+msgstr "<i class=\"oi oi-fw oi-filled me-1 text-muted\" data-icon=\"mail\" title=\"Эл. почта\"/>"
 
 #. module: contacts
 #: model_terms:ir.ui.view,arch_db:contacts.res_partner_view_hierarchy
 msgid ""
 "<i class=\"oi oi-fw oi-filled me-1 text-muted\" data-icon=\"phone\" "
 "title=\"Phone\"/>"
-msgstr ""
+msgstr "<i class=\"oi oi-fw oi-filled me-1 text-muted\" data-icon=\"phone\" title=\"Телефон\"/>"
 
 #. module: contacts
 #: model:ir.ui.menu,name:contacts.menu_action_res_partner_bank_form
@@ -60,7 +60,7 @@ msgstr "Банковские счета"
 #. module: contacts
 #: model:ir.module.module,summary:base.module_contacts
 msgid "Centralize your address book"
-msgstr ""
+msgstr "Единая адресная книга"
 
 #. module: contacts
 #: model:ir.ui.menu,name:contacts.menu_res_city
@@ -115,7 +115,7 @@ msgstr "Создать клиента"
 #: model:ir.model.fields,field_description:contacts.field_res_partner__display_name
 #: model:ir.model.fields,field_description:contacts.field_res_users__display_name
 msgid "Display Name"
-msgstr "Display Name"
+msgstr "Отображаемое имя"
 
 #. module: contacts
 #: model:ir.ui.menu,name:contacts.menu_country_state_partner

@@ -33,7 +33,7 @@ msgid ""
 "inside XML file or PDF\n"
 "File with embedded xml data will allow seller to retrieve Order data from "
 "Files.\n"
-msgstr ""
+msgstr "\nМодуль электронных заказов\n===========================\n\nПозволяет импортировать форматы: UBL Bis 3.\nПри загрузке или вставке файлов в списке заказов с данными заказа внутри XML-файла или PDF-файла\nс вложенными данными xml продавец сможет получить данные заказа из файлов.\n"
 
 #. module: sale_edi_ubl
 #. odoo-python
@@ -44,18 +44,18 @@ msgstr "Не удалось найти товар с названием: %(name)
 #. module: sale_edi_ubl
 #: model:ir.model.fields,field_description:sale_edi_ubl.field_customer_product_reference__create_uid
 msgid "Created by"
-msgstr ""
+msgstr "Создал"
 
 #. module: sale_edi_ubl
 #: model:ir.model.fields,field_description:sale_edi_ubl.field_customer_product_reference__create_date
 msgid "Created on"
-msgstr ""
+msgstr "Создан"
 
 #. module: sale_edi_ubl
 #: model:ir.model,name:sale_edi_ubl.model_customer_product_reference
 #: model:ir.model.fields,field_description:sale_edi_ubl.field_customer_product_reference__customer_product_reference
 msgid "Customer Product Reference"
-msgstr ""
+msgstr "Артикул товара у клиента"
 
 #. module: sale_edi_ubl
 #: model:ir.model.fields,field_description:sale_edi_ubl.field_customer_product_reference__display_name
@@ -69,7 +69,7 @@ msgstr "Отображаемое имя"
 #. module: sale_edi_ubl
 #: model:ir.model.fields,field_description:sale_edi_ubl.field_sale_order_line__edi_customer_product_ref
 msgid "Edi Customer Product Ref"
-msgstr ""
+msgstr "EDI: артикул товара у клиента"
 
 #. module: sale_edi_ubl
 #: model:ir.model.fields,field_description:sale_edi_ubl.field_customer_product_reference__id
@@ -83,27 +83,27 @@ msgstr "ID"
 #. module: sale_edi_ubl
 #: model:ir.module.module,shortdesc:base.module_sale_edi_ubl
 msgid "Import electronic orders with UBL"
-msgstr ""
+msgstr "Импорт электронных заказов в формате UBL"
 
 #. module: sale_edi_ubl
 #: model:ir.model.fields,field_description:sale_edi_ubl.field_customer_product_reference__write_uid
 msgid "Last Updated by"
-msgstr ""
+msgstr "Последний раз обновил"
 
 #. module: sale_edi_ubl
 #: model:ir.model.fields,field_description:sale_edi_ubl.field_customer_product_reference__write_date
 msgid "Last Updated on"
-msgstr ""
+msgstr "Последнее обновление"
 
 #. module: sale_edi_ubl
 #: model:ir.model.fields,field_description:sale_edi_ubl.field_customer_product_reference__partner_id
 msgid "Partner"
-msgstr ""
+msgstr "Партнёр"
 
 #. module: sale_edi_ubl
 #: model:ir.model.fields,field_description:sale_edi_ubl.field_customer_product_reference__product_id
 msgid "Product"
-msgstr ""
+msgstr "Товар"
 
 #. module: sale_edi_ubl
 #: model:ir.model,name:sale_edi_ubl.model_product_product
@@ -123,7 +123,7 @@ msgstr "Заказ на продажу"
 #. module: sale_edi_ubl
 #: model:ir.model,name:sale_edi_ubl.model_sale_order_line
 msgid "Sales Order Line"
-msgstr ""
+msgstr "Позиция заказа на продажу"
 
 #. module: sale_edi_ubl
 #. odoo-python
@@ -135,4 +135,4 @@ msgstr "Часть информации не удалось импортиров
 #: model:ir.model.constraint,message:sale_edi_ubl.constraint_customer_product_reference_product_partner_unique
 msgid ""
 "The customer reference with the same product and partner already exists!"
-msgstr ""
+msgstr "Артикул клиента с таким же товаром и партнёром уже существует!"

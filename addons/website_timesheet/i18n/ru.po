@@ -26,12 +26,12 @@ msgid ""
 "\n"
 "When hiding the timesheets in the portal, this module allows also hiding "
 "timesheet information on other records.\n"
-msgstr ""
+msgstr "\nПри скрытии табелей в личном кабинете этот модуль также позволяет скрыть информацию о табелях в других записях.\n"
 
 #. module: website_timesheet
 #: model:ir.module.module,summary:base.module_website_timesheet
 msgid "Allow hiding timesheet information in the portal"
-msgstr ""
+msgstr "Позволяет скрыть информацию о табелях в личном кабинете"
 
 #. module: website_timesheet
 #: model:ir.model,name:website_timesheet.model_account_analytic_line
@@ -41,12 +41,12 @@ msgstr "Аналитическая линия"
 #. module: website_timesheet
 #: model:ir.model.fields,field_description:website_timesheet.field_account_analytic_line__display_name
 msgid "Display Name"
-msgstr "Display Name"
+msgstr "Отображаемое имя"
 
 #. module: website_timesheet
 #: model:ir.module.module,shortdesc:base.module_website_timesheet
 msgid "Hide Portal Timesheet Information"
-msgstr ""
+msgstr "Скрыть информацию о табелях в личном кабинете"
 
 #. module: website_timesheet
 #: model:ir.model.fields,field_description:website_timesheet.field_account_analytic_line__id

@@ -28,12 +28,12 @@ msgstr ""
 #: model:ir.module.module,summary:base.module_sale_project_stock
 msgid ""
 "Adds a full traceability of inventory operations on the profitability report."
-msgstr ""
+msgstr "Добавляет полную прослеживаемость складских операций в отчёт о рентабельности."
 
 #. module: sale_project_stock
 #: model:ir.model,name:sale_project_stock.model_account_analytic_line
 msgid "Analytic Line"
-msgstr ""
+msgstr "Аналитическая строка"
 
 #. module: sale_project_stock
 #: model:ir.model.fields,field_description:sale_project_stock.field_account_analytic_line__display_name
@@ -55,13 +55,13 @@ msgstr "ID"
 #. odoo-python
 #: code:addons/sale_project_stock/models/account_analytic_line.py:0
 msgid "Inventory Transfers (Costs)"
-msgstr ""
+msgstr "Складские перемещения (затраты)"
 
 #. module: sale_project_stock
 #. odoo-python
 #: code:addons/sale_project_stock/models/account_analytic_line.py:0
 msgid "Inventory Transfers (Revenue)"
-msgstr ""
+msgstr "Складские перемещения (выручка)"
 
 #. module: sale_project_stock
 #: model:ir.model,name:sale_project_stock.model_project_project
@@ -71,7 +71,7 @@ msgstr "Проект"
 #. module: sale_project_stock
 #: model:ir.module.module,shortdesc:base.module_sale_project_stock
 msgid "Sale Project - Sale Stock"
-msgstr ""
+msgstr "Проект продаж: склад продаж"
 
 #. module: sale_project_stock
 #: model:ir.model,name:sale_project_stock.model_stock_move

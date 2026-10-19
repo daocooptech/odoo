@@ -67,7 +67,7 @@ msgstr "Домен"
 #. module: project_stock_account
 #: model:ir.module.module,summary:base.module_project_stock_account
 msgid "Handle analytics in Stock pickings with Project"
-msgstr ""
+msgstr "Учёт аналитики в складских отборах с проектом"
 
 #. module: project_stock_account
 #: model:ir.model.fields,field_description:project_stock_account.field_account_analytic_applicability__id
@@ -90,7 +90,7 @@ msgstr "Тип комплектования"
 #. module: project_stock_account
 #: model:ir.module.module,shortdesc:base.module_project_stock_account
 msgid "Project Stock Account"
-msgstr ""
+msgstr "Проект: складской учёт"
 
 #. module: project_stock_account
 #: model:ir.model,name:project_stock_account.model_stock_move

@@ -31,7 +31,7 @@ msgid ""
 "provided\n"
 "by external providers and will automatically generate purchase orders "
 "directed to the service seller.\n"
-msgstr ""
+msgstr "\nПозволяет передавать услуги на аутсорсинг. Модуль позволяет продавать услуги внешних поставщиков\nи автоматически создаёт заказы на закупку, адресованные поставщику услуги.\n"
 
 #. module: sale_purchase
 #: model_terms:ir.ui.view,arch_db:sale_purchase.exception_purchase_on_sale_cancellation
@@ -52,7 +52,7 @@ msgstr "<span class=\"o_stat_text\">Продажа</span>"
 #: model:ir.model.fields,field_description:sale_purchase.field_product_product__service_tracking
 #: model:ir.model.fields,field_description:sale_purchase.field_product_template__service_tracking
 msgid "Create on Order"
-msgstr ""
+msgstr "Создавать по заказу"
 
 #. module: sale_purchase
 #: model:ir.model.fields,field_description:sale_purchase.field_product_template__display_name
@@ -69,7 +69,7 @@ msgstr "Отображаемое название"
 msgid ""
 "Each time you sell this product through a SO, a RfQ is automatically created "
 "to buy the product. Tip: don't forget to set a vendor on the product."
-msgstr ""
+msgstr "Каждый раз, когда вы продаёте этот товар через заказ на продажу, автоматически создаётся запрос предложения на его покупку. Совет: не забудьте указать поставщика в товаре."
 
 #. module: sale_purchase
 #: model_terms:ir.ui.view,arch_db:sale_purchase.exception_sale_on_purchase_cancellation
@@ -187,12 +187,12 @@ msgstr "Заказ на продажу"
 #. module: sale_purchase
 #: model:ir.module.module,shortdesc:base.module_sale_purchase
 msgid "Sale Purchase"
-msgstr ""
+msgstr "Продажи и закупки"
 
 #. module: sale_purchase
 #: model:ir.module.module,summary:base.module_sale_purchase
 msgid "Sale based on service outsourcing."
-msgstr ""
+msgstr "Продажи на основе аутсорсинга услуг."
 
 #. module: sale_purchase
 #: model:ir.model,name:sale_purchase.model_sale_order
@@ -213,7 +213,7 @@ msgstr "Источники Заказы на продажу %s"
 #. module: sale_purchase
 #: model:ir.model.fields.selection,name:sale_purchase.selection__product_template__service_tracking__subcontract
 msgid "Subcontracting RFQ"
-msgstr ""
+msgstr "Запрос предложения субподрядчику"
 
 #. module: sale_purchase
 #: model:ir.model.fields,field_description:sale_purchase.field_purchase_order__has_sale_order

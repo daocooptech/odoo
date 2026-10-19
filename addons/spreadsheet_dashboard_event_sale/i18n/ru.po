@@ -45,7 +45,7 @@ msgstr "Дата"
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_event_sale/data/files/events_dashboard.json:0
 msgid "Event Status"
-msgstr ""
+msgstr "Статус мероприятия"
 
 #. module: spreadsheet_dashboard_event_sale
 #. odoo-javascript
@@ -90,12 +90,12 @@ msgstr "Доход"
 #: model:ir.module.module,description:base.module_spreadsheet_dashboard_event_sale
 #: model:ir.module.module,summary:base.module_spreadsheet_dashboard_event_sale
 msgid "Spreadsheet"
-msgstr ""
+msgstr "Электронная таблица"
 
 #. module: spreadsheet_dashboard_event_sale
 #: model:ir.module.module,shortdesc:base.module_spreadsheet_dashboard_event_sale
 msgid "Spreadsheet dashboard for events"
-msgstr ""
+msgstr "Дашборд электронной таблицы по мероприятиям"
 
 #. module: spreadsheet_dashboard_event_sale
 #. odoo-javascript

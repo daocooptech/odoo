@@ -29,7 +29,7 @@ msgstr ""
 msgid ""
 "\n"
 "This module allows a customer to give rating.\n"
-msgstr ""
+msgstr "\nЭтот модуль позволяет клиенту ставить оценку.\n"
 
 #. module: rating
 #: model_terms:ir.ui.view,arch_db:rating.rating_external_page_invalid_partner
@@ -109,7 +109,7 @@ msgstr "Клиент"
 #. module: rating
 #: model:ir.module.module,shortdesc:base.module_rating
 msgid "Customer Rating"
-msgstr ""
+msgstr "Оценка клиента"
 
 #. module: rating
 #: model:ir.model.fields,field_description:rating.field_mail_message__display_name

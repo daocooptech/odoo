@@ -30,7 +30,7 @@ msgid ""
 "\n"
 "This is the base module for managing Units of measure.\n"
 "========================================================================\n"
-msgstr ""
+msgstr "\nЭто базовый модуль для управления единицами измерения.\n========================================================================\n"
 
 #. module: uom
 #: model:ir.model.fields,field_description:uom.field_uom_uom__factor
@@ -40,7 +40,7 @@ msgstr "Абсолютное количество"
 #. module: uom
 #: model:ir.model,name:uom.model_res_groups
 msgid "Access Groups"
-msgstr ""
+msgstr "Группы доступа"
 
 #. module: uom
 #: model:ir.model.fields,field_description:uom.field_uom_uom__active
@@ -269,7 +269,7 @@ msgstr "Единицы измерения"
 #. module: uom
 #: model:ir.module.module,shortdesc:base.module_uom
 msgid "Units of measure"
-msgstr ""
+msgstr "Единицы измерения"
 
 #. module: uom
 #. odoo-javascript
@@ -386,7 +386,7 @@ msgstr "qt (США)"
 #. module: uom
 #: model:uom.uom,name:uom.product_uom_ton
 msgid "t"
-msgstr ""
+msgstr "т"
 
 #. module: uom
 #: model:uom.uom,name:uom.product_uom_yard

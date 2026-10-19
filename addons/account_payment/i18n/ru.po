@@ -158,12 +158,12 @@ msgstr "Для создания новой платежной транзакци
 #. module: account_payment
 #: model_terms:ir.ui.view,arch_db:account_payment.payment_transaction_form
 msgid "Accounting"
-msgstr ""
+msgstr "Бухгалтерия"
 
 #. module: account_payment
 #: model_terms:ir.ui.view,arch_db:account_payment.payment_provider_form
 msgid "All Pricelists"
-msgstr ""
+msgstr "Все прайс-листы"
 
 #. module: account_payment
 #: model_terms:ir.ui.view,arch_db:account_payment.portal_invoice_payment
@@ -184,7 +184,7 @@ msgstr "Сумма к оплате"
 #. module: account_payment
 #: model_terms:ir.ui.view,arch_db:account_payment.portal_invoice_payment
 msgid "Amount of"
-msgstr ""
+msgstr "Сумма"
 
 #. module: account_payment
 #: model:ir.model.fields,field_description:account_payment.field_account_bank_statement_line__amount_paid
@@ -292,7 +292,7 @@ msgstr "Скидка за досрочную оплату в размере"
 msgid ""
 "Enable customers to pay invoices on the portal and post payments when "
 "transactions are processed."
-msgstr ""
+msgstr "Позволяет клиентам оплачивать счета в личном кабинете и проводить платежи при обработке транзакций."
 
 #. module: account_payment
 #: model:ir.model.fields.selection,name:account_payment.selection__payment_refund_wizard__support_refund__full_only
@@ -439,7 +439,7 @@ msgstr "Онлайн-оплата не включена в настройках.
 msgid ""
 "Only allow this payment provider when the partner's pricelist matches one of "
 "these."
-msgstr ""
+msgstr "Разрешать этого платёжного провайдера, только если прайс-лист партнёра совпадает с одним из этих."
 
 #. module: account_payment
 #. odoo-python
@@ -506,7 +506,7 @@ msgstr "Платеж"
 #. module: account_payment
 #: model:ir.module.module,shortdesc:base.module_account_payment
 msgid "Payment - Account"
-msgstr ""
+msgstr "Платёж: бухгалтерия"
 
 #. module: account_payment
 #: model:ir.model.fields,field_description:account_payment.field_payment_refund_wizard__payment_amount
@@ -521,12 +521,12 @@ msgstr "Журнал платежей"
 #. module: account_payment
 #: model:ir.model,name:account_payment.model_account_payment_method
 msgid "Payment Method"
-msgstr ""
+msgstr "Способ оплаты"
 
 #. module: account_payment
 #: model:ir.model,name:account_payment.model_account_payment_method_line
 msgid "Payment Method Line"
-msgstr ""
+msgstr "Строка способа оплаты"
 
 #. module: account_payment
 #: model:ir.model,name:account_payment.model_payment_provider
@@ -556,7 +556,7 @@ msgstr "Пожалуйста, войдите в систему, чтобы оп�
 #. module: account_payment
 #: model:ir.model.fields,field_description:account_payment.field_payment_provider__available_pricelist_ids
 msgid "Pricelists"
-msgstr ""
+msgstr "Прайс-листы"
 
 #. module: account_payment
 #. odoo-python
@@ -757,7 +757,7 @@ msgstr "Аннулировать транзакцию"
 msgid ""
 "You can't delete a payment method that is linked to an installed provider.\n"
 "Linked providers(s): %s"
-msgstr ""
+msgstr "Нельзя удалить способ оплаты, связанный с установленным провайдером.\nСвязанные провайдеры: %s"
 
 #. module: account_payment
 #. odoo-python
@@ -775,12 +775,12 @@ msgstr ""
 msgid ""
 "You must first uninstall a payment provider before deleting its journal.\n"
 "Linked providers: %s"
-msgstr ""
+msgstr "Прежде чем удалять журнал, нужно удалить платёжного провайдера.\nСвязанные провайдеры: %s"
 
 #. module: account_payment
 #: model_terms:ir.ui.view,arch_db:account_payment.payment_status
 msgid "Your order is being processed."
-msgstr ""
+msgstr "Ваш заказ обрабатывается."
 
 #. module: account_payment
 #. odoo-javascript
@@ -802,7 +802,7 @@ msgstr "было применено."
 #. module: account_payment
 #: model_terms:ir.ui.view,arch_db:account_payment.portal_invoice_payment
 msgid "is already paid on this invoice, please make sure to not pay twice."
-msgstr ""
+msgstr "уже оплачен по этому счёту, не оплачивайте повторно."
 
 #. module: account_payment
 #: model_terms:ir.ui.view,arch_db:account_payment.portal_my_invoices_payment
@@ -813,4 +813,4 @@ msgstr "просрочен"
 #. odoo-python
 #: code:addons/account_payment/models/payment_provider.py:0
 msgid "pricelist not allowed"
-msgstr ""
+msgstr "прайс-лист не разрешён"

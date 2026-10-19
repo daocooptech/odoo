@@ -99,7 +99,7 @@ msgstr "Категория"
 #: code:addons/spreadsheet_dashboard_sale/data/files/product_dashboard.json:0
 #: code:addons/spreadsheet_dashboard_sale/data/files/sales_dashboard.json:0
 msgid "Company"
-msgstr ""
+msgstr "Компания"
 
 #. module: spreadsheet_dashboard_sale
 #. odoo-javascript
@@ -137,7 +137,7 @@ msgstr "KPI"
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_sale/data/files/sales_dashboard.json:0
 msgid "Map"
-msgstr ""
+msgstr "Карта"
 
 #. module: spreadsheet_dashboard_sale
 #. odoo-javascript
@@ -162,14 +162,14 @@ msgstr "Имя"
 #: code:addons/spreadsheet_dashboard_sale/data/files/product_dashboard.json:0
 #: code:addons/spreadsheet_dashboard_sale/data/files/sales_dashboard.json:0
 msgid "Order"
-msgstr ""
+msgstr "Заказ"
 
 #. module: spreadsheet_dashboard_sale
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_sale/data/files/product_dashboard.json:0
 #: code:addons/spreadsheet_dashboard_sale/data/files/sales_dashboard.json:0
 msgid "Order Date"
-msgstr ""
+msgstr "Дата заказа"
 
 #. module: spreadsheet_dashboard_sale
 #. odoo-javascript
@@ -204,7 +204,7 @@ msgstr "Товар"
 #: code:addons/spreadsheet_dashboard_sale/data/files/product_dashboard.json:0
 #: code:addons/spreadsheet_dashboard_sale/data/files/sales_dashboard.json:0
 msgid "Qty Ordered"
-msgstr ""
+msgstr "Заказано, кол-во"
 
 #. module: spreadsheet_dashboard_sale
 #. odoo-javascript
@@ -255,19 +255,19 @@ msgstr "Источник"
 #: model:ir.module.module,description:base.module_spreadsheet_dashboard_sale
 #: model:ir.module.module,summary:base.module_spreadsheet_dashboard_sale
 msgid "Spreadsheet"
-msgstr ""
+msgstr "Электронная таблица"
 
 #. module: spreadsheet_dashboard_sale
 #: model:ir.module.module,shortdesc:base.module_spreadsheet_dashboard_sale
 msgid "Spreadsheet dashboard for sales"
-msgstr ""
+msgstr "Дашборд электронной таблицы по продажам"
 
 #. module: spreadsheet_dashboard_sale
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_sale/data/files/sales_dashboard.json:0
 #: code:addons/spreadsheet_dashboard_sale/data/files/sales_sample_dashboard.json:0
 msgid "Top 50"
-msgstr ""
+msgstr "Топ-50"
 
 #. module: spreadsheet_dashboard_sale
 #. odoo-javascript
@@ -314,7 +314,7 @@ msgstr "Лучшие команды по продажам"
 #: code:addons/spreadsheet_dashboard_sale/data/files/sales_dashboard.json:0
 #: code:addons/spreadsheet_dashboard_sale/data/files/sales_sample_dashboard.json:0
 msgid "Top Salesperson"
-msgstr ""
+msgstr "Лучший продавец"
 
 #. module: spreadsheet_dashboard_sale
 #. odoo-javascript
@@ -328,7 +328,7 @@ msgstr "Лучшие источники"
 #: code:addons/spreadsheet_dashboard_sale/data/files/product_dashboard.json:0
 #: code:addons/spreadsheet_dashboard_sale/data/files/sales_dashboard.json:0
 msgid "Total"
-msgstr ""
+msgstr "Итого"
 
 #. module: spreadsheet_dashboard_sale
 #. odoo-javascript
@@ -347,7 +347,7 @@ msgstr "Всего коммерческих предложений"
 #: code:addons/spreadsheet_dashboard_sale/data/files/product_dashboard.json:0
 #: code:addons/spreadsheet_dashboard_sale/data/files/sales_dashboard.json:0
 msgid "Unit Price"
-msgstr ""
+msgstr "Цена за единицу"
 
 #. module: spreadsheet_dashboard_sale
 #. odoo-javascript
@@ -359,7 +359,7 @@ msgstr "Единицы"
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_sale/data/files/product_dashboard.json:0
 msgid "Untaxed Total"
-msgstr ""
+msgstr "Итого без налога"
 
 #. module: spreadsheet_dashboard_sale
 #. odoo-javascript

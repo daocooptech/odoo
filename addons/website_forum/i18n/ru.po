@@ -29,7 +29,7 @@ msgstr ""
 msgid ""
 "\n"
 "Ask questions, get answers, no distractions\n"
-msgstr ""
+msgstr "\nЗадавайте вопросы, получайте ответы, без отвлекающих факторов\n"
 
 #. module: website_forum
 #. odoo-javascript
@@ -57,7 +57,7 @@ msgstr "# Избранное"
 #. module: website_forum
 #: model:ir.model.fields,field_description:website_forum.field_forum_forum__total_posts
 msgid "# Posts"
-msgstr "# Posts"
+msgstr "# публикаций"
 
 #. module: website_forum
 #: model:ir.model.fields,field_description:website_forum.field_forum_forum__total_views
@@ -196,7 +196,7 @@ msgstr "%d карма, необходимая для снятия ссылки �
 #. odoo-python
 #: code:addons/website_forum/models/forum_post.py:0
 msgid "%d karma required to update a flagged post."
-msgstr ""
+msgstr "Для обновления отмеченной публикации требуется %d кармы."
 
 #. module: website_forum
 #. odoo-python
@@ -214,19 +214,19 @@ msgstr "%d карма, необходимая для проверки сообщ
 #. odoo-python
 #: code:addons/website_forum/models/forum_post_comment.py:0
 msgid "%i karma required to comment."
-msgstr ""
+msgstr "Для комментирования требуется %i кармы."
 
 #. module: website_forum
 #. odoo-python
 #: code:addons/website_forum/models/forum_post_comment.py:0
 msgid "%i karma required to delete a comment."
-msgstr ""
+msgstr "Для удаления комментария требуется %i кармы."
 
 #. module: website_forum
 #. odoo-python
 #: code:addons/website_forum/models/forum_post_comment.py:0
 msgid "%i karma required to edit a comment."
-msgstr ""
+msgstr "Для редактирования комментария требуется %i кармы."
 
 #. module: website_forum
 #: model_terms:ir.ui.view,arch_db:website_forum.forum_index_tags
@@ -459,7 +459,7 @@ msgstr "<i class=\"oi d-inline-block\" data-icon=\"east\"/> Перейти к ф
 msgid ""
 "<i class=\"oi display-inline-block\" data-icon=\"east\"/> Return to "
 "questions list"
-msgstr ""
+msgstr "<i class=\"oi display-inline-block\" data-icon=\"east\"/> Вернуться к списку вопросов"
 
 #. module: website_forum
 #: model_terms:ir.ui.view,arch_db:website_forum.display_post
@@ -692,7 +692,7 @@ msgstr ""
 msgid ""
 "<i class=\"oi\" data-icon=\"more_horiz\" data-bs-toggle=\"tooltip\" data-bs-"
 "placement=\"top\" title=\"More\"/>"
-msgstr ""
+msgstr "<i class=\"oi\" data-icon=\"more_horiz\" data-bs-toggle=\"tooltip\" data-bs-placement=\"top\" title=\"Ещё\"/>"
 
 #. module: website_forum
 #: model_terms:ir.ui.view,arch_db:website_forum.moderation_queue
@@ -946,7 +946,7 @@ msgstr "Все"
 #. odoo-javascript
 #: code:addons/website_forum/static/src/website_builder/forum_floating_snippets_plugin.js:0
 msgid "All Forums"
-msgstr ""
+msgstr "Все форумы"
 
 #. module: website_forum
 #: model_terms:ir.ui.view,arch_db:website_forum.user_sidebar_body
@@ -997,7 +997,7 @@ msgstr "Ответ принят 15 и более голосами"
 #. odoo-python
 #: code:addons/website_forum/models/forum_post.py:0
 msgid "Answer converted to comment in \"%s\""
-msgstr ""
+msgstr "Ответ преобразован в комментарий в «%s»"
 
 #. module: website_forum
 #: model:ir.model.fields,field_description:website_forum.field_forum_forum__karma_gen_answer_downvote
@@ -1247,7 +1247,7 @@ msgstr "Лучший ответ"
 #. module: website_forum
 #: model:ir.model.fields,field_description:website_forum.field_forum_post_comment__body
 msgid "Body"
-msgstr ""
+msgstr "Текст"
 
 #. module: website_forum
 #. odoo-javascript
@@ -1334,13 +1334,13 @@ msgstr "Можно просматривать"
 #. odoo-python
 #: code:addons/website_forum/models/forum_post_comment.py:0
 msgid "Cannot change the post of a comment."
-msgstr ""
+msgstr "Нельзя изменить публикацию, к которой относится комментарий."
 
 #. module: website_forum
 #. odoo-python
 #: code:addons/website_forum/models/forum_post.py:0
 msgid "Cannot convert a question to a comment"
-msgstr ""
+msgstr "Нельзя преобразовать вопрос в комментарий"
 
 #. module: website_forum
 #: model:ir.model.fields,field_description:website_forum.field_forum_forum__karma_edit_retag
@@ -1351,7 +1351,7 @@ msgstr "Изменить тег вопроса"
 #. odoo-javascript
 #: code:addons/website_forum/static/src/js/tours/website_forum.js:0
 msgid "Check edit button is there"
-msgstr ""
+msgstr "Убедитесь, что кнопка редактирования на месте"
 
 #. module: website_forum
 #: model:gamification.badge,name:website_forum.badge_p_4
@@ -1413,13 +1413,13 @@ msgstr "Закрыть пост"
 #. odoo-javascript
 #: code:addons/website_forum/static/src/js/tours/website_forum.js:0
 msgid "Close search bar"
-msgstr ""
+msgstr "Закрыть строку поиска"
 
 #. module: website_forum
 #. odoo-javascript
 #: code:addons/website_forum/static/src/js/tours/website_forum.js:0
 msgid "Close this dialog."
-msgstr ""
+msgstr "Закрыть это окно."
 
 #. module: website_forum
 #: model:ir.model.fields.selection,name:website_forum.selection__forum_post__state__close
@@ -1488,7 +1488,7 @@ msgstr "Комментатор"
 #. module: website_forum
 #: model:ir.model.fields,field_description:website_forum.field_forum_post__comment_ids
 msgid "Comments"
-msgstr ""
+msgstr "Комментарии"
 
 #. module: website_forum
 #: model_terms:ir.ui.view,arch_db:website_forum.forum_all_oe_structure_forum_all_top
@@ -1520,7 +1520,7 @@ msgstr "Содержание"
 #. module: website_forum
 #: model:ir.model.fields,field_description:website_forum.field_forum_post__write_date_content
 msgid "Content Updated on"
-msgstr ""
+msgstr "Контент обновлён"
 
 #. module: website_forum
 #: model:ir.model.fields,field_description:website_forum.field_forum_forum__karma_comment_convert_all
@@ -1634,7 +1634,7 @@ msgstr "Достоверный вопрос"
 #: model:gamification.challenge,name:website_forum.challenge_critic
 #: model:gamification.goal.definition,name:website_forum.definition_critic
 msgid "Critic"
-msgstr "Critic"
+msgstr "Критик"
 
 #. module: website_forum
 #. odoo-javascript
@@ -1795,7 +1795,7 @@ msgstr "Уменьшение голосов за размещение оскор
 #. module: website_forum
 #: model_terms:ir.ui.view,arch_db:website_forum.header
 msgid "Drag blocks here to add them on all forum"
-msgstr ""
+msgstr "Перетащите блоки сюда, чтобы добавить их на все форумы"
 
 #. module: website_forum
 #: model:forum.post.reason,name:website_forum.reason_1
@@ -1857,7 +1857,7 @@ msgstr "Особенности редактора: изображение и с�
 #. module: website_forum
 #: model:ir.model,name:website_forum.model_mail_thread
 msgid "Email Thread"
-msgstr ""
+msgstr "Цепочка писем"
 
 #. module: website_forum
 #: model_terms:ir.ui.view,arch_db:website_forum.no_results_message
@@ -2098,7 +2098,7 @@ msgstr "Сообщение форума"
 #. module: website_forum
 #: model:ir.model,name:website_forum.model_forum_post_comment
 msgid "Forum Post Comment"
-msgstr ""
+msgstr "Комментарий к публикации форума"
 
 #. module: website_forum
 #: model:ir.actions.act_window,name:website_forum.forum_post_action
@@ -2229,12 +2229,12 @@ msgstr "Гуру (15)"
 #. module: website_forum
 #: model:ir.model,name:website_forum.model_ir_http
 msgid "HTTP Routing"
-msgstr ""
+msgstr "HTTP-маршрутизация"
 
 #. module: website_forum
 #: model:ir.model.fields,field_description:website_forum.field_forum_forum__can_access
 msgid "Has Access"
-msgstr ""
+msgstr "Есть доступ"
 
 #. module: website_forum
 #: model:ir.model.fields,field_description:website_forum.field_forum_post__uid_has_answered
@@ -2541,7 +2541,7 @@ msgstr "Список"
 #. module: website_forum
 #: model:ir.module.module,summary:base.module_website_forum
 msgid "Manage a forum with FAQ and Q&A"
-msgstr ""
+msgstr "Ведите форум с ЧаВо и вопросами и ответами"
 
 #. module: website_forum
 #: model_terms:ir.ui.view,arch_db:website_forum.post_display
@@ -2669,7 +2669,7 @@ msgstr "Новый ответ"
 #: model:mail.message.subtype,description:website_forum.mt_comment_new
 #: model:mail.message.subtype,name:website_forum.mt_comment_new
 msgid "New Comment"
-msgstr ""
+msgstr "Новый комментарий"
 
 #. module: website_forum
 #: model:ir.actions.act_window,name:website_forum.forum_forum_action_add
@@ -2694,7 +2694,7 @@ msgstr "Новый вопрос"
 #. odoo-python
 #: code:addons/website_forum/models/forum_post_comment.py:0
 msgid "New comment in %s"
-msgstr ""
+msgstr "Новый комментарий в %s"
 
 #. module: website_forum
 #: model:ir.model.fields.selection,name:website_forum.selection__forum_forum__default_order__create_date_desc
@@ -2968,7 +2968,7 @@ msgstr "Размещение ответа на вопрос [Удален] ил�
 #. odoo-python
 #: code:addons/website_forum/models/forum_post.py:0
 msgid "Posting answer on a [Flagged] question is not possible."
-msgstr ""
+msgstr "Нельзя опубликовать ответ на вопрос с пометкой [Отмечено]."
 
 #. module: website_forum
 #: model:ir.actions.act_window,name:website_forum.forum_post_action_forum_main
@@ -3036,7 +3036,7 @@ msgstr "Вопрос %s"
 #: model:mail.message.subtype,description:website_forum.mt_ask_validation
 #: model:mail.message.subtype,name:website_forum.mt_ask_validation
 msgid "Question Ask Validation"
-msgstr ""
+msgstr "Проверка вопроса при публикации"
 
 #. module: website_forum
 #. odoo-python
@@ -3310,7 +3310,7 @@ msgstr "Второй параметр релевантности"
 #. module: website_forum
 #: model_terms:ir.ui.view,arch_db:website_forum.forum_post_template_new_answer
 msgid "See answer"
-msgstr ""
+msgstr "Смотреть ответ"
 
 #. module: website_forum
 #. odoo-python
@@ -3332,13 +3332,13 @@ msgstr "Выбрать все"
 #. odoo-javascript
 #: code:addons/website_forum/static/src/js/tours/website_forum.js:0
 msgid "Select a forum to post your question in."
-msgstr ""
+msgstr "Выберите форум, в котором опубликовать ваш вопрос."
 
 #. module: website_forum
 #. odoo-javascript
 #: code:addons/website_forum/static/src/js/tours/website_forum.js:0
 msgid "Select found select menu item"
-msgstr ""
+msgstr "Выберите найденный пункт меню"
 
 #. module: website_forum
 #: model:gamification.badge,name:website_forum.badge_a_8
@@ -3568,14 +3568,14 @@ msgstr "Принятый ответ удаляется"
 #: model:ir.model.fields,help:website_forum.field_forum_post__website_absolute_url
 #: model:ir.model.fields,help:website_forum.field_forum_tag__website_absolute_url
 msgid "The full absolute URL to access the document through the website."
-msgstr ""
+msgstr "Полный абсолютный URL для доступа к документу через сайт."
 
 #. module: website_forum
 #: model:ir.model.fields,help:website_forum.field_forum_forum__website_url
 #: model:ir.model.fields,help:website_forum.field_forum_post__website_url
 #: model:ir.model.fields,help:website_forum.field_forum_tag__website_url
 msgid "The full relative URL to access the document through the website."
-msgstr ""
+msgstr "Полный относительный URL для доступа к документу через сайт."
 
 #. module: website_forum
 #: model_terms:forum.forum,faq:website_forum.forum_help
@@ -3975,7 +3975,7 @@ msgstr "Сайт / Форум"
 #: model:ir.model.fields,field_description:website_forum.field_forum_post__website_absolute_url
 #: model:ir.model.fields,field_description:website_forum.field_forum_tag__website_absolute_url
 msgid "Website Absolute URL"
-msgstr ""
+msgstr "Абсолютный URL сайта"
 
 #. module: website_forum
 #: model:ir.model.fields,field_description:website_forum.field_forum_forum__website_url
@@ -4058,7 +4058,7 @@ msgstr "У вас уже есть отложенное сообщение"
 #. odoo-python
 #: code:addons/website_forum/models/forum_post.py:0
 msgid "You can post only one answer."
-msgstr ""
+msgstr "Вы можете опубликовать только один ответ."
 
 #. module: website_forum
 #. odoo-javascript
@@ -4254,7 +4254,7 @@ msgstr "по причине:"
 msgid ""
 "has been posted and requires your validation. Click here to access the "
 "question :"
-msgstr ""
+msgstr "опубликован и требует вашей проверки. Нажмите здесь, чтобы перейти к вопросу :"
 
 #. module: website_forum
 #: model_terms:ir.ui.view,arch_db:website_forum.forum_post_template_new_question
@@ -4264,7 +4264,7 @@ msgstr "был опубликован. Нажмите здесь, чтобы п�
 #. module: website_forum
 #: model_terms:ir.ui.view,arch_db:website_forum.forum_post_template_new_answer
 msgid "has been posted. Click here to access the question:"
-msgstr ""
+msgstr "опубликован. Нажмите здесь, чтобы перейти к вопросу:"
 
 #. module: website_forum
 #. odoo-javascript

@@ -39,7 +39,7 @@ msgid ""
 " * Test knowledge with quizzes\n"
 " * Filter and Tag\n"
 " * Statistics\n"
-msgstr ""
+msgstr "\nСоздание онлайн-курсов\n=====================\n\nВозможности\n\n * Встроенное управление курсами и уроками\n * Полноэкранная навигация\n * Поддержка видео YouTube, документов Google, PDF, изображений, статей\n * Проверка знаний с помощью тестов\n * Фильтры и теги\n * Статистика\n"
 
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_channel__members_engaged_count
@@ -364,7 +364,7 @@ msgid ""
 "                    </div>\n"
 "                </div>\n"
 "            "
-msgstr ""
+msgstr "<div style=\"margin: 0px; padding: 0px;\">\n                    <div style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n                        <p style=\"margin: 0px;\">Здравствуйте, <t t-out=\"object.partner_id.name or ''\">Brandon Freeman</t>,</p><br/>\n                        <p><b>Поздравляем!</b></p>\n                        <p>Вы прошли курс <b t-out=\"object.channel_id.name or ''\">Basics of Gardening</b></p>\n                        <p>Посмотрите другие доступные курсы.</p><br/>\n\n                        <div style=\"padding: 16px 8px 16px 8px; text-align: center;\">\n                            <a href=\"/slides\" t-attf-style=\"background-color: {{object.channel_id.user_id.company_id.email_secondary_color or '#875A7B'}}; padding: 8px 16px 8px 16px; text-decoration: none; color: {{object.channel_id.user_id.company_id.email_primary_color or '#FFFFFF'}}; border-radius: 5px;\">\n                                Посмотреть курсы\n                            </a>\n                        </div>\n                        Наслаждайтесь этим эксклюзивным контентом!\n                        <t t-if=\"object.channel_id.user_id.signature\">\n                            <br/>\n                            <div data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/><t t-out=\"object.channel_id.user_id.signature or ''\">Mitchell Admin</t></div>\n                        </t>\n                    </div>\n                </div>\n            "
 
 #. module: website_slides
 #: model:mail.template,body_html:website_slides.mail_template_channel_shared
@@ -642,7 +642,7 @@ msgstr "<i class=\"oi me-1\" data-icon=\"public\" title=\"Вебсайт\"/>"
 msgid ""
 "<i class=\"oi me-2 text-muted\" data-icon=\"label\"/>\n"
 "          My Courses"
-msgstr ""
+msgstr "<i class=\"oi me-2 text-muted\" data-icon=\"label\"/>\n          Мои курсы"
 
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.lesson_content_quiz_add_buttons
@@ -769,7 +769,7 @@ msgstr "<i class=\"oi oi-filled text-warning\" data-icon=\"flag\"/> Виктор
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.slide_content_detailed
 msgid "<i class=\"oi oi-filled\" data-icon=\"forum\"/> Comments"
-msgstr ""
+msgstr "<i class=\"oi oi-filled\" data-icon=\"forum\"/> Комментарии"
 
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.embed_slide
@@ -795,7 +795,7 @@ msgstr "<i class=\"oi\" data-icon=\"bar_chart\"/> Статистика"
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.course_card
 msgid "<i class=\"oi\" data-icon=\"check\" aria-hidden=\"true\"/> Completed"
-msgstr ""
+msgstr "<i class=\"oi\" data-icon=\"check\" aria-hidden=\"true\"/> Завершено"
 
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.course_join
@@ -889,7 +889,7 @@ msgstr ""
 msgid ""
 "<small class=\"text-muted d-none d-md-inline\"><i class=\"oi me-1\" data-"
 "icon=\"check\" role=\"img\"/>You are enrolled</small>"
-msgstr ""
+msgstr "<small class=\"text-muted d-none d-md-inline\"><i class=\"oi me-1\" data-icon=\"check\" role=\"img\"/>Вы записаны</small>"
 
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.course_join
@@ -961,7 +961,7 @@ msgstr ""
 msgid ""
 "<span class=\"d-none d-md-inline me-2 me-md-0\">Start now</span><i "
 "class=\"oi d-md-none\" data-icon=\"east\" aria-hidden=\"true\"/>"
-msgstr ""
+msgstr "<span class=\"d-none d-md-inline me-2 me-md-0\">Начать</span><i class=\"oi d-md-none\" data-icon=\"east\" aria-hidden=\"true\"/>"
 
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.slide_content_detailed
@@ -982,7 +982,7 @@ msgstr "<span class=\"fw-normal\">Последнее обновление:</span
 msgid ""
 "<span class=\"me-2 d-none d-md-inline\">Continue</span><i class=\"oi\" data-"
 "icon=\"east\" aria-hidden=\"true\"/>"
-msgstr ""
+msgstr "<span class=\"me-2 d-none d-md-inline\">Продолжить</span><i class=\"oi\" data-icon=\"east\" aria-hidden=\"true\"/>"
 
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.course_slides_list
@@ -1013,7 +1013,7 @@ msgstr "<span class=\"o_stat_text\">Встраивание просмотров<
 msgid ""
 "<span class=\"oi\" data-icon=\"east\"/>\n"
 "                                        Create a Google Project and Get a Key"
-msgstr ""
+msgstr "<span class=\"oi\" data-icon=\"east\"/>\n                                        Создайте проект Google и получите ключ"
 
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.slide_aside_training
@@ -1408,7 +1408,7 @@ msgstr "Уровни доступа"
 #. module: website_slides
 #: model:portal.entry,description:website_slides.portal_slides_client
 msgid "Access all your e-learning courses"
-msgstr ""
+msgstr "Доступ ко всем вашим онлайн-курсам"
 
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.slide_slide_partner_view_tree
@@ -1626,7 +1626,7 @@ msgid ""
 "                            <i class=\"oi\" data-icon=\"arrow_forward\"/> "
 "Start Learning\n"
 "                        </a>"
-msgstr ""
+msgstr "Все курсы, которые вы проходите, появятся здесь. <br/>\n                        <a href=\"/slides/\" class=\"btn-link o_translate_inline\">\n                            <i class=\"oi\" data-icon=\"arrow_forward\"/> Начать обучение\n                        </a>"
 
 #. module: website_slides
 #: model_terms:slide.channel,description:website_slides.slide_channel_demo_5_furn2
@@ -2650,7 +2650,7 @@ msgstr "Тип курса"
 #: model:ir.model.fields,field_description:website_slides.field_website_visitor__visitor_slide_channel_count
 #: model_terms:ir.ui.view,arch_db:website_slides.website_slides_visitor_view_form
 msgid "Course Views"
-msgstr ""
+msgstr "Просмотры курсов"
 
 #. module: website_slides
 #: model:ir.actions.act_window,name:website_slides.website_slides_visitor_slide_channel_action
@@ -3173,7 +3173,7 @@ msgstr "Elearning: Приглашение на рекламный курс"
 #: model:ir.model.fields,field_description:website_slides.field_slide_channel_partner__partner_email
 #: model_terms:ir.ui.view,arch_db:website_slides.slide_channel_partner_view_tree
 msgid "Email"
-msgstr "Email"
+msgstr "Эл. почта"
 
 #. module: website_slides
 #: model:ir.model.fields,help:website_slides.field_slide_channel__share_channel_template_id
@@ -4091,7 +4091,7 @@ msgstr "Просто некоторые основы инфографики о �
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.view_slide_channel_form
 msgid "Karma"
-msgstr "Karma"
+msgstr "Карма"
 
 #. module: website_slides
 #: model:ir.model.fields,help:website_slides.field_slide_channel__karma_slide_comment
@@ -4138,12 +4138,12 @@ msgstr ""
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_digest_digest__kpi_nbr_of_certified_attendees_value
 msgid "Kpi Nbr Of Certified Attendees Value"
-msgstr ""
+msgstr "Значение KPI: число сертифицированных участников"
 
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_digest_digest__kpi_nbr_of_new_attendees_value
 msgid "Kpi Nbr Of New Attendees Value"
-msgstr ""
+msgstr "Значение KPI: число новых участников"
 
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_channel_invite__lang
@@ -4216,7 +4216,7 @@ msgstr "Последние достижения"
 #. module: website_slides
 #: model:website.snippet.filter,name:website_slides.dynamic_filter_latest_courses
 msgid "Latest eLearning Courses"
-msgstr ""
+msgstr "Новые онлайн-курсы"
 
 #. module: website_slides
 #. odoo-javascript
@@ -4244,7 +4244,7 @@ msgstr "Изучите основы садоводства!"
 #. module: website_slides
 #: model_terms:slide.slide,description:website_slides.slide_slide_demo_5_1
 msgid "Learn to identify quality wood in order to create solid furniture."
-msgstr ""
+msgstr "Научитесь отличать качественную древесину, чтобы создавать прочную мебель."
 
 #. module: website_slides
 #. odoo-javascript
@@ -4361,7 +4361,7 @@ msgstr "Основные категории деревьев"
 #. module: website_slides
 #: model:ir.module.module,summary:base.module_website_slides
 msgid "Manage and publish an eLearning platform"
-msgstr ""
+msgstr "Управляйте платформой онлайн-обучения и публикуйте на ней курсы"
 
 #. module: website_slides
 #: model:res.groups,name:website_slides.group_website_slides_manager
@@ -4403,7 +4403,7 @@ msgstr "Отметьте правильный ответ, поставив <b>г
 #. module: website_slides
 #: model:ir.model.fields,help:website_slides.field_slide_channel__activity_type_icon
 msgid "Material Symbols icon e.g. checklist"
-msgstr ""
+msgstr "Значок Material Symbols, например checklist"
 
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.course_sidebar
@@ -4674,7 +4674,7 @@ msgstr "По вашему запросу контент не найден"
 #. module: website_slides
 #: model_terms:ir.actions.act_window,help:website_slides.website_slides_visitor_slide_channel_action
 msgid "No course views yet for this visitor"
-msgstr ""
+msgstr "У этого посетителя пока нет просмотров курсов"
 
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.courses_search_results
@@ -4730,7 +4730,7 @@ msgstr "Не опубликовано"
 #: model:ir.model.fields.selection,name:website_slides.selection__slide_channel_partner__member_status__joined
 #: model_terms:ir.ui.view,arch_db:website_slides.slide_channel_partner_view_search
 msgid "Not Started"
-msgstr ""
+msgstr "Не начат"
 
 #. module: website_slides
 #. odoo-python
@@ -5802,12 +5802,12 @@ msgstr "Слайд / Партнер украсил m2m"
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_website_track__slide_channel_id
 msgid "Slide Channel"
-msgstr ""
+msgstr "Канал слайдов"
 
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_slide__slide_icon_class
 msgid "Slide Icon oi-class"
-msgstr ""
+msgstr "Класс значка слайда (oi)"
 
 #. module: website_slides
 #: model:ir.model,name:website_slides.model_slide_answer
@@ -6381,7 +6381,7 @@ msgstr "Всего просмотров"
 #. module: website_slides
 #: model:ir.model.fields,help:website_slides.field_website_visitor__visitor_slide_channel_count
 msgid "Total number of views on courses"
-msgstr ""
+msgstr "Общее число просмотров курсов"
 
 #. module: website_slides
 #: model:ir.model,name:website_slides.model_gamification_karma_tracking
@@ -6649,7 +6649,7 @@ msgstr "Посмотреть курс"
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.dynamic_filter_template_slide_channel_card
 msgid "View {{0}}"
-msgstr ""
+msgstr "Посмотреть {{0}}"
 
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.slide_channel_view_kanban
@@ -6690,12 +6690,12 @@ msgstr "Видимый на текущем веб-сайте"
 #. module: website_slides
 #: model:ir.model,name:website_slides.model_website_track
 msgid "Visited Page"
-msgstr ""
+msgstr "Посещённая страница"
 
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.website_slides_visitor_page_view_tree
 msgid "Visitor Course Views History"
-msgstr ""
+msgstr "История просмотров курсов посетителем"
 
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_channel__total_views
@@ -6775,7 +6775,7 @@ msgstr "Адрес сайта"
 #. module: website_slides
 #: model:ir.model,name:website_slides.model_website_visitor
 msgid "Website Visitor"
-msgstr ""
+msgstr "Посетитель сайта"
 
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_channel__website_meta_description
@@ -7358,7 +7358,7 @@ msgstr "например, \"Ваш уровень"
 #: model_terms:ir.ui.view,arch_db:website_slides.digest_digest_view_form
 #: model_terms:ir.ui.view,arch_db:website_slides.res_config_settings_view_form
 msgid "eLearning"
-msgstr "eLearning"
+msgstr "Онлайн-обучение"
 
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_res_partner__slide_channel_ids

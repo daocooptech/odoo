@@ -44,7 +44,7 @@ msgstr "ID"
 #. module: project_stock
 #: model:ir.module.module,summary:base.module_project_stock
 msgid "Link Stock pickings to Project"
-msgstr ""
+msgstr "Связать складские отборы с проектом"
 
 #. module: project_stock
 #: model:ir.model,name:project_stock.model_project_project
@@ -55,7 +55,7 @@ msgstr "Проект"
 #. module: project_stock
 #: model:ir.module.module,shortdesc:base.module_project_stock
 msgid "Project Stock"
-msgstr ""
+msgstr "Проект: склад"
 
 #. module: project_stock
 #. odoo-python

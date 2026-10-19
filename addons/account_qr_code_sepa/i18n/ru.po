@@ -27,17 +27,17 @@ msgstr ""
 msgid ""
 "\n"
 "This module adds support for SEPA Credit Transfer QR-code generation.\n"
-msgstr ""
+msgstr "\nЭтот модуль добавляет поддержку создания QR-кодов для кредитового перевода SEPA.\n"
 
 #. module: account_qr_code_sepa
 #: model:ir.module.module,shortdesc:base.module_account_qr_code_sepa
 msgid "Account SEPA QR Code"
-msgstr ""
+msgstr "QR-код SEPA для счёта"
 
 #. module: account_qr_code_sepa
 #: model:ir.model,name:account_qr_code_sepa.model_res_partner_bank
 msgid "Bank Account"
-msgstr ""
+msgstr "Банковский счёт"
 
 #. module: account_qr_code_sepa
 #. odoo-python
@@ -60,7 +60,7 @@ msgstr "Невозможно сгенерировать QR-код SEPA с иба
 #. module: account_qr_code_sepa
 #: model:ir.model.fields,field_description:account_qr_code_sepa.field_res_partner_bank__display_name
 msgid "Display Name"
-msgstr "Display Name"
+msgstr "Отображаемое имя"
 
 #. module: account_qr_code_sepa
 #: model:ir.model.fields,field_description:account_qr_code_sepa.field_res_partner_bank__id

@@ -29,17 +29,17 @@ msgid ""
 "\n"
 "Allows to compute accurate margin for Service sales.\n"
 "======================================================\n"
-msgstr ""
+msgstr "\nПозволяет точно рассчитывать маржу по продажам услуг.\n======================================================\n"
 
 #. module: sale_timesheet_margin
 #: model:ir.module.module,summary:base.module_sale_timesheet_margin
 msgid "Bridge module between Sales Margin and Sales Timesheet"
-msgstr ""
+msgstr "Связующий модуль между маржой продаж и табелем продаж"
 
 #. module: sale_timesheet_margin
 #: model:ir.model.fields,field_description:sale_timesheet_margin.field_sale_order_line__display_name
 msgid "Display Name"
-msgstr "Display Name"
+msgstr "Отображаемое имя"
 
 #. module: sale_timesheet_margin
 #: model:ir.model.fields,field_description:sale_timesheet_margin.field_sale_order_line__id
@@ -54,4 +54,4 @@ msgstr "Позиция заказа на продажу"
 #. module: sale_timesheet_margin
 #: model:ir.module.module,shortdesc:base.module_sale_timesheet_margin
 msgid "Service Margins in Sales Orders"
-msgstr ""
+msgstr "Маржа услуг в заказах на продажу"

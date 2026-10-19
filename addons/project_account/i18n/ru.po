@@ -32,7 +32,7 @@ msgid ""
 "This module allows the computation of the 'Vendor Bills', 'Other Costs' and "
 "'Other Revenue' section for the project profitability, in the project update "
 "view.\n"
-msgstr ""
+msgstr "\nПозволяет рассчитывать некоторые разделы рентабельности проекта\n==================================================================================================\nЭтот модуль позволяет рассчитывать разделы «Счета поставщиков», «Прочие затраты» и «Прочая выручка» рентабельности проекта в представлении обновления проекта.\n"
 
 #. module: project_account
 #: model:ir.embedded.actions,name:project_account.project_embedded_action_analytic_items
@@ -58,9 +58,9 @@ msgstr "Проект"
 #. module: project_account
 #: model:ir.module.module,shortdesc:base.module_project_account
 msgid "Project - Account"
-msgstr ""
+msgstr "Проект: бухгалтерия"
 
 #. module: project_account
 #: model:ir.module.module,summary:base.module_project_account
 msgid "project profitability items computation"
-msgstr ""
+msgstr "расчёт показателей рентабельности проекта"

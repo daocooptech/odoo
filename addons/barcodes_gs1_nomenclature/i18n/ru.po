@@ -55,7 +55,7 @@ msgstr "Связанная единица измерения"
 #. module: barcodes_gs1_nomenclature
 #: model:ir.module.module,shortdesc:base.module_barcodes_gs1_nomenclature
 msgid "Barcode - GS1 Nomenclature"
-msgstr ""
+msgstr "Штрихкод: номенклатура GS1"
 
 #. module: barcodes_gs1_nomenclature
 #: model:ir.model,name:barcodes_gs1_nomenclature.model_barcode_nomenclature
@@ -92,7 +92,7 @@ msgstr "Место назначения"
 #: model:ir.model.fields,field_description:barcodes_gs1_nomenclature.field_barcode_rule__display_name
 #: model:ir.model.fields,field_description:barcodes_gs1_nomenclature.field_ir_http__display_name
 msgid "Display Name"
-msgstr "Display Name"
+msgstr "Отображаемое имя"
 
 #. module: barcodes_gs1_nomenclature
 #: model:ir.model.fields,field_description:barcodes_gs1_nomenclature.field_barcode_rule__encoding
@@ -195,7 +195,7 @@ msgstr "Тип размещения"
 #. module: barcodes_gs1_nomenclature
 #: model:ir.module.module,summary:base.module_barcodes_gs1_nomenclature
 msgid "Parse barcodes according to the GS1-128 specifications"
-msgstr ""
+msgstr "Разбор штрихкодов по спецификациям GS1-128"
 
 #. module: barcodes_gs1_nomenclature
 #: model:ir.model.fields.selection,name:barcodes_gs1_nomenclature.selection__barcode_rule__type__quantity

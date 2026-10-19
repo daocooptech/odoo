@@ -30,7 +30,7 @@ msgid ""
 "\n"
 "This is a base module. It holds website-related stuff for Contact model "
 "(res.partner).\n"
-msgstr ""
+msgstr "\nЭто базовый модуль. Он содержит связанные с сайтом элементы для модели контактов (res.partner).\n"
 
 #. module: website_partner
 #: model:ir.model,name:website_partner.model_res_partner
@@ -45,18 +45,18 @@ msgstr "Создать клиента"
 #. module: website_partner
 #: model:ir.model.fields,field_description:website_partner.field_res_partner__display_name
 msgid "Display Name"
-msgstr "Display Name"
+msgstr "Отображаемое имя"
 
 #. module: website_partner
 #: model_terms:ir.ui.view,arch_db:website_partner.partner_page
 msgid "Drag blocks here to add them on all partners"
-msgstr ""
+msgstr "Перетащите блоки сюда, чтобы добавить их для всех партнёров"
 
 #. module: website_partner
 #. odoo-python
 #: code:addons/website_partner/models/res_partner.py:0
 msgid "Find Resellers"
-msgstr ""
+msgstr "Найти реселлеров"
 
 #. module: website_partner
 #: model:ir.model.fields,field_description:website_partner.field_res_partner__id
@@ -82,7 +82,7 @@ msgstr "Партнер снят с публикации"
 #. module: website_partner
 #: model:ir.module.module,summary:base.module_website_partner
 msgid "Partner module for website"
-msgstr ""
+msgstr "Модуль партнёров для сайта"
 
 #. module: website_partner
 #: model:mail.message.subtype,name:website_partner.mt_partner_published
@@ -98,7 +98,7 @@ msgstr "Партнер снят с публикации"
 #. odoo-python
 #: code:addons/website_partner/models/res_partner.py:0
 msgid "Resellers"
-msgstr ""
+msgstr "Реселлеры"
 
 #. module: website_partner
 #: model:ir.model.fields,field_description:website_partner.field_res_partner__is_seo_optimized
@@ -113,7 +113,7 @@ msgstr "Имя Seo"
 #. module: website_partner
 #: model:ir.module.module,shortdesc:base.module_website_partner
 msgid "Website Partner"
-msgstr ""
+msgstr "Партнёр на сайте"
 
 #. module: website_partner
 #: model:ir.model.fields,field_description:website_partner.field_res_partner__website_description

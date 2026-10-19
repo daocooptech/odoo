@@ -28,7 +28,7 @@ msgid ""
 "============================\n"
 "\n"
 "This module add completed course events to resume for employees.\n"
-msgstr ""
+msgstr "\nМероприятия и навыки для отдела кадров\n============================\n\nЭтот модуль добавляет мероприятия с пройденными курсами в резюме сотрудников.\n"
 
 #. module: hr_skills_event
 #: model:ir.model.fields,field_description:hr_skills_event.field_hr_resume_line__course_type
@@ -49,7 +49,7 @@ msgstr "Отображаемое название"
 #. module: hr_skills_event
 #: model:ir.model,name:hr_skills_event.model_event_event
 msgid "Event"
-msgstr ""
+msgstr "Мероприятие"
 
 #. module: hr_skills_event
 #: model:ir.model.fields,field_description:hr_skills_event.field_event_event__id
@@ -60,7 +60,7 @@ msgstr "ID"
 #. module: hr_skills_event
 #: model:ir.module.module,summary:base.module_hr_skills_event
 msgid "Link training events to resume of your employees"
-msgstr ""
+msgstr "Связывает учебные мероприятия с резюме ваших сотрудников"
 
 #. module: hr_skills_event
 #: model:ir.model.fields.selection,name:hr_skills_event.selection__hr_resume_line__course_type__onsite
@@ -95,4 +95,4 @@ msgstr ""
 #. module: hr_skills_event
 #: model:ir.module.module,shortdesc:base.module_hr_skills_event
 msgid "Skills Events"
-msgstr ""
+msgstr "Мероприятия по навыкам"

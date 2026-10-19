@@ -39,7 +39,7 @@ msgid ""
 "It is completely integrated with the cost accounting module. It allows you "
 "to set\n"
 "up a management by affair.\n"
-msgstr ""
+msgstr "\nЭтот модуль реализует систему учёта рабочего времени (табели).\n==============================================================\n\nКаждый сотрудник может вводить и отслеживать время, затраченное на разные проекты.\n\nПредоставляется множество отчётов по времени и учёту сотрудников.\n\nМодуль полностью интегрирован с модулем управленческого учёта затрат. Он позволяет\nорганизовать управление по делам.\n"
 
 #. module: hr_timesheet
 #. odoo-python
@@ -75,7 +75,7 @@ msgstr "%(hours)sч%(minutes)s"
 #. odoo-python
 #: code:addons/hr_timesheet/models/project_project.py:0
 msgid "%(name)s's Timesheets"
-msgstr "%(name)s's Timesheets"
+msgstr "Табели: %(name)s"
 
 #. module: hr_timesheet
 #. odoo-python
@@ -114,7 +114,7 @@ msgstr "(%s оставшихся дней)"
 #. module: hr_timesheet
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.portal_tasks_list_inherit
 msgid "0h"
-msgstr ""
+msgstr "0 ч"
 
 #. module: hr_timesheet
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.timesheet_table
@@ -140,7 +140,7 @@ msgid ""
 "                            <i class=\"oi oi-fw o_button_icon text-danger\" "
 "data-icon=\"schedule\" title=\"Over Due\" invisible=\"not stat_success_rate "
 "or stat_success_rate &lt;= 100\"/>"
-msgstr ""
+msgstr "<i class=\"oi oi-fw o_button_icon\" data-icon=\"schedule\" title=\"Табели\" invisible=\"stat_success_rate\"/>\n                            <i class=\"oi oi-fw o_button_icon text-success\" data-icon=\"schedule\" title=\"В срок\" invisible=\"not stat_success_rate or stat_success_rate &gt;= 80\"/>\n                            <i class=\"oi oi-fw o_button_icon text-warning\" data-icon=\"schedule\" title=\"Предупреждение\" invisible=\"not stat_success_rate or stat_success_rate &gt; 100 or stat_success_rate &lt; 80\"/>\n                            <i class=\"oi oi-fw o_button_icon text-danger\" data-icon=\"schedule\" title=\"Просрочено\" invisible=\"not stat_success_rate or stat_success_rate &lt;= 100\"/>"
 
 #. module: hr_timesheet
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.portal_my_task
@@ -157,17 +157,17 @@ msgstr "<span class=\"o_stat_text\">Табели</span>"
 #. module: hr_timesheet
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.project_update_view_kanban_inherit
 msgid "<span class=\"oi oi-fw me-1\" data-icon=\"schedule\" title=\"Time\"/>"
-msgstr ""
+msgstr "<span class=\"oi oi-fw me-1\" data-icon=\"schedule\" title=\"Время\"/>"
 
 #. module: hr_timesheet
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.timesheet_table
 msgid "<span class=\"pe-1\">Total (Days)</span>"
-msgstr ""
+msgstr "<span class=\"pe-1\">Итого (дни)</span>"
 
 #. module: hr_timesheet
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.timesheet_table
 msgid "<span class=\"pe-1\">Total</span>"
-msgstr ""
+msgstr "<span class=\"pe-1\">Итого</span>"
 
 #. module: hr_timesheet
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.hr_employee_delete_wizard_form
@@ -335,19 +335,19 @@ msgstr "Позвоните клиенту и обсудите проект"
 msgid ""
 "Can manage and approve all timesheets, with access to reporting and "
 "configuration."
-msgstr ""
+msgstr "Может управлять всеми табелями и утверждать их, имеет доступ к отчётам и настройкам."
 
 #. module: hr_timesheet
 #: model:res.groups,comment:hr_timesheet.group_hr_timesheet_approver
 msgid ""
 "Can manage timesheets for all employees, but can only approve timesheets and "
 "billing targets for their team members. Has access to reporting."
-msgstr ""
+msgstr "Может управлять табелями всех сотрудников, но утверждать табели и цели по выставлению счетов может только для членов своей команды. Имеет доступ к отчётам."
 
 #. module: hr_timesheet
 #: model:res.groups,comment:hr_timesheet.group_hr_timesheet_user
 msgid "Can only manage their own timesheets."
-msgstr ""
+msgstr "Может управлять только своими табелями."
 
 #. module: hr_timesheet
 #. odoo-javascript
@@ -363,7 +363,7 @@ msgstr "Совместное участие в проекте"
 #. module: hr_timesheet
 #: model:ir.model.fields,field_description:hr_timesheet.field_account_analytic_line__color
 msgid "Color Index"
-msgstr ""
+msgstr "Индекс цвета"
 
 #. module: hr_timesheet
 #: model:ir.model,name:hr_timesheet.model_res_company
@@ -438,7 +438,7 @@ msgstr "Деактивируйте учетную запись."
 #. module: hr_timesheet
 #: model:ir.model.fields,help:hr_timesheet.field_res_company__internal_project_id
 msgid "Default project value for timesheet generated from time type."
-msgstr ""
+msgstr "Проект по умолчанию для табеля, созданного из типа времени."
 
 #. module: hr_timesheet
 #: model:ir.model.fields,help:hr_timesheet.field_account_analytic_line__employee_id
@@ -482,7 +482,7 @@ msgstr "Опишите свою деятельность"
 #. module: hr_timesheet
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.quick_create_account_analytic_line_form
 msgid "Describe your activity..."
-msgstr ""
+msgstr "Опишите вашу деятельность..."
 
 #. module: hr_timesheet
 #. odoo-python
@@ -703,7 +703,7 @@ msgstr "Обновления в моем отделе"
 #. module: hr_timesheet
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.hr_timesheet_line_search
 msgid "My Projects/Tasks"
-msgstr ""
+msgstr "Мои проекты/задачи"
 
 #. module: hr_timesheet
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.project_update_view_search_inherit
@@ -727,7 +727,7 @@ msgstr "Новые"
 #. module: hr_timesheet
 #: model:res.groups.privilege,placeholder:hr_timesheet.res_groups_privilege_timesheets
 msgid "No"
-msgstr ""
+msgstr "Нет"
 
 #. module: hr_timesheet
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.portal_my_timesheets
@@ -779,7 +779,7 @@ msgstr "Ок"
 #. module: hr_timesheet
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.view_task_form2_inherited
 msgid "Overrun Hours"
-msgstr ""
+msgstr "Часы превышения"
 
 #. module: hr_timesheet
 #: model:ir.model.fields,field_description:hr_timesheet.field_project_task__overtime
@@ -862,7 +862,7 @@ msgstr "Временные таблицы проекта"
 #. module: hr_timesheet
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.timesheet_project_task_page
 msgid "Project:"
-msgstr ""
+msgstr "Проект:"
 
 #. module: hr_timesheet
 #: model:ir.model,name:hr_timesheet.model_hr_employee_public
@@ -971,7 +971,7 @@ msgstr "Настройки"
 #. module: hr_timesheet
 #: model:ir.model.fields,field_description:hr_timesheet.field_project_task__show_portal_timesheets
 msgid "Show Portal Timesheets"
-msgstr ""
+msgstr "Показывать табели в портале"
 
 #. module: hr_timesheet
 #. odoo-python
@@ -1019,7 +1019,7 @@ msgstr "Задача"
 #. module: hr_timesheet
 #: model:ir.module.module,shortdesc:base.module_hr_timesheet
 msgid "Task Logs"
-msgstr ""
+msgstr "Журналы задач"
 
 #. module: hr_timesheet
 #: model:ir.actions.act_window,name:hr_timesheet.timesheet_action_task
@@ -1035,7 +1035,7 @@ msgstr "Анализ задач"
 #. odoo-python
 #: code:addons/hr_timesheet/models/account_analytic_line.py:0
 msgid "Template for Timesheets"
-msgstr ""
+msgstr "Шаблон табелей"
 
 #. module: hr_timesheet
 #. odoo-python
@@ -1057,13 +1057,13 @@ msgstr ""
 #. odoo-python
 #: code:addons/hr_timesheet/models/project_project.py:0
 msgid "There are no timesheets to print for this project"
-msgstr ""
+msgstr "Нет табелей для печати по этому проекту"
 
 #. module: hr_timesheet
 #. odoo-python
 #: code:addons/hr_timesheet/models/project_task.py:0
 msgid "There are no timesheets to print for this task"
-msgstr ""
+msgstr "Нет табелей для печати по этой задаче"
 
 #. module: hr_timesheet
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.portal_my_timesheets
@@ -1218,7 +1218,7 @@ msgstr "Время, затраченное на подзадачи"
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.project_sharing_inherit_project_task_view_form
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.view_task_form2_inherited
 msgid "Time Spent on Sub-tasks:"
-msgstr ""
+msgstr "Время, затраченное на подзадачи:"
 
 #. module: hr_timesheet
 #: model:ir.model.fields,help:hr_timesheet.field_project_task__subtask_effective_hours
@@ -1453,7 +1453,7 @@ msgstr "Общее количество затраченных дней"
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.project_sharing_inherit_project_task_view_form
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.view_task_form2_inherited
 msgid "Total Hours Spent"
-msgstr ""
+msgstr "Всего затрачено часов"
 
 #. module: hr_timesheet
 #: model:ir.model.fields,field_description:hr_timesheet.field_project_task__total_hours_spent
@@ -1472,7 +1472,7 @@ msgstr "Итого:"
 #. module: hr_timesheet
 #: model:ir.module.module,summary:base.module_hr_timesheet
 msgid "Track employee time on tasks"
-msgstr ""
+msgstr "Отслеживайте время сотрудников по задачам"
 
 #. module: hr_timesheet
 #: model_terms:ir.actions.act_window,help:hr_timesheet.act_hr_timesheet_line
@@ -1629,18 +1629,18 @@ msgstr "для"
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.project_sharing_inherit_project_task_view_form
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.view_task_form2_inherited
 msgid "incl."
-msgstr ""
+msgstr "в т. ч."
 
 #. module: hr_timesheet
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.view_task_form2_inherited
 msgid ""
 "on\n"
 "                            <span class=\"fw-bold ms-1\">Sub-tasks</span>"
-msgstr ""
+msgstr "по\n                            <span class=\"fw-bold ms-1\">подзадачам</span>"
 
 #. module: hr_timesheet
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.project_sharing_inherit_project_task_view_form
 msgid ""
 "on\n"
 "                        <span class=\"fw-bold ms-1\">Sub-tasks</span>"
-msgstr ""
+msgstr "по\n                        <span class=\"fw-bold ms-1\">подзадачам</span>"

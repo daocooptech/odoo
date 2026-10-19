@@ -132,7 +132,7 @@ msgstr "Правило штрихкода"
 #. module: barcodes
 #: model_terms:ir.ui.view,arch_db:barcodes.view_partner_barcodes_form
 msgid "Barcode must start with `042`"
-msgstr ""
+msgstr "Штрихкод должен начинаться с `042`"
 
 #. module: barcodes
 #. odoo-javascript
@@ -146,12 +146,12 @@ msgstr "Штрихкод: %(barcode)s"
 msgid ""
 "Click the icon in the browser on the left of the address bar and toggle "
 "Camera permissions."
-msgstr ""
+msgstr "Нажмите значок слева от адресной строки браузера и включите разрешение для камеры."
 
 #. module: barcodes
 #: model:ir.model,name:barcodes.model_res_company
 msgid "Company"
-msgstr ""
+msgstr "Компания"
 
 #. module: barcodes
 #: model:ir.model.fields,field_description:barcodes.field_barcode_nomenclature__create_uid
@@ -192,7 +192,7 @@ msgstr "EAN-8"
 #. odoo-javascript
 #: code:addons/barcodes/static/src/components/barcode_view.xml:0
 msgid "Edit access to scan"
-msgstr ""
+msgstr "Изменить доступ для сканирования"
 
 #. module: barcodes
 #: model:ir.model.fields,field_description:barcodes.field_barcode_rule__encoding
@@ -203,7 +203,7 @@ msgstr "Кодировка"
 #. odoo-javascript
 #: code:addons/barcodes/static/src/components/barcode_input.js:0
 msgid "Enter a barcode"
-msgstr ""
+msgstr "Введите штрихкод"
 
 #. module: barcodes
 #: model:ir.model,name:barcodes.model_ir_http
@@ -239,7 +239,7 @@ msgstr "Никогда"
 #. odoo-javascript
 #: code:addons/barcodes/static/src/components/barcode_view.xml:0
 msgid "No access to your camera"
-msgstr ""
+msgstr "Нет доступа к камере"
 
 #. module: barcodes
 #: model:ir.model.fields,field_description:barcodes.field_res_company__nomenclature_id
@@ -292,7 +292,7 @@ msgstr "Правила"
 #. module: barcodes
 #: model:ir.module.module,summary:base.module_barcodes
 msgid "Scan and Parse Barcodes"
-msgstr ""
+msgstr "Сканирование и разбор штрихкодов"
 
 #. module: barcodes
 #: model:ir.model.fields,field_description:barcodes.field_barcode_rule__sequence

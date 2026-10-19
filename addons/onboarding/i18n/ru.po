@@ -28,7 +28,7 @@ msgid ""
 "\n"
 "This module allows to manage onboardings and their progress\n"
 "================================================================================\n"
-msgstr ""
+msgstr "\nЭтот модуль позволяет управлять вводным обучением и его прохождением\n================================================================================\n"
 
 #. module: onboarding
 #: model:ir.model.fields,help:onboarding.field_onboarding_onboarding__progress_ids
@@ -128,7 +128,7 @@ msgstr "Описание"
 #. module: onboarding
 #: model_terms:ir.ui.view,arch_db:onboarding.onboarding_container
 msgid "Discard"
-msgstr ""
+msgstr "Отменить"
 
 #. module: onboarding
 #: model:ir.model.fields,field_description:onboarding.field_onboarding_onboarding__display_name
@@ -203,7 +203,7 @@ msgstr "Давайте сделаем это"
 #. module: onboarding
 #: model:ir.model.fields,field_description:onboarding.field_onboarding_onboarding_step__done_icon
 msgid "Material Symbols Icon when completed"
-msgstr ""
+msgstr "Значок Material Symbols по завершении"
 
 #. module: onboarding
 #: model:ir.model.fields,field_description:onboarding.field_onboarding_onboarding__text_completed
@@ -306,7 +306,7 @@ msgstr "Шаги по введению в должность"
 #. module: onboarding
 #: model:ir.module.module,shortdesc:base.module_onboarding
 msgid "Onboarding Toolbox"
-msgstr ""
+msgstr "Инструменты вводного обучения"
 
 #. module: onboarding
 #: model:ir.model.constraint,message:onboarding.constraint_onboarding_onboarding_route_name_uniq
@@ -355,7 +355,7 @@ msgstr "Трекеры шагов прогресса"
 #. module: onboarding
 #: model:ir.model.fields,field_description:onboarding.field_onboarding_progress_step__progress_ids
 msgid "Related Onboarding Progress Tracker"
-msgstr "Related Onboarding Progress Tracker"
+msgstr "Связанный трекер прохождения вводного обучения"
 
 #. module: onboarding
 #: model:ir.model.fields,field_description:onboarding.field_onboarding_progress__onboarding_id

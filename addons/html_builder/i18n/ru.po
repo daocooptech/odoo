@@ -3298,7 +3298,7 @@ msgstr "Системные шрифты"
 #. odoo-javascript
 #: code:addons/html_builder/static/src/snippets/snippet_viewer.xml:0
 msgid "Tab"
-msgstr ""
+msgstr "Вкладка"
 
 #. module: html_builder
 #. odoo-javascript

@@ -30,7 +30,7 @@ msgid ""
 "\n"
 "Passkeys are a secure alternative to a username and a password.\n"
 "When a user logs in with a Passkey, MFA will not be required.\n"
-msgstr ""
+msgstr "\nРеализация ключей доступа по протоколу webauthn.\n===========================================================\n\nКлючи доступа — безопасная альтернатива имени пользователя и паролю.\nПри входе с ключом доступа многофакторная аутентификация не потребуется.\n"
 
 #. module: auth_passkey_portal
 #: model_terms:ir.ui.view,arch_db:auth_passkey_portal.passkeys_portal_hook
@@ -82,12 +82,12 @@ msgstr "Ключи доступа"
 #. module: auth_passkey_portal
 #: model:ir.module.module,shortdesc:base.module_auth_passkey_portal
 msgid "Passkeys Portal"
-msgstr ""
+msgstr "Ключи доступа в личном кабинете"
 
 #. module: auth_passkey_portal
 #: model:ir.module.module,summary:base.module_auth_passkey_portal
 msgid "Passkeys for portal users"
-msgstr ""
+msgstr "Ключи доступа для пользователей личного кабинета"
 
 #. module: auth_passkey_portal
 #. odoo-javascript

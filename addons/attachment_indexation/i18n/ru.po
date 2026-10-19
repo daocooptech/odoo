@@ -33,7 +33,7 @@ msgid ""
 "\n"
 "The `pdfminer.six` Python library has to be installed in order to index PDF "
 "files\n"
-msgstr ""
+msgstr "\nСписок вложений и индексация документов\n========================================\n* Показывать вложения вверху форм\n* Индексация документов: odt, pdf, xlsx, docx\n\nДля индексации PDF-файлов необходимо установить библиотеку Python `pdfminer.six`\n"
 
 #. module: attachment_indexation
 #: model:ir.model,name:attachment_indexation.model_ir_attachment
@@ -43,12 +43,12 @@ msgstr "Вложение"
 #. module: attachment_indexation
 #: model:ir.module.module,shortdesc:base.module_attachment_indexation
 msgid "Attachments List and Document Indexation"
-msgstr ""
+msgstr "Список вложений и индексация документов"
 
 #. module: attachment_indexation
 #: model:ir.model.fields,field_description:attachment_indexation.field_ir_attachment__display_name
 msgid "Display Name"
-msgstr "Display Name"
+msgstr "Отображаемое имя"
 
 #. module: attachment_indexation
 #: model:ir.model.fields,field_description:attachment_indexation.field_ir_attachment__id

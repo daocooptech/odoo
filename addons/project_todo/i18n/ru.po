@@ -45,7 +45,7 @@ msgstr ""
 #. module: project_todo
 #: model_terms:digest.tip,tip_description:project_todo.digest_tip_project_todo_0
 msgid "<b>Tip: Create to-dos from anywhere</b>"
-msgstr ""
+msgstr "<b>Совет: создавайте задачи откуда угодно</b>"
 
 #. module: project_todo
 #: model_terms:ir.ui.view,arch_db:project_todo.todo_user_onboarding
@@ -55,7 +55,7 @@ msgid ""
 "            Ensure you follow the correct format and order. For example: "
 "Send invitations #event @Mitchell !\n"
 "        </span>"
-msgstr ""
+msgstr "<br/>\n        <span style=\"font-size: 14px;\">\n            Соблюдайте правильные формат и порядок. Например: Отправить приглашения #event @Mitchell !\n        </span>"
 
 #. module: project_todo
 #: model_terms:ir.ui.view,arch_db:project_todo.todo_user_onboarding
@@ -155,7 +155,7 @@ msgid ""
 "            Use these keywords in the title to streamline your to-dos:\n"
 "        </span>\n"
 "        <br/>"
-msgstr ""
+msgstr "<span style=\"font-size: 14px;\">\n            Используйте эти ключевые слова в названии, чтобы упростить работу с задачами:\n        </span>\n        <br/>"
 
 #. module: project_todo
 #: model_terms:ir.ui.view,arch_db:project_todo.todo_user_onboarding
@@ -340,7 +340,7 @@ msgid ""
 "                    <font class=\"text-o-color-2\">!!!:</font>\n"
 "                </span>\n"
 "                Mark the to-do as urgent"
-msgstr ""
+msgstr "<span style=\"font-weight: bolder;\">\n                    <font class=\"text-o-color-2\">!!!:</font>\n                </span>\n                Отметить задачу как срочную"
 
 #. module: project_todo
 #: model_terms:ir.ui.view,arch_db:project_todo.todo_user_onboarding
@@ -349,7 +349,7 @@ msgid ""
 "                    <font class=\"text-o-color-2\">!!:</font>\n"
 "                </span>\n"
 "                Mark the to-do as high priority"
-msgstr ""
+msgstr "<span style=\"font-weight: bolder;\">\n                    <font class=\"text-o-color-2\">!!:</font>\n                </span>\n                Отметить задачу как высокоприоритетную"
 
 #. module: project_todo
 #: model_terms:ir.ui.view,arch_db:project_todo.todo_user_onboarding
@@ -358,7 +358,7 @@ msgid ""
 "                    <font class=\"text-o-color-2\">!:</font>\n"
 "                </span>\n"
 "                Mark the to-do as medium priority"
-msgstr ""
+msgstr "<span style=\"font-weight: bolder;\">\n                    <font class=\"text-o-color-2\">!:</font>\n                </span>\n                Отметить задачу как среднеприоритетную"
 
 #. module: project_todo
 #: model_terms:ir.ui.view,arch_db:project_todo.todo_user_onboarding
@@ -367,7 +367,7 @@ msgid ""
 "                    <font class=\"text-o-color-2\">#tags:</font>\n"
 "                </span>\n"
 "                Add tags to categorize the to-do"
-msgstr ""
+msgstr "<span style=\"font-weight: bolder;\">\n                    <font class=\"text-o-color-2\">#tags:</font>\n                </span>\n                Добавить теги для классификации задачи"
 
 #. module: project_todo
 #: model_terms:ir.ui.view,arch_db:project_todo.todo_user_onboarding
@@ -376,7 +376,7 @@ msgid ""
 "                    <font class=\"text-o-color-2\">@user:</font>\n"
 "                </span>\n"
 "                Assign the to-do to a specific user"
-msgstr ""
+msgstr "<span style=\"font-weight: bolder;\">\n                    <font class=\"text-o-color-2\">@user:</font>\n                </span>\n                Назначить задачу конкретному пользователю"
 
 #. module: project_todo
 #: model_terms:ir.ui.view,arch_db:project_todo.todo_user_onboarding
@@ -602,7 +602,7 @@ msgstr "Организуйте свои дела так, как вам удоб�
 #. module: project_todo
 #: model:ir.module.module,summary:base.module_project_todo
 msgid "Organize your work with memos and to-do lists"
-msgstr ""
+msgstr "Организуйте работу с помощью заметок и списков задач"
 
 #. module: project_todo
 #: model_terms:ir.ui.view,arch_db:project_todo.project_task_view_todo_calendar
@@ -683,7 +683,7 @@ msgstr ""
 #. module: project_todo
 #: model:digest.tip,name:project_todo.digest_tip_project_todo_0
 msgid "Tip: Create to-dos from anywhere"
-msgstr ""
+msgstr "Совет: создавайте задачи откуда угодно"
 
 #. module: project_todo
 #. odoo-javascript
@@ -825,7 +825,7 @@ msgstr "Добро пожаловать, %s!"
 msgid ""
 "Wherever you are, use the magic keyboard shortcut to set yourself a "
 "reminder: 💡<br>"
-msgstr ""
+msgstr "Где бы вы ни были, используйте волшебное сочетание клавиш, чтобы создать себе напоминание: 💡<br>"
 
 #. module: project_todo
 #: model_terms:ir.ui.view,arch_db:project_todo.todo_user_onboarding

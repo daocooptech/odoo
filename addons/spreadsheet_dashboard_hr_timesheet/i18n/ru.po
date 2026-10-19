@@ -31,13 +31,13 @@ msgstr " дней"
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_hr_timesheet/data/files/tasks_dashboard.json:0
 msgid "% of allocated hours"
-msgstr ""
+msgstr "% от выделенных часов"
 
 #. module: spreadsheet_dashboard_hr_timesheet
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_hr_timesheet/data/files/tasks_dashboard.json:0
 msgid "Allocated Hours"
-msgstr ""
+msgstr "Выделено часов"
 
 #. module: spreadsheet_dashboard_hr_timesheet
 #. odoo-javascript
@@ -111,12 +111,12 @@ msgstr "Проект"
 #: model:ir.module.module,description:base.module_spreadsheet_dashboard_hr_timesheet
 #: model:ir.module.module,summary:base.module_spreadsheet_dashboard_hr_timesheet
 msgid "Spreadsheet"
-msgstr ""
+msgstr "Электронная таблица"
 
 #. module: spreadsheet_dashboard_hr_timesheet
 #: model:ir.module.module,shortdesc:base.module_spreadsheet_dashboard_hr_timesheet
 msgid "Spreadsheet dashboard for time sheets"
-msgstr ""
+msgstr "Дашборд электронной таблицы по табелям"
 
 #. module: spreadsheet_dashboard_hr_timesheet
 #. odoo-javascript

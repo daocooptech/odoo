@@ -27,12 +27,12 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/resource_mail/static/src/views/fields/many2many_avatar_resource/many2many_avatar_resource_field.xml:0
 msgid "Delete"
-msgstr ""
+msgstr "Удалить"
 
 #. module: resource_mail
 #: model:ir.model.fields,field_description:resource_mail.field_resource_resource__display_name
 msgid "Display Name"
-msgstr "Display Name"
+msgstr "Отображаемое имя"
 
 #. module: resource_mail
 #. odoo-javascript
@@ -50,7 +50,7 @@ msgstr "ID"
 msgid ""
 "Integrate features developped in Mail in use case involving resources "
 "instead of users"
-msgstr ""
+msgstr "Использование возможностей почты в сценариях, где вместо пользователей выступают ресурсы"
 
 #. module: resource_mail
 #. odoo-javascript
@@ -61,15 +61,15 @@ msgstr "Материал"
 #. module: resource_mail
 #: model:ir.model,name:resource_mail.model_resource_resource
 msgid "Resource"
-msgstr ""
+msgstr "Ресурс"
 
 #. module: resource_mail
 #: model:ir.module.module,shortdesc:base.module_resource_mail
 msgid "Resource Mail"
-msgstr ""
+msgstr "Почта ресурсов"
 
 #. module: resource_mail
 #. odoo-javascript
 #: code:addons/resource_mail/static/src/views/fields/many2many_avatar_resource/many2many_avatar_resource_field.js:0
 msgid "Search resources..."
-msgstr ""
+msgstr "Найти ресурсы..."

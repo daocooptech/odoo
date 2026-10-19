@@ -30,7 +30,7 @@ msgid ""
 "========================================\n"
 "\n"
 "Allows users to create custom dashboard.\n"
-msgstr ""
+msgstr "\nПозволяет пользователю создать собственный дашборд.\n========================================\n\nПозволяет пользователям создавать собственные дашборды.\n"
 
 #. module: board
 #. odoo-javascript
@@ -68,7 +68,7 @@ msgstr "Доска"
 #. module: board
 #: model:ir.module.module,summary:base.module_board
 msgid "Build your own dashboards"
-msgstr ""
+msgstr "Создавайте собственные дашборды"
 
 #. module: board
 #. odoo-javascript
@@ -91,12 +91,12 @@ msgstr "Панель управления"
 #. module: board
 #: model:ir.module.module,shortdesc:base.module_board
 msgid "Dashboards"
-msgstr ""
+msgstr "Дашборды"
 
 #. module: board
 #: model:ir.model.fields,field_description:board.field_board_board__display_name
 msgid "Display Name"
-msgstr "Display Name"
+msgstr "Отображаемое имя"
 
 #. module: board
 #: model:ir.model.fields,field_description:board.field_board_board__id

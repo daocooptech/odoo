@@ -33,7 +33,7 @@ msgstr "Оплачиваемая ставка"
 #: code:addons/spreadsheet_dashboard_sale_timesheet/data/files/timesheet_dashboard.json:0
 #: code:addons/spreadsheet_dashboard_sale_timesheet/data/files/timesheet_sample_dashboard.json:0
 msgid "Billable Time"
-msgstr ""
+msgstr "Оплачиваемое время"
 
 #. module: spreadsheet_dashboard_sale_timesheet
 #. odoo-javascript
@@ -51,7 +51,7 @@ msgstr "Счетная ставка"
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_sale_timesheet/data/files/timesheet_dashboard.json:0
 msgid "Billed by Month"
-msgstr ""
+msgstr "Выставлено по месяцам"
 
 #. module: spreadsheet_dashboard_sale_timesheet
 #. odoo-javascript
@@ -69,7 +69,7 @@ msgstr "Счета выставляются вручную"
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_sale_timesheet/data/files/timesheet_dashboard.json:0
 msgid "Billed milestones"
-msgstr ""
+msgstr "Оплаченные этапы"
 
 #. module: spreadsheet_dashboard_sale_timesheet
 #. odoo-javascript
@@ -81,7 +81,7 @@ msgstr "Табели учета рабочего времени"
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_sale_timesheet/data/files/timesheet_dashboard.json:0
 msgid "Costs"
-msgstr ""
+msgstr "Затраты"
 
 #. module: spreadsheet_dashboard_sale_timesheet
 #. odoo-javascript
@@ -93,25 +93,25 @@ msgstr "Текущий"
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_sale_timesheet/data/files/timesheet_dashboard.json:0
 msgid "Current Days"
-msgstr ""
+msgstr "Текущие дни"
 
 #. module: spreadsheet_dashboard_sale_timesheet
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_sale_timesheet/data/files/timesheet_dashboard.json:0
 msgid "Current Score"
-msgstr ""
+msgstr "Текущая оценка"
 
 #. module: spreadsheet_dashboard_sale_timesheet
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_sale_timesheet/data/files/timesheet_dashboard.json:0
 msgid "Days billed"
-msgstr ""
+msgstr "Выставлено дней"
 
 #. module: spreadsheet_dashboard_sale_timesheet
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_sale_timesheet/data/files/timesheet_dashboard.json:0
 msgid "Days spent"
-msgstr ""
+msgstr "Затрачено дней"
 
 #. module: spreadsheet_dashboard_sale_timesheet
 #. odoo-javascript
@@ -154,21 +154,21 @@ msgstr "KPI"
 #: code:addons/spreadsheet_dashboard_sale_timesheet/data/files/timesheet_dashboard.json:0
 #: code:addons/spreadsheet_dashboard_sale_timesheet/data/files/timesheet_sample_dashboard.json:0
 msgid "Non-Billable Projects Costs"
-msgstr ""
+msgstr "Затраты на неоплачиваемые проекты"
 
 #. module: spreadsheet_dashboard_sale_timesheet
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_sale_timesheet/data/files/timesheet_dashboard.json:0
 #: code:addons/spreadsheet_dashboard_sale_timesheet/data/files/timesheet_sample_dashboard.json:0
 msgid "Non-Billable Tasks Costs"
-msgstr ""
+msgstr "Затраты на неоплачиваемые задачи"
 
 #. module: spreadsheet_dashboard_sale_timesheet
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_sale_timesheet/data/files/timesheet_dashboard.json:0
 #: code:addons/spreadsheet_dashboard_sale_timesheet/data/files/timesheet_sample_dashboard.json:0
 msgid "Non-billable Time"
-msgstr ""
+msgstr "Неоплачиваемое время"
 
 #. module: spreadsheet_dashboard_sale_timesheet
 #. odoo-javascript
@@ -192,13 +192,13 @@ msgstr "Предыдущий"
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_sale_timesheet/data/files/timesheet_dashboard.json:0
 msgid "Previous Days"
-msgstr ""
+msgstr "Предыдущие дни"
 
 #. module: spreadsheet_dashboard_sale_timesheet
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_sale_timesheet/data/files/timesheet_dashboard.json:0
 msgid "Previous Score"
-msgstr ""
+msgstr "Предыдущая оценка"
 
 #. module: spreadsheet_dashboard_sale_timesheet
 #. odoo-javascript
@@ -210,12 +210,12 @@ msgstr "Проект"
 #: model:ir.module.module,description:base.module_spreadsheet_dashboard_sale_timesheet
 #: model:ir.module.module,summary:base.module_spreadsheet_dashboard_sale_timesheet
 msgid "Spreadsheet"
-msgstr ""
+msgstr "Электронная таблица"
 
 #. module: spreadsheet_dashboard_sale_timesheet
 #: model:ir.module.module,shortdesc:base.module_spreadsheet_dashboard_sale_timesheet
 msgid "Spreadsheet dashboard for time sheets"
-msgstr ""
+msgstr "Дашборд электронной таблицы по табелям"
 
 #. module: spreadsheet_dashboard_sale_timesheet
 #. odoo-javascript
@@ -233,7 +233,7 @@ msgstr "Время, выставленное по неделям"
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_sale_timesheet/data/files/timesheet_dashboard.json:0
 msgid "Time Encoding:"
-msgstr ""
+msgstr "Учёт времени:"
 
 #. module: spreadsheet_dashboard_sale_timesheet
 #: model:spreadsheet.dashboard,name:spreadsheet_dashboard_sale_timesheet.spreadsheet_dashboard_timesheet
@@ -273,14 +273,14 @@ msgstr "Главные задачи"
 #: code:addons/spreadsheet_dashboard_sale_timesheet/data/files/timesheet_dashboard.json:0
 #: code:addons/spreadsheet_dashboard_sale_timesheet/data/files/timesheet_sample_dashboard.json:0
 msgid "Total Time"
-msgstr ""
+msgstr "Всего времени"
 
 #. module: spreadsheet_dashboard_sale_timesheet
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_sale_timesheet/data/files/timesheet_dashboard.json:0
 #: code:addons/spreadsheet_dashboard_sale_timesheet/data/files/timesheet_sample_dashboard.json:0
 msgid "expected"
-msgstr ""
+msgstr "ожидается"
 
 #. module: spreadsheet_dashboard_sale_timesheet
 #. odoo-javascript

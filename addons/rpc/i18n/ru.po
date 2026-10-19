@@ -18,7 +18,7 @@ msgstr ""
 #. module: rpc
 #: model:ir.module.module,shortdesc:base.module_rpc
 msgid "RPC endpoints"
-msgstr ""
+msgstr "Конечные точки RPC"
 
 #. module: rpc
 #: model:ir.module.module,description:base.module_rpc
@@ -28,4 +28,4 @@ msgid ""
 "\n"
 "This module provides the /xmlrpc and /jsonrpc endpoints used to\n"
 "programmatically access models.\n"
-msgstr ""
+msgstr "Стандартные конечные точки RPC Odoo к моделям\n=====================================\n\nЭтот модуль предоставляет конечные точки /xmlrpc и /jsonrpc, используемые для\nпрограммного доступа к моделям.\n"

@@ -35,7 +35,7 @@ msgid ""
 "totally independently. So, you can enter various different analytic "
 "operations\n"
 "that have no counterpart in the general financial accounts.\n"
-msgstr ""
+msgstr "\nМодуль для определения объектов аналитического учёта.\n===============================================\n\nВ Odoo аналитические счета связаны с основными счетами, но рассматриваются\nсовершенно независимо. Поэтому можно вводить различные аналитические операции,\nне имеющие соответствия в основных финансовых счетах.\n"
 
 #. module: analytic
 #. odoo-python
@@ -66,7 +66,7 @@ msgstr ""
 #. module: analytic
 #: model:ir.model,name:analytic.model_res_groups
 msgid "Access Groups"
-msgstr ""
+msgstr "Группы доступа"
 
 #. module: analytic
 #. odoo-javascript
@@ -813,7 +813,7 @@ msgstr "Проектный счет"
 #. module: analytic
 #: model:account.analytic.plan,name:analytic.analytic_plan_projects
 msgid "Project Plan"
-msgstr ""
+msgstr "План проекта"
 
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_line__unit_amount

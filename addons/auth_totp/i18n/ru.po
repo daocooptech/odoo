@@ -40,7 +40,7 @@ msgid ""
 "Note: logically, two-factor prevents password-based RPC access for users\n"
 "where it is enabled. In order to be able to execute RPC scripts, the user\n"
 "can setup API keys to replace their main password.\n"
-msgstr ""
+msgstr "\nДвухфакторная аутентификация (TOTP)\n================================\nПозволяет пользователям настроить двухфакторную аутентификацию своей учётной записи\nдля дополнительной безопасности с помощью одноразовых паролей по времени (TOTP).\n\nПосле включения пользователю нужно будет ввести 6-значный код,\nполученный в приложении-аутентификаторе, прежде чем получить доступ к системе.\nПоддерживаются все популярные приложения-аутентификаторы.\n\nПримечание: двухфакторная аутентификация, естественно, блокирует доступ по RPC с паролем для пользователей,\nу которых она включена. Чтобы выполнять RPC-скрипты, пользователь\nможет создать ключи API вместо основного пароля.\n"
 
 #. module: auth_totp
 #. odoo-python
@@ -112,7 +112,7 @@ msgstr "Устройство аутентификации"
 #. odoo-javascript
 #: code:addons/auth_totp/static/src/services/check_identity/check_identity.xml:0
 msgid "Authentication code"
-msgstr ""
+msgstr "Код аутентификации"
 
 #. module: auth_totp
 #: model_terms:ir.ui.view,arch_db:auth_totp.auth_totp_form
@@ -129,7 +129,7 @@ msgstr "Не можете отсканировать его?"
 msgid ""
 "Check your Authenticator app for your code.\n"
 "                        <br/>"
-msgstr ""
+msgstr "Код есть в вашем приложении-аутентификаторе.\n                        <br/>"
 
 #. module: auth_totp
 #: model:ir.model.fields.selection,name:auth_totp.selection__auth_totp_rate_limit_log__limit_type__code_check
@@ -197,12 +197,12 @@ msgstr "Включить двухфакторную аутентификацию
 #. module: auth_totp
 #: model_terms:ir.ui.view,arch_db:auth_totp.auth_totp_form
 msgid "Enter code"
-msgstr ""
+msgstr "Введите код"
 
 #. module: auth_totp
 #: model_terms:ir.ui.view,arch_db:auth_totp.auth_totp_form
 msgid "Enter verification code"
-msgstr ""
+msgstr "Введите код подтверждения"
 
 #. module: auth_totp
 #: model:ir.model.fields,field_description:auth_totp.field_auth_totp_device__expiration_date
@@ -212,7 +212,7 @@ msgstr "Дата окончания"
 #. module: auth_totp
 #: model:ir.model,name:auth_totp.model_ir_http
 msgid "HTTP Routing"
-msgstr ""
+msgstr "HTTP-маршрутизация"
 
 #. module: auth_totp
 #: model:ir.model.fields,field_description:auth_totp.field_auth_totp_device__id
@@ -262,7 +262,7 @@ msgstr "Войти"
 msgid ""
 "Open your two-factor authenticator (TOTP) app or browser extension to view "
 "your authentication code."
-msgstr ""
+msgstr "Откройте приложение или расширение браузера для двухфакторной аутентификации (TOTP), чтобы увидеть код аутентификации."
 
 #. module: auth_totp
 #: model:ir.model.fields,field_description:auth_totp.field_auth_totp_wizard__qrcode
@@ -318,7 +318,7 @@ msgstr "Доверенные устройства"
 #. module: auth_totp
 #: model:ir.module.module,shortdesc:base.module_auth_totp
 msgid "Two-Factor Authentication (TOTP)"
-msgstr ""
+msgstr "Двухфакторная аутентификация (TOTP)"
 
 #. module: auth_totp
 #. odoo-python
@@ -370,13 +370,13 @@ msgstr ""
 #. module: auth_totp
 #: model:ir.model.fields,field_description:auth_totp.field_auth_totp_wizard__url
 msgid "Url"
-msgstr "Url"
+msgstr "URL"
 
 #. module: auth_totp
 #. odoo-javascript
 #: code:addons/auth_totp/static/src/services/check_identity/check_identity.xml:0
 msgid "Use your authenticator app"
-msgstr ""
+msgstr "Используйте приложение-аутентификатор"
 
 #. module: auth_totp
 #: model:ir.model,name:auth_totp.model_res_users
@@ -413,7 +413,7 @@ msgstr "Проверка не удалась, пожалуйста, исполь
 #. odoo-javascript
 #: code:addons/auth_totp/static/src/services/check_identity/check_identity.xml:0
 msgid "Verify"
-msgstr ""
+msgstr "Подтвердить"
 
 #. module: auth_totp
 #: model_terms:ir.ui.view,arch_db:auth_totp.view_totp_wizard

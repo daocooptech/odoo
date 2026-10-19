@@ -30,7 +30,7 @@ msgid ""
 "\n"
 "This is a bridge module that adds multi-website support for payment "
 "providers.\n"
-msgstr ""
+msgstr "\nЭто связующий модуль, добавляющий поддержку нескольких сайтов для платёжных провайдеров.\n"
 
 #. module: website_payment
 #: model_terms:ir.ui.view,arch_db:website_payment.res_config_settings_view_form
@@ -39,7 +39,7 @@ msgid ""
 "                            Install a payment provider to accept online "
 "payments.\n"
 "                        </span>"
-msgstr ""
+msgstr "<span class=\"oe_inline pe-0\">\n                            Подключите платёжного провайдера, чтобы принимать онлайн-платежи.\n                        </span>"
 
 #. module: website_payment
 #: model_terms:ir.ui.view,arch_db:website_payment.res_config_settings_view_form
@@ -50,30 +50,30 @@ msgstr "<span class=\"oe_inline px-0\">или</span>"
 #. odoo-javascript
 #: code:addons/website_payment/static/src/website_builder/supported_payment_methods_option.xml:0
 msgid "Align Left"
-msgstr ""
+msgstr "По левому краю"
 
 #. module: website_payment
 #. odoo-javascript
 #: code:addons/website_payment/static/src/website_builder/supported_payment_methods_option.xml:0
 msgid "Align Right"
-msgstr ""
+msgstr "По правому краю"
 
 #. module: website_payment
 #. odoo-javascript
 #: code:addons/website_payment/static/src/website_builder/supported_payment_methods_option.xml:0
 msgid "Alignment"
-msgstr ""
+msgstr "Выравнивание"
 
 #. module: website_payment
 #: model_terms:ir.ui.view,arch_db:website_payment.payment_provider_form
 msgid "All Websites"
-msgstr ""
+msgstr "Все сайты"
 
 #. module: website_payment
 #. odoo-javascript
 #: code:addons/website_payment/static/src/website_builder/supported_payment_methods_option.xml:0
 msgid "Center"
-msgstr ""
+msgstr "По центру"
 
 #. module: website_payment
 #: model:ir.model,name:website_payment.model_res_config_settings
@@ -93,18 +93,18 @@ msgstr "Настройка способов оплаты"
 #. module: website_payment
 #: model_terms:ir.ui.view,arch_db:website_payment.res_config_settings_view_form
 msgid "Connect"
-msgstr ""
+msgstr "Подключить"
 
 #. module: website_payment
 #: model_terms:ir.ui.view,arch_db:website_payment.res_config_settings_view_form
 msgid "Connect Stripe"
-msgstr ""
+msgstr "Подключить Stripe"
 
 #. module: website_payment
 #: model:ir.model.fields,field_description:website_payment.field_payment_provider__display_name
 #: model:ir.model.fields,field_description:website_payment.field_res_config_settings__display_name
 msgid "Display Name"
-msgstr "Display Name"
+msgstr "Отображаемое имя"
 
 #. module: website_payment
 #: model_terms:ir.ui.view,arch_db:website_payment.res_config_settings_view_form
@@ -148,7 +148,7 @@ msgstr "Поставщик платежей"
 #. module: website_payment
 #: model:ir.module.module,summary:base.module_website_payment
 msgid "Payment integration with website"
-msgstr ""
+msgstr "Интеграция платежей с сайтом"
 
 #. module: website_payment
 #: model_terms:ir.ui.view,arch_db:website_payment.res_config_settings_view_form
@@ -180,7 +180,7 @@ msgstr "Просмотреть провайдеров"
 msgid ""
 "Visa, Mastercard, Maestro, UPI, Netbanking, PayNow, Klarna, etc., as well as "
 "recurring charges."
-msgstr ""
+msgstr "Visa, Mastercard, Maestro, UPI, Netbanking, PayNow, Klarna и др., а также регулярные платежи."
 
 #. module: website_payment
 #: model:ir.model.fields,field_description:website_payment.field_payment_provider__website_id
@@ -190,7 +190,7 @@ msgstr "Сайт"
 #. module: website_payment
 #: model:ir.module.module,shortdesc:base.module_website_payment
 msgid "Website Payment"
-msgstr ""
+msgstr "Платежи на сайте"
 
 msgid ""
 ".\n"
@@ -319,7 +319,7 @@ msgid "Donation notification"
 msgstr "Уведомление о пожертвовании"
 
 msgid "Email"
-msgstr "Email"
+msgstr "Эл. почта"
 
 msgid "Email is required."
 msgstr "Email обязателен."

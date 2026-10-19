@@ -34,7 +34,7 @@ msgid ""
 "countries).\n"
 "\n"
 "It is primarily used for EDIs that might need a special city code.\n"
-msgstr ""
+msgstr "\nРасширенное управление адресами\n=============================\n\nЭтот модуль позволяет выбирать город из списка (в отдельных странах).\n\nВ основном он используется для EDI, которым может понадобиться специальный код города.\n"
 
 #. module: base_address_extended
 #: model_terms:ir.ui.view,arch_db:base_address_extended.view_res_country_city_extended_form
@@ -44,7 +44,7 @@ msgstr "<span class=\"o_stat_text\">Города</span>"
 #. module: base_address_extended
 #: model:ir.module.module,summary:base.module_base_address_extended
 msgid "Add extra fields on addresses"
-msgstr ""
+msgstr "Добавляет дополнительные поля в адреса"
 
 #. module: base_address_extended
 #: model:ir.model.fields,help:base_address_extended.field_res_country__enforce_cities
@@ -90,7 +90,7 @@ msgstr "Страна"
 #. module: base_address_extended
 #: model:ir.model.fields,field_description:base_address_extended.field_res_city__country_code
 msgid "Country Code"
-msgstr ""
+msgstr "Код страны"
 
 #. module: base_address_extended
 #: model:ir.model,website_form_label:base_address_extended.model_res_partner
@@ -144,7 +144,7 @@ msgstr "Принудительно Города"
 #. module: base_address_extended
 #: model:ir.module.module,shortdesc:base.module_base_address_extended
 msgid "Extended Addresses"
-msgstr ""
+msgstr "Расширенные адреса"
 
 #. module: base_address_extended
 #: model:ir.model.fields,field_description:base_address_extended.field_res_partner__street_number
@@ -196,7 +196,7 @@ msgstr "Улица"
 msgid ""
 "The ISO country code in two chars. \n"
 "You can use this field for quick search."
-msgstr ""
+msgstr "Двухбуквенный код страны по ISO. \nВы можете использовать это поле для быстрого поиска."
 
 #. module: base_address_extended
 #: model_terms:ir.ui.view,arch_db:base_address_extended.res_city_view_form
@@ -211,7 +211,7 @@ msgstr "Индекс"
 #. module: base_address_extended
 #: model_terms:ir.ui.view,arch_db:base_address_extended.res_city_view_form
 msgid "e.g. London"
-msgstr ""
+msgstr "например, Лондон"
 
 #~ msgid "<span> - </span>"
 #~ msgstr "<span> - </span>"

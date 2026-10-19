@@ -31,13 +31,13 @@ msgid ""
 "Odoo Web tours.\n"
 "========================\n"
 "\n"
-msgstr ""
+msgstr "\nТуры Odoo по веб-интерфейсу.\n========================\n\n"
 
 #. module: web_tour
 #. odoo-javascript
 #: code:addons/web_tour/static/src/tour_recorder/tour_recorder.js:0
 msgid "'%s' created"
-msgstr ""
+msgstr "'%s' создан"
 
 #. module: web_tour
 #. odoo-javascript
@@ -59,7 +59,7 @@ msgstr "Тур с таким именем уже существует. Имя т
 #. module: web_tour
 #: model:ir.model.fields,field_description:web_tour.field_web_tour_tour__active
 msgid "Active"
-msgstr ""
+msgstr "Активен"
 
 #. module: web_tour
 #. odoo-javascript
@@ -67,7 +67,7 @@ msgstr ""
 msgid ""
 "Are you sure you want to clear all steps?\n"
 "All steps will be lost."
-msgstr ""
+msgstr "Очистить все шаги?\nВсе шаги будут потеряны."
 
 #. module: web_tour
 #. odoo-javascript
@@ -75,7 +75,7 @@ msgstr ""
 msgid ""
 "Are you sure you want to close the tour recorder?\n"
 "All changes will be lost."
-msgstr ""
+msgstr "Закрыть запись тура?\nВсе изменения будут потеряны."
 
 #. module: web_tour
 #: model:ir.model.fields.selection,name:web_tour.selection__web_tour_tour_step__tooltip_position__bottom
@@ -86,20 +86,20 @@ msgstr "Низ"
 #. odoo-javascript
 #: code:addons/web_tour/static/src/tour_recorder/tour_recorder.js:0
 msgid "Cancel"
-msgstr ""
+msgstr "Отмена"
 
 #. module: web_tour
 #. odoo-javascript
 #: code:addons/web_tour/static/src/tour_recorder/tour_recorder.js:0
 #: code:addons/web_tour/static/src/tour_recorder/tour_recorder.xml:0
 msgid "Clear"
-msgstr ""
+msgstr "Очистить"
 
 #. module: web_tour
 #. odoo-javascript
 #: code:addons/web_tour/static/src/tour_recorder/tour_recorder.js:0
 msgid "Clear all steps?"
-msgstr ""
+msgstr "Очистить все шаги?"
 
 #. module: web_tour
 #. odoo-javascript
@@ -117,13 +117,13 @@ msgstr "Закрыть"
 #. odoo-javascript
 #: code:addons/web_tour/static/src/tour_recorder/tour_recorder.js:0
 msgid "Close recorder"
-msgstr ""
+msgstr "Закрыть запись"
 
 #. module: web_tour
 #. odoo-javascript
 #: code:addons/web_tour/static/src/tour_recorder/tour_recorder.js:0
 msgid "Close tour recorder?"
-msgstr ""
+msgstr "Закрыть запись тура?"
 
 #. module: web_tour
 #: model:ir.model.fields,field_description:web_tour.field_web_tour_tour_step__content
@@ -134,13 +134,13 @@ msgstr "Содержание"
 #. odoo-javascript
 #: code:addons/web_tour/static/src/tour_utils.js:0
 msgid "Create and edit the %s."
-msgstr ""
+msgstr "Создайте и отредактируйте %s."
 
 #. module: web_tour
 #. odoo-javascript
 #: code:addons/web_tour/static/src/tour_utils.js:0
 msgid "Create the %s."
-msgstr ""
+msgstr "Создайте %s."
 
 #. module: web_tour
 #: model:ir.model.fields,field_description:web_tour.field_web_tour_tour__create_uid
@@ -177,13 +177,13 @@ msgstr "Отображаемое имя"
 #. odoo-javascript
 #: code:addons/web_tour/static/src/tour_recorder/tour_recorder_command_provider.js:0
 msgid "Enable the tour recorder"
-msgstr ""
+msgstr "Включить запись тура"
 
 #. module: web_tour
 #. odoo-javascript
 #: code:addons/web_tour/static/src/tour_utils.js:0
 msgid "Enter the %s."
-msgstr ""
+msgstr "Введите %s."
 
 #. module: web_tour
 #: model:ir.actions.server,name:web_tour.tour_export_js_action
@@ -278,7 +278,7 @@ msgstr "Сохранить"
 #. odoo-javascript
 #: code:addons/web_tour/static/src/tour_utils.js:0
 msgid "Save the %s."
-msgstr ""
+msgstr "Сохраните %s."
 
 #. module: web_tour
 #. odoo-javascript
@@ -308,13 +308,13 @@ msgstr "Прокрутите вверх, чтобы перейти к следу
 #. odoo-javascript
 #: code:addons/web_tour/static/src/tour_utils.js:0
 msgid "Search or create %s."
-msgstr ""
+msgstr "Найдите или создайте %s."
 
 #. module: web_tour
 #. odoo-javascript
 #: code:addons/web_tour/static/src/tour_utils.js:0
 msgid "Select this %s."
-msgstr ""
+msgstr "Выберите %s."
 
 #. module: web_tour
 #: model:ir.model.fields,field_description:web_tour.field_web_tour_tour__sequence
@@ -424,7 +424,7 @@ msgstr "Пользователь завершил"
 #. odoo-javascript
 #: code:addons/web_tour/static/src/tour_recorder/tour_recorder.js:0
 msgid "View tour"
-msgstr ""
+msgstr "Открыть тур"
 
 #. module: web_tour
 #: model_terms:ir.ui.view,arch_db:web_tour.tour_form

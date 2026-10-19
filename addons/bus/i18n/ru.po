@@ -40,7 +40,7 @@ msgstr "Вложение"
 msgid ""
 "Bus logs contain confidential information and must only be shared with "
 "trusted recipients."
-msgstr ""
+msgstr "Журналы шины содержат конфиденциальную информацию, ими можно делиться только с доверенными получателями."
 
 #. module: bus
 #: model:ir.model,name:bus.model_bus_listener_mixin
@@ -96,7 +96,7 @@ msgstr "Отображаемое имя"
 #. odoo-javascript
 #: code:addons/bus/static/src/debug/bus_logs_menu_item.js:0
 msgid "Download"
-msgstr ""
+msgstr "Скачать"
 
 #. module: bus
 #. odoo-javascript
@@ -133,12 +133,12 @@ msgstr "ID"
 #. module: bus
 #: model:ir.module.module,shortdesc:base.module_bus
 msgid "IM Bus"
-msgstr ""
+msgstr "Шина мгновенных сообщений"
 
 #. module: bus
 #: model:ir.module.module,description:base.module_bus
 msgid "Instant Messaging Bus allow you to send messages to users, in live."
-msgstr ""
+msgstr "Шина мгновенных сообщений позволяет отправлять сообщения пользователям в реальном времени."
 
 #. module: bus
 #: model:ir.model.fields,field_description:bus.field_bus_bus__write_uid
@@ -158,7 +158,7 @@ msgstr "Сообщение"
 #. module: bus
 #: model:ir.model,name:bus.model_ir_model
 msgid "Model"
-msgstr ""
+msgstr "Модель"
 
 #. module: bus
 #: model:ir.model,name:bus.model_ir_qweb
@@ -191,7 +191,7 @@ msgstr "Настройки пользователя"
 #. odoo-javascript
 #: code:addons/bus/static/src/debug/bus_logs_menu_item.js:0
 msgid "You're about to download the bus logs"
-msgstr ""
+msgstr "Вы собираетесь скачать журналы шины"
 
 #. module: bus
 #. odoo-python

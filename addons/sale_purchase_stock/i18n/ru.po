@@ -29,7 +29,7 @@ msgid ""
 "\n"
 "Add relation information between Sale Orders and Purchase Orders if Make to "
 "Order (MTO) is activated on one sold product.\n"
-msgstr ""
+msgstr "\nДобавляет информацию о связи между заказами на продажу и заказами на закупку, если для проданного товара включено производство под заказ (MTO).\n"
 
 #. module: sale_purchase_stock
 #: model:ir.model.fields,field_description:sale_purchase_stock.field_purchase_order__display_name
@@ -52,7 +52,7 @@ msgstr "ID"
 #. module: sale_purchase_stock
 #: model:ir.module.module,shortdesc:base.module_sale_purchase_stock
 msgid "MTO Sale <-> Purchase"
-msgstr ""
+msgstr "MTO: продажа <-> закупка"
 
 #. module: sale_purchase_stock
 #: model:ir.model,name:sale_purchase_stock.model_purchase_order
@@ -67,7 +67,7 @@ msgstr "Позиция заказа на покупку"
 #. module: sale_purchase_stock
 #: model:ir.module.module,summary:base.module_sale_purchase_stock
 msgid "SO/PO relation in case of MTO"
-msgstr ""
+msgstr "Связь заказа на продажу и заказа на закупку при MTO"
 
 #. module: sale_purchase_stock
 #: model:ir.model,name:sale_purchase_stock.model_sale_order

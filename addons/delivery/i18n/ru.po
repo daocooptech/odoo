@@ -31,7 +31,7 @@ msgid ""
 "            \"Delivery Note - %s - %s\" % (object.partner_id.name or \"\", "
 "object.name)\n"
 "        "
-msgstr ""
+msgstr "\n            \"Накладная - %s - %s\" % (object.partner_id.name or \"\", object.name)\n        "
 
 #. module: delivery
 #: model:ir.module.module,description:base.module_delivery

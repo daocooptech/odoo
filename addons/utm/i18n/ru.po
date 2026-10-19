@@ -27,7 +27,7 @@ msgstr ""
 msgid ""
 "\n"
 "Enable management of UTM trackers: campaign, medium, source.\n"
-msgstr ""
+msgstr "\nУправление UTM-метками: кампания, канал, источник.\n"
 
 #. module: utm
 #. odoo-python
@@ -91,7 +91,7 @@ msgstr "Автоматически созданная кампания"
 #. module: utm
 #: model:utm.campaign,title:utm.utm_campaign_black_friday
 msgid "Black Friday Sales"
-msgstr ""
+msgstr "Распродажа в Чёрную пятницу"
 
 #. module: utm
 #: model:ir.model.fields,field_description:utm.field_utm_mixin__campaign_id
@@ -397,7 +397,7 @@ msgstr ""
 msgid ""
 "Oops, you can't delete the Source '%s'.\n"
 "Doing so would be like tearing down a load-bearing wall — not the best idea."
-msgstr ""
+msgstr "Ой, нельзя удалить источник «%s».\nЭто всё равно что сносить несущую стену — не лучшая идея."
 
 #. module: utm
 #. odoo-javascript
@@ -625,7 +625,7 @@ msgstr "Кампании UTM"
 #. module: utm
 #: model:ir.model,name:utm.model_utm_medium
 msgid "UTM Medium"
-msgstr "UTM Medium"
+msgstr "UTM-канал"
 
 #. module: utm
 #: model_terms:ir.actions.act_window,help:utm.utm_medium_action
@@ -644,7 +644,7 @@ msgstr "Миксин UTM"
 #. module: utm
 #: model:ir.model.fields,field_description:utm.field_utm_mixin__utm_reference
 msgid "UTM Reference"
-msgstr ""
+msgstr "UTM-ссылка"
 
 #. module: utm
 #: model:ir.model,name:utm.model_utm_source
@@ -673,7 +673,7 @@ msgstr "UTM-метка"
 #. module: utm
 #: model:ir.module.module,shortdesc:base.module_utm
 msgid "UTM Trackers"
-msgstr ""
+msgstr "UTM-метки"
 
 #. module: utm
 #: model:ir.ui.menu,name:utm.marketing_utm

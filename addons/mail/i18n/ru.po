@@ -16980,7 +16980,7 @@ msgstr "stun:"
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.view_ice_server_form
 msgid "stun:stun.google.com:19302 or turn:turn.example.com:3478"
-msgstr "stun:stun.google.com:19302 or turn:turn.example.com:3478"
+msgstr "stun:stun.google.com:19302 или turn:turn.example.com:3478"
 
 #. module: mail
 #. odoo-python

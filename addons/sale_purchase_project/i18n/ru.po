@@ -23,13 +23,13 @@ msgstr ""
 #. module: sale_purchase_project
 #: model:ir.model,name:sale_purchase_project.model_account_analytic_line
 msgid "Analytic Line"
-msgstr ""
+msgstr "Аналитическая строка"
 
 #. module: sale_purchase_project
 #: model:ir.model.fields,field_description:sale_purchase_project.field_account_analytic_line__display_name
 #: model:ir.model.fields,field_description:sale_purchase_project.field_sale_order_line__display_name
 msgid "Display Name"
-msgstr "Display Name"
+msgstr "Отображаемое имя"
 
 #. module: sale_purchase_project
 #: model:ir.model.fields,field_description:sale_purchase_project.field_account_analytic_line__id
@@ -41,12 +41,12 @@ msgstr "ID"
 #. odoo-python
 #: code:addons/sale_purchase_project/models/account_analytic_line.py:0
 msgid "Purchase Orders"
-msgstr ""
+msgstr "Заказы на закупку"
 
 #. module: sale_purchase_project
 #: model:ir.module.module,shortdesc:base.module_sale_purchase_project
 msgid "Sale Purchase Project"
-msgstr ""
+msgstr "Продажи, закупки и проекты"
 
 #. module: sale_purchase_project
 #: model:ir.model,name:sale_purchase_project.model_sale_order_line
@@ -56,4 +56,4 @@ msgstr "Позиция заказа на продажу"
 #. module: sale_purchase_project
 #: model:ir.module.module,summary:base.module_sale_purchase_project
 msgid "Technical Bridge"
-msgstr ""
+msgstr "Технический мост"

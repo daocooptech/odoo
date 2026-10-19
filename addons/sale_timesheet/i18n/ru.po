@@ -80,7 +80,7 @@ msgid ""
 "This module set the right product on all timesheet lines\n"
 "according to the order/contract you work on. This allows to\n"
 "have real delivered quantities in sales orders.\n"
-msgstr ""
+msgstr "\nПозволяет продавать табели в заказах на продажу\n=============================================\n\nЭтот модуль проставляет правильный товар во всех строках табеля\nв соответствии с заказом или договором, над которым вы работаете. Это позволяет\nполучать в заказах на продажу реальные поставленные количества.\n"
 
 #. module: sale_timesheet
 #. odoo-python
@@ -96,7 +96,7 @@ msgstr ""
 #. module: sale_timesheet
 #: model:ir.actions.report,print_report_name:sale_timesheet.timesheet_report_account_move
 msgid "('%s Timesheets' % (object.name))"
-msgstr ""
+msgstr "('Табели %s' % (object.name))"
 
 #. module: sale_timesheet
 #: model_terms:hr.job,job_details:sale_timesheet.job_engineer
@@ -226,12 +226,12 @@ msgstr "<span class=\"text-muted small\">Время отвечать</span>"
 msgid ""
 "<span class=\"text-muted\">Timesheets without a sales order item are "
 "reported as </span>"
-msgstr ""
+msgstr "<span class=\"text-muted\">Табели без позиции заказа на продажу отображаются как </span>"
 
 #. module: sale_timesheet
 #: model_terms:ir.ui.view,arch_db:sale_timesheet.report_timesheet_sale_timesheet
 msgid "<span>Sales Order Item: </span>"
-msgstr ""
+msgstr "<span>Позиция заказа на продажу: </span>"
 
 #. module: sale_timesheet
 #: model_terms:hr.job,website_rating:sale_timesheet.job_engineer
@@ -311,7 +311,7 @@ msgid ""
 "  - Timesheet: the quantity is the sum of hours recorded on tasks linked to "
 "this line\n"
 "  - Stock Moves: the quantity comes from confirmed pickings\n"
-msgstr ""
+msgstr "В зависимости от настройки товара поставленное количество может вычисляться автоматически одним из способов:\n  - Вручную: количество задаётся в строке вручную\n  - Аналитика по расходам: количество равно сумме количеств по проведённым расходам\n  - Табель: количество равно сумме часов, учтённых в задачах, связанных с этой строкой\n  - Складские перемещения: количество берётся из подтверждённых отборов\n"
 
 #. module: sale_timesheet
 #: model_terms:hr.job,website_description:sale_timesheet.job_engineer
@@ -756,7 +756,7 @@ msgstr "Запись в журнале"
 #. module: sale_timesheet
 #: model:ir.model,name:sale_timesheet.model_account_move_reversal
 msgid "Journal Entry Reversal"
-msgstr ""
+msgstr "Сторнирование проводки"
 
 #. module: sale_timesheet
 #: model:ir.model,name:sale_timesheet.model_account_move_line
@@ -838,7 +838,7 @@ msgstr "Основной этап услуги"
 #. module: sale_timesheet
 #: model_terms:ir.ui.view,arch_db:sale_timesheet.hr_timesheet_line_search
 msgid "Mine"
-msgstr ""
+msgstr "Мои"
 
 #. module: sale_timesheet
 #: model_terms:hr.job,website_description:sale_timesheet.job_engineer
@@ -932,7 +932,7 @@ msgstr "Не выставлен счет"
 msgid ""
 "Notify the salesperson about an upsell opportunity when completed work "
 "exceeds"
-msgstr ""
+msgstr "Уведомлять продавца о возможности допродажи, когда выполненный объём превышает"
 
 #. module: sale_timesheet
 #: model:ir.model.fields,help:sale_timesheet.field_timesheets_analysis_report__timesheet_revenues
@@ -967,7 +967,7 @@ msgstr ""
 #. module: sale_timesheet
 #: model_terms:ir.ui.view,arch_db:sale_timesheet.timesheet_sale_page
 msgid "Order"
-msgstr ""
+msgstr "Заказ"
 
 #. module: sale_timesheet
 #: model_terms:hr.job,website_description:sale_timesheet.job_engineer
@@ -1146,7 +1146,7 @@ msgstr "Заказы на продажу"
 #. module: sale_timesheet
 #: model:ir.module.module,shortdesc:base.module_sale_timesheet
 msgid "Sales Timesheet"
-msgstr ""
+msgstr "Табель продаж"
 
 #. module: sale_timesheet
 #: model:ir.model.fields,help:sale_timesheet.field_project_project__sale_line_employee_ids
@@ -1208,7 +1208,7 @@ msgstr "Поиск в элементе заказа на продажу"
 #. module: sale_timesheet
 #: model:ir.module.module,summary:base.module_sale_timesheet
 msgid "Sell based on timesheets"
-msgstr ""
+msgstr "Продажа на основе табелей"
 
 #. module: sale_timesheet
 #: model_terms:ir.ui.view,arch_db:sale_timesheet.res_config_settings_view_form
@@ -1246,7 +1246,7 @@ msgstr "Услуги"
 #. module: sale_timesheet
 #: model:ir.model,name:sale_timesheet.model_account_move_send
 msgid "Shared Send Invoice Wizard Functions"
-msgstr ""
+msgstr "Общие функции мастера отправки счёта"
 
 #. module: sale_timesheet
 #: model:hr.job,name:sale_timesheet.job_engineer
@@ -1440,13 +1440,13 @@ msgstr "Временные таблицы (фиксированная цена)"
 #. odoo-python
 #: code:addons/sale_timesheet/models/account_analytic_line.py:0
 msgid "Timesheets (Manual)"
-msgstr ""
+msgstr "Табели (вручную)"
 
 #. module: sale_timesheet
 #. odoo-python
 #: code:addons/sale_timesheet/models/account_analytic_line.py:0
 msgid "Timesheets (Milestones)"
-msgstr ""
+msgstr "Табели (этапы)"
 
 #. module: sale_timesheet
 #. odoo-python
@@ -1458,7 +1458,7 @@ msgstr "Табели (Неоплачиваемые)"
 #. odoo-python
 #: code:addons/sale_timesheet/models/account_analytic_line.py:0
 msgid "Timesheets (Time & Materials)"
-msgstr ""
+msgstr "Табели (время и материалы)"
 
 #. module: sale_timesheet
 #: model_terms:ir.ui.view,arch_db:sale_timesheet.timesheets_analysis_report_pivot_invoice_type
@@ -1634,13 +1634,13 @@ msgstr ""
 #. odoo-python
 #: code:addons/sale_timesheet/models/account_analytic_line.py:0
 msgid "You cannot modify timsheets that are already invoiced."
-msgstr ""
+msgstr "Нельзя изменять табели, по которым уже выставлен счёт."
 
 #. module: sale_timesheet
 #. odoo-python
 #: code:addons/sale_timesheet/models/account_analytic_line.py:0
 msgid "You cannot remove timsheets that are already invoiced."
-msgstr ""
+msgstr "Нельзя удалять табели, по которым уже выставлен счёт."
 
 #. module: sale_timesheet
 #: model:ir.model.fields.selection,name:sale_timesheet.selection__project_project__billing_type__manually
@@ -1661,7 +1661,7 @@ msgstr "не оплачиваемый"
 #. module: sale_timesheet
 #: model_terms:ir.ui.view,arch_db:sale_timesheet.view_product_timesheet_form
 msgid "of the hours sold."
-msgstr ""
+msgstr "от проданных часов."
 
 #. module: sale_timesheet
 #. odoo-python

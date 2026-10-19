@@ -31,7 +31,7 @@ msgid ""
 "\n"
 "Passkeys are a secure alternative to a username and a password.\n"
 "When a user logs in with a Passkey, MFA will not be required.\n"
-msgstr ""
+msgstr "\nРеализация ключей доступа по протоколу webauthn.\n===========================================================\n\nКлючи доступа — безопасная альтернатива имени пользователя и паролю.\nПри входе с ключом доступа многофакторная аутентификация не потребуется.\n"
 
 #. module: auth_passkey
 #: model_terms:ir.ui.view,arch_db:auth_passkey.auth_passkey_users_form
@@ -159,7 +159,7 @@ msgstr "Последнее использование:"
 #. module: auth_passkey
 #: model:ir.module.module,summary:base.module_auth_passkey
 msgid "Log in with a Passkey"
-msgstr ""
+msgstr "Вход с ключом доступа"
 
 #. module: auth_passkey
 #: model:ir.model.fields,field_description:auth_passkey.field_auth_passkey_key__name
@@ -249,7 +249,7 @@ msgstr "Используйте ключ доступа"
 #. odoo-javascript
 #: code:addons/auth_passkey/static/src/services/check_identity/check_identity.xml:0
 msgid "Use passkey"
-msgstr ""
+msgstr "Использовать ключ доступа"
 
 #. module: auth_passkey
 #: model_terms:ir.ui.view,arch_db:auth_passkey.res_users_identitycheck_view_form_passkey
@@ -260,7 +260,7 @@ msgstr "Использовать пароль"
 #. odoo-javascript
 #: code:addons/auth_passkey/static/src/services/check_identity/check_identity.xml:0
 msgid "Use your passkey"
-msgstr ""
+msgstr "Используйте свой ключ доступа"
 
 #. module: auth_passkey
 #: model:ir.model,name:auth_passkey.model_res_users
@@ -271,4 +271,4 @@ msgstr "Пользователь"
 #. odoo-javascript
 #: code:addons/auth_passkey/static/src/services/check_identity/check_identity.xml:0
 msgid "When you are ready, authenticate using the button below."
-msgstr ""
+msgstr "Когда будете готовы, пройдите аутентификацию с помощью кнопки ниже."

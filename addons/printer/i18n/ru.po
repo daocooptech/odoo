@@ -22,36 +22,36 @@ msgstr ""
 #. module: printer
 #: model:ir.module.module,summary:base.module_printer
 msgid "Base module to manage external printers (e.g. ePOS, ZPL)"
-msgstr ""
+msgstr "Базовый модуль для управления внешними принтерами (напр., ePOS, ZPL)"
 
 #. module: printer
 #: model_terms:ir.actions.act_window,help:printer.manage_printers_action
 msgid "Click \"New\" to configure a printer."
-msgstr ""
+msgstr "Нажмите «Создать», чтобы настроить принтер."
 
 #. module: printer
 #: model:ir.model.fields,field_description:printer.field_printer_printer__create_uid
 #: model:ir.model.fields,field_description:printer.field_select_printers_wizard__create_uid
 msgid "Created by"
-msgstr ""
+msgstr "Создал"
 
 #. module: printer
 #: model:ir.model.fields,field_description:printer.field_printer_printer__create_date
 #: model:ir.model.fields,field_description:printer.field_select_printers_wizard__create_date
 msgid "Created on"
-msgstr ""
+msgstr "Создано"
 
 #. module: printer
 #: model:ir.model.fields,field_description:printer.field_ir_actions_report__display_name
 #: model:ir.model.fields,field_description:printer.field_printer_printer__display_name
 #: model:ir.model.fields,field_description:printer.field_select_printers_wizard__display_name
 msgid "Display Name"
-msgstr ""
+msgstr "Отображаемое имя"
 
 #. module: printer
 #: model:ir.model.fields,field_description:printer.field_select_printers_wizard__do_not_ask_again
 msgid "Do not ask me again"
-msgstr ""
+msgstr "Больше не спрашивать"
 
 #. module: printer
 #. odoo-javascript
@@ -59,12 +59,12 @@ msgstr ""
 msgid ""
 "Error occurred while printing the document. Please check the printer and try "
 "again: %s"
-msgstr ""
+msgstr "При печати документа произошла ошибка. Проверьте принтер и повторите попытку: %s"
 
 #. module: printer
 #: model:ir.model,name:printer.model_printer_printer
 msgid "External Printer"
-msgstr ""
+msgstr "Внешний принтер"
 
 #. module: printer
 #: model:ir.model.fields,field_description:printer.field_ir_actions_report__id
@@ -76,59 +76,59 @@ msgstr ""
 #. module: printer
 #: model:ir.model.fields,field_description:printer.field_printer_printer__ip_address
 msgid "IP Address"
-msgstr ""
+msgstr "IP-адрес"
 
 #. module: printer
 #: model:ir.model.fields,help:printer.field_select_printers_wizard__do_not_ask_again
 msgid ""
 "If checked, this dialog won't appear the next time you print and the "
 "selected printers will be used automatically."
-msgstr ""
+msgstr "Если отмечено, это окно не появится при следующей печати, а выбранные принтеры будут использоваться автоматически."
 
 #. module: printer
 #: model:ir.model.fields,field_description:printer.field_printer_printer__write_uid
 #: model:ir.model.fields,field_description:printer.field_select_printers_wizard__write_uid
 msgid "Last Updated by"
-msgstr ""
+msgstr "Последний раз обновил"
 
 #. module: printer
 #: model:ir.model.fields,field_description:printer.field_printer_printer__write_date
 #: model:ir.model.fields,field_description:printer.field_select_printers_wizard__write_date
 msgid "Last Updated on"
-msgstr ""
+msgstr "Последнее обновление"
 
 #. module: printer
 #: model:ir.model.fields,field_description:printer.field_printer_printer__report_ids
 msgid "Linked Reports"
-msgstr ""
+msgstr "Связанные отчёты"
 
 #. module: printer
 #: model:ir.model.fields,field_description:printer.field_printer_printer__name
 msgid "Name"
-msgstr ""
+msgstr "Название"
 
 #. module: printer
 #: model_terms:ir.actions.act_window,help:printer.manage_printers_action
 msgid "No printer configured!"
-msgstr ""
+msgstr "Принтер не настроен!"
 
 #. module: printer
 #. odoo-javascript
 #: code:addons/printer/static/src/client_actions/reset_cached_printers.xml:0
 msgid "No report to display"
-msgstr ""
+msgstr "Нет отчёта для отображения"
 
 #. module: printer
 #: model_terms:ir.ui.view,arch_db:printer.view_select_printers_wizard
 msgid "Print"
-msgstr ""
+msgstr "Печать"
 
 #. module: printer
 #: model:ir.model.fields,field_description:printer.field_select_printers_wizard__printer_ids
 #: model:ir.module.module,shortdesc:base.module_printer
 #: model_terms:ir.ui.view,arch_db:printer.printer_view_form
 msgid "Printer"
-msgstr ""
+msgstr "Принтер"
 
 #. module: printer
 #: model:ir.actions.act_window,name:printer.manage_printers_action
@@ -139,13 +139,13 @@ msgstr "Принтеры"
 #. module: printer
 #: model:ir.model,name:printer.model_ir_actions_report
 msgid "Report Action"
-msgstr ""
+msgstr "Действие отчёта"
 
 #. module: printer
 #. odoo-javascript
 #: code:addons/printer/static/src/client_actions/reset_cached_printers.xml:0
 msgid "Reports with linked printers"
-msgstr ""
+msgstr "Отчёты со связанными принтерами"
 
 #. module: printer
 #. odoo-javascript
@@ -157,23 +157,23 @@ msgstr "Сбросить привязку принтеров"
 #. odoo-python
 #: code:addons/printer/models/ir_actions_report.py:0
 msgid "Select Printers for %s"
-msgstr ""
+msgstr "Выберите принтеры для %s"
 
 #. module: printer
 #. odoo-javascript
 #: code:addons/printer/static/src/wizard/select_printers_wizard.js:0
 msgid "Select at least one printer"
-msgstr ""
+msgstr "Выберите хотя бы один принтер"
 
 #. module: printer
 #: model:ir.model,name:printer.model_select_printers_wizard
 msgid "Select printers to print the report on"
-msgstr ""
+msgstr "Выберите принтеры для печати отчёта"
 
 #. module: printer
 #: model:ir.model.fields,field_description:printer.field_printer_printer__type
 msgid "Type"
-msgstr ""
+msgstr "Тип"
 
 #. module: printer
 #: model:ir.model.fields.selection,name:printer.selection__printer_printer__type__zpl
@@ -183,7 +183,7 @@ msgstr ""
 #. module: printer
 #: model_terms:ir.ui.view,arch_db:printer.printer_view_form
 msgid "e.g. Zebra ZD421"
-msgstr ""
+msgstr "напр., Zebra ZD421"
 
 #. module: printer
 #: model:ir.model.fields.selection,name:printer.selection__printer_printer__type__epos

@@ -28,17 +28,17 @@ msgid ""
 "\n"
 "learn more about it here:\n"
 "https://wkhtmltopdf.org/\n"
-msgstr ""
+msgstr "\nЭтот модуль реализует для Odoo движок формирования отчётов\nwkhtmltopdf и wkhtmltoimage.\n\nподробнее об этом:\nhttps://wkhtmltopdf.org/\n"
 
 #. module: base_report_wkhtmltox
 #: model:ir.model.fields,field_description:base_report_wkhtmltox.field_ir_actions_report__display_name
 msgid "Display Name"
-msgstr ""
+msgstr "Отображаемое имя"
 
 #. module: base_report_wkhtmltox
 #: model:ir.model.fields,field_description:base_report_wkhtmltox.field_ir_actions_report__report_type
 msgid "Format"
-msgstr ""
+msgstr "Формат"
 
 #. module: base_report_wkhtmltox
 #: model:ir.model.fields,field_description:base_report_wkhtmltox.field_ir_actions_report__id
@@ -53,12 +53,12 @@ msgstr ""
 #. module: base_report_wkhtmltox
 #: model:ir.model,name:base_report_wkhtmltox.model_ir_actions_report
 msgid "Report Action"
-msgstr ""
+msgstr "Действие отчёта"
 
 #. module: base_report_wkhtmltox
 #: model:ir.module.module,shortdesc:base.module_base_report_wkhtmltox
 msgid "Report Engine: wkhtmltopdf/wkhtmltoimage"
-msgstr ""
+msgstr "Движок отчётов: wkhtmltopdf/wkhtmltoimage"
 
 #. module: base_report_wkhtmltox
 #: model:ir.model.fields,help:base_report_wkhtmltox.field_ir_actions_report__report_type
@@ -66,13 +66,13 @@ msgid ""
 "The type of the report that will be rendered, each one having its own "
 "rendering method. HTML means the report will be opened directly in your "
 "browser, PDF means the report will be generated and downloaded by the user."
-msgstr ""
+msgstr "Тип отчёта, который будет сформирован; для каждого типа свой способ формирования. HTML означает, что отчёт откроется прямо в браузере, PDF — что отчёт будет сформирован и скачан пользователем."
 
 #. module: base_report_wkhtmltox
 #. odoo-python
 #: code:addons/base_report_wkhtmltox/models/ir_actions_report.py:0
 msgid "Tried to convert multiple documents in wkhtmltopdf using unpatched QT"
-msgstr ""
+msgstr "Попытка преобразовать несколько документов в wkhtmltopdf с непропатченным QT"
 
 #. module: base_report_wkhtmltox
 #. odoo-python
@@ -80,7 +80,7 @@ msgstr ""
 msgid ""
 "Wkhtmltoimage failed (error code: %(error_code)s). Message: %"
 "(error_message_end)s"
-msgstr ""
+msgstr "Ошибка Wkhtmltoimage (код ошибки: %(error_code)s). Сообщение: %(error_message_end)s"
 
 #. module: base_report_wkhtmltox
 #. odoo-python
@@ -88,21 +88,21 @@ msgstr ""
 msgid ""
 "Wkhtmltopdf failed (error code: %(error_code)s). Memory limit too low or "
 "maximum file number of subprocess reached. Message : %(message)s"
-msgstr ""
+msgstr "Ошибка Wkhtmltopdf (код ошибки: %(error_code)s). Слишком малый лимит памяти или достигнуто максимальное число файлов подпроцесса. Сообщение: %(message)s"
 
 #. module: base_report_wkhtmltox
 #. odoo-python
 #: code:addons/base_report_wkhtmltox/models/ir_actions_report.py:0
 msgid "Wkhtmltopdf failed (error code: %(error_code)s). Message: %(message)s"
-msgstr ""
+msgstr "Ошибка Wkhtmltopdf (код ошибки: %(error_code)s). Сообщение: %(message)s"
 
 #. module: base_report_wkhtmltox
 #. odoo-python
 #: code:addons/base_report_wkhtmltox/models/ir_actions_report.py:0
 msgid "wkhtmltoimage 0.12.0^ is required in order to render images from html"
-msgstr ""
+msgstr "Для формирования изображений из html требуется wkhtmltoimage 0.12.0^"
 
 #. module: base_report_wkhtmltox
 #: model:ir.module.module,summary:base.module_base_report_wkhtmltox
 msgid "wkhtmltopdf rendering engine"
-msgstr ""
+msgstr "Движок формирования отчётов wkhtmltopdf"

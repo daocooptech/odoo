@@ -91,7 +91,7 @@ msgstr "Скопировано!"
 #. module: auth_totp_portal
 #: model:ir.model.fields,field_description:auth_totp_portal.field_res_users__display_name
 msgid "Display Name"
-msgstr "Display Name"
+msgstr "Отображаемое имя"
 
 #. module: auth_totp_portal
 #: model_terms:ir.ui.view,arch_db:auth_totp_portal.totp_portal_hook
@@ -133,4 +133,4 @@ msgstr "Пользователь"
 #. odoo-javascript
 #: code:addons/auth_totp_portal/static/src/interactions/totp_enable.js:0
 msgid "Verification failed, please double-check the 6-digit code"
-msgstr ""
+msgstr "Проверка не пройдена, перепроверьте 6-значный код"

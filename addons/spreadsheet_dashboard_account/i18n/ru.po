@@ -51,7 +51,7 @@ msgstr "Средний счет-фактура"
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_account/data/files/invoicing_dashboard.json:0
 msgid "COGS"
-msgstr "COGS"
+msgstr "Себестоимость проданных товаров"
 
 #. module: spreadsheet_dashboard_account
 #. odoo-javascript
@@ -149,7 +149,7 @@ msgstr "KPI - Неоплаченные счета"
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_account/data/files/invoicing_dashboard.json:0
 msgid "Map"
-msgstr ""
+msgstr "Карта"
 
 #. module: spreadsheet_dashboard_account
 #. odoo-javascript
@@ -197,12 +197,12 @@ msgstr "Продавец"
 #: model:ir.module.module,description:base.module_spreadsheet_dashboard_account
 #: model:ir.module.module,summary:base.module_spreadsheet_dashboard_account
 msgid "Spreadsheet"
-msgstr ""
+msgstr "Электронная таблица"
 
 #. module: spreadsheet_dashboard_account
 #: model:ir.module.module,shortdesc:base.module_spreadsheet_dashboard_account
 msgid "Spreadsheet dashboard for accounting"
-msgstr ""
+msgstr "Дашборд электронной таблицы по бухгалтерии"
 
 #. module: spreadsheet_dashboard_account
 #. odoo-javascript
@@ -214,7 +214,7 @@ msgstr "Статус"
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_account/data/files/invoicing_dashboard.json:0
 msgid "Top 50"
-msgstr ""
+msgstr "Топ-50"
 
 #. module: spreadsheet_dashboard_account
 #. odoo-javascript

@@ -7881,7 +7881,7 @@ msgstr "Q%(quarter_number)s"
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "Q%(value)s"
-msgstr ""
+msgstr "%(value)s кв."
 
 #. module: spreadsheet
 #. odoo-javascript

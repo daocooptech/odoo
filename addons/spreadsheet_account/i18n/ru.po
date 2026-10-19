@@ -79,7 +79,7 @@ msgstr "Кредитная карта"
 #. odoo-javascript
 #: code:addons/spreadsheet_account/static/src/accounting_functions.js:0
 msgid "Currency not available for this company."
-msgstr ""
+msgstr "Валюта недоступна для этой компании."
 
 #. module: spreadsheet_account
 #. odoo-javascript
@@ -91,7 +91,7 @@ msgstr "Текущие активы"
 #. odoo-javascript
 #: code:addons/spreadsheet_account/static/src/fiscal_year_global_filter.js:0
 msgid "Current Fiscal Year"
-msgstr ""
+msgstr "Текущий финансовый год"
 
 #. module: spreadsheet_account
 #. odoo-javascript
@@ -115,7 +115,7 @@ msgstr "Амортизация"
 #: model:ir.model.fields,field_description:spreadsheet_account.field_account_account__display_name
 #: model:ir.model.fields,field_description:spreadsheet_account.field_res_company__display_name
 msgid "Display Name"
-msgstr "Display Name"
+msgstr "Отображаемое имя"
 
 #. module: spreadsheet_account
 #. odoo-javascript
@@ -274,13 +274,13 @@ msgstr "Установите значение TRUE, чтобы включить 
 #. module: spreadsheet_account
 #: model:ir.module.module,shortdesc:base.module_spreadsheet_account
 msgid "Spreadsheet Accounting Formulas"
-msgstr ""
+msgstr "Бухгалтерские формулы электронных таблиц"
 
 #. module: spreadsheet_account
 #: model:ir.module.module,description:base.module_spreadsheet_account
 #: model:ir.module.module,summary:base.module_spreadsheet_account
 msgid "Spreadsheet Accounting formulas"
-msgstr ""
+msgstr "Бухгалтерские формулы электронных таблиц"
 
 #. module: spreadsheet_account
 #. odoo-javascript

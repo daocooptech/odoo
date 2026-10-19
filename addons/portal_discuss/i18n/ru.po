@@ -18,28 +18,28 @@ msgstr ""
 #. module: portal_discuss
 #: model:portal.entry,description:portal_discuss.portal_entry_discuss
 msgid "Access your conversations"
-msgstr ""
+msgstr "Доступ к вашим беседам"
 
 #. module: portal_discuss
 #: model:ir.module.module,description:base.module_portal_discuss
 msgid "Bridge module adding Discuss access from portal."
-msgstr ""
+msgstr "Связующий модуль, добавляющий доступ к обсуждениям из личного кабинета."
 
 #. module: portal_discuss
 #: model:portal.entry,name:portal_discuss.portal_entry_discuss
 msgid "Discuss"
-msgstr ""
+msgstr "Обсуждения"
 
 #. module: portal_discuss
 #: model:ir.model,name:portal_discuss.model_discuss_channel
 msgid "Discussion Channel"
-msgstr ""
+msgstr "Канал обсуждения"
 
 #. module: portal_discuss
 #: model:ir.model.fields,field_description:portal_discuss.field_discuss_channel__display_name
 #: model:ir.model.fields,field_description:portal_discuss.field_portal_entry__display_name
 msgid "Display Name"
-msgstr ""
+msgstr "Отображаемое имя"
 
 #. module: portal_discuss
 #: model:ir.model.fields,field_description:portal_discuss.field_discuss_channel__id
@@ -50,9 +50,9 @@ msgstr ""
 #. module: portal_discuss
 #: model:ir.module.module,shortdesc:base.module_portal_discuss
 msgid "Portal Discuss"
-msgstr ""
+msgstr "Обсуждения в личном кабинете"
 
 #. module: portal_discuss
 #: model:ir.model,name:portal_discuss.model_portal_entry
 msgid "Portal Entry"
-msgstr ""
+msgstr "Пункт личного кабинета"

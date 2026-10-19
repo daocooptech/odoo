@@ -511,7 +511,7 @@ msgstr "Номер 700"
 #: model_terms:res.partner,website_description:base.res_partner_5
 msgid ""
 "<a href=\"#\" class=\"btn btn-primary o_translate_inline\">Discover more</a>"
-msgstr ""
+msgstr "<a href=\"#\" class=\"btn btn-primary o_translate_inline\">Узнать больше</a>"
 
 #. module: base
 #: model_terms:ir.actions.act_window,help:base.action_ir_mail_server_list
@@ -659,7 +659,7 @@ msgstr "<i class=\"oi d-none d-md-inline-flex\" data-icon=\"business\" title=\"�
 msgid ""
 "<i class=\"oi oi-filled d-none d-md-block\" data-icon=\"mail\" "
 "title=\"Email\"/>"
-msgstr ""
+msgstr "<i class=\"oi oi-filled d-none d-md-block\" data-icon=\"mail\" title=\"Электронная почта\"/>"
 
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.view_users_form
@@ -684,7 +684,7 @@ msgstr "<i class=\"oi oi-filled d-none d-md-block\" data-icon=\"phone\" title=\"
 msgid ""
 "<i class=\"oi oi-filled d-none d-md-inline-flex\" data-icon=\"mail\" "
 "title=\"Email\"/>"
-msgstr ""
+msgstr "<i class=\"oi oi-filled d-none d-md-inline-flex\" data-icon=\"mail\" title=\"Электронная почта\"/>"
 
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.view_partner_form
@@ -739,7 +739,7 @@ msgstr "<i class=\"oi oi-fw o_button_icon\" data-icon=\"east\"/>\n              
 msgid ""
 "<i class=\"oi oi-fw oi-filled d-none d-md-inline-flex\" data-icon=\"mail\" "
 "title=\"Email\"/>"
-msgstr ""
+msgstr "<i class=\"oi oi-fw oi-filled d-none d-md-inline-flex\" data-icon=\"mail\" title=\"Электронная почта\"/>"
 
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.view_users_form_simple_modif
@@ -753,7 +753,7 @@ msgstr "<i class=\"oi oi-fw oi-filled d-none d-md-inline-flex\" data-icon=\"phon
 msgid ""
 "<i class=\"oi oi-fw oi-filled me-1 text-muted\" data-icon=\"mail\" "
 "title=\"Email\"/>"
-msgstr ""
+msgstr "<i class=\"oi oi-fw oi-filled me-1 text-muted\" data-icon=\"mail\" title=\"Электронная почта\"/>"
 
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.res_partner_kanban_view
@@ -767,7 +767,7 @@ msgstr "<i class=\"oi oi-fw oi-filled me-1 text-muted\" data-icon=\"phone\" titl
 #: model_terms:ir.ui.view,arch_db:base.view_res_company_kanban
 msgid ""
 "<i class=\"oi oi-fw oi-filled me-1\" data-icon=\"mail\" title=\"Email\"/>"
-msgstr ""
+msgstr "<i class=\"oi oi-fw oi-filled me-1\" data-icon=\"mail\" title=\"Электронная почта\"/>"
 
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.view_partner_form
@@ -1238,7 +1238,7 @@ msgid ""
 "                    aerospace, environmental and applied fluid dynamics, "
 "and\n"
 "                    turbomachinery and propulsion)."
-msgstr ""
+msgstr "Некоммерческая международная образовательная и научная\n                    организация, включающая три отдела (аэронавтика и\n                    аэрокосмическая техника, экологическая и прикладная гидродинамика,\n                    турбомашины и двигательные установки)."
 
 #. module: base
 #: model:res.partner,website_short_description:base.res_partner_3
@@ -1246,7 +1246,7 @@ msgid ""
 "A non-profit international educational and scientific organisation, hosting "
 "three departments (aeronautics and aerospace, environmental and applied "
 "fluid dynamics, and turbomachinery and propulsion)."
-msgstr ""
+msgstr "Некоммерческая международная образовательная и научная организация, включающая три отдела (аэронавтика и аэрокосмическая техника, экологическая и прикладная гидродинамика, турбомашины и двигательные установки)."
 
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.view_groups_form
@@ -1813,7 +1813,7 @@ msgstr "Добавление"
 #. module: base
 #: model:res.partner,website_short_description:base.res_partner_address_31
 msgid "Addison Olson is a mighty sales representative at Acme Corporation."
-msgstr ""
+msgstr "Эддисон Олсон — мощный торговый представитель в Acme Corporation."
 
 #. module: base
 #: model_terms:res.partner,website_description:base.res_partner_address_31
@@ -1821,7 +1821,7 @@ msgid ""
 "Addison Olson works in IT sector <b>since 10 years</b>. He is known\n"
 "    notably for selling mouse traps. With that trick he cut\n"
 "    IT budget by almost half within the last 2 years."
-msgstr ""
+msgstr "Эддисон Олсон работает в сфере ИТ <b>уже 10 лет</b>. Он известен\n    прежде всего продажей мышеловок. Благодаря этому трюку он сократил\n    ИТ-бюджет почти вдвое за последние 2 года."
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_res_company__additional_identifiers
@@ -3460,7 +3460,7 @@ msgstr "Аруба"
 #: model_terms:res.partner,website_description:base.res_partner_12
 #: model_terms:res.partner,website_description:base.res_partner_5
 msgid "As a team, we are happy to contribute to this event."
-msgstr ""
+msgstr "Всей командой мы рады принять участие в этом мероприятии."
 
 #. module: base
 #: model:ir.model.fields.selection,name:base.selection__res_partner__tz__asia/aden
@@ -4267,7 +4267,7 @@ msgstr "Азербайджан"
 msgid ""
 "Azure Interior brings honesty and seriousness to wood industry while helping "
 "customers deal with trees, flowers and fungi."
-msgstr ""
+msgstr "Azure Interior привносит честность и серьёзность в деревообрабатывающую отрасль, помогая клиентам работать с деревьями, цветами и грибами."
 
 #. module: base
 #: model:res.partner.industry,full_name:base.res_partner_industry_B
@@ -4790,7 +4790,7 @@ msgid ""
 "Brandon works in IT sector <b>since 10 years</b>. He is known\n"
 "                notably for selling mouse traps. With that trick he cut\n"
 "                IT budget by almost half within the last 2 years."
-msgstr ""
+msgstr "Брэндон работает в сфере ИТ <b>уже 10 лет</b>. Он известен\n                прежде всего продажей мышеловок. Благодаря этому трюку он сократил\n                ИТ-бюджет почти вдвое за последние 2 года."
 
 #. module: base
 #: model:res.country,name:base.br
@@ -5276,7 +5276,7 @@ msgid ""
 "amount of the invoice will therefore be due to ID Company in its entirety "
 "and does not include any costs relating to the legislation of the country in "
 "which the client is located."
-msgstr ""
+msgstr "В некоторых странах налог удерживается у источника с суммы счетов в соответствии с внутренним законодательством. Любое удержание у источника уплачивается клиентом налоговым органам. Ни при каких обстоятельствах ID Company не может участвовать в расходах, связанных с законодательством той или иной страны. Поэтому сумма счёта подлежит оплате ID Company в полном объёме и не включает никаких расходов, связанных с законодательством страны, в которой находится клиент."
 
 #. module: base
 #: model_terms:res.company,invoice_terms_html:base.main_company
@@ -5288,7 +5288,7 @@ msgid ""
 "legislation. The amount of the invoice will therefore be due to My Company "
 "(San Francisco) in its entirety and does not include any costs relating to "
 "the legislation of the country in which the client is located."
-msgstr ""
+msgstr "В некоторых странах налог удерживается у источника с суммы счетов в соответствии с внутренним законодательством. Любое удержание у источника уплачивается клиентом налоговым органам. Ни при каких обстоятельствах My Company (San Francisco) не может участвовать в расходах, связанных с законодательством той или иной страны. Поэтому сумма счёта подлежит оплате My Company (San Francisco) в полном объёме и не включает никаких расходов, связанных с законодательством страны, в которой находится клиент."
 
 #. module: base
 #: model:ir.model.constraint,message:base.constraint_ir_mail_server_certificate_requires_tls
@@ -5590,7 +5590,7 @@ msgid ""
 "Colleen Diaz works in IT sector <b>since 10 years</b>. He is known\n"
 "                notably for selling mouse traps. With that trick he cut\n"
 "                IT budget by almost half within the last 2 years."
-msgstr ""
+msgstr "Колин Диас работает в сфере ИТ <b>уже 10 лет</b>. Он известен\n                прежде всего продажей мышеловок. Благодаря этому трюку он сократил\n                ИТ-бюджет почти вдвое за последние 2 года."
 
 #. module: base
 #: model:res.country,name:base.co
@@ -5652,7 +5652,7 @@ msgstr "Столбец, ссылающийся на запись в таблиц
 #: model_terms:res.partner,website_description:base.res_partner_12
 #: model_terms:res.partner,website_description:base.res_partner_5
 msgid "Come see us live, we hope to meet you!"
-msgstr ""
+msgstr "Приходите посмотреть на нас вживую, надеемся на встречу с вами!"
 
 #. module: base
 #: model:ir.model.fields.selection,name:base.selection__report_paperformat__format__comm10e
@@ -6890,7 +6890,7 @@ msgstr "Положение имени клиента"
 #: model_terms:res.partner,website_description:base.res_partner_2
 #: model_terms:res.partner,website_description:base.res_partner_4
 msgid "Customer Relationship Management"
-msgstr ""
+msgstr "Управление взаимоотношениями с клиентами"
 
 #. module: base
 #: model:ir.actions.act_window,name:base.action_partner_customer_form
@@ -7843,7 +7843,7 @@ msgstr "Донг"
 #. module: base
 #: model:res.partner,website_short_description:base.res_partner_address_3
 msgid "Douglas Fletcher is a mighty functional consultant at Acme Corporation"
-msgstr ""
+msgstr "Дуглас Флетчер — мощный функциональный консультант в Acme Corporation"
 
 #. module: base
 #: model_terms:res.partner,website_description:base.res_partner_address_3
@@ -7851,7 +7851,7 @@ msgid ""
 "Douglas Fletcher works in IT sector <b>since 10 years</b>. He is known\n"
 "    notably for selling mouse traps. With that trick he cut\n"
 "    IT budget by almost half within the last 2 years."
-msgstr ""
+msgstr "Дуглас Флетчер работает в сфере ИТ <b>уже 10 лет</b>. Он известен\n    прежде всего продажей мышеловок. Благодаря этому трюку он сократил\n    ИТ-бюджет почти вдвое за последние 2 года."
 
 #. module: base
 #: model:ir.model.fields.selection,name:base.selection__ir_actions_act_url__target__download
@@ -9452,7 +9452,7 @@ msgstr "Автопарк"
 #. module: base
 #: model:res.partner,website_short_description:base.res_partner_address_4
 msgid "Floyd Steward is a mighty analyst at Acme Corporation."
-msgstr ""
+msgstr "Флойд Стюард — выдающийся аналитик в Acme Corporation."
 
 #. module: base
 #: model_terms:res.partner,website_description:base.res_partner_address_4
@@ -9460,7 +9460,7 @@ msgid ""
 "Floyd Steward works in IT sector <b>since 10 years</b>. He is known\n"
 "    notably for selling mouse traps. With that trick he cut\n"
 "    IT budget by almost half within the last 2 years."
-msgstr ""
+msgstr "Флойд Стюард работает в IT-сфере <b>уже 10 лет</b>. Он известен прежде\n    всего продажей мышеловок. Благодаря этому приёму он за последние\n    2 года почти вдвое сократил IT-бюджет."
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_ir_model__fold_name
@@ -9941,7 +9941,7 @@ msgid ""
 "                notably for selling mouse traps. With that trick he cut\n"
 "                IT budget by almost half within the last 2 years.\n"
 "                Famous Senior Consultant."
-msgstr ""
+msgstr "Гордон Оуэнс работает в IT-сфере <b>уже 10 лет</b>. Он известен прежде\n                всего продажей мышеловок. Благодаря этому приёму он за последние\n                2 года почти вдвое сократил IT-бюджет.\n                Известный старший консультант."
 
 #. module: base
 #: model:res.currency,currency_unit_label:base.HTG
@@ -10182,7 +10182,7 @@ msgstr "Галерж"
 #: model_terms:res.partner,website_description:base.res_partner_12
 #: model_terms:res.partner,website_description:base.res_partner_5
 msgid "Happy to be Sponsor"
-msgstr ""
+msgstr "Рад быть спонсором"
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_reset_view_arch_wizard__has_diff
@@ -10537,7 +10537,7 @@ msgid ""
 "Company cannot under any circumstances, be required by the client to appear "
 "as a third party in the context of any claim for damages filed against the "
 "client by an end consumer."
-msgstr ""
+msgstr "ID Company обязуется приложить все усилия для оказания качественных услуг в срок в соответствии с согласованными сроками. Однако ни одно из её обязательств не может считаться обязательством достичь результата. Клиент ни при каких обстоятельствах не вправе требовать от ID Company выступить третьей стороной по любой претензии о возмещении ущерба, предъявленной клиенту конечным потребителем."
 
 #. module: base
 #: model:ir.model.fields,help:base.field_ir_actions_server__xml_id
@@ -10641,7 +10641,7 @@ msgid ""
 "If a payment is still outstanding more than sixty (60) days after the due "
 "payment date, ID Company reserves the right to call on the services of a "
 "debt recovery company. All legal expenses will be payable by the client."
-msgstr ""
+msgstr "Если платёж остаётся неоплаченным более шестидесяти (60) дней после срока оплаты, ID Company вправе обратиться к услугам компании по взысканию долгов. Все судебные расходы оплачивает клиент."
 
 #. module: base
 #: model_terms:res.company,invoice_terms_html:base.main_company
@@ -10650,7 +10650,7 @@ msgid ""
 "payment date, My Company (San Francisco) reserves the right to call on the "
 "services of a debt recovery company. All legal expenses will be payable by "
 "the client."
-msgstr ""
+msgstr "Если платёж остаётся неоплаченным более шестидесяти (60) дней после срока оплаты, My Company (San Francisco) вправе обратиться к услугам компании по взысканию долгов. Все судебные расходы оплачивает клиент."
 
 #. module: base
 #: model:ir.model.fields,help:base.field_ir_model_fields__group_expand
@@ -10975,7 +10975,7 @@ msgid ""
 "In order for it to be admissible, ID Company must be notified of any claim "
 "by means of a letter sent by recorded delivery to its registered office "
 "within 8 days of the delivery of the goods or the provision of the services."
-msgstr ""
+msgstr "Для принятия к рассмотрению любая претензия должна быть направлена в ID Company письмом с уведомлением о вручении по адресу её места регистрации в течение 8 дней со дня поставки товаров или оказания услуг."
 
 #. module: base
 #: model_terms:res.company,invoice_terms_html:base.main_company
@@ -10984,7 +10984,7 @@ msgid ""
 "notified of any claim by means of a letter sent by recorded delivery to its "
 "registered office within 8 days of the delivery of the goods or the "
 "provision of the services."
-msgstr ""
+msgstr "Для принятия к рассмотрению любая претензия должна быть направлена в My Company (San Francisco) письмом с уведомлением о вручении по адресу её места регистрации в течение 8 дней со дня поставки товаров или оказания услуг."
 
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.view_currency_search
@@ -11507,7 +11507,7 @@ msgstr "Склад"
 #: model_terms:res.partner,website_description:base.res_partner_2
 #: model_terms:res.partner,website_description:base.res_partner_4
 msgid "Inventory and Warehouse management"
-msgstr ""
+msgstr "Управление запасами и складом"
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_res_currency_rate__inverse_company_rate
@@ -11651,7 +11651,7 @@ msgid ""
 "lecture\n"
 "                    series) and encourages \"training in research through\n"
 "                    research\"."
-msgstr ""
+msgstr "Он обеспечивает последипломное образование в области\n                    гидродинамики (исследовательская магистратура по гидродинамике, бывший\n                    «Diploma Course», докторская программа, программа стажировок\n                    и цикл лекций) и поощряет «обучение\n                    через исследования»."
 
 #. module: base
 #: model_terms:res.partner,website_description:base.res_partner_3
@@ -11671,7 +11671,7 @@ msgid ""
 "                    mainly by governmental and international agencies as "
 "well\n"
 "                    as industries."
-msgstr ""
+msgstr "Он проводит и поддерживает исследования в\n                    области гидродинамики. Он располагает примерно пятьюдесятью\n                    аэродинамическими трубами, турбомашинами и другими специализированными\n                    испытательными установками, часть которых уникальна или\n                    крупнейшая в мире. Обширные экспериментальные, вычислительные\n                    и теоретические исследования течений газов и\n                    жидкостей ведутся под руководством преподавателей и\n                    научных инженеров и финансируются преимущественно государственными\n                    и международными организациями, а также промышленностью."
 
 #. module: base
 #: model:res.country,name:base.it
@@ -12839,7 +12839,7 @@ msgstr "Мастер-данные"
 #: model_terms:res.partner,website_description:base.res_partner_2
 #: model_terms:res.partner,website_description:base.res_partner_4
 msgid "Materials Management"
-msgstr ""
+msgstr "Управление материалами"
 
 #. module: base
 #: model:res.country,name:base.mr
@@ -13370,7 +13370,7 @@ msgid ""
 "results. My Company (San Francisco) cannot under any circumstances, be "
 "required by the client to appear as a third party in the context of any "
 "claim for damages filed against the client by an end consumer."
-msgstr ""
+msgstr "My Company (San Francisco) обязуется приложить все усилия для оказания качественных услуг в срок в соответствии с согласованными сроками. Однако ни одно из её обязательств не может считаться обязательством достичь результата. Клиент ни при каких обстоятельствах не вправе требовать от My Company (San Francisco) выступить третьей стороной по любой претензии о возмещении ущерба, предъявленной клиенту конечным потребителем."
 
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.view_attachment_search
@@ -13648,7 +13648,7 @@ msgstr "Никарагуа"
 msgid ""
 "Nicole is <b>author of several books</b>, including Amazon best seller\n"
 "                \"How Azure and Odoo will change the business world!\"."
-msgstr ""
+msgstr "Николь — <b>автор нескольких книг</b>, в том числе бестселлера Amazon\n                «Как Azure и Odoo изменят мир бизнеса!»."
 
 #. module: base
 #: model_terms:res.partner,website_description:base.res_partner_address_16
@@ -13659,7 +13659,7 @@ msgid ""
 "Interior\n"
 "                from 1 to 55 employees mostly by reselling services on\n"
 "                Odoo."
-msgstr ""
+msgstr "Николь работает в IT-сфере <b>уже 20 лет</b>. Она\n                разрабатывает программное обеспечение для создания сайтов. Свою\n                первую компанию она продала в 30 лет и сумела вырастить Azure Interior\n                с 1 до 55 сотрудников, в основном за счёт перепродажи услуг\n                на Odoo."
 
 #. module: base
 #: model:res.country,name:base.ne
@@ -14016,7 +14016,7 @@ msgstr "Модуль Odoo Enterprise"
 #. module: base
 #: model:ir.model.fields.selection,name:base.selection__ir_module_module__license__opl-1
 msgid "Odoo Proprietary License v1.0"
-msgstr "Odoo Proprietary License v1.0"
+msgstr "Проприетарная лицензия Odoo v1.0"
 
 #. module: base
 #: model_terms:ir.actions.act_window,help:base.action_partner_customer_form
@@ -14288,7 +14288,7 @@ msgstr "Открыть настройки профилей"
 msgid ""
 "OpenWood brings honesty and seriousness to wood industry while helping "
 "customers deal with trees, flowers and fungi."
-msgstr ""
+msgstr "OpenWood привносит честность и серьёзность в деревообрабатывающую отрасль, помогая клиентам работать с деревьями, цветами и грибами."
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_ir_access__operation
@@ -14461,7 +14461,7 @@ msgid ""
 "already\n"
 "                installed IT software into account. That is why Idealis\n"
 "                Consulting delivers excellence in HR and SC Management."
-msgstr ""
+msgstr "Наши эксперты придумывают, воображают и разрабатывают решения, отвечающие\n                потребностям вашего бизнеса. Они выстраивают новую техническую\n                среду для вашей компании, но всегда учитывают уже\n                установленное ИТ-программное обеспечение. Именно поэтому Idealis\n                Consulting обеспечивает высокий уровень в управлении персоналом и цепочками поставок."
 
 #. module: base
 #: model_terms:res.company,invoice_terms_html:base.demo_company_id
@@ -14472,7 +14472,7 @@ msgid ""
 "fixed interest payment amounting to 10% of the sum remaining due. ID Company "
 "will be authorized to suspend any provision of services without prior "
 "warning in the event of late payment."
-msgstr ""
+msgstr "Наши счета подлежат оплате в течение 21 рабочего дня, если иной срок оплаты не указан в счёте или заказе. При неоплате в срок ID Company вправе потребовать выплаты фиксированных процентов в размере 10% от неоплаченной суммы. ID Company вправе без предварительного уведомления приостановить оказание любых услуг в случае просрочки платежа."
 
 #. module: base
 #: model_terms:res.company,invoice_terms_html:base.main_company
@@ -14483,7 +14483,7 @@ msgid ""
 "to request a fixed interest payment amounting to 10% of the sum remaining "
 "due. My Company (San Francisco) will be authorized to suspend any provision "
 "of services without prior warning in the event of late payment."
-msgstr ""
+msgstr "Наши счета подлежат оплате в течение 21 рабочего дня, если иной срок оплаты не указан в счёте или заказе. При неоплате в срок My Company (San Francisco) вправе потребовать выплаты фиксированных процентов в размере 10% от неоплаченной суммы. My Company (San Francisco) вправе без предварительного уведомления приостановить оказание любых услуг в случае просрочки платежа."
 
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.view_ir_mail_server_search
@@ -15103,7 +15103,7 @@ msgstr "Разрешение"
 #: model_terms:res.partner,website_description:base.res_partner_2
 #: model_terms:res.partner,website_description:base.res_partner_4
 msgid "Personnel Administration"
-msgstr ""
+msgstr "Кадровое администрирование"
 
 #. module: base
 #: model:res.country,name:base.pe
@@ -16692,7 +16692,7 @@ msgstr "Продажи и закупки"
 #: model_terms:res.partner,website_description:base.res_partner_2
 #: model_terms:res.partner,website_description:base.res_partner_4
 msgid "Sales and Distribution"
-msgstr ""
+msgstr "Продажи и распределение"
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_res_partner__user_id
@@ -18129,7 +18129,7 @@ msgstr "Тала"
 #: model_terms:res.partner,website_description:base.res_partner_2
 #: model_terms:res.partner,website_description:base.res_partner_4
 msgid "Talent Management"
-msgstr ""
+msgstr "Управление талантами"
 
 #. module: base
 #: model:res.currency,currency_subunit_label:base.MWK
@@ -18422,7 +18422,7 @@ msgstr "Международная группировка покажет 1234567
 msgid ""
 "The Jackson Group brings honesty and seriousness to wood industry while "
 "helping customers deal with trees, flowers and fungi."
-msgstr ""
+msgstr "The Jackson Group привносит честность и серьёзность в деревообрабатывающую отрасль, помогая клиентам работать с деревьями, цветами и грибами."
 
 #. module: base
 #: model:ir.model.fields,help:base.field_res_lang__url_code
@@ -19570,7 +19570,7 @@ msgid ""
 "                notably for selling mouse traps. With that trick he cut\n"
 "                IT budget by almost half within the last 2 years.\n"
 "                Famous Managing Partner."
-msgstr ""
+msgstr "Тони Роудс работает в IT-сфере <b>уже 10 лет</b>. Он известен прежде\n                всего продажей мышеловок. Благодаря этому приёму он за последние\n                2 года почти вдвое сократил IT-бюджет.\n                Известный управляющий партнёр."
 
 #. module: base
 #. odoo-python
@@ -20474,7 +20474,7 @@ msgstr "Ключ API пользователя"
 #: model:ir.model.fields,field_description:base.field_res_device_log__user_agent
 #: model:ir.model.fields,field_description:base.field_res_session__user_agent
 msgid "User Agent"
-msgstr ""
+msgstr "Пользовательский агент"
 
 #. module: base
 #: model:ir.actions.act_window,name:base.action_user_device
@@ -20948,7 +20948,7 @@ msgid ""
 "We are a technology consulting & strategic advisory firm that creates value "
 "enhancing solutions through the use of advanced software for our clients "
 "worldwide. At Lumber Inc we bring operational experience combined..."
-msgstr ""
+msgstr "Мы — технологическая консалтинговая и стратегическая компания, создающая ценность для клиентов по всему миру с помощью передового программного обеспечения. В Lumber Inc мы объединяем операционный опыт..."
 
 #. module: base
 #: model_terms:res.partner,website_description:base.res_partner_18
@@ -21253,7 +21253,7 @@ msgstr "Вон"
 msgid ""
 "Wood Corner brings honesty and seriousness to wood industry while helping "
 "customers deal with trees, flowers and fungi."
-msgstr ""
+msgstr "Wood Corner привносит честность и серьёзность в деревообрабатывающую отрасль, помогая клиентам работать с деревьями, цветами и грибами."
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_ir_model_relation__write_date

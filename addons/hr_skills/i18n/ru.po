@@ -32,12 +32,12 @@ msgid ""
 "========================\n"
 "\n"
 "This module introduces skills and resume management for employees.\n"
-msgstr ""
+msgstr "\nНавыки и резюме для отдела кадров\n==================================\n\nЭтот модуль вводит управление навыками и резюме сотрудников.\n"
 
 #. module: hr_skills
 #: model:ir.actions.report,print_report_name:hr_skills.action_report_employee_cv
 msgid "'CV - %s' % (object.name)"
-msgstr "'CV - %s' % (object.name)"
+msgstr "'Резюме - %s' % (object.name)"
 
 #. module: hr_skills
 #: model_terms:ir.ui.view,arch_db:hr_skills.resume_line_view_form
@@ -53,7 +53,7 @@ msgstr ""
 #: code:addons/hr_skills/models/hr_employee_skill.py:0
 msgid ""
 "<p class=\"o_view_nocontent_smiling_face\">No Certifications available!</p>"
-msgstr ""
+msgstr "<p class=\"o_view_nocontent_smiling_face\">Сертификатов нет!</p>"
 
 #. module: hr_skills
 #. odoo-python
@@ -65,7 +65,7 @@ msgid ""
 "class=\"btn btn-primary\">\n"
 "                Show Skill Types\n"
 "                </a>"
-msgstr ""
+msgstr "<p class=\"o_view_nocontent_smiling_face\">Сертификатов нет. Перейдите к типам навыков!</p>\n                <a type=\"action\" name=\"hr_skills.hr_skill_type_action\" class=\"btn btn-primary\">\n                Показать типы навыков\n                </a>"
 
 #. module: hr_skills
 #: model_terms:hr.resume.line,description:hr_skills.employee_resume_line_admin_7
@@ -1268,7 +1268,7 @@ msgstr "Журналист журнала"
 #. module: hr_skills
 #: model:ir.module.module,summary:base.module_hr_skills
 msgid "Manage skills, knowledge and resume of your employees"
-msgstr ""
+msgstr "Управляйте навыками, знаниями и резюме ваших сотрудников"
 
 #. module: hr_skills
 #: model:hr.skill,name:hr_skills.hr_skill_mandarin_chinese
@@ -1400,7 +1400,7 @@ msgstr "Новая строка резюме"
 #. module: hr_skills
 #: model_terms:ir.ui.view,arch_db:hr_skills.hr_employee_public_view_form_inherit
 msgid "No certifications found."
-msgstr ""
+msgstr "Сертификаты не найдены."
 
 #. module: hr_skills
 #: model:hr.skill,name:hr_skills.hr_skill_nosql
@@ -1674,7 +1674,7 @@ msgstr "React"
 #. module: hr_skills
 #: model:ir.model,name:hr_skills.model_resource_resource
 msgid "Resource"
-msgstr ""
+msgstr "Ресурс"
 
 #. module: hr_skills
 #: model:hr.skill,name:hr_skills.hr_skill_resourcefulness
@@ -1926,7 +1926,7 @@ msgstr "Типы навыков"
 #. module: hr_skills
 #: model:ir.model,name:hr_skills.model_hr_job_skill
 msgid "Skill for job position"
-msgstr ""
+msgstr "Навык для должности"
 
 #. module: hr_skills
 #: model:ir.model,name:hr_skills.model_hr_individual_skill_mixin
@@ -1975,7 +1975,7 @@ msgstr "Картотека навыков"
 #. module: hr_skills
 #: model:ir.module.module,shortdesc:base.module_hr_skills
 msgid "Skills Management"
-msgstr ""
+msgstr "Управление навыками"
 
 #. module: hr_skills
 #. odoo-javascript
@@ -2276,7 +2276,7 @@ msgstr "Обновить навыки"
 #. odoo-python
 #: code:addons/hr_skills/models/hr_employee.py:0
 msgid "Upload a document for a missing certification"
-msgstr ""
+msgstr "Загрузите документ для отсутствующего сертификата"
 
 #. module: hr_skills
 #: model:hr.skill,name:hr_skills.hr_skill_urdu

@@ -52,7 +52,7 @@ msgstr "ID"
 #. module: project_purchase
 #: model:ir.module.module,summary:base.module_project_purchase
 msgid "Monitor purchase in project"
-msgstr ""
+msgstr "Контроль закупок в проекте"
 
 #. module: project_purchase
 #: model:ir.model,name:project_purchase.model_project_project
@@ -64,7 +64,7 @@ msgstr "Проект"
 #. module: project_purchase
 #: model:ir.module.module,shortdesc:base.module_project_purchase
 msgid "Project Purchase"
-msgstr ""
+msgstr "Закупки проекта"
 
 #. module: project_purchase
 #: model:ir.model,name:project_purchase.model_purchase_order
@@ -86,7 +86,7 @@ msgstr "Заказы на покупку"
 #. module: project_purchase
 #: model:ir.model,name:project_purchase.model_purchase_report
 msgid "Purchase Report"
-msgstr ""
+msgstr "Отчёт о закупках"
 
 #. module: project_purchase
 #: model:product.template,name:project_purchase.product_product_sand_product_template

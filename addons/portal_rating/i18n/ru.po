@@ -30,7 +30,7 @@ msgid ""
 "\n"
 "Bridge module adding rating capabilities on portal. It includes notably\n"
 "inclusion of rating directly within the customer portal discuss widget.\n"
-msgstr ""
+msgstr "\nСвязующий модуль, добавляющий возможности оценок в личный кабинет. В частности,\nвключает оценки прямо в виджет обсуждений личного кабинета клиента.\n"
 
 #. module: portal_rating
 #: model_terms:ir.ui.view,arch_db:portal_rating.rating_rating_view_form
@@ -143,7 +143,7 @@ msgstr "Неверный рейтинг"
 #. odoo-javascript
 #: code:addons/portal_rating/static/src/xml/portal_tools.xml:0
 msgid "Log in"
-msgstr ""
+msgstr "Войти"
 
 #. module: portal_rating
 #: model:ir.model,name:portal_rating.model_mail_message
@@ -161,12 +161,12 @@ msgstr "Измените свой отзыв"
 #. odoo-javascript
 #: code:addons/portal_rating/static/src/chatter/portal/portal_chatter_patch.xml:0
 msgid "No reviews yet."
-msgstr ""
+msgstr "Отзывов пока нет."
 
 #. module: portal_rating
 #: model:ir.module.module,shortdesc:base.module_portal_rating
 msgid "Portal Rating"
-msgstr ""
+msgstr "Оценки в личном кабинете"
 
 #. module: portal_rating
 #. odoo-javascript
@@ -208,13 +208,13 @@ msgstr "Отзыв"
 #. odoo-javascript
 #: code:addons/portal_rating/static/src/chatter/portal/message_patch.xml:0
 msgid "Show less"
-msgstr ""
+msgstr "Показать меньше"
 
 #. module: portal_rating
 #. odoo-javascript
 #: code:addons/portal_rating/static/src/chatter/portal/message_patch.xml:0
 msgid "Show more"
-msgstr ""
+msgstr "Показать больше"
 
 #. module: portal_rating
 #. odoo-javascript
@@ -230,7 +230,7 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/portal_rating/static/src/xml/portal_tools.xml:0
 msgid "To post a review"
-msgstr ""
+msgstr "Чтобы оставить отзыв"
 
 #. module: portal_rating
 #. odoo-javascript
@@ -259,10 +259,10 @@ msgstr "Написать отзыв"
 #. odoo-javascript
 #: code:addons/portal_rating/static/src/xml/portal_tools.xml:0
 msgid "review"
-msgstr ""
+msgstr "отзыв"
 
 #. module: portal_rating
 #. odoo-javascript
 #: code:addons/portal_rating/static/src/xml/portal_tools.xml:0
 msgid "reviews"
-msgstr ""
+msgstr "отзывов"

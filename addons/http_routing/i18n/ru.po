@@ -29,7 +29,7 @@ msgid ""
 "\n"
 "Proposes advanced routing options not available in web or base to keep\n"
 "base modules simple.\n"
-msgstr ""
+msgstr "\nПредлагает расширенные параметры маршрутизации, недоступные в web или base, чтобы\nбазовые модули оставались простыми.\n"
 
 #. module: http_routing
 #: model_terms:ir.ui.view,arch_db:http_routing.custom_oe_structure_400_layout_1
@@ -49,7 +49,7 @@ msgstr "415: Неподдерживаемый тип данных"
 #. module: http_routing
 #: model_terms:ir.ui.view,arch_db:http_routing.custom_oe_structure_422_layout_1
 msgid "422: Unprocessable Entity"
-msgstr ""
+msgstr "422: Невозможно обработать"
 
 #. module: http_routing
 #: model_terms:ir.ui.view,arch_db:http_routing.404
@@ -84,7 +84,7 @@ msgstr "Отображаемое название"
 #: model_terms:ir.ui.view,arch_db:http_routing.422
 #: model_terms:ir.ui.view,arch_db:http_routing.4xx
 msgid "Drag blocks here to add them above the error message"
-msgstr ""
+msgstr "Перетащите блоки сюда, чтобы добавить их над сообщением об ошибке"
 
 #. module: http_routing
 #: model_terms:ir.ui.view,arch_db:http_routing.400
@@ -93,7 +93,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:http_routing.422
 #: model_terms:ir.ui.view,arch_db:http_routing.4xx
 msgid "Drag blocks here to add them below the error message"
-msgstr ""
+msgstr "Перетащите блоки сюда, чтобы добавить их под сообщением об ошибке"
 
 #. module: http_routing
 #: model_terms:ir.ui.view,arch_db:http_routing.http_error_debug
@@ -128,19 +128,19 @@ msgstr "ID"
 msgid ""
 "It looks like the URL you are accessing doesn't support the format of the "
 "request."
-msgstr ""
+msgstr "Похоже, адрес, к которому вы обращаетесь, не поддерживает формат запроса."
 
 #. module: http_routing
 #: model_terms:ir.ui.view,arch_db:http_routing.custom_oe_structure_422_layout_1
 msgid ""
 "It looks like the request you made could not be processed due to semantic "
 "errors."
-msgstr ""
+msgstr "Похоже, ваш запрос не удалось обработать из-за семантических ошибок."
 
 #. module: http_routing
 #: model:ir.model,name:http_routing.model_res_lang
 msgid "Language"
-msgstr ""
+msgstr "Язык"
 
 #. module: http_routing
 #: model_terms:ir.ui.view,arch_db:http_routing.404
@@ -175,7 +175,7 @@ msgstr "Искомая страница не может быть авториз�
 #. module: http_routing
 #: model_terms:ir.ui.view,arch_db:http_routing.custom_oe_structure_400_layout_1
 msgid "The server couldn't understand the request."
-msgstr ""
+msgstr "Сервер не смог понять запрос."
 
 #. module: http_routing
 #: model_terms:ir.ui.view,arch_db:http_routing.http_error_debug
@@ -191,7 +191,7 @@ msgstr "Мы не смогли найти страницу, которую вы 
 #: model:ir.module.module,shortdesc:base.module_http_routing
 #: model:ir.module.module,summary:base.module_http_routing
 msgid "Web Routing"
-msgstr ""
+msgstr "Веб-маршрутизация"
 
 #. module: http_routing
 #: model_terms:ir.ui.view,arch_db:http_routing.http_error_debug

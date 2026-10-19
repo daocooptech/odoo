@@ -32,7 +32,7 @@ msgid ""
 "============================\n"
 "\n"
 "This module add completed courses to resume for employees.\n"
-msgstr ""
+msgstr "\nЭлектронное обучение и навыки для отдела кадров\n============================\n\nЭтот модуль добавляет пройденные курсы в резюме сотрудников.\n"
 
 #. module: hr_skills_slides
 #. odoo-python
@@ -48,7 +48,7 @@ msgstr "<strong>Создайте курс</strong>"
 #. module: hr_skills_slides
 #: model:ir.module.module,summary:base.module_hr_skills_slides
 msgid "Add completed courses to resume of your employees"
-msgstr ""
+msgstr "Добавляет пройденные курсы в резюме ваших сотрудников"
 
 #. module: hr_skills_slides
 #: model:hr.resume.line,name:hr_skills_slides.employee_niv_resume_line
@@ -95,7 +95,7 @@ msgstr "Завершение курсов Текст"
 #: model:ir.model.fields,field_description:hr_skills_slides.field_slide_channel__display_name
 #: model:ir.model.fields,field_description:hr_skills_slides.field_slide_channel_partner__display_name
 msgid "Display Name"
-msgstr "Display Name"
+msgstr "Отображаемое имя"
 
 #. module: hr_skills_slides
 #: model:ir.model.fields,field_description:hr_skills_slides.field_hr_resume_line__duration
@@ -167,7 +167,7 @@ msgstr "Строка резюме сотрудника"
 #. module: hr_skills_slides
 #: model:ir.module.module,shortdesc:base.module_hr_skills_slides
 msgid "Skills e-learning"
-msgstr ""
+msgstr "Электронное обучение навыкам"
 
 #. module: hr_skills_slides
 #: model:hr.resume.line,name:hr_skills_slides.employee_vad_resume_line

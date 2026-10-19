@@ -30,7 +30,7 @@ msgid ""
 "\n"
 "Using this application you can manage Sales Teams with CRM and/or Sales\n"
 "=======================================================================\n"
-msgstr ""
+msgstr "\nС помощью этого приложения можно управлять командами продаж в CRM и/или в продажах\n=======================================================================\n"
 
 #. module: sales_team
 #. odoo-python
@@ -52,28 +52,28 @@ msgstr ""
 msgid ""
 "<i class=\"d-none d-md-block oi oi-filled\" data-icon=\"business\" "
 "title=\"Company\"/>"
-msgstr ""
+msgstr "<i class=\"d-none d-md-block oi oi-filled\" data-icon=\"business\" title=\"Компания\"/>"
 
 #. module: sales_team
 #: model_terms:ir.ui.view,arch_db:sales_team.crm_team_member_view_form
 msgid ""
 "<i class=\"d-none d-md-block oi oi-filled\" data-icon=\"group\" "
 "title=\"Sales Team\"/>"
-msgstr ""
+msgstr "<i class=\"d-none d-md-block oi oi-filled\" data-icon=\"group\" title=\"Команда продаж\"/>"
 
 #. module: sales_team
 #: model_terms:ir.ui.view,arch_db:sales_team.crm_team_member_view_form
 msgid ""
 "<i class=\"d-none d-md-block oi oi-filled\" data-icon=\"mail\" "
 "title=\"Email\"/>"
-msgstr ""
+msgstr "<i class=\"d-none d-md-block oi oi-filled\" data-icon=\"mail\" title=\"Эл. почта\"/>"
 
 #. module: sales_team
 #: model_terms:ir.ui.view,arch_db:sales_team.crm_team_member_view_form
 msgid ""
 "<i class=\"d-none d-md-block oi oi-filled\" data-icon=\"phone\" "
 "title=\"Phone\"/>"
-msgstr ""
+msgstr "<i class=\"d-none d-md-block oi oi-filled\" data-icon=\"phone\" title=\"Телефон\"/>"
 
 #. module: sales_team
 #: model_terms:ir.ui.view,arch_db:sales_team.crm_team_view_form
@@ -89,7 +89,7 @@ msgstr ""
 msgid ""
 "<i class=\"oi oi-fw oi-filled me-1 text-primary\" data-icon=\"group\" "
 "title=\"Sales Team\"/>"
-msgstr ""
+msgstr "<i class=\"oi oi-fw oi-filled me-1 text-primary\" data-icon=\"group\" title=\"Команда продаж\"/>"
 
 #. module: sales_team
 #: model_terms:ir.ui.view,arch_db:sales_team.crm_team_view_kanban_dashboard
@@ -215,7 +215,7 @@ msgstr "Конфигурация"
 #. module: sales_team
 #: model:crm.tag,name:sales_team.categ_oppor7
 msgid "Consulting"
-msgstr "Consulting"
+msgstr "Консалтинг"
 
 #. module: sales_team
 #: model_terms:ir.actions.act_window,help:sales_team.sales_team_crm_tag_action
@@ -278,7 +278,7 @@ msgstr "Отображаемое имя"
 #: model:ir.model.fields,field_description:sales_team.field_crm_team_member__email
 #: model_terms:ir.ui.view,arch_db:sales_team.crm_team_member_view_form
 msgid "Email"
-msgstr "Email"
+msgstr "Эл. почта"
 
 #. module: sales_team
 #: model:ir.model.fields,field_description:sales_team.field_crm_team__favorite_user_ids
@@ -441,7 +441,7 @@ msgstr "Имя"
 #. module: sales_team
 #: model:res.groups.privilege,placeholder:sales_team.res_groups_privilege_sales
 msgid "No"
-msgstr ""
+msgstr "Нет"
 
 #. module: sales_team
 #: model:ir.model.fields,field_description:sales_team.field_crm_team__message_needaction_counter

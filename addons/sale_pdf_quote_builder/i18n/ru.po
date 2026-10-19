@@ -118,7 +118,7 @@ msgstr "Доступные документы коммерческого пре�
 #. module: sale_pdf_quote_builder
 #: model:ir.module.module,description:base.module_sale_pdf_quote_builder
 msgid "Build nice quotations"
-msgstr ""
+msgstr "Создавайте красивые коммерческие предложения"
 
 #. module: sale_pdf_quote_builder
 #: model:ir.model.fields,field_description:sale_pdf_quote_builder.field_quotation_document__checksum
@@ -139,7 +139,7 @@ msgstr "Компания"
 #. module: sale_pdf_quote_builder
 #: model_terms:ir.ui.view,arch_db:sale_pdf_quote_builder.product_document_form
 msgid "Configure"
-msgstr ""
+msgstr "Настроить"
 
 #. module: sale_pdf_quote_builder
 #: model_terms:ir.ui.view,arch_db:sale_pdf_quote_builder.quotation_document_form
@@ -228,7 +228,7 @@ msgstr "Редактировать"
 #. module: sale_pdf_quote_builder
 #: model:ir.model.fields,field_description:sale_pdf_quote_builder.field_product_document__form_field_ids
 msgid "Fields"
-msgstr ""
+msgstr "Поля"
 
 #. module: sale_pdf_quote_builder
 #: model:ir.model.fields,field_description:sale_pdf_quote_builder.field_quotation_document__raw
@@ -455,7 +455,7 @@ msgstr "В качестве колонтитулов можно использо
 #. module: sale_pdf_quote_builder
 #: model:ir.model,name:sale_pdf_quote_builder.model_sale_order_template
 msgid "Order Templates"
-msgstr ""
+msgstr "Шаблоны заказов"
 
 #. module: sale_pdf_quote_builder
 #: model:ir.model.fields,field_description:sale_pdf_quote_builder.field_quotation_document__original_id
@@ -548,12 +548,12 @@ msgstr "Отчет о действиях"
 #. module: sale_pdf_quote_builder
 #: model:ir.model.fields,field_description:sale_pdf_quote_builder.field_quotation_document__res_access_read
 msgid "Res Access Read"
-msgstr ""
+msgstr "Доступ на чтение (ресурс)"
 
 #. module: sale_pdf_quote_builder
 #: model:ir.model.fields,field_description:sale_pdf_quote_builder.field_quotation_document__res_access_write
 msgid "Res Access Write"
-msgstr ""
+msgstr "Доступ на запись (ресурс)"
 
 #. module: sale_pdf_quote_builder
 #: model:ir.model.fields,field_description:sale_pdf_quote_builder.field_quotation_document__res_field
@@ -595,7 +595,7 @@ msgstr "Позиция заказа на продажу"
 #. module: sale_pdf_quote_builder
 #: model:ir.module.module,shortdesc:base.module_sale_pdf_quote_builder
 msgid "Sales PDF Quotation Builder"
-msgstr ""
+msgstr "Конструктор PDF-предложений для продаж"
 
 #. module: sale_pdf_quote_builder
 #: model:ir.model.fields,field_description:sale_pdf_quote_builder.field_quotation_document__sequence
@@ -665,7 +665,7 @@ msgstr "Загрузите колонтитулы коммерческого п�
 #. module: sale_pdf_quote_builder
 #: model:ir.model.fields,field_description:sale_pdf_quote_builder.field_quotation_document__url
 msgid "Url"
-msgstr "Url"
+msgstr "URL"
 
 #. module: sale_pdf_quote_builder
 #: model_terms:ir.ui.view,arch_db:sale_pdf_quote_builder.quotation_document_form

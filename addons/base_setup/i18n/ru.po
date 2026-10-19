@@ -34,7 +34,7 @@ msgid ""
 "\n"
 "Shows you a list of applications features to install from.\n"
 "\n"
-msgstr ""
+msgstr "\nЭтот модуль помогает настроить систему при установке новой базы данных.\n================================================================================\n\nПоказывает список функций приложений, из которых можно выбрать для установки.\n\n"
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
@@ -302,7 +302,7 @@ msgstr "Доступ по умолчанию для новых пользова�
 #: model:ir.model.fields,field_description:base_setup.field_res_config_settings__display_name
 #: model:ir.model.fields,field_description:base_setup.field_res_users__display_name
 msgid "Display Name"
-msgstr "Display Name"
+msgstr "Отображаемое имя"
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
@@ -363,7 +363,7 @@ msgstr "Геолокация"
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
 msgid "Get the latitude and the longitude of your partners"
-msgstr ""
+msgstr "Определять широту и долготу ваших партнёров"
 
 #. module: base_setup
 #: model:ir.model.fields,field_description:base_setup.field_res_config_settings__module_google_address_autocomplete
@@ -391,7 +391,7 @@ msgstr "Импорт и экспорт"
 #. module: base_setup
 #: model:ir.module.module,shortdesc:base.module_base_setup
 msgid "Initial Setup Tools"
-msgstr ""
+msgstr "Инструменты первоначальной настройки"
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
@@ -477,7 +477,7 @@ msgstr "Количество языков"
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
 msgid "Number of active users"
-msgstr ""
+msgstr "Число активных пользователей"
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form

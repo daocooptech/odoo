@@ -30,7 +30,7 @@ msgid ""
 "Generate tasks in Project app from a form published on your website. This "
 "module requires the use of the *Form Builder* module in order to build the "
 "form.\n"
-msgstr ""
+msgstr "\nСоздание задач в приложении «Проект» из формы, опубликованной на вашем сайте. Для построения формы нужен модуль *Конструктор форм*.\n"
 
 #. module: website_project
 #: model:website.page,url:website_project.task_submitted_page
@@ -40,7 +40,7 @@ msgstr ""
 #. module: website_project
 #: model:ir.module.module,summary:base.module_website_project
 msgid "Add a task suggestion form to your website"
-msgstr ""
+msgstr "Добавьте на сайт форму предложения задачи"
 
 #. module: website_project
 #. odoo-javascript
@@ -81,7 +81,7 @@ msgstr "Отображаемое название"
 #. odoo-python
 #: code:addons/website_project/controllers/main.py:0
 msgid "Email"
-msgstr "Email"
+msgstr "Эл. почта"
 
 #. module: website_project
 #. odoo-javascript
@@ -115,7 +115,7 @@ msgstr "Тема обращения"
 #. module: website_project
 #: model:ir.module.module,shortdesc:base.module_website_project
 msgid "Online Task Submission"
-msgstr ""
+msgstr "Онлайн-отправка задач"
 
 #. module: website_project
 #. odoo-python
@@ -158,7 +158,7 @@ msgstr "Задача №"
 #. module: website_project
 #: model:website.page,name:website_project.task_submitted_page
 msgid "Task Submitted"
-msgstr ""
+msgstr "Задача отправлена"
 
 #. module: website_project
 #: model_terms:ir.ui.view,arch_db:website_project.task_submitted

@@ -37,12 +37,12 @@ msgstr "ID"
 msgid ""
 "Once the delivery is validated, update the cost on the SO to have an exact "
 "margin computation."
-msgstr ""
+msgstr "После подтверждения доставки обновите себестоимость в заказе на продажу, чтобы получить точный расчёт маржи."
 
 #. module: sale_stock_margin
 #: model:ir.module.module,shortdesc:base.module_sale_stock_margin
 msgid "Sale Stock Margin"
-msgstr ""
+msgstr "Маржа склада продаж"
 
 #. module: sale_stock_margin
 #: model:ir.model,name:sale_stock_margin.model_sale_order_line

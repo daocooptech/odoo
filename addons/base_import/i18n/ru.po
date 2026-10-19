@@ -47,7 +47,7 @@ msgid ""
 "\n"
 "* In a module, so that administrators and users of Odoo who do not\n"
 "  need or want an online import can avoid it being available to users.\n"
-msgstr ""
+msgstr "\nНовый расширяемый импорт файлов для Odoo\n======================================\n\nПереработанная система импорта файлов Odoo:\n\n* На стороне сервера: прежняя система переносит большую часть логики\n  на клиент, что дублирует работу (между клиентами), сильно усложняет\n  использование импорта без клиента (прямой RPC или другие формы\n  автоматизации) и затрудняет сбор знаний об импорте и\n  экспорте, так как они разбросаны по трём и более\n  проектам.\n\n* Более расширяемым образом: пользователи и партнёры могут создать\n  собственный интерфейс для импорта из других форматов файлов (например,\n  OpenDocument), которые проще обрабатывать в их рабочем процессе или\n  источниках данных.\n\n* В виде модуля, чтобы администраторы и пользователи Odoo, которым не\n  нужен онлайн-импорт, могли не открывать его пользователям.\n"
 
 #. module: base_import
 #. odoo-javascript
@@ -128,7 +128,7 @@ msgstr "Сопоставление базового импорта"
 #. module: base_import
 #: model:ir.module.module,shortdesc:base.module_base_import
 msgid "Base import"
-msgstr ""
+msgstr "Базовый импорт"
 
 #. module: base_import
 #. odoo-javascript
@@ -141,19 +141,19 @@ msgstr "Порция"
 #. odoo-javascript
 #: code:addons/base_import/static/src/import_data_sidepanel/import_data_sidepanel.xml:0
 msgid "Batch interval"
-msgstr ""
+msgstr "Интервал между пакетами"
 
 #. module: base_import
 #. odoo-javascript
 #: code:addons/base_import/static/src/import_data_sidepanel/import_data_sidepanel.xml:0
 msgid "Batch max size"
-msgstr ""
+msgstr "Максимальный размер пакета"
 
 #. module: base_import
 #. odoo-javascript
 #: code:addons/base_import/static/src/import_data_sidepanel/import_data_sidepanel.xml:0
 msgid "Batch size"
-msgstr ""
+msgstr "Размер пакета"
 
 #. module: base_import
 #. odoo-javascript
@@ -234,19 +234,19 @@ msgstr "Формат даты"
 #. odoo-javascript
 #: code:addons/base_import/static/src/import_model.js:0
 msgid "Datetime Format"
-msgstr ""
+msgstr "Формат даты и времени"
 
 #. module: base_import
 #. odoo-javascript
 #: code:addons/base_import/static/src/import_model.js:0
 msgid "Decimals Separator"
-msgstr ""
+msgstr "Разделитель десятичных знаков"
 
 #. module: base_import
 #. odoo-javascript
 #: code:addons/base_import/static/src/import_model.js:0
 msgid "Defines how many megabytes can be imported in each batch"
-msgstr ""
+msgstr "Задаёт, сколько мегабайт можно импортировать в одном пакете"
 
 #. module: base_import
 #. odoo-javascript
@@ -254,19 +254,19 @@ msgstr ""
 msgid ""
 "Defines the number of records that will be imported in one transaction. "
 "Reduce the batch size in case of heavy imports"
-msgstr ""
+msgstr "Задаёт число записей, импортируемых в одной транзакции. Уменьшите размер пакета при тяжёлом импорте"
 
 #. module: base_import
 #. odoo-javascript
 #: code:addons/base_import/static/src/import_model.js:0
 msgid "Delay applied after each batch to prevent unthrottled calls"
-msgstr ""
+msgstr "Задержка после каждого пакета, чтобы не создавать лишнюю нагрузку"
 
 #. module: base_import
 #. odoo-javascript
 #: code:addons/base_import/static/src/import_model.js:0
 msgid "Delimiter"
-msgstr ""
+msgstr "Разделитель"
 
 #. module: base_import
 #: model:ir.model.fields,field_description:base_import.field_base_import_import__display_name
@@ -389,7 +389,7 @@ msgstr "Размер файла превышает заданный максим
 #. module: base_import
 #: model:ir.model.fields,help:base_import.field_base_import_import__file
 msgid "File to check and/or import"
-msgstr ""
+msgstr "Файл для проверки и/или импорта"
 
 #. module: base_import
 #. odoo-javascript
@@ -445,13 +445,13 @@ msgstr "ID"
 msgid ""
 "If checked, the changes are tracked in the chatter and notifications can be "
 "sent to followers, which could slow down the import"
-msgstr ""
+msgstr "Если отмечено, изменения фиксируются в чате, а подписчикам могут уходить уведомления; это может замедлить импорт"
 
 #. module: base_import
 #. odoo-javascript
 #: code:addons/base_import/static/src/import_data_sidepanel/import_data_sidepanel.js:0
 msgid "If checked, the first row of the sheet will not be imported"
-msgstr ""
+msgstr "Если отмечено, первая строка листа не будет импортирована"
 
 #. module: base_import
 #. odoo-javascript
@@ -481,7 +481,7 @@ msgstr "Импорт"
 #. odoo-javascript
 #: code:addons/base_import/static/src/import_model.js:0
 msgid "Import failed: see errors below"
-msgstr ""
+msgstr "Импорт не удался: см. ошибки ниже"
 
 #. module: base_import
 #. odoo-python
@@ -531,13 +531,13 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/base_import/static/src/import_data_content/import_data_content.xml:0
 msgid "Lang:"
-msgstr ""
+msgstr "Язык:"
 
 #. module: base_import
 #. odoo-javascript
 #: code:addons/base_import/static/src/import_data_content/import_data_content.xml:0
 msgid "Language"
-msgstr ""
+msgstr "Язык"
 
 #. module: base_import
 #: model:ir.model.fields,field_description:base_import.field_base_import_import__write_uid
@@ -591,13 +591,13 @@ msgstr "Без разделителя"
 #. odoo-javascript
 #: code:addons/base_import/static/src/import_model.js:0
 msgid "No date detected"
-msgstr ""
+msgstr "Дата не обнаружена"
 
 #. module: base_import
 #. odoo-javascript
 #: code:addons/base_import/static/src/import_model.js:0
 msgid "No datetime detected"
-msgstr ""
+msgstr "Дата и время не обнаружены"
 
 #. module: base_import
 #. odoo-javascript
@@ -660,7 +660,7 @@ msgstr "Прогресс-бар"
 #. odoo-javascript
 #: code:addons/base_import/static/src/import_action/import_action.xml:0
 msgid "Re-Upload"
-msgstr ""
+msgstr "Загрузить заново"
 
 #. module: base_import
 #. odoo-javascript
@@ -672,12 +672,12 @@ msgstr "Поля отношений"
 #. odoo-javascript
 #: code:addons/base_import/static/src/import_data_content/import_data_content.js:0
 msgid "Required Fields"
-msgstr ""
+msgstr "Обязательные поля"
 
 #. module: base_import
 #: model:ir.model.fields,field_description:base_import.field_base_import_mapping__res_model
 msgid "Res Model"
-msgstr "Res Model"
+msgstr "Модель"
 
 #. module: base_import
 #. odoo-javascript
@@ -695,7 +695,7 @@ msgstr "Поиск по полю..."
 #. odoo-javascript
 #: code:addons/base_import/static/src/import_data_content/import_data_content.xml:0
 msgid "Search a language..."
-msgstr ""
+msgstr "Найти язык..."
 
 #. module: base_import
 #. odoo-javascript
@@ -850,7 +850,7 @@ msgstr "Для импорта выберите поле..."
 #. odoo-javascript
 #: code:addons/base_import/static/src/import_data_sidepanel/import_data_sidepanel.xml:0
 msgid "Track changes in chatter"
-msgstr ""
+msgstr "Фиксировать изменения в чате"
 
 #. module: base_import
 #. odoo-python
@@ -890,7 +890,7 @@ msgstr "Загрузить"
 msgid ""
 "Upload attachments such as images or files that can be mapped with imported "
 "data"
-msgstr ""
+msgstr "Загрузите вложения, например изображения или файлы, которые можно сопоставить с импортируемыми данными"
 
 #. module: base_import
 #. odoo-javascript
@@ -932,7 +932,7 @@ msgstr "Используйте первый ряд в качестве заго�
 msgid ""
 "Use unique key across objects for External ID's, for example \"lead_1\" "
 "instead of \"1\""
-msgstr ""
+msgstr "Используйте уникальный ключ для внешних идентификаторов во всех объектах, например \"lead_1\" вместо \"1\""
 
 #. module: base_import
 #: model:ir.model,name:base_import.model_res_users
@@ -1006,7 +1006,7 @@ msgstr "еще"
 #. odoo-javascript
 #: code:addons/base_import/static/src/import_action/import_action.xml:0
 msgid "or drag a file"
-msgstr ""
+msgstr "или перетащите файл"
 
 #. module: base_import
 #. odoo-javascript
