@@ -45,25 +45,7 @@ msgid ""
 "respectively. UBL Bis 3 is only available for companies which country is "
 "present in the `EAS list\n"
 "<https://docs.peppol.eu/poacc/billing/3.0/codelist/eas/>`_.\n"
-msgstr ""
-"\n"
-"Electronic invoicing module\n"
-"===========================\n"
-"\n"
-"Allows to export and import formats: E-FFF, UBL Bis 3, EHF3, NLCIUS, Factur-"
-"X (CII), XRechnung (UBL).\n"
-"When generating the PDF on the invoice, the PDF will be embedded inside the "
-"xml for all UBL formats. This allows the\n"
-"receiver to retrieve the PDF with only the xml file. Note that **EHF3 is "
-"fully implemented by UBL Bis 3** (`reference\n"
-"<https://anskaffelser.dev/postaward/g3/spec/current/billing-3.0/norway/"
-"#_implementation>`_).\n"
-"\n"
-"Note that E-FFF, NLCIUS and XRechnung (UBL) are only available for Belgian, "
-"Dutch and German companies,\n"
-"respectively. UBL Bis 3 is only available for companies which country is "
-"present in the `EAS list\n"
-"<https://docs.peppol.eu/poacc/billing/3.0/codelist/eas/>`_.\n"
+msgstr "\nМодуль электронных счетов\n=========================\n\nПозволяет экспортировать и импортировать форматы: E-FFF, UBL Bis 3, EHF3, NLCIUS, Factur-X (CII), XRechnung (UBL).\nПри создании PDF счёта PDF встраивается в XML для всех форматов UBL. Это позволяет\nполучателю извлечь PDF, имея только XML-файл. Обратите внимание: **EHF3 полностью реализован в UBL Bis 3** (`справка\n<https://anskaffelser.dev/postaward/g3/spec/current/billing-3.0/norway/#_implementation>`_).\n\nОбратите внимание: E-FFF, NLCIUS и XRechnung (UBL) доступны только для бельгийских, нидерландских и немецких компаний\nсоответственно. UBL Bis 3 доступен только для компаний, страна которых есть в `списке EAS\n<https://docs.peppol.eu/poacc/billing/3.0/codelist/eas/>`_.\n"
 
 #. module: account_edi_ubl_cii
 #. odoo-python
@@ -98,12 +80,7 @@ msgid ""
 "8px; letter-spacing: 0.5px;\">\n"
 "                        Preview\n"
 "                    </span>"
-msgstr ""
-"<span style=\"font-size: 16px; font-weight: bold; color: #ffffff; display: "
-"inline-block; vertical-align: middle; text-transform: uppercase; margin: 0px "
-"8px; letter-spacing: 0.5px;\">\n"
-"                        Preview\n"
-"                    </span>"
+msgstr "<span style=\"font-size: 16px; font-weight: bold; color: #ffffff; display: inline-block; vertical-align: middle; text-transform: uppercase; margin: 0px 8px; letter-spacing: 0.5px;\">\n                        Предпросмотр\n                    </span>"
 
 #. module: account_edi_ubl_cii
 #: model_terms:ir.ui.view,arch_db:account_edi_ubl_cii.account_invoice_pdfa_3_facturx_metadata
@@ -340,9 +317,7 @@ msgstr "Контакты"
 msgid ""
 "Could not retrieve a partner corresponding to '%s' with the same VAT. A new "
 "partner was created."
-msgstr ""
-"Could not retrieve a partner corresponding to '%s' with the same VAT. A new "
-"partner was created."
+msgstr "Не удалось найти контрагента, соответствующего «%s» с тем же ИНН. Создан новый контрагент."
 
 #. module: account_edi_ubl_cii
 #. odoo-python
@@ -1100,8 +1075,7 @@ msgstr ""
 #: code:addons/account_edi_ubl_cii/models/account_move_send.py:0
 msgid ""
 "Please install the french Chorus pro module to have all the specific rules."
-msgstr ""
-"Please install the french Chorus pro module to have all the specific rules."
+msgstr "Установите французский модуль Chorus Pro, чтобы получить все специальные правила."
 
 #. module: account_edi_ubl_cii
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__routing_scheme__9945
@@ -1132,12 +1106,7 @@ msgid ""
 "a taxable person required to file periodic returns. If this condition is not "
 "met, the customer will be liable for the payment of the tax, interest, and "
 "penalties due in relation to this condition."
-msgstr ""
-"Reverse charge: In the absence of a written objection within one month of "
-"receipt of the invoice, the customer is deemed to acknowledge that they are "
-"a taxable person required to file periodic returns. If this condition is not "
-"met, the customer will be liable for the payment of the tax, interest, and "
-"penalties due in relation to this condition."
+msgstr "Обратное начисление: если в течение одного месяца с момента получения счёта не поступило письменных возражений, считается, что клиент признаёт себя налогоплательщиком, обязанным подавать периодические декларации. Если это условие не выполнено, клиент несёт ответственность за уплату налога, процентов и штрафов, причитающихся в связи с этим условием."
 
 #. module: account_edi_ubl_cii
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__routing_scheme__9947
@@ -1336,9 +1305,7 @@ msgstr "Налоговый идентификатор"
 msgid ""
 "Tax with matching exigibility could not be retrieved: '%(exigibility)s' for "
 "line '%(line)s'."
-msgstr ""
-"Tax with matching exigibility could not be retrieved: '%(exigibility)s' for "
-"line '%(line)s'."
+msgstr "Не удалось найти налог с подходящей датой возникновения обязательства: «%(exigibility)s» для строки «%(line)s»."
 
 #. module: account_edi_ubl_cii
 #. odoo-python
@@ -1346,9 +1313,7 @@ msgstr ""
 msgid ""
 "Taxes of category 'Service outside scope of tax' shall not be mixed with tax "
 "from other categories. You should split your invoice in two"
-msgstr ""
-"Taxes of category 'Service outside scope of tax' shall not be mixed with tax "
-"from other categories. You should split your invoice in two"
+msgstr "Налоги категории «Услуга вне сферы налогообложения» нельзя смешивать с налогами других категорий. Разделите счёт на два"
 
 #. module: account_edi_ubl_cii
 #: model:ir.model.constraint,message:account_edi_ubl_cii.constraint_uom_uom_unece_code_unique
@@ -1362,10 +1327,7 @@ msgid ""
 "The Unit of Measure '%(uom)s' (from unit code '%(code)s') was ignored on the "
 "line for product '%(product)s' because it is not compatible with the "
 "product's Unit of Measure '%(product_uom)s'. The UoM was left empty."
-msgstr ""
-"The Unit of Measure '%(uom)s' (from unit code '%(code)s') was ignored on the "
-"line for product '%(product)s' because it is not compatible with the "
-"product's Unit of Measure '%(product_uom)s'. The UoM was left empty."
+msgstr "Единица измерения «%(uom)s» (из кода единицы «%(code)s») пропущена в строке товара «%(product)s», так как несовместима с единицей измерения товара «%(product_uom)s». Единица измерения оставлена пустой."
 
 #. module: account_edi_ubl_cii
 #: model:ir.model.fields,help:account_edi_ubl_cii.field_account_tax__ubl_cii_tax_category_code
@@ -1463,10 +1425,7 @@ msgid ""
 "This is a visual representation of the xml content.<br/>\n"
 "                    <strong style=\"color: #495057;\">It is not an official "
 "document.</strong>"
-msgstr ""
-"This is a visual representation of the xml content.<br/>\n"
-"                    <strong style=\"color: #495057;\">It is not an official "
-"document.</strong>"
+msgstr "Это визуальное представление содержимого XML.<br/>\n                    <strong style=\"color: #495057;\">Это не официальный документ.</strong>"
 
 #. module: account_edi_ubl_cii
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__routing_scheme__9952
@@ -1538,7 +1497,7 @@ msgstr "EIN США"
 #. module: account_edi_ubl_cii
 #: model:ir.model.fields,field_description:account_edi_ubl_cii.field_account_tax__ubl_cii_requires_exemption_reason
 msgid "Ubl Cii Requires Exemption Reason"
-msgstr "Ubl Cii требует указания причины освобождения"
+msgstr "UBL CII требует указания причины освобождения"
 
 #. module: account_edi_ubl_cii
 #. odoo-python
@@ -1723,9 +1682,7 @@ msgstr ""
 msgid ""
 "VATEX-EU-135-1 - Exempt based on article 135, section 1 of Council Directive "
 "2006/112/EC"
-msgstr ""
-"VATEX-EU-135-1 - Exempt based on article 135, section 1 of Council Directive "
-"2006/112/EC"
+msgstr "VATEX-EU-135-1 - Освобождено на основании статьи 135, раздела 1 Директивы Совета 2006/112/EC"
 
 #. module: account_edi_ubl_cii
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__account_tax__ubl_cii_tax_exemption_reason_code__vatex-eu-143
@@ -1856,17 +1813,14 @@ msgstr ""
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__account_tax__ubl_cii_tax_exemption_reason_code__vatex-eu-144
 msgid ""
 "VATEX-EU-144 - Exempt based on article 144 of Council Directive 2006/112/EC"
-msgstr ""
-"VATEX-EU-144 - Exempt based on article 144 of Council Directive 2006/112/EC"
+msgstr "VATEX-EU-144 - Освобождено на основании статьи 144 Директивы Совета 2006/112/EC"
 
 #. module: account_edi_ubl_cii
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__account_tax__ubl_cii_tax_exemption_reason_code__vatex-eu-146-1e
 msgid ""
 "VATEX-EU-146-1E - Exempt based on article 146 section 1 (e) of Council "
 "Directive 2006/112/EC"
-msgstr ""
-"VATEX-EU-146-1E - Exempt based on article 146 section 1 (e) of Council "
-"Directive 2006/112/EC"
+msgstr "VATEX-EU-146-1E - Освобождено на основании статьи 146, раздела 1 (e) Директивы Совета 2006/112/EC"
 
 #. module: account_edi_ubl_cii
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__account_tax__ubl_cii_tax_exemption_reason_code__vatex-eu-148
@@ -2005,15 +1959,13 @@ msgstr ""
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__account_tax__ubl_cii_tax_exemption_reason_code__vatex-eu-153
 msgid ""
 "VATEX-EU-153 - Exempt based on article 153 of Council Directive 2006/112/EC"
-msgstr ""
-"VATEX-EU-153 - Exempt based on article 153 of Council Directive 2006/112/EC"
+msgstr "VATEX-EU-153 - Освобождено на основании статьи 153 Директивы Совета 2006/112/EC"
 
 #. module: account_edi_ubl_cii
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__account_tax__ubl_cii_tax_exemption_reason_code__vatex-eu-159
 msgid ""
 "VATEX-EU-159 - Exempt based on article 159 of Council Directive 2006/112/EC"
-msgstr ""
-"VATEX-EU-159 - Exempt based on article 159 of Council Directive 2006/112/EC"
+msgstr "VATEX-EU-159 - Освобождено на основании статьи 159 Директивы Совета 2006/112/EC"
 
 #. module: account_edi_ubl_cii
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__account_tax__ubl_cii_tax_exemption_reason_code__vatex-eu-309
@@ -2082,153 +2034,119 @@ msgstr "VATEX-EU-O – Не облагается НДС"
 msgid ""
 "VATEX-FR-298SEXDECIESA - Exempt based on article 298 sexdecies A of the Code "
 "Général des Impôts (CGI ; General tax code)"
-msgstr ""
-"VATEX-FR-298SEXDECIESA - Exempt based on article 298 sexdecies A of the Code "
-"Général des Impôts (CGI ; General tax code)"
+msgstr "VATEX-FR-298SEXDECIESA - Освобождено на основании статьи 298 sexdecies A Налогового кодекса Франции (CGI)"
 
 #. module: account_edi_ubl_cii
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__account_tax__ubl_cii_tax_exemption_reason_code__vatex-fr-ae
 msgid ""
 "VATEX-FR-AE - Exempt based on 2 of article 283 of the Code Général des "
 "Impôts (CGI ; General tax code)"
-msgstr ""
-"VATEX-FR-AE - Exempt based on 2 of article 283 of the Code Général des "
-"Impôts (CGI ; General tax code)"
+msgstr "VATEX-FR-AE - Освобождено на основании 2 статьи 283 Налогового кодекса Франции (CGI)"
 
 #. module: account_edi_ubl_cii
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__account_tax__ubl_cii_tax_exemption_reason_code__vatex-fr-cgi261-1
 msgid ""
 "VATEX-FR-CGI261-1 - Exempt based on 1 of article 261 of the Code Général des "
 "Impôts (CGI ; General tax code)"
-msgstr ""
-"VATEX-FR-CGI261-1 - Exempt based on 1 of article 261 of the Code Général des "
-"Impôts (CGI ; General tax code)"
+msgstr "VATEX-FR-CGI261-1 - Освобождено на основании 1 статьи 261 Налогового кодекса Франции (CGI)"
 
 #. module: account_edi_ubl_cii
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__account_tax__ubl_cii_tax_exemption_reason_code__vatex-fr-cgi261-2
 msgid ""
 "VATEX-FR-CGI261-2 - Exempt based on 2 of article 261 of the Code Général des "
 "Impôts (CGI ; General tax code)"
-msgstr ""
-"VATEX-FR-CGI261-2 - Exempt based on 2 of article 261 of the Code Général des "
-"Impôts (CGI ; General tax code)"
+msgstr "VATEX-FR-CGI261-2 - Освобождено на основании 2 статьи 261 Налогового кодекса Франции (CGI)"
 
 #. module: account_edi_ubl_cii
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__account_tax__ubl_cii_tax_exemption_reason_code__vatex-fr-cgi261-3
 msgid ""
 "VATEX-FR-CGI261-3 - Exempt based on 3 of article 261 of the Code Général des "
 "Impôts (CGI ; General tax code)"
-msgstr ""
-"VATEX-FR-CGI261-3 - Exempt based on 3 of article 261 of the Code Général des "
-"Impôts (CGI ; General tax code)"
+msgstr "VATEX-FR-CGI261-3 - Освобождено на основании 3 статьи 261 Налогового кодекса Франции (CGI)"
 
 #. module: account_edi_ubl_cii
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__account_tax__ubl_cii_tax_exemption_reason_code__vatex-fr-cgi261-4
 msgid ""
 "VATEX-FR-CGI261-4 - Exempt based on 4 of article 261 of the Code Général des "
 "Impôts (CGI ; General tax code)"
-msgstr ""
-"VATEX-FR-CGI261-4 - Exempt based on 4 of article 261 of the Code Général des "
-"Impôts (CGI ; General tax code)"
+msgstr "VATEX-FR-CGI261-4 - Освобождено на основании 4 статьи 261 Налогового кодекса Франции (CGI)"
 
 #. module: account_edi_ubl_cii
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__account_tax__ubl_cii_tax_exemption_reason_code__vatex-fr-cgi261-5
 msgid ""
 "VATEX-FR-CGI261-5 - Exempt based on 5 of article 261 of the Code Général des "
 "Impôts (CGI ; General tax code)"
-msgstr ""
-"VATEX-FR-CGI261-5 - Exempt based on 5 of article 261 of the Code Général des "
-"Impôts (CGI ; General tax code)"
+msgstr "VATEX-FR-CGI261-5 - Освобождено на основании 5 статьи 261 Налогового кодекса Франции (CGI)"
 
 #. module: account_edi_ubl_cii
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__account_tax__ubl_cii_tax_exemption_reason_code__vatex-fr-cgi261-7
 msgid ""
 "VATEX-FR-CGI261-7 - Exempt based on 7 of article 261 of the Code Général des "
 "Impôts (CGI ; General tax code)"
-msgstr ""
-"VATEX-FR-CGI261-7 - Exempt based on 7 of article 261 of the Code Général des "
-"Impôts (CGI ; General tax code)"
+msgstr "VATEX-FR-CGI261-7 - Освобождено на основании 7 статьи 261 Налогового кодекса Франции (CGI)"
 
 #. module: account_edi_ubl_cii
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__account_tax__ubl_cii_tax_exemption_reason_code__vatex-fr-cgi261-8
 msgid ""
 "VATEX-FR-CGI261-8 - Exempt based on 8 of article 261 of the Code Général des "
 "Impôts (CGI ; General tax code)"
-msgstr ""
-"VATEX-FR-CGI261-8 - Exempt based on 8 of article 261 of the Code Général des "
-"Impôts (CGI ; General tax code)"
+msgstr "VATEX-FR-CGI261-8 - Освобождено на основании 8 статьи 261 Налогового кодекса Франции (CGI)"
 
 #. module: account_edi_ubl_cii
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__account_tax__ubl_cii_tax_exemption_reason_code__vatex-fr-cgi261a
 msgid ""
 "VATEX-FR-CGI261A - Exempt based on article 261 A of the Code Général des "
 "Impôts (CGI ; General tax code)"
-msgstr ""
-"VATEX-FR-CGI261A - Exempt based on article 261 A of the Code Général des "
-"Impôts (CGI ; General tax code)"
+msgstr "VATEX-FR-CGI261A - Освобождено на основании статьи 261 A Налогового кодекса Франции (CGI)"
 
 #. module: account_edi_ubl_cii
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__account_tax__ubl_cii_tax_exemption_reason_code__vatex-fr-cgi261b
 msgid ""
 "VATEX-FR-CGI261B - Exempt based on article 261 B of the Code Général des "
 "Impôts (CGI ; General tax code)"
-msgstr ""
-"VATEX-FR-CGI261B - Exempt based on article 261 B of the Code Général des "
-"Impôts (CGI ; General tax code)"
+msgstr "VATEX-FR-CGI261B - Освобождено на основании статьи 261 B Налогового кодекса Франции (CGI)"
 
 #. module: account_edi_ubl_cii
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__account_tax__ubl_cii_tax_exemption_reason_code__vatex-fr-cgi261c-1
 msgid ""
 "VATEX-FR-CGI261C-1 - Exempt based on 1° of article 261 C of the Code Général "
 "des Impôts (CGI ; General tax code)"
-msgstr ""
-"VATEX-FR-CGI261C-1 - Exempt based on 1° of article 261 C of the Code Général "
-"des Impôts (CGI ; General tax code)"
+msgstr "VATEX-FR-CGI261C-1 - Освобождено на основании 1° статьи 261 C Налогового кодекса Франции (CGI)"
 
 #. module: account_edi_ubl_cii
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__account_tax__ubl_cii_tax_exemption_reason_code__vatex-fr-cgi261c-2
 msgid ""
 "VATEX-FR-CGI261C-2 - Exempt based on 2° of article 261 C of the Code Général "
 "des Impôts (CGI ; General tax code)"
-msgstr ""
-"VATEX-FR-CGI261C-2 - Exempt based on 2° of article 261 C of the Code Général "
-"des Impôts (CGI ; General tax code)"
+msgstr "VATEX-FR-CGI261C-2 - Освобождено на основании 2° статьи 261 C Налогового кодекса Франции (CGI)"
 
 #. module: account_edi_ubl_cii
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__account_tax__ubl_cii_tax_exemption_reason_code__vatex-fr-cgi261c-3
 msgid ""
 "VATEX-FR-CGI261C-3 - Exempt based on 3° of article 261 C of the Code Général "
 "des Impôts (CGI ; General tax code)"
-msgstr ""
-"VATEX-FR-CGI261C-3 - Exempt based on 3° of article 261 C of the Code Général "
-"des Impôts (CGI ; General tax code)"
+msgstr "VATEX-FR-CGI261C-3 - Освобождено на основании 3° статьи 261 C Налогового кодекса Франции (CGI)"
 
 #. module: account_edi_ubl_cii
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__account_tax__ubl_cii_tax_exemption_reason_code__vatex-fr-cgi261d-1
 msgid ""
 "VATEX-FR-CGI261D-1 - Exempt based on 1° of article 261 D of the Code Général "
 "des Impôts (CGI ; General tax code)"
-msgstr ""
-"VATEX-FR-CGI261D-1 - Exempt based on 1° of article 261 D of the Code Général "
-"des Impôts (CGI ; General tax code)"
+msgstr "VATEX-FR-CGI261D-1 - Освобождено на основании 1° статьи 261 D Налогового кодекса Франции (CGI)"
 
 #. module: account_edi_ubl_cii
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__account_tax__ubl_cii_tax_exemption_reason_code__vatex-fr-cgi261d-1bis
 msgid ""
 "VATEX-FR-CGI261D-1BIS - Exempt based on 1°bis of article 261 D of the Code "
 "Général des Impôts (CGI ; General tax code)"
-msgstr ""
-"VATEX-FR-CGI261D-1BIS - Exempt based on 1°bis of article 261 D of the Code "
-"Général des Impôts (CGI ; General tax code)"
+msgstr "VATEX-FR-CGI261D-1BIS - Освобождено на основании 1°bis статьи 261 D Налогового кодекса Франции (CGI)"
 
 #. module: account_edi_ubl_cii
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__account_tax__ubl_cii_tax_exemption_reason_code__vatex-fr-cgi261d-2
 msgid ""
 "VATEX-FR-CGI261D-2 - Exempt based on 2° of article 261 D of the Code Général "
 "des Impôts (CGI ; General tax code)"
-msgstr ""
-"VATEX-FR-CGI261D-2 - Exempt based on 2° of article 261 D of the Code Général "
-"des Impôts (CGI ; General tax code)"
+msgstr "VATEX-FR-CGI261D-2 - Освобождено на основании 2° статьи 261 D Налогового кодекса Франции (CGI)"
 
 #. module: account_edi_ubl_cii
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__account_tax__ubl_cii_tax_exemption_reason_code__vatex-fr-cgi261d-3
@@ -2236,64 +2154,49 @@ msgid ""
 "VATEX-FR-CGI261D-3 - Exempt based on 3° of article 261 D of the Code Général "
 "des Impôts (CGI ; General tax code) Exonération de TVA - Article 261 D-3° du "
 "Code Général des Impôts"
-msgstr ""
-"VATEX-FR-CGI261D-3 - Exempt based on 3° of article 261 D of the Code Général "
-"des Impôts (CGI ; General tax code) Exonération de TVA - Article 261 D-3° du "
-"Code Général des Impôts"
+msgstr "VATEX-FR-CGI261D-3 - Освобождено на основании 3° статьи 261 D Налогового кодекса Франции (CGI) Освобождение от НДС - статья 261 D-3° Налогового кодекса Франции"
 
 #. module: account_edi_ubl_cii
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__account_tax__ubl_cii_tax_exemption_reason_code__vatex-fr-cgi261d-4
 msgid ""
 "VATEX-FR-CGI261D-4 - Exempt based on 4° of article 261 D of the Code Général "
 "des Impôts (CGI ; General tax code)"
-msgstr ""
-"VATEX-FR-CGI261D-4 - Exempt based on 4° of article 261 D of the Code Général "
-"des Impôts (CGI ; General tax code)"
+msgstr "VATEX-FR-CGI261D-4 - Освобождено на основании 4° статьи 261 D Налогового кодекса Франции (CGI)"
 
 #. module: account_edi_ubl_cii
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__account_tax__ubl_cii_tax_exemption_reason_code__vatex-fr-cgi261e-1
 msgid ""
 "VATEX-FR-CGI261E-1 - Exempt based on 1° of article 261 E of the Code Général "
 "des Impôts (CGI ; General tax code)"
-msgstr ""
-"VATEX-FR-CGI261E-1 - Exempt based on 1° of article 261 E of the Code Général "
-"des Impôts (CGI ; General tax code)"
+msgstr "VATEX-FR-CGI261E-1 - Освобождено на основании 1° статьи 261 E Налогового кодекса Франции (CGI)"
 
 #. module: account_edi_ubl_cii
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__account_tax__ubl_cii_tax_exemption_reason_code__vatex-fr-cgi261e-2
 msgid ""
 "VATEX-FR-CGI261E-2 - Exempt based on 2° of article 261 E of the Code Général "
 "des Impôts (CGI ; General tax code)"
-msgstr ""
-"VATEX-FR-CGI261E-2 - Exempt based on 2° of article 261 E of the Code Général "
-"des Impôts (CGI ; General tax code)"
+msgstr "VATEX-FR-CGI261E-2 - Освобождено на основании 2° статьи 261 E Налогового кодекса Франции (CGI)"
 
 #. module: account_edi_ubl_cii
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__account_tax__ubl_cii_tax_exemption_reason_code__vatex-fr-cgi275
 msgid ""
 "VATEX-FR-CGI275 - Exempt based on article 275 of the Code Général des Impôts "
 "(CGI ; General tax code)"
-msgstr ""
-"VATEX-FR-CGI275 - Exempt based on article 275 of the Code Général des Impôts "
-"(CGI ; General tax code)"
+msgstr "VATEX-FR-CGI275 - Освобождено на основании статьи 275 Налогового кодекса Франции (CGI)"
 
 #. module: account_edi_ubl_cii
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__account_tax__ubl_cii_tax_exemption_reason_code__vatex-fr-cgi277a
 msgid ""
 "VATEX-FR-CGI277A - Exempt based on article 277 A of the Code Général des "
 "Impôts (CGI ; General tax code)"
-msgstr ""
-"VATEX-FR-CGI277A - Exempt based on article 277 A of the Code Général des "
-"Impôts (CGI ; General tax code)"
+msgstr "VATEX-FR-CGI277A - Освобождено на основании статьи 277 A Налогового кодекса Франции (CGI)"
 
 #. module: account_edi_ubl_cii
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__account_tax__ubl_cii_tax_exemption_reason_code__vatex-fr-cgi295
 msgid ""
 "VATEX-FR-CGI295 - Exempt based on article 295 of the Code Général des Impôts "
 "(CGI ; General tax code)"
-msgstr ""
-"VATEX-FR-CGI295 - Exempt based on article 295 of the Code Général des Impôts "
-"(CGI ; General tax code)"
+msgstr "VATEX-FR-CGI295 - Освобождено на основании статьи 295 Налогового кодекса Франции (CGI)"
 
 #. module: account_edi_ubl_cii
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__account_tax__ubl_cii_tax_exemption_reason_code__vatex-fr-cnwvat

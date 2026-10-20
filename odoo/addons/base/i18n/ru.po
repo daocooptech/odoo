@@ -5948,7 +5948,7 @@ msgstr "Шаги мастера конфигурации"
 #. module: base
 #: model:ir.actions.server,name:base.action_run_ir_action_todo
 msgid "Config: Run Remaining Action Todo"
-msgstr "Конфигурация: Выполнить оставшиеся действия Todo"
+msgstr "Конфигурация: Выполнить оставшиеся действия настройки"
 
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.res_config_view_base
@@ -8031,17 +8031,17 @@ msgstr "Электронная почта"
 #. module: base
 #: model:ir.model.fields,field_description:base.field_res_users__email_domain_placeholder
 msgid "Email Domain Placeholder"
-msgstr "Подсказка для домена email"
+msgstr "Подсказка для домена эл. почты"
 
 #. module: base
 #: model:ir.module.category,name:base.module_category_marketing_email_marketing
 msgid "Email Marketing"
-msgstr "Маркетинг по email"
+msgstr "Маркетинг по эл. почте"
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_res_users__signature
 msgid "Email Signature"
-msgstr "Подпись email"
+msgstr "Подпись эл. почты"
 
 #. module: base
 #: model:ir.model,name:base.model_ir_embedded_actions
@@ -16212,7 +16212,7 @@ msgstr "Доступ к ресурсу: запись"
 #. module: base
 #: model:ir.model.fields,field_description:base.field_res_users__res_users_settings_ids
 msgid "Res Users Settings"
-msgstr "Настройки пользователей Res"
+msgstr "Настройки пользователей"
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_reset_view_arch_wizard__reset_mode
@@ -19290,7 +19290,7 @@ msgstr "Этот файл не удалось распознать как изо
 #. odoo-python
 #: code:addons/image.py:0
 msgid "This file is not a webp file."
-msgstr "Этот файл не является файлом формата webp."
+msgstr "Этот файл не является файлом формата WebP."
 
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.wizard_lang_export

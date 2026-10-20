@@ -1609,7 +1609,7 @@ msgstr "Добавить контекстное действие"
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.mail_blacklist_view_form
 msgid "Add Email Blacklist"
-msgstr "Добавить в черный список Email"
+msgstr "Добавить в чёрный список эл. почты"
 
 #. module: mail
 #. odoo-javascript
@@ -1928,7 +1928,7 @@ msgstr "Домены псевдонимов"
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_alias__alias_full_name
 msgid "Alias Email"
-msgstr "Email псевдонима"
+msgstr "Эл. почта псевдонима"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_alias__alias_name
@@ -2053,7 +2053,7 @@ msgstr "Итоговое сообщение может быть привязан
 #. odoo-javascript
 #: code:addons/mail/static/src/core/common/failure_model.js:0
 msgid "An error occurred when sending an email"
-msgstr "Произошла ошибка при отправке email"
+msgstr "Произошла ошибка при отправке эл. письма"
 
 #. module: mail
 #. odoo-javascript
@@ -2653,7 +2653,7 @@ msgstr "Адрес в черном списке"
 #. module: mail
 #: model:ir.actions.act_window,name:mail.mail_blacklist_action
 msgid "Blacklisted Email Addresses"
-msgstr "Адреса Email в черном списке"
+msgstr "Адреса эл. почты в чёрном списке"
 
 #. module: mail
 #. odoo-python
@@ -2744,7 +2744,7 @@ msgstr "Псевдоним для возвратов"
 #: model:ir.model.fields,field_description:mail.field_mail_alias_domain__bounce_email
 #: model:ir.model.fields,field_description:mail.field_res_company__bounce_email
 msgid "Bounce Email"
-msgstr "Email для возвратов"
+msgstr "Эл. почта для возвратов"
 
 #. module: mail
 #. odoo-python
@@ -2760,7 +2760,7 @@ msgstr ""
 #. module: mail
 #: model:ir.model.constraint,message:mail.constraint_mail_alias_domain_bounce_email_uniques
 msgid "Bounce emails should be unique"
-msgstr "Email для возвратов должны быть уникальными"
+msgstr "Адреса эл. почты для возвратов должны быть уникальными"
 
 #. module: mail
 #. odoo-python
@@ -2796,9 +2796,7 @@ msgstr "Возвращено"
 msgid ""
 "Brave: enable 'Google Services for Push Messaging' to enable push "
 "notifications"
-msgstr ""
-"Brave: включите «Сервисы Google для Push-сообщений», чтобы получать push-"
-"уведомления"
+msgstr "Brave: включите «Сервисы Google для пуш-сообщений», чтобы получать пуш-уведомления"
 
 #. module: mail
 #. odoo-javascript
@@ -3017,7 +3015,7 @@ msgstr "Отменить"
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.view_mail_tree
 msgid "Cancel Email"
-msgstr "Отменить Email"
+msgstr "Отменить письмо"
 
 #. module: mail
 #. odoo-javascript
@@ -3233,7 +3231,7 @@ msgstr "Общий псевдоним"
 #: model:ir.model.fields,field_description:mail.field_mail_alias_domain__catchall_email
 #: model:ir.model.fields,field_description:mail.field_res_company__catchall_email
 msgid "Catchall Email"
-msgstr "Общий Email"
+msgstr "Общий адрес эл. почты"
 
 #. module: mail
 #. odoo-python
@@ -3249,7 +3247,7 @@ msgstr ""
 #. module: mail
 #: model:ir.model.constraint,message:mail.constraint_mail_alias_domain_catchall_email_uniques
 msgid "Catchall emails should be unique"
-msgstr "Общие адреса email должны быть уникальными"
+msgstr "Общие адреса эл. почты должны быть уникальными"
 
 #. module: mail
 #: model:ir.actions.act_window,name:mail.discuss_category_settings_action
@@ -3653,7 +3651,7 @@ msgstr "Свернуть участников"
 #. module: mail
 #: model:ir.model.fields.selection,name:mail.selection__mail_compose_message__reply_to_mode__new
 msgid "Collect replies on a specific email address"
-msgstr "Собирать ответы на определенный адрес email"
+msgstr "Собирать ответы на определённый адрес эл. почты"
 
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.email_template_form
@@ -3854,8 +3852,7 @@ msgstr "Тест подключения не удался: %s"
 #: code:addons/mail/static/src/discuss/call/common/rtc_service.js:0
 msgid ""
 "Connection to SFU server closed by the server, falling back to peer-to-peer"
-msgstr ""
-"Соединение с SFU-сервером закрыто сервером, переход в режим peer-to-peer"
+msgstr "Соединение с SFU-сервером закрыто сервером, переход на прямое соединение между участниками"
 
 #. module: mail
 #. odoo-javascript
@@ -4135,7 +4132,7 @@ msgstr "Создать обсуждение"
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_activity_type__create_uid
 msgid "Create Uid"
-msgstr "Создать Uid"
+msgstr "UID создателя"
 
 #. module: mail
 #: model:ir.model,website_form_label:mail.model_res_partner
@@ -5207,7 +5204,7 @@ msgstr "Тип срока"
 #: model:ir.model.fields.selection,name:mail.selection__mail_mail__failure_type__mail_dup
 #: model:ir.model.fields.selection,name:mail.selection__mail_notification__failure_type__mail_dup
 msgid "Duplicated Email"
-msgstr "Дубликат Email"
+msgstr "Дубликат эл. почты"
 
 #. module: mail
 #. odoo-javascript
@@ -5322,21 +5319,21 @@ msgstr "Эл. почта"
 #: model:ir.model.fields,field_description:mail.field_mail_mail__email_add_signature
 #: model:ir.model.fields,field_description:mail.field_mail_message__email_add_signature
 msgid "Email Add Signature"
-msgstr "Добавить подпись в Email"
+msgstr "Добавить подпись в эл. письмо"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_blacklist__email
 #: model:ir.model.fields,field_description:mail.field_mail_gateway_allowed__email
 #: model_terms:ir.ui.view,arch_db:mail.mail_blacklist_remove_view_form
 msgid "Email Address"
-msgstr "Адрес Email"
+msgstr "Адрес эл. почты"
 
 #. module: mail
 #: model:ir.model,name:mail.model_mail_alias
 #: model:ir.model.fields,field_description:mail.field_mail_alias_mixin__alias_email
 #: model:ir.model.fields,field_description:mail.field_mail_alias_mixin_optional__alias_email
 msgid "Email Alias"
-msgstr "Псевдоним Email"
+msgstr "Псевдоним эл. почты"
 
 #. module: mail
 #: model:ir.model,name:mail.model_mail_alias_mixin
@@ -5352,13 +5349,13 @@ msgstr "Миксин почтовых псевдонимов (облегчённ
 #: model:ir.ui.menu,name:mail.mail_blacklist_menu
 #: model_terms:ir.ui.view,arch_db:mail.mail_blacklist_view_tree
 msgid "Email Blacklist"
-msgstr "Черный список Email"
+msgstr "Чёрный список эл. почты"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_res_company__email_secondary_color
 #: model:ir.model.fields,field_description:mail.field_res_config_settings__email_secondary_color
 msgid "Email Button Color"
-msgstr "Цвет кнопки в Email"
+msgstr "Цвет кнопки в эл. письме"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_res_company__email_primary_color
@@ -5370,7 +5367,7 @@ msgstr "Текст кнопки в письме"
 #: model:ir.model,name:mail.model_mail_alias_domain
 #: model:ir.model.fields,field_description:mail.field_res_company__alias_domain_id
 msgid "Email Domain"
-msgstr "Домен Email"
+msgstr "Домен эл. почты"
 
 #. module: mail
 #. odoo-javascript
@@ -5381,7 +5378,7 @@ msgstr "Ошибка Email: %(modelName)s"
 #. module: mail
 #: model:ir.model.fields.selection,name:mail.selection__mail_compose_message__composition_mode__mass_mail
 msgid "Email Mass Mailing"
-msgstr "Массовая рассылка Email"
+msgstr "Массовая рассылка по эл. почте"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_compose_message__email_notification_allow_header
@@ -5392,44 +5389,44 @@ msgstr "Заголовок разрешения уведомлений по эл
 #: model:ir.model.fields,field_description:mail.field_mail_compose_message__email_layout_xmlid
 #: model:ir.model.fields,field_description:mail.field_mail_template__email_layout_xmlid
 msgid "Email Notification Layout"
-msgstr "Макет уведомления по Email"
+msgstr "Макет уведомления по эл. почте"
 
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.mail_template_preview_view_form
 msgid "Email Preview"
-msgstr "Предпросмотр Email"
+msgstr "Предпросмотр эл. письма"
 
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.view_mail_search
 msgid "Email Search"
-msgstr "Поиск Email"
+msgstr "Поиск эл. почты"
 
 #. module: mail
 #: model:ir.model,name:mail.model_mail_template
 msgid "Email Template"
-msgstr "Шаблон Email"
+msgstr "Шаблон эл. письма"
 
 #. module: mail
 #: model:ir.model,name:mail.model_mail_template_preview
 msgid "Email Template Preview"
-msgstr "Предпросмотр шаблона Email"
+msgstr "Предпросмотр шаблона эл. письма"
 
 #. module: mail
 #: model:ir.actions.act_window,name:mail.action_email_template_tree_all
 #: model:ir.ui.menu,name:mail.menu_email_templates
 #: model_terms:ir.ui.view,arch_db:mail.res_config_settings_view_form
 msgid "Email Templates"
-msgstr "Шаблоны Email"
+msgstr "Шаблоны эл. писем"
 
 #. module: mail
 #: model:ir.model,name:mail.model_mail_thread
 msgid "Email Thread"
-msgstr "Ветка Email"
+msgstr "Цепочка эл. писем"
 
 #. module: mail
 #: model:ir.model.constraint,message:mail.constraint_mail_blacklist_unique_email
 msgid "Email address already exists!"
-msgstr "Адрес email уже существует!"
+msgstr "Адрес эл. почты уже существует!"
 
 #. module: mail
 #: model:ir.model.fields,help:mail.field_mail_compose_message__email_from
@@ -5446,8 +5443,7 @@ msgstr ""
 #: model_terms:ir.actions.act_window,help:mail.mail_blacklist_action
 msgid ""
 "Email addresses that are blacklisted won't receive Email mailings anymore."
-msgstr ""
-"Адреса email, занесенные в черный список, больше не будут получать рассылки."
+msgstr "Адреса эл. почты, занесённые в чёрный список, больше не будут получать рассылки."
 
 #. module: mail
 #. odoo-python
@@ -5462,7 +5458,7 @@ msgstr ""
 #. module: mail
 #: model:ir.model,name:mail.model_mail_compose_message
 msgid "Email composition wizard"
-msgstr "Мастер составления Email"
+msgstr "Мастер составления эл. письма"
 
 #. module: mail
 #: model:ir.model.fields,help:mail.field_mail_alias__alias_domain
@@ -5470,13 +5466,13 @@ msgstr "Мастер составления Email"
 #: model:ir.model.fields,help:mail.field_mail_alias_mixin__alias_domain
 #: model:ir.model.fields,help:mail.field_mail_alias_mixin_optional__alias_domain
 msgid "Email domain e.g. 'example.com' in 'odoo@example.com'"
-msgstr "Домен email, например, 'example.com' в 'odoo@example.com'"
+msgstr "Домен эл. почты, например, 'example.com' в 'odoo@example.com'"
 
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.view_mail_form
 #: model_terms:ir.ui.view,arch_db:mail.view_mail_message_subtype_form
 msgid "Email message"
-msgstr "Email-сообщение"
+msgstr "Сообщение эл. почты"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_activity__mail_template_ids
@@ -5615,7 +5611,7 @@ msgstr "Ввод"
 #. odoo-javascript
 #: code:addons/mail/static/src/discuss/core/common/channel_invitation.js:0
 msgid "Enter name or email"
-msgstr "Введите имя или e-mail"
+msgstr "Введите имя или адрес эл. почты"
 
 #. module: mail
 #. odoo-javascript
@@ -5792,7 +5788,7 @@ msgstr "Сбой"
 #. odoo-javascript
 #: code:addons/mail/static/src/webclient/web/webclient.js:0
 msgid "Failed to enable push notifications"
-msgstr "Не удалось включить push-уведомления"
+msgstr "Не удалось включить пуш-уведомления"
 
 #. module: mail
 #. odoo-javascript
@@ -6194,7 +6190,7 @@ msgstr "Бессрочно"
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_res_company__email_formatted
 msgid "Formatted Email"
-msgstr "Отформатированный email-адрес"
+msgstr "Отформатированный адрес эл. почты"
 
 #. module: mail
 #. odoo-javascript
@@ -7034,7 +7030,7 @@ msgstr ""
 #. module: mail
 #: model:ir.model.fields,help:mail.field_res_config_settings__use_tenor_api
 msgid "If you want to use Klipy API to share GIFs in conversations."
-msgstr "если хотите использовать Klipy API для отправки GIF-анимаций в чатах."
+msgstr "Если хотите использовать Klipy API для отправки GIF-анимаций в чатах."
 
 #. module: mail
 #: model:ir.model.fields,help:mail.field_res_config_settings__use_twilio_rtc_servers
@@ -8444,7 +8440,7 @@ msgstr "Почта: Отправка запланированных сообще
 #. module: mail
 #: model:ir.actions.server,name:mail.ir_cron_web_push_notification_ir_actions_server
 msgid "Mail: send web push notification"
-msgstr "Почта: отправить web push-уведомление"
+msgstr "Почта: отправить пуш-уведомление в браузер"
 
 #. module: mail
 #. odoo-python
@@ -9586,7 +9582,7 @@ msgstr "Ничего не запланировано"
 #: model:ir.model.fields,field_description:mail.field_res_partner__email_normalized
 #: model:ir.model.fields,field_description:mail.field_res_users__email_normalized
 msgid "Normalized Email"
-msgstr "Нормализованный email"
+msgstr "Нормализованный адрес эл. почты"
 
 #. module: mail
 #: model:ir.model.fields.selection,name:mail.selection__fetchmail_server__state__draft
@@ -9651,7 +9647,7 @@ msgstr "Уведомление"
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_mail__is_notification
 msgid "Notification Email"
-msgstr "Email-уведомление"
+msgstr "Уведомление по эл. почте"
 
 #. module: mail
 #. odoo-javascript
@@ -11223,12 +11219,12 @@ msgstr "Издатель: Обновление уведомления"
 #. module: mail
 #: model:ir.model,name:mail.model_mail_push
 msgid "Push Notification"
-msgstr "Push-уведомление"
+msgstr "Пуш-уведомление"
 
 #. module: mail
 #: model:ir.model,name:mail.model_mail_push_device
 msgid "Push Notification Device"
-msgstr "Устройство push-уведомлений"
+msgstr "Устройство пуш-уведомлений"
 
 #. module: mail
 #. odoo-javascript
@@ -11392,7 +11388,7 @@ msgstr "Имена получателей"
 #. module: mail
 #: model:ir.model.fields,help:mail.field_mail_notification__mail_email_address
 msgid "Recipient email address"
-msgstr "E-mail получателя"
+msgstr "Адрес эл. почты получателя"
 
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.mail_message_view_form
@@ -11641,7 +11637,7 @@ msgstr "Убрать все"
 #. module: mail
 #: model:ir.model,name:mail.model_mail_blacklist_remove
 msgid "Remove email from blacklist wizard"
-msgstr "Мастер удаления email из черного списка"
+msgstr "Мастер удаления адреса эл. почты из чёрного списка"
 
 #. module: mail
 #. odoo-javascript
@@ -11962,7 +11958,7 @@ msgstr "Просмотреть все шаблоны"
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_mail__body_content
 msgid "Rich-text Contents"
-msgstr "Содержимое в формате rich-text"
+msgstr "Форматированное содержимое"
 
 #. module: mail
 #: model:ir.model.fields,help:mail.field_mail_mail__body_html
@@ -12347,7 +12343,7 @@ msgstr "Поиск: %s"
 #. odoo-python
 #: code:addons/mail/models/res_users.py:0
 msgid "Security Update: Email Changed"
-msgstr "Обновление безопасности: Email изменен"
+msgstr "Обновление безопасности: изменён адрес эл. почты"
 
 #. module: mail
 #. odoo-python
@@ -12646,7 +12642,7 @@ msgstr ""
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.email_template_form
 msgid "Sender's email"
-msgstr "E-mail отправителя"
+msgstr "Адрес эл. почты отправителя"
 
 #. module: mail
 #. odoo-javascript
@@ -12750,7 +12746,7 @@ msgstr "Назначить админом"
 #. odoo-javascript
 #: code:addons/mail/static/src/core/web/recipients_input_tags_list_popover.xml:0
 msgid "Set Email"
-msgstr "Установить Email"
+msgstr "Установить адрес эл. почты"
 
 #. module: mail
 #. odoo-javascript
@@ -13187,9 +13183,7 @@ msgstr "Статус со временем"
 #. odoo-javascript
 #: code:addons/mail/static/src/core/public_web/messaging_menu/messaging_menu.js:0
 msgid "Stay tuned! Enable push notifications to never miss a message."
-msgstr ""
-"Будьте на связи! Включите push-уведомления, чтобы никогда не пропускать "
-"сообщения."
+msgstr "Будьте на связи! Включите пуш-уведомления, чтобы никогда не пропускать сообщения."
 
 #. module: mail
 #. odoo-javascript
@@ -14602,7 +14596,7 @@ msgstr "Тип"
 #. odoo-javascript
 #: code:addons/mail/static/src/discuss/core/common/channel_invitation.xml:0
 msgid "Type email to invite"
-msgstr "Введите e-mail для приглашения"
+msgstr "Введите адрес эл. почты для приглашения"
 
 #. module: mail
 #: model:ir.model.fields,help:mail.field_mail_activity_type__delay_from
@@ -14706,9 +14700,7 @@ msgstr "Не удалось подключиться к SMTP-серверу"
 #. odoo-python
 #: code:addons/mail/wizard/mail_followers_edit.py:0
 msgid "Unable to post message, please configure the sender's email address."
-msgstr ""
-"Невозможно опубликовать сообщение, пожалуйста, настройте email-адрес "
-"отправителя."
+msgstr "Невозможно опубликовать сообщение, пожалуйста, настройте адрес эл. почты отправителя."
 
 #. module: mail
 #. odoo-javascript
@@ -15272,7 +15264,7 @@ msgstr "Пользователь может проголосовать за ка
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.ir_mail_server_view_form
 msgid "User email"
-msgstr "E-mail пользователя"
+msgstr "Адрес эл. почты пользователя"
 
 #. module: mail
 #. odoo-javascript
@@ -17043,7 +17035,7 @@ msgstr "представление"
 #. module: mail
 #: model:ir.model,name:mail.model_ir_websocket
 msgid "websocket message handling"
-msgstr "обработка websocket-сообщений"
+msgstr "обработка сообщений WebSocket"
 
 #. module: mail
 #: model:ir.model.fields.selection,name:mail.selection__mail_activity_plan_template__delay_unit__weeks

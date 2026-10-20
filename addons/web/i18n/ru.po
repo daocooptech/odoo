@@ -3179,7 +3179,7 @@ msgstr "Загрузить (vCard)"
 #. odoo-javascript
 #: code:addons/web/static/src/views/pivot/pivot_controller.xml:0
 msgid "Download xlsx"
-msgstr "Скачать xlsx"
+msgstr "Скачать XLSX"
 
 #. module: web
 #. odoo-javascript
@@ -9049,7 +9049,7 @@ msgstr "Напишите домен, чтобы разрешить условн�
 #. module: web
 #: model_terms:ir.ui.view,arch_db:web.view_base_document_layout
 msgid "Write your phone, email, bank account, tax ID, ..."
-msgstr "Укажите телефон, email, банковский счет, налоговый ID, ..."
+msgstr "Укажите телефон, эл. почту, банковский счёт, налоговый идентификатор, ..."
 
 #. module: web
 #. odoo-python

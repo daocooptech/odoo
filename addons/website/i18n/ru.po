@@ -200,9 +200,7 @@ msgstr "«URL на» не может указывать на существую�
 #: code:addons/website/models/website_rewrite.py:0
 msgid ""
 "\"URL to\" cannot contain parameter %s which is not used in \"URL from\"."
-msgstr ""
-"\"URL to\" не может содержать параметр %s, который не используется в \"URL "
-"from\"."
+msgstr "«URL назначения» не может содержать параметр %s, который не используется в «URL источника»."
 
 #. module: website
 #. odoo-python
@@ -214,8 +212,7 @@ msgstr "\"URL to\" недействителен: %s"
 #. odoo-python
 #: code:addons/website/models/website_rewrite.py:0
 msgid "\"URL to\" must contain parameter %s used in \"URL from\"."
-msgstr ""
-"\"URL to\" должен содержать параметр %s, использованный в \"URL from\"."
+msgstr "«URL назначения» должен содержать параметр %s, использованный в «URL источника»."
 
 #. module: website
 #. odoo-python
@@ -390,7 +387,7 @@ msgstr "Метка «Aria» добавляет контекст для люде�
 #. odoo-javascript
 #: code:addons/website/static/src/builder/plugins/translation/options/attribute_translation_plugin.js:0
 msgid "'Title tag' is shown as a tooltip when you hover the picture."
-msgstr "Тег «Title» отображается как подсказка при наведении курсора на картинку."
+msgstr "Метка «title» отображается как подсказка при наведении курсора на картинку."
 
 #. module: website
 #. odoo-javascript
@@ -2494,10 +2491,7 @@ msgid ""
 "<span class=\"s_website_form_label_content\">Email</span>\n"
 "                                                        <span "
 "class=\"s_website_form_mark\"> *</span>"
-msgstr ""
-"<span class=\"s_website_form_label_content\">Email</span>\n"
-"                                                        <span "
-"class=\"s_website_form_mark\"> *</span>"
+msgstr "<span class=\"s_website_form_label_content\">Эл. почта</span>\n                                                        <span class=\"s_website_form_mark\"> *</span>"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.contactus
@@ -4066,7 +4060,7 @@ msgstr "Уже установлено"
 #. odoo-javascript
 #: code:addons/website/static/src/builder/plugins/translation/options/attribute_translation_plugin.js:0
 msgid "Alt tag"
-msgstr "Тег Alt"
+msgstr "Метка alt"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.contactus
@@ -4322,7 +4316,7 @@ msgstr "Приложения"
 #. odoo-python
 #: code:addons/website/controllers/main.py:0
 msgid "Apps url"
-msgstr "Url приложения"
+msgstr "URL приложений"
 
 #. module: website
 #: model:ir.model.fields,field_description:website.field_theme_ir_ui_view__arch
@@ -4339,7 +4333,7 @@ msgstr "Арка-капля"
 #: model:ir.model.fields,field_description:website.field_website_controller_page__arch_fs
 #: model:ir.model.fields,field_description:website.field_website_page__arch_fs
 msgid "Arch Filename"
-msgstr "Arch Имя файла"
+msgstr "Имя файла представления"
 
 #. module: website
 #: model:ir.model.fields,field_description:website.field_theme_ir_ui_view__arch_fs
@@ -5531,7 +5525,7 @@ msgstr "Категория"
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.cookie_policy
 msgid "Category of Cookie"
-msgstr "Категория Cookie"
+msgstr "Категория файлов cookie"
 
 #. module: website
 #. odoo-javascript
@@ -7109,7 +7103,7 @@ msgstr "Сообщение по умолчанию"
 #: model:ir.model.fields,field_description:website.field_website__social_default_image
 #: model_terms:ir.ui.view,arch_db:website.res_config_settings_view_form
 msgid "Default Social Share Image"
-msgstr "По умолчанию Social изображение"
+msgstr "Изображение для соцсетей по умолчанию"
 
 #. module: website
 #. odoo-javascript
@@ -8164,7 +8158,7 @@ msgstr "Изменить данные диаграммы"
 #. odoo-javascript
 #: code:addons/website/static/src/components/edit_head_body_dialog/edit_head_body_dialog.xml:0
 msgid "Edit Head and Body Code"
-msgstr "Редактировать код Head и Body"
+msgstr "Редактировать код head и body"
 
 #. module: website
 #. odoo-javascript
@@ -8510,7 +8504,7 @@ msgstr ""
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.bs_debug_view
 msgid "Enter email"
-msgstr "Введите Email"
+msgstr "Введите адрес эл. почты"
 
 #. module: website
 #. odoo-javascript
@@ -10726,12 +10720,12 @@ msgstr "Идентификатор действия, если оно опред�
 #: model:ir.model.fields,help:website.field_website_controller_page__xml_id
 #: model:ir.model.fields,help:website.field_website_page__xml_id
 msgid "ID of the view defined in xml file"
-msgstr "Идентификатор представления, определенного в xml-файле"
+msgstr "Идентификатор представления, определенного в XML-файле"
 
 #. module: website
 #: model:ir.model.fields,field_description:website.field_website_configurator_feature__iap_page_code
 msgid "Iap Page Code"
-msgstr "Код страницы Iap"
+msgstr "Код страницы IAP"
 
 #. module: website
 #. odoo-javascript
@@ -12809,7 +12803,7 @@ msgstr "Карты JavaScript API"
 #. odoo-javascript
 #: code:addons/website/static/src/builder/plugins/options/google_maps_option/google_maps_api_key_dialog.xml:0
 msgid "Maps Static API"
-msgstr "Карты Static API"
+msgstr "API статических карт"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_pricelist_boxed
@@ -13344,7 +13338,7 @@ msgstr "Модуль"
 #. module: website
 #: model:ir.model.fields,field_description:website.field_res_config_settings__module_website_livechat
 msgid "Module Website Livechat"
-msgstr "Модуль Веб-сайт Livechat"
+msgstr "Модуль «Сайт и онлайн-чат»"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.res_config_settings_view_form
@@ -15975,7 +15969,7 @@ msgstr "QWeb"
 #. module: website
 #: model:ir.model,name:website.model_ir_qweb_field_contact
 msgid "Qweb Field Contact"
-msgstr "Qweb field контакт"
+msgstr "Поле QWeb: контакт"
 
 #. module: website
 #: model:ir.model,name:website.model_ir_qweb_field_html
@@ -17230,7 +17224,7 @@ msgstr "Полужирный"
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.website_visitor_view_form
 msgid "Send Email"
-msgstr "Отправить Email"
+msgstr "Отправить письмо"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.contactus
@@ -17256,7 +17250,7 @@ msgstr "Отправьте нам сообщение"
 #: model:ir.model.fields,field_description:website.field_website_page__seo_name
 #: model:ir.model.fields,field_description:website.field_website_seo_metadata__seo_name
 msgid "Seo name"
-msgstr "Имя Seo"
+msgstr "SEO-имя"
 
 #. module: website
 #. odoo-javascript
@@ -19690,7 +19684,7 @@ msgstr "Разделённый заголовок"
 #. odoo-javascript
 #: code:addons/website/static/src/builder/plugins/translation/options/attribute_translation_plugin.js:0
 msgid "Title tag"
-msgstr "Тег Title"
+msgstr "Метка title"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_three_columns
@@ -20281,7 +20275,7 @@ msgstr "Обновления и улучшения"
 #. odoo-javascript
 #: code:addons/website/static/src/builder/plugins/font/add_font_dialog.xml:0
 msgid "Upload a zip with multiple weights for best results."
-msgstr "Для лучшего результата загрузите zip-архив с несколькими вариантами насыщенности."
+msgstr "Для лучшего результата загрузите ZIP-архив с несколькими вариантами насыщенности."
 
 #. module: website
 #. odoo-javascript
@@ -20317,7 +20311,7 @@ msgstr "URL, заданный пользователем"
 #. module: website
 #: model:ir.model.fields,help:website.field_website_visitor__country_flag
 msgid "Url of static flag image"
-msgstr "Url статического изображения флага"
+msgstr "URL статического изображения флага"
 
 #. module: website
 #. odoo-javascript
@@ -20422,7 +20416,7 @@ msgstr "Используйте эту тему"
 #. module: website
 #: model:ir.model.fields,help:website.field_ir_model__website_form_key
 msgid "Used in FormBuilder Registry"
-msgstr "Используется в реестре FormBuilder"
+msgstr "Используется в реестре конструктора форм"
 
 #. module: website
 #. odoo-javascript
@@ -22165,7 +22159,7 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/website/static/src/js/send_mail_form.edit.js:0
 msgid "Your Email"
-msgstr "Ваш Email"
+msgstr "Ваш адрес эл. почты"
 
 #. module: website
 #. odoo-javascript
@@ -22173,9 +22167,7 @@ msgstr "Ваш Email"
 msgid ""
 "Your Embed Code snippet doesn't have anything to display. Click on Edit to "
 "modify it."
-msgstr ""
-"Ваш сниппет Embed Code ничего не отображает. Нажмите на Edit, чтобы изменить "
-"его."
+msgstr "В вашем блоке «Код для вставки» нет содержимого. Нажмите «Изменить», чтобы отредактировать его."
 
 #. module: website
 #. odoo-javascript
@@ -23657,7 +23649,7 @@ msgstr "социальные сети, фб, лента"
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.snippets
 msgid "social media, ig, feed"
-msgstr "социальные сети, ig, feed"
+msgstr "социальные сети, instagram, лента"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.snippets

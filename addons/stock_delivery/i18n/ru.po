@@ -901,7 +901,7 @@ msgstr ""
 #. module: stock_delivery
 #: model:ir.ui.menu,name:stock_delivery.menu_delivery_zip_prefix
 msgid "Zip Prefix"
-msgstr "Префикс Zip"
+msgstr "Префикс почтового индекса"
 
 #. module: stock_delivery
 #: model_terms:ir.ui.view,arch_db:stock_delivery.package_zpl_label_delivery

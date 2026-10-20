@@ -645,7 +645,7 @@ msgstr "Специалист по бытовым услугам"
 #. module: sale_timesheet
 #: model:ir.model.fields,field_description:sale_timesheet.field_project_task__has_multi_sol
 msgid "Has Multi Sol"
-msgstr "Имеет Multi Sol"
+msgstr "Есть несколько строк заказа на продажу"
 
 #. module: sale_timesheet
 #: model_terms:hr.job,website_description:sale_timesheet.job_engineer
@@ -1519,9 +1519,7 @@ msgstr "Всего"
 msgid ""
 "Total recorded duration, expressed in the encoding UoM, and rounded to the "
 "unit"
-msgstr ""
-"Общая продолжительность записи, выраженная в кодировке UoM и округленная до "
-"единицы"
+msgstr "Общая продолжительность записи, выраженная в единице измерения кодировки и округлённая до единицы"
 
 #. module: sale_timesheet
 #: model:ir.model.fields,field_description:sale_timesheet.field_product_product__service_type

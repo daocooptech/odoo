@@ -100,7 +100,7 @@ msgstr "Ошибка Wkhtmltopdf (код ошибки: %(error_code)s). Сооб
 #. odoo-python
 #: code:addons/base_report_wkhtmltox/models/ir_actions_report.py:0
 msgid "wkhtmltoimage 0.12.0^ is required in order to render images from html"
-msgstr "Для формирования изображений из html требуется wkhtmltoimage 0.12.0^"
+msgstr "Для формирования изображений из HTML требуется wkhtmltoimage 0.12.0^"
 
 #. module: base_report_wkhtmltox
 #: model:ir.module.module,summary:base.module_base_report_wkhtmltox

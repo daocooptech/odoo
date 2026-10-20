@@ -886,7 +886,7 @@ msgstr "Поле"
 #. module: html_editor
 #: model:ir.model,name:html_editor.model_html_field_history_mixin
 msgid "Field html History"
-msgstr "Поле html История"
+msgstr "История поля HTML"
 
 #. module: html_editor
 #. odoo-javascript
@@ -2384,13 +2384,13 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/html_editor/static/src/main/media/media_dialog/video_selector.js:0
 msgid "The provided url does not reference any supported video"
-msgstr "Предоставленный url не ссылается ни на какое поддерживаемое видео"
+msgstr "Предоставленный URL не ссылается ни на какое поддерживаемое видео"
 
 #. module: html_editor
 #. odoo-javascript
 #: code:addons/html_editor/static/src/main/media/media_dialog/video_selector.js:0
 msgid "The provided url is not valid"
-msgstr "Предоставленный url недействителен"
+msgstr "Предоставленный URL недействителен"
 
 #. module: html_editor
 #. odoo-python
@@ -2809,7 +2809,7 @@ msgstr ""
 #. odoo-python
 #: code:addons/html_editor/controllers/main.py:0
 msgid "You need to specify either data or url to create an attachment."
-msgstr "Для создания вложения необходимо указать либо данные, либо url."
+msgstr "Для создания вложения необходимо указать либо данные, либо URL."
 
 #. module: html_editor
 #. odoo-javascript

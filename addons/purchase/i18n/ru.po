@@ -1458,7 +1458,7 @@ msgstr ""
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order__dest_address_id
 msgid "Dropship Address"
-msgstr "Адрес Dropship"
+msgstr "Адрес прямой поставки"
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_form
@@ -1717,9 +1717,7 @@ msgstr ""
 msgid ""
 "International Commercial Terms are a series of predefined commercial terms "
 "used in international transactions."
-msgstr ""
-"International Commercial Terms are a series of predefined commercial terms "
-"used in international transactions."
+msgstr "Международные коммерческие условия (Инкотермс) - набор предопределённых коммерческих условий, используемых в международных сделках."
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_form

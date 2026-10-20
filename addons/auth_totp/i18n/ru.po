@@ -287,7 +287,7 @@ msgstr "Секрет"
 #. module: auth_totp
 #: model:ir.model.fields.selection,name:auth_totp.selection__auth_totp_rate_limit_log__limit_type__send_email
 msgid "Send Email"
-msgstr "Отправить Email"
+msgstr "Отправить письмо"
 
 #. module: auth_totp
 #: model:ir.model,name:auth_totp.model_auth_totp_rate_limit_log
@@ -303,7 +303,7 @@ msgstr "Код проверки должен содержать только ц�
 #. module: auth_totp
 #: model:ir.model.fields,field_description:auth_totp.field_res_users__totp_last_counter
 msgid "Totp Last Counter"
-msgstr "Последний счетчик Totp"
+msgstr "Последний счётчик TOTP"
 
 #. module: auth_totp
 #: model:ir.model.fields,field_description:auth_totp.field_res_users__totp_secret

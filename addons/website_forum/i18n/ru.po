@@ -202,7 +202,7 @@ msgstr "Для обновления отмеченной публикации т
 #. odoo-python
 #: code:addons/website_forum/models/forum_post_vote.py:0
 msgid "%d karma required to upvote."
-msgstr "%d карма, необходимая для upvote."
+msgstr "Для голосования «за» требуется %d кармы."
 
 #. module: website_forum
 #. odoo-python
@@ -3352,7 +3352,7 @@ msgstr "Самоучка"
 #: model:ir.model.fields,field_description:website_forum.field_forum_post__seo_name
 #: model:ir.model.fields,field_description:website_forum.field_forum_tag__seo_name
 msgid "Seo name"
-msgstr "Имя Seo"
+msgstr "SEO-имя"
 
 #. module: website_forum
 #: model:ir.model.fields,field_description:website_forum.field_forum_forum__sequence
@@ -4465,4 +4465,4 @@ msgstr "ваша биография может быть показана, как
 #. module: website_forum
 #: model_terms:ir.ui.view,arch_db:website_forum.follow_button
 msgid "your email..."
-msgstr "ваш e-mail..."
+msgstr "ваш адрес эл. почты..."

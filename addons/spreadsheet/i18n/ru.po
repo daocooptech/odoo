@@ -13406,7 +13406,7 @@ msgstr "Значение, которое функция возвращает, е
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "The value the function returns if value is an error."
-msgstr "Значение, которое функция возвращает, если value является ошибкой."
+msgstr "Значение, которое функция возвращает, если значение является ошибкой."
 
 #. module: spreadsheet
 #. odoo-javascript

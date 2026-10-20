@@ -50,7 +50,7 @@ msgstr ""
 #. module: onboarding
 #: model:ir.model.fields,field_description:onboarding.field_onboarding_onboarding_step__step_image_alt
 msgid "Alt Text for the Step Image"
-msgstr "Текст Alt для изображения шага"
+msgstr "Альтернативный текст для изображения шага"
 
 #. module: onboarding
 #. odoo-python

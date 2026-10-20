@@ -5565,7 +5565,7 @@ msgstr "Ответственный пользователь"
 #. module: event
 #: model:ir.actions.report,name:event.action_report_event_registration_responsive_html_ticket
 msgid "Responsive Html Full Page Ticket"
-msgstr "Отзывчивый Html-билет на всю страницу"
+msgstr "Адаптивный HTML-билет на всю страницу"
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.event_question_view_search
@@ -5633,7 +5633,7 @@ msgstr "Запланированное время"
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_registration__mail_registration_ids
 msgid "Scheduler Emails"
-msgstr "Планировщик e-mail писем"
+msgstr "Планировщик писем эл. почты"
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.event_question_view_search
@@ -5884,13 +5884,13 @@ msgstr "Час начала"
 #: model:ir.model.fields,field_description:event.field_res_partner__static_map_url
 #: model:ir.model.fields,field_description:event.field_res_users__static_map_url
 msgid "Static Map Url"
-msgstr "Статическая карта Url"
+msgstr "URL статической карты"
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_res_partner__static_map_url_is_valid
 #: model:ir.model.fields,field_description:event.field_res_users__static_map_url_is_valid
 msgid "Static Map Url Is Valid"
-msgstr "Статическая карта Url является действительной"
+msgstr "URL статической карты действителен"
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.event_question_view_list

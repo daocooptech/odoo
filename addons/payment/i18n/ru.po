@@ -2589,7 +2589,7 @@ msgstr ""
 #. module: payment
 #: model:ir.model,name:payment.model_ir_websocket
 msgid "websocket message handling"
-msgstr "обработка сообщений websocket"
+msgstr "обработка сообщений WebSocket"
 
 #~ msgid "Zip"
 #~ msgstr "Индекс"

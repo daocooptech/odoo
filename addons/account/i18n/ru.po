@@ -704,44 +704,7 @@ msgid ""
 "    </p>\n"
 "</div>\n"
 "            "
-msgstr ""
-"<div style=\"margin: 0px; padding: 0px;\">\n"
-"    <p style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
-"        Dear\n"
-"        <t t-if=\"object.partner_id.parent_id\">\n"
-"            <t t-out=\"object.partner_id.name or ''\">Brandon Freeman</t> "
-"(<t t-out=\"object.partner_id.parent_id.name or ''\">Azure Interior</t>),\n"
-"        </t>\n"
-"        <t t-else=\"\">\n"
-"            <t t-out=\"object.partner_id.name or ''\">Brandon Freeman</t>,\n"
-"        </t>\n"
-"        <br/><br/>\n"
-"        Here is your\n"
-"        <t t-if=\"object.name\">\n"
-"            credit note <span style=\"font-weight:bold;\" t-"
-"out=\"object.name or ''\">RINV/2021/05/0001</span>\n"
-"        </t>\n"
-"        <t t-else=\"\">\n"
-"            credit note\n"
-"        </t>\n"
-"        <t t-if=\"object.invoice_origin\">\n"
-"            (with reference: <t t-out=\"object.invoice_origin or "
-"''\">SUB003</t>)\n"
-"        </t>\n"
-"        amounting in <span style=\"font-weight:bold;\" t-"
-"out=\"format_amount(object.amount_total, object.currency_id) or ''\">$ "
-"143,750.00</span>\n"
-"        from <t t-out=\"object.company_id.name or ''\">YourCompany</t>.\n"
-"        <br/><br/>\n"
-"        Do not hesitate to contact us if you have any questions.\n"
-"        <t t-if=\"not is_html_empty(object.invoice_user_id.signature)\">\n"
-"            <br/><br/>\n"
-"            <div data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/><t t-"
-"out=\"object.invoice_user_id.signature or ''\">Mitchell Admin</t></div>\n"
-"        </t>\n"
-"    </p>\n"
-"</div>\n"
-"            "
+msgstr "<div style=\"margin: 0px; padding: 0px;\">\n    <p style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n        Здравствуйте,\n        <t t-if=\"object.partner_id.parent_id\">\n            <t t-out=\"object.partner_id.name or ''\">Brandon Freeman</t> (<t t-out=\"object.partner_id.parent_id.name or ''\">Azure Interior</t>),\n        </t>\n        <t t-else=\"\">\n            <t t-out=\"object.partner_id.name or ''\">Brandon Freeman</t>,\n        </t>\n        <br/><br/>\n        Направляем вам\n        <t t-if=\"object.name\">\n            кредитовое авизо <span style=\"font-weight:bold;\" t-out=\"object.name or ''\">RINV/2021/05/0001</span>\n        </t>\n        <t t-else=\"\">\n            кредитовое авизо\n        </t>\n        <t t-if=\"object.invoice_origin\">\n            (основание: <t t-out=\"object.invoice_origin or ''\">SUB003</t>)\n        </t>\n        на сумму <span style=\"font-weight:bold;\" t-out=\"format_amount(object.amount_total, object.currency_id) or ''\">$ 143,750.00</span>\n        от <t t-out=\"object.company_id.name or ''\">YourCompany</t>.\n        <br/><br/>\n        Если у вас есть вопросы, обращайтесь к нам.\n        <t t-if=\"not is_html_empty(object.invoice_user_id.signature)\">\n            <br/><br/>\n            <div data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/><t t-out=\"object.invoice_user_id.signature or ''\">Mitchell Admin</t></div>\n        </t>\n    </p>\n</div>\n            "
 
 #. module: account
 #: model:mail.template,body_html:account.mail_template_data_payment_receipt
@@ -3560,8 +3523,7 @@ msgstr "Все банковские и кассовые журналы"
 #: model:account.account,description:account.22_account_account_us_office_services
 msgid ""
 "All expenses made for your office or workplace that are not material goods"
-msgstr ""
-"All expenses made for your office or workplace that are not material goods"
+msgstr "Все расходы на ваш офис или рабочее место, не относящиеся к материальным товарам"
 
 #. module: account
 #: model:account.account,description:account.22_account_account_us_professional_insurance
@@ -6024,8 +5986,7 @@ msgstr "Компания, связанная с этим журналом"
 #: model:account.account,description:account.22_account_account_us_other_employees_benefits
 msgid ""
 "Company's personnel costs excluding compensations, contributions and vouchers"
-msgstr ""
-"Company's personnel costs excluding compensations, contributions and vouchers"
+msgstr "Расходы компании на персонал, кроме компенсаций, взносов и ваучеров"
 
 #. module: account
 #: model:account.account,description:account.22_account_account_us_salaries
@@ -6289,17 +6250,14 @@ msgstr "Метод расчёта себестоимости"
 #: model:account.account,description:account.22_account_account_us_postage
 msgid ""
 "Costs for shipping products or materials to customers or receiving inventory."
-msgstr ""
-"Costs for shipping products or materials to customers or receiving inventory."
+msgstr "Расходы на доставку продукции или материалов клиентам либо на получение запасов."
 
 #. module: account
 #: model:account.account,description:account.22_account_account_us_disposal_fees
 msgid ""
 "Costs incurred for removal, disposal, or recycling of waste and obsolete "
 "materials"
-msgstr ""
-"Costs incurred for removal, disposal, or recycling of waste and obsolete "
-"materials"
+msgstr "Расходы на вывоз, утилизацию или переработку отходов и устаревших материалов"
 
 #. module: account
 #: model:account.account,description:account.22_account_account_us_marketing
@@ -7464,7 +7422,7 @@ msgstr "Открытие по умолчанию"
 #. module: account
 #: model:ir.model.fields,field_description:account.field_res_company__account_default_pos_receivable_account_id
 msgid "Default PoS Receivable Account"
-msgstr "Счёт расчётов с покупателями в PoS по умолчанию"
+msgstr "Счёт расчётов с покупателями в POS по умолчанию"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_res_company__account_purchase_receipt_fiscal_position_id
@@ -8660,18 +8618,14 @@ msgstr "Налоги на заработную плату работодател
 msgid ""
 "Employer contributions to state (SUI) or federal unemployment insurance "
 "programs"
-msgstr ""
-"Employer contributions to state (SUI) or federal unemployment insurance "
-"programs"
+msgstr "Взносы работодателя в государственные или федеральные программы страхования по безработице"
 
 #. module: account
 #: model:account.account,description:account.22_account_account_us_payroll_tax
 msgid ""
 "Employer's portion of payroll-related taxes (eg. Social Security, Medicare, "
 "FUTA/SUTA)"
-msgstr ""
-"Employer's portion of payroll-related taxes (eg. Social Security, Medicare, "
-"FUTA/SUTA)"
+msgstr "Доля работодателя в налогах на оплату труда (например, соцстрах, медицинское страхование, взносы по безработице)"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_bank_statement_search
@@ -9048,17 +9002,14 @@ msgstr "Расходы на еду и напитки в барах и ресто
 #. module: account
 #: model:account.account,description:account.22_account_account_us_vehicles_expense
 msgid "Expenses made for the repair and maintenance of company cars and trucks"
-msgstr ""
-"Expenses made for the repair and maintenance of company cars and trucks"
+msgstr "Расходы на ремонт и обслуживание легковых и грузовых автомобилей компании"
 
 #. module: account
 #: model:account.account,description:account.22_account_account_us_computers
 msgid ""
 "Expenses made for the repair and maintenance of laptops, peripherals, and "
 "computing equipment"
-msgstr ""
-"Expenses made for the repair and maintenance of laptops, peripherals, and "
-"computing equipment"
+msgstr "Расходы на ремонт и обслуживание ноутбуков, периферии и вычислительной техники"
 
 #. module: account
 #: model:ir.model.fields.selection,name:account.selection__account_lock_exception__state__expired
@@ -9471,9 +9422,7 @@ msgstr "Подписчики (Партнёры)"
 msgid ""
 "Food or drinks incurred outside of bars or restaurants, like receptions, "
 "canteen and food delivery, etc"
-msgstr ""
-"Food or drinks incurred outside of bars or restaurants, like receptions, "
-"canteen and food delivery, etc"
+msgstr "Еда и напитки вне баров и ресторанов: приёмы, столовая, доставка еды и т. п."
 
 #. module: account
 #: model:account.account,name:account.22_account_account_us_food
@@ -10885,9 +10834,7 @@ msgstr "Страхование ущерба, причинённого треть
 msgid ""
 "Insurance premiums that cover medical costs and wage replacement for "
 "employees injured on the job"
-msgstr ""
-"Insurance premiums that cover medical costs and wage replacement for "
-"employees injured on the job"
+msgstr "Страховые премии, покрывающие медицинские расходы и компенсацию заработка сотрудникам, получившим травму на работе"
 
 #. module: account
 #: model:ir.model.fields.selection,name:account.selection__account_report_column__figure_type__integer
@@ -12084,7 +12031,7 @@ msgstr "Надпись на счетах-фактурах"
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_tax_group_form
 msgid "Label on PoS Receipts"
-msgstr "Надпись на квитанциях PoS"
+msgstr "Надпись на квитанциях POS"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_bank_statement_line__sanitize_payment_reference
@@ -15136,8 +15083,7 @@ msgstr "Риск фишинга: %(money_transfer_service)s — сервис д�
 #: model:account.account,description:account.22_account_account_us_internet
 msgid ""
 "Phone and internet bills from your telco provider for business operations"
-msgstr ""
-"Phone and internet bills from your telco provider for business operations"
+msgstr "Счета за телефон и интернет от оператора связи для деятельности компании"
 
 #. module: account
 #. odoo-javascript
@@ -15204,7 +15150,7 @@ msgstr "Используйте следующее сообщение для ва
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_tax_group__pos_receipt_label
 msgid "PoS receipt label"
-msgstr "Этикетка чека PoS"
+msgstr "Этикетка чека POS"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_bank_statement_line__access_url
@@ -15327,16 +15273,13 @@ msgstr ""
 msgid ""
 "Premiums for short-term or long-term disability coverage provided to "
 "employees"
-msgstr ""
-"Premiums for short-term or long-term disability coverage provided to "
-"employees"
+msgstr "Премии за страхование краткосрочной или долгосрочной нетрудоспособности сотрудников"
 
 #. module: account
 #: model:account.account,description:account.22_account_account_us_auto_insurance
 msgid ""
 "Premiums paid for insurance coverage on company-owned or leased vehicles"
-msgstr ""
-"Premiums paid for insurance coverage on company-owned or leased vehicles"
+msgstr "Премии за страхование автомобилей, принадлежащих компании или взятых в аренду"
 
 #. module: account
 #: model:account.account,name:account.21_prepayments
@@ -15523,9 +15466,7 @@ msgstr "Вариант продукта"
 msgid ""
 "Production of printed or digital materials, such as photocopies, brochures, "
 "flyers, manuals."
-msgstr ""
-"Production of printed or digital materials, such as photocopies, brochures, "
-"flyers, manuals."
+msgstr "Изготовление печатных или электронных материалов: ксерокопии, брошюры, листовки, руководства."
 
 #. module: account
 #. odoo-javascript
@@ -15711,8 +15652,7 @@ msgstr "Закупка оборудования"
 #: model:account.account,description:account.22_account_account_us_vehicles
 msgid ""
 "Purchase of a car or truck, including second hand or after-lease contract"
-msgstr ""
-"Purchase of a car or truck, including second hand or after-lease contract"
+msgstr "Покупка легкового или грузового автомобиля, в том числе подержанного или по окончании лизинга"
 
 #. module: account
 #. odoo-python
@@ -15731,8 +15671,7 @@ msgstr "Закупки"
 #: model:account.account,description:account.22_account_account_us_improvements
 msgid ""
 "Purchases of installations related to buildings, like solar panels or HVAC"
-msgstr ""
-"Purchases of installations related to buildings, like solar panels or HVAC"
+msgstr "Покупка инженерных установок зданий, например солнечных панелей или систем отопления и вентиляции"
 
 #. module: account
 #: model:account.account,description:account.22_account_account_us_land
@@ -16199,8 +16138,7 @@ msgstr "Аренда или наём зданий"
 #: model:account.account,description:account.22_account_account_us_vehicle_rent
 msgid ""
 "Rental of cars or trucks, including shared services, but excluding leasing"
-msgstr ""
-"Rental of cars or trucks, including shared services, but excluding leasing"
+msgstr "Аренда легковых или грузовых автомобилей, включая каршеринг, но без лизинга"
 
 #. module: account
 #: model:ir.model.fields.selection,name:account.selection__account_resequence_wizard__ordering__date
@@ -17318,18 +17256,14 @@ msgstr "Услуги"
 msgid ""
 "Services incurred for the administration of your business (excluding "
 "supplies)"
-msgstr ""
-"Services incurred for the administration of your business (excluding "
-"supplies)"
+msgstr "Услуги по управлению вашим бизнесом (без расходных материалов)"
 
 #. module: account
 #: model:account.account,description:account.22_account_account_us_office_maintenance
 msgid ""
 "Services related to the maintenance of your worplace, like repair or "
 "janitorial"
-msgstr ""
-"Services related to the maintenance of your worplace, like repair or "
-"janitorial"
+msgstr "Услуги по содержанию вашего рабочего места, например ремонт или уборка"
 
 #. module: account
 #. odoo-javascript
@@ -21507,9 +21441,7 @@ msgstr "Счёт изменений активен"
 msgid ""
 "Various supplies bought for your workplace or office, like pencils, paper, "
 "consumables, etc"
-msgstr ""
-"Various supplies bought for your workplace or office, like pencils, paper, "
-"consumables, etc"
+msgstr "Различные расходные материалы для рабочего места или офиса: карандаши, бумага и т. п."
 
 #. module: account
 #: model:account.account,name:account.22_account_account_us_vehicle_rent
@@ -23348,18 +23280,14 @@ msgstr ""
 msgid ""
 "{{ object.company_id.name }} Self-billing credit note (Ref {{ object.name or "
 "'n/a' }})"
-msgstr ""
-"{{ object.company_id.name }} Self-billing credit note (Ref {{ object.name or "
-"'n/a' }})"
+msgstr "{{ object.company_id.name }} Кредитовое авизо самовыставления (№ {{ object.name or 'n/a' }})"
 
 #. module: account
 #: model:mail.template,subject:account.email_template_edi_self_billing_invoice
 msgid ""
 "{{ object.company_id.name }} Self-billing invoice (Ref {{ object.name or 'n/"
 "a' }})"
-msgstr ""
-"{{ object.company_id.name }} Self-billing invoice (Ref {{ object.name or 'n/"
-"a' }})"
+msgstr "{{ object.company_id.name }} Счёт самовыставления (№ {{ object.name or 'n/a' }})"
 
 #. module: account
 #: model:mail.template,subject:account.mail_template_data_payment_receipt

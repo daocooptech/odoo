@@ -1148,9 +1148,7 @@ msgstr "Назначено"
 #: code:addons/hr_recruitment/wizard/applicant_refuse_reason.py:0
 msgid ""
 "At least one applicant doesn't have a email; you can't use send email option."
-msgstr ""
-"По крайней мере у одного кандидата не указан e-mail адрес, отправка писем "
-"невозможна."
+msgstr "По крайней мере у одного кандидата не указан адрес эл. почты, отправка писем невозможна."
 
 #. module: hr_recruitment
 #: model:ir.model,name:hr_recruitment.model_ir_attachment
@@ -3458,7 +3456,7 @@ msgstr "Отправляйте резюме в OCR для заполнения �
 #: model:ir.model.fields,field_description:hr_recruitment.field_applicant_get_refuse_reason__send_mail
 #: model:ir.model.fields,field_description:hr_recruitment.field_applicant_refuse_single__send_mail
 msgid "Send Email"
-msgstr "Отправить Email"
+msgstr "Отправить письмо"
 
 #. module: hr_recruitment
 #: model_terms:ir.ui.view,arch_db:hr_recruitment.res_config_settings_view_form

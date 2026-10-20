@@ -665,7 +665,7 @@ msgstr "Адрес электронной почты уже занят друг�
 #. module: portal
 #: model:ir.model,name:portal.model_mail_thread
 msgid "Email Thread"
-msgstr "Цепочка email"
+msgstr "Цепочка эл. писем"
 
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.portal_my_security
@@ -774,8 +774,7 @@ msgstr "Неверный адрес электронной почты"
 #. odoo-python
 #: code:addons/portal/controllers/portal.py:0
 msgid "Invalid Email! Please enter a valid email address."
-msgstr ""
-"Неверный email! Пожалуйста, введите корректный адрес электронной почты."
+msgstr "Неверный адрес эл. почты! Введите корректный адрес эл. почты."
 
 #. module: portal
 #. odoo-python
@@ -1012,8 +1011,7 @@ msgstr "Предыдущий"
 #: model_terms:ir.ui.view,arch_db:portal.portal_my_security
 msgid ""
 "Put my email and phone in a block list to make sure I'm never contacted again"
-msgstr ""
-"Добавьте мой email и телефон в черный список, чтобы меня больше не беспокоили"
+msgstr "Добавьте мой адрес эл. почты и телефон в чёрный список, чтобы меня больше не беспокоили"
 
 #. module: portal
 #: model:ir.model,name:portal.model_ir_qweb
@@ -1257,7 +1255,7 @@ msgstr "У контакта \"%s\" отсутствует действитель
 #. odoo-python
 #: code:addons/portal/wizard/portal_wizard.py:0
 msgid "The contact \"%s\" has the same email as an existing user"
-msgstr "У контакта \"%s\" тот же email, что и у существующего пользователя"
+msgstr "У контакта \"%s\" тот же адрес эл. почты, что и у существующего пользователя"
 
 #. module: portal
 #. odoo-python

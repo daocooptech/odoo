@@ -322,7 +322,7 @@ msgid "Email"
 msgstr "Эл. почта"
 
 msgid "Email is required."
-msgstr "Email обязателен."
+msgstr "Адрес эл. почты обязателен."
 
 msgid "Input"
 msgstr "Ввод"

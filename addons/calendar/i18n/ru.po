@@ -4142,7 +4142,7 @@ msgstr "Отправить и удалить"
 #. module: calendar
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_form
 msgid "Send email"
-msgstr "Отправка e-mail писем"
+msgstr "Отправка писем эл. почты"
 
 #. module: calendar
 #: model:mail.template,description:calendar.calendar_template_meeting_reminder

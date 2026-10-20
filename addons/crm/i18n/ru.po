@@ -1464,7 +1464,7 @@ msgstr "Критерий домена эл. почты"
 #. odoo-javascript
 #: code:addons/crm/static/src/components/lead_generation_dropdown/lead_generation_dropdown.js:0
 msgid "Email Marketing"
-msgstr "Email-маркетинг"
+msgstr "Маркетинг по эл. почте"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead__email_state
@@ -4724,7 +4724,7 @@ msgstr "например, mycompany.com"
 #. odoo-javascript
 #: code:addons/crm/static/src/views/crm_form/crm_pls_tooltip_button.xml:0
 msgid "email address"
-msgstr "e-mail адрес"
+msgstr "адрес эл. почты"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.res_config_settings_view_form
@@ -4821,7 +4821,7 @@ msgstr "неизвестно"
 #. odoo-javascript
 #: code:addons/crm/static/src/views/crm_form/crm_pls_tooltip_button.xml:0
 msgid "valid email address"
-msgstr "действительный e-mail адрес"
+msgstr "действительный адрес эл. почты"
 
 #. module: crm
 #. odoo-javascript

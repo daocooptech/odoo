@@ -3469,12 +3469,12 @@ msgstr "Место назначения"
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_quant_relocate__dest_package_id
 msgid "Dest Package"
-msgstr "Пакет Dest"
+msgstr "Пакет назначения"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_quant_relocate__dest_package_id_domain
 msgid "Dest Package Id Domain"
-msgstr "Dest Package Id Домен"
+msgstr "Домен ID пакета назначения"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_put_in_pack__location_dest_id
@@ -6378,13 +6378,13 @@ msgstr "Имя"
 #: model:ir.model.fields,field_description:stock.field_product_product__nbr_moves_in
 #: model:ir.model.fields,field_description:stock.field_product_template__nbr_moves_in
 msgid "Nbr Moves In"
-msgstr "Nbr переезжает"
+msgstr "Число входящих перемещений"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_product_product__nbr_moves_out
 #: model:ir.model.fields,field_description:stock.field_product_template__nbr_moves_out
 msgid "Nbr Moves Out"
-msgstr "Nbr переезжает"
+msgstr "Число исходящих перемещений"
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.stock_product_search_form_view
@@ -8038,7 +8038,7 @@ msgstr "Правило вытягивания"
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_rule__push_domain
 msgid "Push Applicability"
-msgstr "Применимость правила «Push»"
+msgstr "Применимость правила выталкивания"
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.report_stock_rule

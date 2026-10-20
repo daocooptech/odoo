@@ -86,4 +86,4 @@ msgstr "Модуль сайта для почты"
 #. module: website_mail
 #: model_terms:ir.ui.view,arch_db:website_mail.follow
 msgid "your email..."
-msgstr "ваш e-mail..."
+msgstr "ваш адрес эл. почты..."

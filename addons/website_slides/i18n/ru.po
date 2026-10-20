@@ -667,9 +667,7 @@ msgstr ""
 msgid ""
 "<i class=\"oi me-2\" data-icon=\"chevron_backward\"/> <span class=\"d-none d-"
 "sm-inline-block\">Prev</span>"
-msgstr ""
-"<i class=\"oi me-2\" data-icon=\"chevron_backward\"/> <span class=\"d-none d-"
-"sm-inline-block\">Prev</span>"
+msgstr "<i class=\"oi me-2\" data-icon=\"chevron_backward\"/> <span class=\"d-none d-sm-inline-block\">Назад</span>"
 
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.slide_slide_view_kanban
@@ -1312,7 +1310,7 @@ msgstr "Ресурс типа файл не может содержать ссы
 #. module: website_slides
 #: model:ir.model.constraint,message:website_slides.constraint_slide_slide_resource_check_url
 msgid "A resource of type url must contain a link."
-msgstr "Ресурс типа url должен содержать ссылку."
+msgstr "Ресурс типа URL должен содержать ссылку."
 
 #. module: website_slides
 #: model:slide.answer,text_value:website_slides.slide_slide_demo_0_4_question_1_0
@@ -1322,7 +1320,7 @@ msgstr "Лопата"
 #. module: website_slides
 #: model:ir.model.constraint,message:website_slides.constraint_slide_slide_exclusion_html_content_and_url
 msgid "A slide is either filled with a url or HTML content. Not both."
-msgstr "Слайд заполняется либо url, либо HTML-контентом. Не то и не другое."
+msgstr "Слайд заполняется либо URL, либо HTML-контентом, но не обоими сразу."
 
 #. module: website_slides
 #: model:slide.answer,text_value:website_slides.slide_slide_demo_0_4_question_1_1
@@ -2813,7 +2811,7 @@ msgstr "Дата создания:"
 #. module: website_slides
 #: model:ir.model.fields,help:website_slides.field_slide_slide__html_content
 msgid "Custom HTML content for slides of category 'Article'."
-msgstr "Пользовательский HTML-контент для слайдов категории 'Article'."
+msgstr "Пользовательский HTML-контент для слайдов категории «Статья»"
 
 #. module: website_slides
 #: model:slide.channel,name:website_slides.slide_channel_demo_6_furn3
@@ -5182,7 +5180,7 @@ msgstr "Средняя оценка (Звезды)"
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_channel__rating_avg_text
 msgid "Rating Avg Text"
-msgstr "Рейтинг Avg Текст"
+msgstr "Текст среднего рейтинга"
 
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_channel__rating_last_feedback
@@ -5578,7 +5576,7 @@ msgstr "Продавайте доступ к вашим курсам на сво
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_res_config_settings__module_website_sale_slides
 msgid "Sell on eCommerce"
-msgstr "Продавать в eCommerce"
+msgstr "Продавать в интернет-магазине"
 
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.slide_channel_invite_view_form
@@ -5591,7 +5589,7 @@ msgstr "Отправить"
 #: model:ir.actions.act_window,name:website_slides.slide_channel_partner_action_send_mail
 #: model:ir.model.fields,field_description:website_slides.field_slide_channel_invite__send_email
 msgid "Send Email"
-msgstr "Отправить Email"
+msgstr "Отправить письмо"
 
 #. module: website_slides
 #: model:mail.template,description:website_slides.mail_template_channel_completed
@@ -5622,7 +5620,7 @@ msgstr "Отправляется, когда слушатели сообщают
 #: model:ir.model.fields,field_description:website_slides.field_slide_channel__seo_name
 #: model:ir.model.fields,field_description:website_slides.field_slide_slide__seo_name
 msgid "Seo name"
-msgstr "Имя Seo"
+msgstr "SEO-имя"
 
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_answer__sequence
@@ -5686,7 +5684,7 @@ msgstr "Поделиться URL"
 #. odoo-javascript
 #: code:addons/website_slides/static/src/js/public/components/slide_share_dialog/slide_share_dialog.xml:0
 msgid "Share by Email"
-msgstr "Поделиться через Email"
+msgstr "Поделиться по эл. почте"
 
 #. module: website_slides
 #. odoo-javascript
@@ -6112,9 +6110,7 @@ msgstr ""
 msgid ""
 "The Google Drive link can be obtained by using the 'share' button in the "
 "Google interface."
-msgstr ""
-"Ссылку на Google Drive можно получить с помощью кнопки \"поделиться\" в "
-"интерфейсе Google."
+msgstr "Ссылку на Google Drive можно получить с помощью кнопки «Поделиться» в интерфейсе Google."
 
 #. module: website_slides
 #: model:ir.model.constraint,message:website_slides.constraint_slide_channel_partner_check_completion
@@ -6521,7 +6517,7 @@ msgstr "Загрузка с устройства"
 #. odoo-javascript
 #: code:addons/website_slides/static/src/js/public/components/slide_upload_dialog/slide_upload_dialog.xml:0
 msgid "Upload the file to Drive."
-msgstr "Загрузите файл на Drive."
+msgstr "Загрузите файл на Google Drive."
 
 #. module: website_slides
 #. odoo-javascript
@@ -7249,7 +7245,7 @@ msgstr "кнопку, чтобы получить ссылку"
 #: code:addons/website_slides/static/src/js/public/components/slide_share_dialog/email_sharing_input.xml:0
 #, fuzzy
 msgid "by email."
-msgstr "по email."
+msgstr "по эл. почте."
 
 #. module: website_slides
 #. odoo-javascript

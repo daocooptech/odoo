@@ -163,7 +163,7 @@ msgstr "<t>\nЗдравствуйте, <t t-out=\"object.name or ''\">Mitchell A
 #. odoo-python
 #: code:addons/auth_signup/models/res_users.py:0
 msgid "A reset password link was sent by email"
-msgstr "Ссылка для сброса пароля отправлена на e-mail"
+msgstr "Ссылка для сброса пароля отправлена по эл. почте"
 
 #. module: auth_signup
 #: model_terms:ir.ui.view,arch_db:auth_signup.signup
@@ -175,7 +175,7 @@ msgstr "Уже есть аккаунт?"
 #: code:addons/auth_signup/controllers/main.py:0
 #: code:addons/auth_signup/models/res_users.py:0
 msgid "Another user is already registered using this email address."
-msgstr "C этим адресом email уже зарегистрирован другой пользователь."
+msgstr "С этим адресом эл. почты уже зарегистрирован другой пользователь."
 
 #. module: auth_signup
 #: model_terms:ir.ui.view,arch_db:auth_signup.reset_password

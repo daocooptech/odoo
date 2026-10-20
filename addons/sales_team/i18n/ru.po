@@ -680,8 +680,7 @@ msgstr "UX: Ограничить компанию командой или все
 #. module: sales_team
 #: model_terms:ir.actions.act_window,help:sales_team.crm_team_action_config
 msgid "Use Sales Teams to organize your sales departments and draw up reports."
-msgstr ""
-"Используйте Sales Teams для организации отделов продаж и составления отчетов."
+msgstr "Используйте команды продаж для организации отделов продаж и составления отчётов."
 
 #. module: sales_team
 #: model_terms:ir.actions.act_window,help:sales_team.crm_team_action_pipeline

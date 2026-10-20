@@ -458,7 +458,7 @@ msgstr "Запланировать встречу"
 #. module: utm
 #: model_terms:ir.ui.view,arch_db:utm.utm_medium_view_search
 msgid "Search UTM Medium"
-msgstr "Поиск UTM Medium"
+msgstr "Поиск по каналу UTM"
 
 #. module: utm
 #. odoo-javascript

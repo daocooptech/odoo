@@ -2579,7 +2579,7 @@ msgstr "Металл"
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_document__mimetype
 msgid "Mime Type"
-msgstr "Mime-тип"
+msgstr "MIME-тип"
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_pricelist_item_form_view
