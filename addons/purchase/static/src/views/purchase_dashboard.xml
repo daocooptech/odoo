@@ -157,7 +157,7 @@
                                             this.state.purchaseData['global']['days_to_order'] > this.state.purchaseData['days_to_purchase']
                                             ? 'btn btn-warning'
                                             : 'bg-200 text-center' }}">
-                                    <div class="fs-2" t-out="this.state.purchaseData['global']['days_to_order']"/>Days to Order
+                                    <div class="fs-2" t-out="this.state.purchaseData['global']['days_to_order_label']"/>Days to Order
                                 </div>
                             </div>
                         </div>
@@ -174,7 +174,7 @@
                                         this.state.purchaseData['days_to_purchase'] and
                                         this.state.purchaseData['global']['days_to_order'] > this.state.purchaseData['days_to_purchase']
                                         ? 'btn btn-warning' : 'bg-200 text-center' }}">
-                                    <div t-out="this.state.purchaseData['my']['days_to_order']"/>
+                                    <div t-out="this.state.purchaseData['my']['days_to_order_label']"/>
                                 </div>
                             </div>
                         </div>

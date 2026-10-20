@@ -1283,7 +1283,7 @@ msgstr "Дни до подтверждения"
 #. odoo-javascript
 #: code:addons/purchase/static/src/views/purchase_dashboard.xml:0
 msgid "Days to Order"
-msgstr "Дней до заказа"
+msgstr "В среднем дней от запроса до заказа"
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_report__delay_pass

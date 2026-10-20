@@ -1116,6 +1116,10 @@ class PurchaseOrder(models.Model):
         avg_my_deliveries_seconds = my_deliveries_seconds / my_deliveries_count if my_deliveries_count else 0
         result['global']['days_to_order'] = float_repr(avg_global_deliveries_seconds / 60 / 60 / 24, precision_digits=2)
         result['my']['days_to_order'] = float_repr(avg_my_deliveries_seconds / 60 / 60 / 24, precision_digits=2)
+        # coop: on screen in the user's number format with one decimal; the raw
+        # value above stays for the template's comparison with days_to_purchase.
+        result['global']['days_to_order_label'] = formatLang(self.env, avg_global_deliveries_seconds / 60 / 60 / 24, digits=1)
+        result['my']['days_to_order_label'] = formatLang(self.env, avg_my_deliveries_seconds / 60 / 60 / 24, digits=1)
 
         return result
 
