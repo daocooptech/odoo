@@ -54,7 +54,7 @@ msgstr "Тип операции"
 #. module: purchase_requisition_stock
 #: model:ir.model,name:purchase_requisition_stock.model_purchase_order
 msgid "Purchase Order"
-msgstr "Заказ на покупку"
+msgstr "Заказ поставщику"
 
 #. module: purchase_requisition_stock
 #: model:ir.model,name:purchase_requisition_stock.model_purchase_requisition

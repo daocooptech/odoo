@@ -102,7 +102,7 @@ msgstr ""
 #. module: purchase_product_matrix
 #: model:ir.model,name:purchase_product_matrix.model_purchase_order
 msgid "Purchase Order"
-msgstr "Заказ на покупку"
+msgstr "Заказ поставщику"
 
 #. module: purchase_product_matrix
 #: model:ir.model,name:purchase_product_matrix.model_purchase_order_line

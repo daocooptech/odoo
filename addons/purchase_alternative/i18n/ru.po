@@ -245,7 +245,7 @@ msgstr ""
 #. module: purchase_alternative
 #: model:ir.model,name:purchase_alternative.model_purchase_order
 msgid "Purchase Order"
-msgstr ""
+msgstr "Заказ поставщику"
 
 #. module: purchase_alternative
 #: model:ir.model,name:purchase_alternative.model_purchase_order_line
@@ -262,7 +262,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:purchase_alternative.purchase_order_form
 #: model_terms:ir.ui.view,arch_db:purchase_alternative.purchase_order_line_view_compare_list
 msgid "Reference"
-msgstr ""
+msgstr "Номер"
 
 #. module: purchase_alternative
 #. odoo-python
@@ -302,7 +302,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:purchase_alternative.field_purchase_alternative_create__partner_ids
 #: model_terms:ir.ui.view,arch_db:purchase_alternative.purchase_order_line_view_compare_list
 msgid "Vendor"
-msgstr ""
+msgstr "Поставщик"
 
 #. module: purchase_alternative
 #: model:ir.model.fields,field_description:purchase_alternative.field_purchase_alternative_create__purchase_warn_msg

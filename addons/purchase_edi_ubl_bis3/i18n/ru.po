@@ -64,7 +64,7 @@ msgstr "Запись журнала"
 #. module: purchase_edi_ubl_bis3
 #: model:ir.model,name:purchase_edi_ubl_bis3.model_purchase_order
 msgid "Purchase Order"
-msgstr "Заказ на закупку"
+msgstr "Заказ поставщику"
 
 #. module: purchase_edi_ubl_bis3
 #: model:ir.model,name:purchase_edi_ubl_bis3.model_purchase_edi_xml_ubl_bis3

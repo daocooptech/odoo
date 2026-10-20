@@ -52,14 +52,14 @@ msgstr ""
 #. module: purchase_repair
 #: model:ir.model,name:purchase_repair.model_purchase_order
 msgid "Purchase Order"
-msgstr "Заказ на покупку"
+msgstr "Заказ поставщику"
 
 #. module: purchase_repair
 #. odoo-python
 #: code:addons/purchase_repair/models/repair_order.py:0
 #: model_terms:ir.ui.view,arch_db:purchase_repair.view_repair_order_form_inherit
 msgid "Purchase Orders"
-msgstr "Заказы на покупку"
+msgstr "Заказы поставщикам"
 
 #. module: purchase_repair
 #: model:ir.module.module,shortdesc:base.module_purchase_repair

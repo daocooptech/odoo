@@ -47,7 +47,7 @@ msgstr ""
 #. module: purchase_alternative_stock
 #: model:ir.model,name:purchase_alternative_stock.model_purchase_order
 msgid "Purchase Order"
-msgstr ""
+msgstr "Заказ поставщику"
 
 #. module: purchase_alternative_stock
 #: model:ir.model,name:purchase_alternative_stock.model_purchase_order_line
