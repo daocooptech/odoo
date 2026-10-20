@@ -484,7 +484,7 @@ msgstr "Вернитесь к заказу на покупку, чтобы сф�
 #: model:ir.model.fields,field_description:purchase_stock.field_res_partner__group_rfq
 #: model:ir.model.fields,field_description:purchase_stock.field_res_users__group_rfq
 msgid "Group RFQ"
-msgstr "Группировать запросы КП"
+msgstr "Группировать запросы на коммерческое предложение"
 
 #. module: purchase_stock
 #: model:ir.model.fields,field_description:purchase_stock.field_account_move_line__id
@@ -893,7 +893,7 @@ msgstr "Запросите поставщиков для доставки ваш
 #. odoo-javascript
 #: code:addons/purchase_stock/static/src/purchase_stock_forecasted/forecasted_details.xml:0
 msgid "Requests for quotation :"
-msgstr "Запросы КП:"
+msgstr "Запросы на коммерческое предложение:"
 
 #. module: purchase_stock
 #: model:ir.model.fields,field_description:purchase_stock.field_purchase_order_line__move_ids

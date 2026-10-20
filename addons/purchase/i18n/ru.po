@@ -734,13 +734,13 @@ msgstr "В среднем дней от запроса до заказа — п�
 #. odoo-javascript
 #: code:addons/purchase/static/src/views/purchase_dashboard.xml:0
 msgid "All Draft RFQs"
-msgstr "Все новые запросы КП"
+msgstr "Все новые запросы на коммерческое предложение"
 
 #. module: purchase
 #. odoo-javascript
 #: code:addons/purchase/static/src/views/purchase_dashboard.xml:0
 msgid "All Late RFQs"
-msgstr "Все запросы КП, у которых прошёл срок заказа"
+msgstr "Все запросы на коммерческое предложение, у которых прошёл срок заказа"
 
 #. module: purchase
 #. odoo-javascript
@@ -758,7 +758,7 @@ msgstr "Все заказы, которые поставщик не подтве
 #. odoo-javascript
 #: code:addons/purchase/static/src/views/purchase_dashboard.xml:0
 msgid "All Sent RFQs"
-msgstr "Все отправленные запросы КП"
+msgstr "Все отправленные запросы на коммерческое предложение"
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.product_supplierinfo_tree_view2
@@ -837,7 +837,7 @@ msgstr "Утвердить приказ"
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_kpis_tree
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_view_tree
 msgid "Are you sure you want to cancel the selected RFQs/Orders?"
-msgstr "Отменить выбранные запросы КП и заказы?"
+msgstr "Отменить выбранные запросы на коммерческое предложение и заказы?"
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_form
@@ -1126,7 +1126,7 @@ msgstr "Подтвердить заказ"
 #. module: purchase
 #: model:ir.actions.server,name:purchase.action_confirm_rfqs
 msgid "Confirm RFQ"
-msgstr "Подтвердить запрос КП"
+msgstr "Подтвердить запрос на коммерческое предложение"
 
 #. module: purchase
 #: model:ir.model.fields.selection,name:purchase.selection__res_company__po_double_validation__one_step
@@ -1331,7 +1331,7 @@ msgstr ""
 msgid ""
 "Depicts the date within which the Quotation should be confirmed and "
 "converted into a purchase order."
-msgstr "Дата, до которой запрос КП нужно подтвердить, чтобы он стал заказом поставщику."
+msgstr "Дата, до которой запрос на коммерческое предложение нужно подтвердить, чтобы он стал заказом поставщику."
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_bill_line_match__description
@@ -1449,7 +1449,7 @@ msgstr "Проект запроса предложений"
 msgid ""
 "Drag and drop the request for quotation PDF file into your list of "
 "quotations in Odoo. Enjoy the automation!"
-msgstr "Перетащите PDF-файл запроса КП в список — остальное платформа сделает сама."
+msgstr "Перетащите PDF-файл запроса на коммерческое предложение в список — остальное платформа сделает сама."
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order__dest_address_id
@@ -1503,7 +1503,7 @@ msgstr "Выполняйте приказы, которые вы должны в
 #. module: purchase
 #: model:portal.entry,description:purchase.portal_rfq
 msgid "Follow your Requests for Quotation"
-msgstr "Следите за запросами КП"
+msgstr "Следите за запросами на коммерческое предложение"
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order__message_follower_ids
@@ -1815,7 +1815,7 @@ msgstr "Поставка опаздывает"
 #. odoo-javascript
 #: code:addons/purchase/static/src/js/tours/purchase.js:0
 msgid "Let's create your first request for quotation."
-msgstr "Создайте первый запрос КП."
+msgstr "Создайте первый запрос на коммерческое предложение."
 
 #. module: purchase
 #. odoo-javascript
@@ -1855,7 +1855,7 @@ msgstr "Ед. изм. по строке"
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.res_config_settings_view_form_purchase
 msgid "Link RFQs together and compare them."
-msgstr "Связывайте запросы КП между собой и сравнивайте их."
+msgstr "Связывайте запросы на коммерческое предложение между собой и сравнивайте их."
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_form
@@ -1941,13 +1941,13 @@ msgstr "Значок Material Symbols, например checklist"
 #. module: purchase
 #: model:ir.actions.server,name:purchase.action_merger
 msgid "Merge RFQs"
-msgstr "Объединить запросы КП"
+msgstr "Объединить запросы на коммерческое предложение"
 
 #. module: purchase
 #. odoo-python
 #: code:addons/purchase/models/purchase_order.py:0
 msgid "Merged RFQs"
-msgstr "Объединённые запросы КП"
+msgstr "Объединённые запросы на коммерческое предложение"
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order__message_has_error
@@ -2014,13 +2014,13 @@ msgstr "В среднем дней от запроса до заказа — п�
 #. odoo-javascript
 #: code:addons/purchase/static/src/views/purchase_dashboard.xml:0
 msgid "My Draft RFQs"
-msgstr "Мои новые запросы КП"
+msgstr "Мои новые запросы на коммерческое предложение"
 
 #. module: purchase
 #. odoo-javascript
 #: code:addons/purchase/static/src/views/purchase_dashboard.xml:0
 msgid "My Late RFQs"
-msgstr "Мои запросы КП, у которых прошёл срок заказа"
+msgstr "Мои запросы на коммерческое предложение, у которых прошёл срок заказа"
 
 #. module: purchase
 #. odoo-javascript
@@ -2048,7 +2048,7 @@ msgstr "Мои закупки"
 #. odoo-javascript
 #: code:addons/purchase/static/src/views/purchase_dashboard.xml:0
 msgid "My Waiting RFQs"
-msgstr "Мои отправленные запросы КП"
+msgstr "Мои отправленные запросы на коммерческое предложение"
 
 #. module: purchase
 #. odoo-python
@@ -2141,7 +2141,7 @@ msgstr "Для этого продукта еще не было сделано �
 #. module: purchase
 #: model_terms:ir.actions.act_window,help:purchase.purchase_rfq
 msgid "No request for quotation found. Let's create one!"
-msgstr "Запросов КП пока нет. Создайте первый!"
+msgstr "Запросов на коммерческое предложение пока нет. Создайте первый!"
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_line__non_deductible_tax
@@ -2339,7 +2339,7 @@ msgstr ""
 msgid ""
 "Once you ordered your products to your supplier, confirm your request for "
 "quotation and it will turn into a purchase order."
-msgstr "Когда закажете товары у поставщика, подтвердите запрос КП — он станет заказом поставщику."
+msgstr "Когда закажете товары у поставщика, подтвердите запрос на коммерческое предложение — он станет заказом поставщику."
 
 #. module: purchase
 #. odoo-python
@@ -2468,7 +2468,7 @@ msgstr "Условия оплаты"
 msgid ""
 "Please select at least two purchase orders with state RFQ and RFQ sent to "
 "merge."
-msgstr "Выберите хотя бы два запроса КП в статусе «Запрос КП» или «Запрос КП отправлен», чтобы объединить их."
+msgstr "Выберите хотя бы два запроса на коммерческое предложение в статусе «Запрос КП» или «Запрос КП отправлен», чтобы объединить их."
 
 #. module: purchase
 #. odoo-python
@@ -2957,12 +2957,12 @@ msgstr "Запрос КП"
 #. module: purchase
 #: model:mail.message.subtype,name:purchase.mt_rfq_approved
 msgid "RFQ Approved"
-msgstr "Запрос КП одобрен"
+msgstr "Запрос на коммерческое предложение одобрен"
 
 #. module: purchase
 #: model:mail.message.subtype,name:purchase.mt_rfq_confirmed
 msgid "RFQ Confirmed"
-msgstr "Запрос КП подтверждён"
+msgstr "Запрос на коммерческое предложение подтверждён"
 
 #. module: purchase
 #. odoo-javascript
@@ -2977,13 +2977,13 @@ msgstr "Запрос КП отправлен"
 #. odoo-python
 #: code:addons/purchase/models/purchase_order.py:0
 msgid "RFQ merged with %(oldest_rfq_name)s and %(cancelled_rfq)s"
-msgstr "Запрос КП объединён с %(oldest_rfq_name)s и %(cancelled_rfq)s"
+msgstr "Запрос на коммерческое предложение объединён с %(oldest_rfq_name)s и %(cancelled_rfq)s"
 
 #. module: purchase
 #. odoo-python
 #: code:addons/purchase/models/purchase_order.py:0
 msgid "RFQ merged with %s"
-msgstr "Запрос КП объединён с %s"
+msgstr "Запрос на коммерческое предложение объединён с %s"
 
 #. module: purchase
 #: model:ir.actions.act_window,name:purchase.act_res_partner_2_purchase_order
@@ -3113,7 +3113,7 @@ msgstr "Отчет"
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_portal_content
 #: model_terms:ir.ui.view,arch_db:purchase.report_purchasequotation_document
 msgid "Request for Quotation"
-msgstr "Запрос КП"
+msgstr "Запрос на коммерческое предложение"
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.report_purchaseorder_document
@@ -3128,7 +3128,7 @@ msgstr "Просите менеджеров утверждать заказы, �
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_rfqs
 msgid "Requests For Quotation"
-msgstr "Запросы КП"
+msgstr "Запросы на коммерческое предложение"
 
 #. module: purchase
 #: model:ir.actions.act_window,name:purchase.action_rfq_form
@@ -3138,7 +3138,7 @@ msgstr "Запросы КП"
 #: model_terms:ir.ui.view,arch_db:purchase.portal_my_home_menu_purchase
 #: model_terms:ir.ui.view,arch_db:purchase.view_purchase_order_search
 msgid "Requests for Quotation"
-msgstr "Запросы КП"
+msgstr "Запросы на коммерческое предложение"
 
 #. module: purchase
 #: model_terms:ir.actions.act_window,help:purchase.purchase_rfq
@@ -3147,7 +3147,7 @@ msgid ""
 "request prices for different products you consider buying.\n"
 "                Once an agreement has been found with the supplier, they "
 "will be confirmed and turned into purchase orders."
-msgstr "Запрос КП — это документ, который уходит поставщику, чтобы узнать цены на нужные вам товары.\n                Когда договоритесь о цене, подтвердите запрос — он станет заказом поставщику."
+msgstr "Запрос на коммерческое предложение — это документ, который уходит поставщику, чтобы узнать цены на нужные вам товары.\n                Когда договоритесь о цене, подтвердите запрос — он станет заказом поставщику."
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_form
@@ -3155,7 +3155,7 @@ msgid ""
 "Reset to today's date to recompute expected arrival based on available lead "
 "time                                     and previous information from the "
 "RFQ."
-msgstr "Поставить сегодняшнюю дату и пересчитать ожидаемую поставку по сроку поставщика и данным из запроса КП."
+msgstr "Поставить сегодняшнюю дату и пересчитать ожидаемую поставку по сроку поставщика и данным из запроса на коммерческое предложение."
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order__activity_user_id
@@ -3268,7 +3268,7 @@ msgstr "Отправить по почте"
 #. odoo-javascript
 #: code:addons/purchase/static/src/js/tours/purchase.js:0
 msgid "Send the request for quotation to your vendor."
-msgstr "Отправьте запрос КП поставщику."
+msgstr "Отправьте запрос на коммерческое предложение поставщику."
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.view_purchase_order_filter
@@ -3593,7 +3593,7 @@ msgstr "В настоящее время для вашей учетной зап
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_rfqs
 msgid "There are currently no requests for quotation for your account."
-msgstr "Запросов КП для вас пока нет."
+msgstr "Запросов на коммерческое предложение для вас пока нет."
 
 #. module: purchase
 #. odoo-python
