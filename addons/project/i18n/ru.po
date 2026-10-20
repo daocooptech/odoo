@@ -3652,7 +3652,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:project.project_time_by_stage_report_view_search
 #: model_terms:ir.ui.view,arch_db:project.view_task_search_form_base
 msgid "Open"
-msgstr "Открыть"
+msgstr "Открытые"
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_digest_digest__kpi_project_task_opened
