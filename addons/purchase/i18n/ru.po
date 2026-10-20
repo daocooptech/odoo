@@ -2596,7 +2596,7 @@ msgstr "Обеспечьте механизм двойной проверки п
 #: model:res.groups.privilege,name:purchase.res_groups_privilege_purchase
 #: model_terms:ir.ui.view,arch_db:purchase.res_config_settings_view_form_purchase
 msgid "Purchase"
-msgstr "Покупка"
+msgstr "Закупки"
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_res_config_settings__module_purchase_requisition
@@ -3147,11 +3147,7 @@ msgid ""
 "request prices for different products you consider buying.\n"
 "                Once an agreement has been found with the supplier, they "
 "will be confirmed and turned into purchase orders."
-msgstr ""
-"Запросы цены — это документы, которые отправляются вашим поставщикам,  чтобы "
-"узнать цены на различные товары, которые вы собираетесь приобрести.\n"
-"                После достижения договоренности с поставщиком цены будут "
-"подтверждены, и запросы превратятся в заказы на поставку."
+msgstr "Запрос КП — это документ, который уходит поставщику, чтобы узнать цены на нужные вам товары.\n                Когда договоритесь о цене, подтвердите запрос — он станет заказом поставщику."
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_form
@@ -3159,7 +3155,7 @@ msgid ""
 "Reset to today's date to recompute expected arrival based on available lead "
 "time                                     and previous information from the "
 "RFQ."
-msgstr "Сбросить на сегодняшнюю дату, чтобы пересчитать ожидаемое поступление по доступному сроку выполнения и прежним данным из запроса котировок."
+msgstr "Поставить сегодняшнюю дату и пересчитать ожидаемую поставку по сроку поставщика и данным из запроса КП."
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order__activity_user_id
